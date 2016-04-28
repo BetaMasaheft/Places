@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC3478Jiille">
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3478Jiille">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,15 +32,16 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="Pietro Liuzzo" when="2016-03-21T15:41:52.214+01:00"> Created file from
+         <change  who="PL" when="2016-04-27T23:53:46.148+02:00">harmonized typology based on Eugenia indication in Issue 48.</change>
+         <change who="PL" when="2016-03-21T15:41:52.214+01:00"> Created file from
                                                   google spreadsheet </change>
-         <change who="Eugenia Sokolinski" when="2016-02-09-12:00">CREATED: place</change>
+         <change who="ES" when="2016-02-09-12:00">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="wär.">
+            <place>
                <placeName>Ǧiillee</placeName>
             </place>
          </listPlace>
