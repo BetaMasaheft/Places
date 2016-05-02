@@ -25,10 +25,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
-            <language ident="gez">Gəˁəz</language>
+            <language ident="gez">Gəʿəz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -43,9 +40,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="monastery">
                <placeName>Asir Mätira</placeName>
-               <placeName type="alt">Asira Mätira; Asǝr Mätira</placeName>
+               <placeName type="alt">Asira Mätira</placeName>
+               <placeName type="alt">Asǝr Mätira</placeName>
                <placeName type="alt">Ašǝr Mätira</placeName>
-               <!--<coord>Däbrä ʿAlima; Däbrä ʿAlama</coord>-->
+               <location>
+                  <geo>51.969604 -2.893146</geo>
+               </location>
             </place>
             <relation name="contains" active="MASC" passive="LOC1453 MRU REN"/>
          </listPlace>
