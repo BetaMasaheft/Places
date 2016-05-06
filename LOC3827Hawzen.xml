@@ -16,7 +16,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <publicationStmt>
             <authority>Gazetteer of Places related to
                                                   Ethiopian Written tradition</authority>
-            <date>2016-03-21T15:41:52.214+01:00</date>
+            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
@@ -32,10 +32,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="PL" when="2016-04-27T23:56:34.023+02:00">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21T15:41:52.214+01:00"> Created file from
+         <change  who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
+         <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09-12:00">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
