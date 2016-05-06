@@ -43,11 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Asira Mätira</placeName>
                <placeName type="alt">Asǝr Mätira</placeName>
                <placeName type="alt">Ašǝr Mätira</placeName>
-               <location>
-                  <geo>51.969604 -2.893146</geo>
-               </location>
+               
             </place>
-            <relation name="contains" active="MASC" passive="LOC1453 MRU REN"/>
+            
          </listPlace>
       </body>
    </text>
