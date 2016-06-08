@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="en" corresp="#n3">Petrograd</placeName>
                <placeName xml:lang="ru" xml:id="n3">Петроград</placeName>
                
-               <country corresp="LOC5389Russia"/>
+               <country ref="LOC5389Russia"/>
 
             </place>
          </listPlace>
