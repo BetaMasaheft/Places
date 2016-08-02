@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC1005Abadir">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1005Abadir">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,13 +11,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <author/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,26 +27,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change when="2016-08-02" who="FP">updated with coord and bibl</change>
+         <change when="2016-08-02" who="FP">updated with coord, bibl and description</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName>Abādir ʿUmar ar-Riḍā</placeName>             
-               <region>Harär</region>
+               <placeName>Abādir ʿUmar ar-Riḍā</placeName>
+                        <region>Harar</region>
                <country>Ethiopia</country>
                <location>
                   <geo cert="low">9.295641 42.129846</geo>
                </location>
-               <listBibl type="secondary"><bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
-               <bibl><ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/></bibl>
-               <bibl><ptr target="bm:AsanteEtAl2005EnAeHarar"/></bibl></listBibl>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
+                  <bibl><ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/></bibl>
+                  <bibl><ptr target="bm:AsanteEtAl2005EnAeHarar"/></bibl>
+                  </listBibl>
+               <note>
+                  <date type="foundation" cert="low" atLeast="1850" atMost="1900">End of the 19th Century</date>
+                  <ab type="description">This shrine is located inside the walls of <placeName ref="LOC3786Harar">Harar</placeName> and is the tomb of amir <persName ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated saint in this town. It is also the tomb of <persName ref="PRS1216Abdulla"
+                     >ʿAbdullāhi b. Muḥammad</persName> </ab>
+               </note>
             </place>
          </listPlace>
       </body>
