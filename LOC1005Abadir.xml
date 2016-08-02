@@ -36,6 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2016-08-02" who="FP">updated with coord and bibl</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -46,11 +47,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region>Harär</region>
                <country>Ethiopia</country>
                <location>
-                  <geo>9.295253 42.133966 (Approx.)</geo>
+                  <geo cert="low">9.295641 42.129846</geo>
                </location>
-               <bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
+               <listBibl type="secondary"><bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
                <bibl><ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/></bibl>
-               <bibl><ptr target="bm:Asante,Wagner,Miran,Carmichael,Pankhurst2005EnAeHarar"/></bibl>
+               <bibl><ptr target="bm:AsanteEtAl2005EnAeHarar"/></bibl></listBibl>
             </place>
          </listPlace>
       </body>
