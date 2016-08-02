@@ -42,7 +42,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName>Abādir ʿUmar ar-Riḍā</placeName>
+               <placeName>Abādir ʿUmar ar-Riḍā</placeName>             
+               <region>Harär</region>
+               <country>Ethiopia</country>
+               <location>
+                  <geo>9.295253 42.133966 (Approx.)</geo>
+               </location>
+               <bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
+               <bibl><ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/></bibl>
+               <bibl><ptr target="bm:Asante,Wagner,Miran,Carmichael,Pankhurst2005EnAeHarar"/></bibl>
             </place>
          </listPlace>
       </body>
