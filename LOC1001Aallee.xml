@@ -37,13 +37,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change when="2016-08-02" who="FP">test</change>
+         <change when="2016-08-03" who="FP">added information from EnAe</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Aallee</placeName>
+               <place type="waradā">
+                  <placeName>Aallee</placeName>
+                  <region>Oromiyaa Regional State</region>
+<!--  This regional state does not appear in the list of places or other tabs of the Excel document in drive                -->
+                  <country ref="LOC3010Ethiop">Ethiopia</country>
+               <location> 
+                  <geo cert="low">8.431601 35.688606</geo>
+               </location>
+                  <listBibl type="secondary">
+                     <bibl><ptr target="bm:Zitelmann2007EnAeIllubabor"/></bibl>
+                  </listBibl>
+                  <note>
+                     <date type="foundation" atLeast="1991">After 1991</date>
+                     <ab type="description">Aallee is one of 12 waradā created in the highland <placeName ref="LOC3924Illuba">Illubabor </placeName> after 1991 and the introduction of "ethnic federalism". </ab>
+                  </note>
             </place>
          </listPlace>
       </body>

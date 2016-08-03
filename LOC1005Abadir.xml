@@ -38,7 +38,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName>Abādir ʿUmar ar-Riḍā Shrine</placeName>
+               <placeName>Abādir ʿUmar ar-Riḍā Shrine</placeName> 
+<!--              traslitteration of the name in Arabic not inserted -->
                <region ref="LOC3786Harar">Harar</region>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <location>
