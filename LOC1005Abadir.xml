@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abādir ʿUmar ar-Riḍā</title>
+            <title>Abādir ʿUmar ar-Riḍā Shrine</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -38,9 +38,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName>Abādir ʿUmar ar-Riḍā</placeName>
-                        <region>Harar</region>
-               <country>Ethiopia</country>
+               <placeName>Abādir ʿUmar ar-Riḍā Shrine</placeName>
+               <region ref="LOC3786Harar">Harar</region>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
                <location>
                   <geo cert="low">9.295641 42.129846</geo>
                </location>
