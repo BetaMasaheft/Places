@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6529Aari">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aari Mountains</title>
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+                <date>2016-08-03</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-03" who="FP">added the Aari mountains as a new place as not
+                present in the list</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="mountain">
+                    <placeName>Aari Mountains</placeName>
+                    <region ref="LOC1002Aari">Aari</region>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <location>
+                        <geo cert="medium">6.227592 36.797590</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl><ptr target="bm:Amha2003EnAeBasketo"/></bibl>
+                        <bibl><ptr target="bm:Seyoum2005EnAeDime"/></bibl>
+                        <bibl><ptr target="bm:AmhaEtAl2007EnAeMaale"/></bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">The Aari Mountains are located in the <placeName
+                                ref="LOC1002Aari">Aari region</placeName>, in Southwestern
+                                <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. They are used
+                            as a point of reference to define the territories of groups such as the
+                                <persName ref="ETH1223Basket">Basketo</persName>, the Dokko, the
+                                <persName ref="ETH1188Balta">Balta</persName>, the <persName
+                                ref="ETH1346Dafa">Dafa</persName>, the <persName ref="ETH1810Laha"
+                                    >Laha</persName>, the Dola-Mašira, the Dime and the <persName ref="ETH1835Maale">Maale</persName>.</ab>
+                        <!--                        the  following groups do not appear in the google spreadsheet: Dokko,  Dola-Mašira, Dime-->
+                    </note>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
