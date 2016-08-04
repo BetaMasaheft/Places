@@ -45,9 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
                <place type="waradā">
                   <placeName>Aallee</placeName>
-                  <region>Oromiyaa Regional State</region>
-<!--  This regional state does not appear in the list of places or other tabs of the Excel document in drive                -->
                   <country ref="LOC3010Ethiop">Ethiopia</country>
+                  <region ref="LOC6530Oromiyaa">Oromiyaa Regional State</region>
                <location> 
                   <geo cert="low">8.431601 35.688606</geo>
                </location>
