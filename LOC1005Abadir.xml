@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <!--              traslitteration of the name in Arabic not inserted -->
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC3786Harar">Harar (city state or chartered city)</region> 
-               <settlement ref="LOC3786Harar">Harar</settlement>
+               <settlement type="city" ref="LOC3786Harar">Harar</settlement>
                <location>
                   <geo cert="low">9.295641 42.129846</geo>
                </location>
