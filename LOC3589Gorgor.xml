@@ -43,6 +43,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town">
                <placeName>Gorgora</placeName>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region ref="LOC1426Amhara">Amhara</region>
+               <location>
+                  <geo cert="high">12.233333 37.300000</geo>
+               </location>
+              
+               <relation name="nearBy" active="#LOC3589Gorgor" passive="LOC2481Dambey">
+                  <desc>      
+                  </desc>
+               </relation>
+              
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:Martinez2005EnAeGorgora"/></bibl>
+                  <bibl><ptr target="bm:Nosnitsin2005Dambeya"/></bibl>
+                  <bibl><ptr target=""/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="description">Susǝnyos set up his winter residence at Gorgora in 1614. 
+                  The Italians seized the Gorgora peninsula on 14 April 1936 and in 1938 inaugurated ther on the Vetta Mussolin, the Faro della Conquista.
+                  Connected by a boat service to the monasteries of the Lake Ṭana and to Baḥǝr Dar.
+                  Near Dambǝya
+                  Near Lake Ṭana
+                  Near ʿAmda Warq</ab>
+               </note>
             </place>
          </listPlace>
       </body>
