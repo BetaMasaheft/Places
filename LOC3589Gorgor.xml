@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gorgora</title>
+            <title>Gorgora peninsula</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,6 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-05" who="FP">updated record with info and relations</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -41,8 +42,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Gorgora</placeName>
+            <place type="peninsula">
+               <placeName>Gorgora peninsula</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <location>
@@ -53,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc>      
                   </desc>
                </relation>
-              
+               
                <listBibl type="secondary">
                   <bibl><ptr target="bm:Martinez2005EnAeGorgora"/></bibl>
                   <bibl><ptr target="bm:Nosnitsin2005Dambeya"/></bibl>
