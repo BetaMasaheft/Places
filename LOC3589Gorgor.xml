@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3589Gorgor">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3589Gorgor">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,13 +11,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <author/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -33,9 +28,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change when="2016-08-05" who="FP">updated record with info and relations</change>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -48,27 +43,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region ref="LOC1426Amhara">Amhara</region>
                <location>
                   <geo cert="high">12.233333 37.300000</geo>
-               </location>
-              
-               <relation name="nearBy" active="#LOC3589Gorgor" passive="LOC2481Dambey">
-                  <desc>      
-                  </desc>
-               </relation>
+                  </location>
+               
                
                <listBibl type="secondary">
                   <bibl><ptr target="bm:Martinez2005EnAeGorgora"/></bibl>
                   <bibl><ptr target="bm:Nosnitsin2005Dambeya"/></bibl>
-                  <bibl><ptr target=""/></bibl>
-               </listBibl>
+                  </listBibl>
                <note>
-                  <ab type="description">Susǝnyos set up his winter residence at Gorgora in 1614. 
-                  The Italians seized the Gorgora peninsula on 14 April 1936 and in 1938 inaugurated ther on the Vetta Mussolin, the Faro della Conquista.
-                  Connected by a boat service to the monasteries of the Lake Ṭana and to Baḥǝr Dar.
-                  Near Dambǝya
-                  Near Lake Ṭana
-                  Near ʿAmda Warq</ab>
+                  <ab type="description">Susǝnyos set up his winter residence at Gorgora in 1614.
+                     The Italians seized the Gorgora peninsula on 14 April 1936 and in 1938
+                     inaugurated ther on the Vetta Mussolin, the Faro della Conquista. Connected
+                     by a boat service to the monasteries of the Lake Ṭana and to Baḥǝr Dar. Near
+                     Dambǝya Near Lake Ṭana Near ʿAmda Warq</ab>
                </note>
             </place>
+            <listRelation>
+               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC2481Dambey">
+                  <desc>The Gorgora peninsula is close to the Dambǝya plain, a vast plain to the north of the Lake Ṭana</desc>
+               </relation>
+               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC5888Tana">
+                  <desc>The Gorgora peninsula is on the north of the Lake Ṭana</desc>
+               </relation>
+               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1420AmdaWa">
+                  <desc></desc>
+               </relation>
+               </listRelation>
          </listPlace>
       </body>
    </text>
