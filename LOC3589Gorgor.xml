@@ -39,36 +39,91 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="peninsula">
                <placeName>Gorgora peninsula</placeName>
+               <placeName xml:lang="gez">ጎርጎራ</placeName>
+               <placeName xml:lang="gez" type="alt">ጉርጎራ</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <location>
                   <geo cert="high">12.233333 37.300000</geo>
-                  </location>
-               
-               
+                  <height unit="m">1850</height>
+               </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:Martinez2005EnAeGorgora"/></bibl>
                   <bibl><ptr target="bm:Nosnitsin2005Dambeya"/></bibl>
-                  </listBibl>
+                  <bibl><ptr target="bm:Pankhurst2005EnAeDekana"/></bibl>
+                  <bibl><ptr target="bm:AvanziniEtAl2007EnAeInscriptions"/></bibl>
+                  <bibl><ptr target="bm:FiaccadoriCalchiNovati2007EnAeItaly"/></bibl>
+                  <bibl><ptr target="bm:Martinez2010EnAePaez"/></bibl>
+                  <bibl><ptr target="bm:Thomaz2010EnAePortugal"/></bibl>
+                  <bibl><ptr target="bm:Crummey2010EnAeTakla1"/></bibl>
+                  <bibl><ptr target="bm:LachalGascon2010EnAeTana"/></bibl>
+                  <bibl><ptr target="bm:Nosnitsin2014EnAeYasay"/></bibl>
+                  <bibl><ptr target="bm:Fiaccadori2014EnAeSinai"/></bibl>
+               </listBibl>
                <note>
-                  <ab type="description">Susǝnyos set up his winter residence at Gorgora in 1614.
-                     The Italians seized the Gorgora peninsula on 14 April 1936 and in 1938
-                     inaugurated ther on the Vetta Mussolin, the Faro della Conquista. Connected
-                     by a boat service to the monasteries of the Lake Ṭana and to Baḥǝr Dar. Near
-                     Dambǝya Near Lake Ṭana Near ʿAmda Warq</ab>
+                  <ab type="description">Gorgora is a peninsula on the north of the <placeName
+                        ref="LOC5888Tana">Lake Ṭana</placeName>. It is 12 km wide in its southern
+                     part and stands on a strategical location, an elevated rocky promontory
+                     overlooking the lake and next to a series of islands suitable for providing
+                     shelter. The peninsula is located in today's <placeName ref="LOC1426Amhara"
+                        >Amhara Regional State</placeName> while once formed part of the of the
+                        <placeName ref="LOC2481Dambey">Dambǝyā</placeName> province. Gorgora gained
+                     its prominence under the Jesuits as a missionary residence and a major Catholic
+                     church thanks from a land grant offered by <persName ref="PRS9038Susenyos"
+                        >Susǝnyos</persName> in 1607. In 1611, <persName ref="PRS9038Susenyos"
+                        >Susǝnyos</persName> established a katamā in Gorgora and in 1621 he asked
+                     the Jesuits to build a royal palace to the south-west, in an area that became
+                     known as "New Gorgora". After the restauration of Orthodoxy, New Gorgora was
+                     the first residence to be abandoned by the missionaries and, in 1665, aṣe
+                        <persName ref="PRS4015Fasilada">Fāsilidas</persName> ordered the burning of
+                     the "books of Franks". The Italians seized the Gorgora peninsula on 14 April
+                     1936 and in 1938 inaugurated ther on the Vetta Mussolin the Faro della
+                     Conquista. </ab>
                </note>
             </place>
             <listRelation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC2481Dambey">
-                  <desc>The Gorgora peninsula is close to the Dambǝya plain, a vast plain to the north of the Lake Ṭana</desc>
+                  <desc>The Gorgora peninsula is close to the Dambǝyā plain, a vast plain to the
+                     north of the Lake Ṭana</desc>
                </relation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC5888Tana">
                   <desc>The Gorgora peninsula is on the north of the Lake Ṭana</desc>
                </relation>
-               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1420AmdaWa">
-                  <desc></desc>
+               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1420AmdaWa"/>
+               <relation name="gn:locatedIn" active="LOC4517Mandab" passive="LOC3589Gorgor">
+                  <desc>The Mandābbā monastery is located in the Gorgora peninsula.</desc>
                </relation>
-               </listRelation>
+               <relation name="gn:locatedIn" active="LOC4372Madhan" passive="LOC3589Gorgor">
+                  <desc>The Madḫane ʿAlam church is located in the Gorgora peninsula.</desc>
+               </relation>
+               <relation name="gn:locatedIn" active="LOC2378DabraS" passive="LOC3589Gorgor">
+                  <desc>The Dabra Sina church is located in the Gorgora peninsula.</desc>
+               </relation>
+               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC6436Zanda">
+                  <desc>Gorgora is not far from Žandā where the patriarchal house was located in
+                     1684.</desc>
+               </relation>
+               <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1721BaherD"></relation>
+               <relation name="syriaca:has-relation-to-place" active="LOC3078Feremo" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS4015Fasilada"
+                  passive="LOC3589Gorgor">
+                  <desc>Fāsilidas ordered the burning of the library of the Jesuits' mission in
+                     Gorgora</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS9038Susenyos"
+                  passive="LOC3589Gorgor">
+                  <desc>Susǝnyos offered land grants to Jesuit missionaries to build a residence in
+                     Gorgora. He also established there a katamā and asked the Jesuits to move their
+                     residence from "Old Gorgora" to "New Gorgora".</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS7699Paez" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS7601Nogueira" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS1767Almeida" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS4079Fernande" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS4386Gabriel" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS8681SeelaK" passive="LOC3589Gorgor"></relation>
+               <relation name="syriaca:has-relation-to-place" active="PRS10194Yaeqob" passive="LOC3589Gorgor"></relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
