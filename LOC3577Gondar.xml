@@ -3,24 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3577Gondar">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3577Gondar">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gondär</title>
+            <title>Gondar</title>
             <author/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,19 +27,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-08-09" who="FP">inserted info and relations</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="town province">
-               <placeName>Gondär</placeName>
-               <placeName type="alt">Gwändär</placeName>
+            <place type="town">
+               <placeName>Gondar</placeName>
+               <placeName xml:lang="gez">ጎንደር</placeName>
+               <placeName type="alt">Gwandar</placeName>
+               <placeName xml:lang="gez" type="alt">ጐንደር</placeName>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region ref="LOC1426Amhara">Amhara</region>
+               <location>
+                  <geo>12.6000 37.4666</geo>
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="description">The town of Gondar is located in today's North Gondar Zone
+                     (formerly <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
+                        <placeName ref="LOC1426Amhara">Amhara Regional State</placeName>. It evolved
+                     from an obscure 17th century market town into the flourishing capital of the
+                     Ethiopian monarchy, passed through an era of decline and destruction and
+                     underwent a slow renaissance in the mid-20th century. It is today one of the
+                     largest cities in Ethiopia. Gondar started to flourish after aṣe <persName
+                        ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his camp to
+                     control the collection of customs on the <placeName ref="LOC5339RedSea">Red
+                        Sea</placeName> - <placeName ref="LOC5888Tana">Lake Ṭana</placeName> - <placeName ref="LOC2966Ennary">Ǝnnarya</placeName> trade routes.</ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="gn:nearBy" active="#LOC3577Gondar" passive="LOC5888Tana">
+                  <desc>Gondar is in a strategic location 35 km north of the Lake Ṭana.</desc>
+               </relation>
+               <relation name="gn:locatedIn" active="#LOC3577Gondar" passive="LOC1713Bagemd">
+                  <desc>Gondar is located in the former Bagemdǝr province.</desc>
+               </relation>
+               <relation name="gn:locatedIn" active="#LOC3577Gondar" passive="LOC4051Kemant">
+                  <desc>Gondar is located in Kǝmant country.</desc>
+               </relation>
+               <relation name="sa"></relation>
+
+            </listRelation>
          </listPlace>
       </body>
    </text>

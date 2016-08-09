@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="peninsula">
                <placeName>Gorgora peninsula</placeName>
                <placeName xml:lang="gez">ጎርጎራ</placeName>
-               <placeName xml:lang="gez" type="alt">ጉርጎራ</placeName>
+               <placeName xml:lang="gez" type="alt">ጐርጎራ</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <location>
@@ -75,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      the Jesuits to build a royal palace to the south-west, in an area that became
                      known as "New Gorgora". After the restauration of Orthodoxy, New Gorgora was
                      the first residence to be abandoned by the missionaries and, in 1665, aṣe
-                        <persName ref="PRS4015Fasilada">Fāsilidas</persName> ordered the burning of
+                        <persName ref="PRS4015Fasilada">Fāsiladas</persName> ordered the burning of
                      the "books of Franks". The Italians seized the Gorgora peninsula on 14 April
                      1936 and in 1938 inaugurated ther on the Vetta Mussolin the Faro della
                      Conquista. </ab>
@@ -107,7 +107,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="syriaca:has-relation-to-place" active="LOC3078Feremo" passive="LOC3589Gorgor"></relation>
                <relation name="syriaca:has-relation-to-place" active="PRS4015Fasilada"
                   passive="LOC3589Gorgor">
-                  <desc>Fāsilidas ordered the burning of the library of the Jesuits' mission in
+                  <desc>Fāsiladas ordered the burning of the library of the Jesuits' mission in
                      Gorgora</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place" active="PRS9038Susenyos"
