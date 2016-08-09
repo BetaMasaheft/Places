@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
                   <ab type="description">The town of Gondar is located in today's North Gondar Zone
-                     (formerly <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
+                     (historically <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
                         <placeName ref="LOC1426Amhara">Amhara Regional State</placeName>. It evolved
                      from an obscure 17th century market town into the flourishing capital of the
                      Ethiopian monarchy, passed through an era of decline and destruction and
@@ -60,7 +60,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      largest cities in Ethiopia. Gondar started to flourish after aṣe <persName
                         ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his camp to
                      control the collection of customs on the <placeName ref="LOC5339RedSea">Red
-                        Sea</placeName> - <placeName ref="LOC5888Tana">Lake Ṭana</placeName> - <placeName ref="LOC2966Ennary">Ǝnnarya</placeName> trade routes.</ab>
+                        Sea</placeName> - <placeName ref="LOC5888Tana">Lake Ṭana</placeName> -
+                        <placeName ref="LOC2966Ennary">Ǝnnarya</placeName> trade routes. By the late
+                     17th century, Gondar had become a permanent and sizeable settlement resided
+                     when not campaigning and where the highest commerical, political and religious
+                     classes gathered around the throne.</ab>
                </note>
             </place>
             <listRelation>
@@ -73,7 +77,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="#LOC3577Gondar" passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmant country.</desc>
                </relation>
-               <relation name="sa"></relation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
+                  passive="LOC5148Qaha"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
+                  passive="LOC1452Angara"/>
 
             </listRelation>
          </listPlace>
