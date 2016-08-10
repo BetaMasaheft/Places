@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4038KaylaM">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Āddabābāy</title>
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-10" who="FP">created new record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="quarter">
+                    <placeName>Āddabābāy</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region ref="LOC1426Amhara">Amhara</region>
+                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <location>
+                        <geo>12.6000 37.4666</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">Āddabābāy is a public square to the south of the
+                            royal compound in <placeName ref="LOC3577Gondar">Gondar</placeName>,
+                            used for assemblies and for the Monday market.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#LOC6534Addaba" passive="LOC3577Gondar"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

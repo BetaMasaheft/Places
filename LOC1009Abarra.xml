@@ -60,6 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="gn:locatedIn" active="#LOC1009Abarra" passive="LOC3577Gondar"></relation>
+               <relation name="gn:nearBy" active="#LOC1009Abarra" passive="LOC5148Qaha"></relation>
             </listRelation>
          </listPlace>
       </body>
