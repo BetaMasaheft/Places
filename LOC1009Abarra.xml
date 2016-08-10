@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abärra</title>
+            <title>Ābarrā</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,6 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-10" who="FP">added info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -41,9 +42,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Abärra</placeName>
+            <place type="quarter">
+               <placeName>Ābarrā</placeName>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region ref="LOC1426Amhara">Amhara</region>
+               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <location>
+                  <geo>12.6000 37.4666</geo>
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="description">Ābarrā is one of four quarters in <placeName ref="LOC3577Gondar">Gondar</placeName> that were assigned to the <persName
+                     ref="ETH1274Betaes">Beta Ǝsraʾel</persName> in the second half of the 17th centurỵ</ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="#LOC1009Abarra" passive="LOC3577Gondar"></relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>

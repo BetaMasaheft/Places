@@ -32,7 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-       <change when="2016-08-09" who="FP">added relation to Gondar</change>
+       <change when="2016-08-09" who="FP">added info and relation to Gondar</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -44,8 +44,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church">
                <placeName>Fit Abbo</placeName>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region ref="LOC1426Amhara">Amhara</region>
+               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <location>
+                  <geo>12.6000 37.4666</geo>
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="description"> Fit Abbo is one of five churches founded in the 17th century by aṣe <persName
+                     ref="PRS4015Fasilada">Fāsiladas</persName> outside the central nucleus with his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
+               </note>
             </place>
-            <listRelation><relation name="gn:locatedIn" active="#LOC3091FitAbb" passive="LOC3577Gondar"></relation></listRelation>
+            <listRelation>
+               <relation name="gn:locatedIn" active="#LOC3091FitAbb" passive="LOC3577Gondar"></relation>
+               <relation name="gn:nearBy" active="#LOC3091FitAbb" passive="LOC1526Arbaet"></relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
