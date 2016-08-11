@@ -38,10 +38,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName>Abādir ʿUmar ar-Riḍā Shrine</placeName> 
-<!--              traslitteration of the name in Arabic not inserted -->
+               <placeName>Abādir ʿUmar ar-Riḍā Shrine</placeName>
+               <!--              traslitteration of the name in Arabic not inserted -->
                <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC3786Harar">Harar (city state or chartered city)</region> 
+               <region ref="LOC3786Harar">Harar (city state or chartered city)</region>
                <settlement type="city" ref="LOC3786Harar">Harar</settlement>
                <location>
                   <geo cert="low">9.295641 42.129846</geo>
@@ -50,11 +50,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
                   <bibl><ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/></bibl>
                   <bibl><ptr target="bm:AsanteEtAl2005EnAeHarar"/></bibl>
-                  </listBibl>
+               </listBibl>
                <note>
-                  <date type="foundation" cert="low" atLeast="1850" atMost="1900">End of the 19th Century</date>
-                  <ab type="description">This shrine is located inside the walls of <placeName ref="LOC3786Harar">Harar</placeName> and is the tomb of amir <persName ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated saint in this town. It is also the tomb of <persName ref="PRS1216Abdulla"
-                     >ʿAbdullāhi b. Muḥammad</persName> </ab>
+                  <date type="foundation" cert="low" atLeast="1850" atMost="1900">End of the 19th
+                     Century</date>
+                  <ab type="description">This shrine is located inside the walls of <placeName
+                        ref="LOC3786Harar">Harar</placeName> and is the tomb of <persName
+                        ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated
+                     saint in this town. It is also the tomb of <roleName type="title"> amīr </roleName>
+                     <persName ref="PRS1216Abdulla">ʿAbdullāhi b. Muḥammad</persName>
+                  </ab>
                </note>
             </place>
          </listPlace>

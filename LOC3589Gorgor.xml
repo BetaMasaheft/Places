@@ -69,12 +69,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         >Amhara Regional State</placeName> while once formed part of the of the
                         <placeName ref="LOC2481Dambey">Dambǝyā</placeName> province. Gorgora gained
                      its prominence under the Jesuits as a missionary residence and a major Catholic
-                     church thanks from a land grant offered by <persName ref="PRS9038Susenyos"
+                     church thanks from a land grant offered by <roleName type="title">aṣe</roleName> <persName ref="PRS9038Susenyos"
                         >Susǝnyos</persName> in 1607. In 1611, <persName ref="PRS9038Susenyos"
                         >Susǝnyos</persName> established a katamā in Gorgora and in 1621 he asked
                      the Jesuits to build a royal palace to the south-west, in an area that became
                      known as "New Gorgora". After the restauration of Orthodoxy, New Gorgora was
-                     the first residence to be abandoned by the missionaries and, in 1665, aṣe
+                     the first residence to be abandoned by the missionaries and, in 1665, <roleName type="title">aṣe</roleName>
                         <persName ref="PRS4015Fasilada">Fāsiladas</persName> ordered the burning of
                      the "books of Franks". The Italians seized the Gorgora peninsula on 14 April
                      1936 and in 1938 inaugurated ther on the Vetta Mussolin the Faro della

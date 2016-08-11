@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Ǝlfǝñ Giyorgis is one of two churches (the other is <placeName ref="LOC3407GemjaB">Gǝmǧa Bet Maryam</placeName>) founded by aṣe <persName
+                  <ab type="description">Ǝlfǝñ Giyorgis is one of two churches (the other is <placeName ref="LOC3407GemjaB">Gǝmǧa Bet Maryam</placeName>) founded by <roleName type="title">aṣe</roleName> <persName
                      ref="PRS4015Fasilada">Fāsiladas</persName> close to his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName> in the 17th century.</ab>
                   </note>
             </place>

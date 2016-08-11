@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3407GemjaB">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3407GemjaB">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,13 +11,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <author/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -33,9 +28,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change when="2016-08-09" who="FP">added info and relation to Gondar</change>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -54,13 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description"> Gǝmǧa Bet Maryam is one of two churches (the other is <placeName ref="LOC2825ElfenG">Ǝlfǝñ Giyorgis</placeName>) founded by aṣe <persName
-                     ref="PRS4015Fasilada">Fāsiladas</persName> close to his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName> in the 17th century.</ab>
+                  <ab type="description"> Gǝmǧa Bet Maryam is one of two churches (the other is
+                        <placeName ref="LOC2825ElfenG">Ǝlfǝñ Giyorgis</placeName>) founded by
+                        <roleName type="title">aṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> close to his stone castle
+                     in <placeName ref="LOC3577Gondar">Gondar</placeName> in the 17th century.</ab>
                </note>
             </place>
-<listRelation>
-   <relation name="gn:locatedIn" active="#LOC3407GemjaB" passive="LOC3577Gondar"></relation>
-</listRelation>
+            <listRelation>
+               <relation name="gn:locatedIn" active="#LOC3407GemjaB" passive="LOC3577Gondar"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

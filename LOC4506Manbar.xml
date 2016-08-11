@@ -54,8 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description"> Manbara MangǝśtMadḫane ʿAlam is one of five churches founded in the 17th century by aṣe <persName
-                     ref="PRS4015Fasilada">Fāsiladas</persName> outside the central nucleus with his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
+                  <ab type="description"> Manbara MangǝśtMadḫane ʿAlam is one of five churches founded in the 17th century by <roleName type="title">aṣe</roleName> <persName
+                     ref="PRS4015Fasilada">Fāsiladas</persName> outside the central nucleus comprising his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
                </note>
             </place>
             <listRelation>
