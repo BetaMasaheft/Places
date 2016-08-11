@@ -116,7 +116,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Gorgora. He also established there a katamā and asked the Jesuits to move their
                      residence from "Old Gorgora" to "New Gorgora".</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="PRS7699Paez" passive="LOC3589Gorgor"></relation>
+
                <relation name="syriaca:has-relation-to-place" active="PRS7601Nogueira" passive="LOC3589Gorgor"></relation>
                <relation name="syriaca:has-relation-to-place" active="PRS1767Almeida" passive="LOC3589Gorgor"></relation>
                <relation name="syriaca:has-relation-to-place" active="PRS4079Fernande" passive="LOC3589Gorgor"></relation>
