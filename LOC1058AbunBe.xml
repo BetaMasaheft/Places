@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="quarter">
                <placeName>Abun Bet</placeName>
+               <placeName xml:lang="gez">አቡን ቤት</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
@@ -47,12 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                  <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Abun Bet is a quarter north-west of the castles in
+                  <ab type="description">Abun Bet (literally "house of the <roleName type="title">abun</roleName>") is a quarter north-west of the castles in
                         <placeName ref="LOC3577Gondar">Gondar</placeName>. It was the residence of
                      the Metropolitan (<roleName type="title">abun</roleName>) and a place of
-                     asylum.</ab>
+                     asylum. </ab>
                </note>
             </place>
             <listRelation>

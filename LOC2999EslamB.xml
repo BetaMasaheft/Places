@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="quarter">
                <placeName>Ǝslam Bet</placeName>
                <placeName type="alt">Ǝslamge</placeName>
+               <placeName type="alt">Āddis ʿAlam</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
@@ -57,8 +58,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="gn:locatedIn" active="#LOC2999EslamB" passive="LOC3577Gondar">
-                  <desc>Ǝslam Bet is a quarter of Gondar where Muslims had to livẹ</desc>
-               </relation>
+                  <desc>Ǝslam Bet is a quarter of Gondar where Muslims had to live.</desc>
+                  </relation>
+               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC1452Angara"></relation>
+               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC5148Qaha"></relation>
             </listRelation>
          </listPlace>
       </body>
