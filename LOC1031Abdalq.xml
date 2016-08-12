@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="mosque">
-               <placeName>ʿAbdalqādir al-Ǧīlānī</placeName>
+               <placeName xml:id="n1">ʿAbdalqādir al-Ǧīlānī</placeName>
                <region>Massawa</region>
                <note>test</note>
             </place>

@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="mountain">
-                    <placeName>Aari Mountains</placeName>
+                    <placeName xml:id="n1">Aari</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC6530Oromiyaa">Oromiyaa Regional State</region>
                     <location>

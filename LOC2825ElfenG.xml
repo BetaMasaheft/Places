@@ -43,8 +43,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝlfǝñ Giyorgis</placeName>
-               <placeName type="alt">Mākkābabiyā Giyorgis</placeName>
+               <placeName xml:id="n1">Ǝlfǝñ Giyorgis</placeName>
+               <placeName type="alt" xml:id="n2">Mākkābabiyā Giyorgis</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>

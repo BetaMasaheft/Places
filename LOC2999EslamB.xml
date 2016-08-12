@@ -38,9 +38,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName>Ǝslam Bet</placeName>
-               <placeName type="alt">Ǝslamge</placeName>
-               <placeName type="alt">Āddis ʿAlam</placeName>
+               <placeName xml:id="n1">Ǝslam Bet</placeName>
+               <placeName type="alt" xml:id="n2">Ǝslamge</placeName>
+               <placeName type="alt" xml:id="n3">Āddis ʿAlam</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>

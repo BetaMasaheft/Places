@@ -32,7 +32,7 @@
         <body>
             <listPlace>
                 <place type="quarter">
-                    <placeName>Ǝč̣č̣age Bet</placeName>
+                    <placeName xml:id="n1">Ǝč̣č̣age Bet</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC1426Amhara">Amhara</region>
                     <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>

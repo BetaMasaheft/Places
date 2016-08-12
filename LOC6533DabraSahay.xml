@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="region">
-                    <placeName></placeName>
+                    <placeName xml:id="n1"></placeName>
                 </place>
             </listPlace>
         </body>

@@ -38,8 +38,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName>Abun Bet</placeName>
-               <placeName xml:lang="gez">አቡን ቤት</placeName>
+               <placeName xml:id="n1">Abun Bet</placeName>
+               <placeName xml:lang="gez" corresp="#n1">አቡን ቤት</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>

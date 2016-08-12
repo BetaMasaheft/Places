@@ -38,9 +38,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="peninsula">
-               <placeName>Gorgora peninsula</placeName>
-               <placeName xml:lang="gez">ጎርጎራ</placeName>
-               <placeName xml:lang="gez" type="alt">ጐርጎራ</placeName>
+               <placeName xml:id="n1">Gorgorā</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ጎርጎራ</placeName>
+               <placeName type="alt" xml:id="n2">Gwargorā</placeName>
+               <placeName xml:lang="gez" corresp="#n2">ጐርጎራ</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <location>
