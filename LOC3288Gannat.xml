@@ -3,24 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3288Gannat">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3288Gannat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gännät Tärra</title>
+            <title>Gannat Tarra</title>
             <author/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,19 +27,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-08-12" who="FP">added info</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="mountain">
-               <placeName>Gännät Tärra</placeName>
-               <placeName type="alt">Tǝgre Mäḉḉohya</placeName>
+            <place type="hill">
+               <placeName xml:id="n1">Gannat Tarrā</placeName>
+               <placeName type="alt" xml:id="n2">Tǝgre Mač̣č̣ohyā</placeName>
+               <placeName type="alt" xml:id="n3">Āč̣anākǝr</placeName>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region ref="LOC1426Amhara">Amhara</region>
+               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <location>
+                  <geo>12.6000 37.4666</geo>
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                  <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="description">Gannat Tarrā is a hill in the northern part of <placeName
+                        ref="LOC3577Gondar">Gondar</placeName> overlooking the city. It used to be
+                     referred as Tǝgre Mač̣č̣ohyā ("Cry of <placeName ref="LOC5932Tegray"
+                        >Tǝgray</placeName>"), the area where people from <placeName
+                        ref="LOC5932Tegray">Tǝgray</placeName> camped when they came to <placeName
+                        ref="LOC3577Gondar">Gondar</placeName> to appeal to the <roleName
+                        type="function">emperor</roleName>.</ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="gn:nearBy" active="#LOC3288Gannat" passive="LOC3577Gondar"></relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
