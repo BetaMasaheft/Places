@@ -38,9 +38,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="river">
-               <placeName>Āngarab</placeName>
-               <placeName type="alt">Small Āngarab</placeName>
-               <placeName xml:lang="gez">አንገረብ</placeName>
+               <placeName xml:id="n1">Āngarab</placeName>
+               <placeName type="alt" xml:id="n2">Small Āngarab</placeName>
+               <placeName xml:lang="gez" corresp="#n1">አንገረብ</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
