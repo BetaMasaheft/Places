@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6537Angara">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Āngarab</title>
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+                <date>2016-03-21</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-12" who="FP">created new record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="town">
+                    <placeName xml:id="n1">Āngarab</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">አንገረብ</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region ref="LOC1426Amhara">Amhara</region>
+                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <location>
+                        <geo>13.1500 37.2900</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                        <bibl><ptr target="bm:Wubneh2003EnAeAngarab"/></bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">Āngarab is the name of a small town situated on the
+                                <placeName ref="LOC6536Angara">Great Āngarab</placeName>) river, on
+                            the road connecting <placeName ref="LOC6538Humara">Humarā</placeName>
+                            with <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#LOC6537Angara" passive="LOC6536Angara"/>
+                    <relation name="gn:nearBy" active="#LOC6537Angara" passive="LOC3577Gondar"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
