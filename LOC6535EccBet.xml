@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
@@ -27,7 +26,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2016-08-11" who="FP">new record created</change>
-            </revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -45,9 +44,11 @@
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Ǝč̣č̣age Bet (literally "house of the <roleName type="title">ǝč̣č̣age</roleName>") is a quarter west of the castles in
-                            <placeName ref="LOC3577Gondar">Gondar</placeName>. It was the residence of
-                            the <roleName type="title">ǝč̣č̣age</roleName>, i.e. the leader of the Ethiopian monasticism,  and a refuge for offenders. </ab>
+                        <ab type="description">Ǝč̣č̣age Bet (literally "house of the <roleName
+                                type="title">ǝč̣č̣age</roleName>") is a quarter west of the castles
+                            in <placeName ref="LOC3577Gondar">Gondar</placeName>. It was the
+                            residence of the <roleName type="title">ǝč̣č̣age</roleName>, i.e. the
+                            leader of the Ethiopian monasticism, and a refuge for offenders. </ab>
                     </note>
                 </place>
                 <listRelation>
@@ -57,4 +58,3 @@
         </body>
     </text>
 </TEI>
-
