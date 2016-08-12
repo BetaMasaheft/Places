@@ -38,10 +38,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Gondar</placeName>
-               <placeName xml:lang="gez">ጎንደር</placeName>
-               <placeName type="alt">Gwandar</placeName>
-               <placeName xml:lang="gez" type="alt">ጐንደር</placeName>
+               <placeName xml:id="n1">Gondar</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ጎንደር</placeName>
+               <placeName type="alt" xml:id="n2">Gwandar</placeName>
+               <placeName xml:lang="gez" type="alt" corresp="#n2">ጐንደር</placeName>
                <country ref="LOC3010Ethiop">Ethiopia</country>
                <region ref="LOC1426Amhara">Amhara</region>
                <location>
