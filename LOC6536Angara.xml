@@ -40,7 +40,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName type="alt" xml:id="n3">G<hi rend="apices">w</hi>ang</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC1426Amhara">Amhara</region>
-                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
                     <location>
                         <geo>13.3020663 36.6134553</geo>
                     </location>
