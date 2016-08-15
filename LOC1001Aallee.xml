@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </listBibl>
                   <note>
                      <date type="foundation" atLeast="1991">After 1991</date>
-                     <ab type="description">Aallee is one of 12 waradā created in the highland <placeName ref="LOC3924Illuba">Illubabor </placeName> after 1991 and the introduction of "ethnic federalism". </ab>
+                     <ab type="description">YET ANOTHER TEST! Aallee is one of 12 waradā created in the highland <placeName ref="LOC3924Illuba">Illubabor </placeName> after 1991 and the introduction of "ethnic federalism". </ab>
                   </note>
             </place>
          </listPlace>
