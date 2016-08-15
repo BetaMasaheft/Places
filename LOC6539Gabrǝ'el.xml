@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6539Gabrǝel">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gābrǝʾel Church</title>
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+                <date>2016-03-21</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-15" who="FP">record created</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church">
+                    <placeName xml:id="n1">Gābrǝʾel</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region ref="LOC1426Amhara">Amhara</region>
+                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <location>
+                        <geo>12.6154 37.4681</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                        <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">Gābrǝʾel is a church north of <placeName
+                                ref="LOC3577Gondar">Gondar</placeName>, at the foot of <placeName
+                                ref="LOC3288Gannat">Gannat Tarrā</placeName> hill. <roleName
+                                type="title">Ābuna</roleName>
+                            <persName ref="PRS10450YosabI">Yosab</persName> moved his residence
+                            (cfr. <placeName ref="LOC1058AbunBe">Abun Bet</placeName>) near Gābrǝʾel
+                            Church during the reign of <roleName type="title">āṣe</roleName>
+                            <persName ref="PRS9153TaklaHa">Takla Haymānot</persName>, while before
+                            it used to be near the church of <placeName ref="LOC6540Entone">abba
+                                Ǝnṭonǝs</placeName> in the north-western part of <placeName
+                                ref="LOC3577Gondar">Gondar</placeName>.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#LOC6539Gabrǝel" passive="LOC3577Gondar"/>
+                    <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC3288Gannat"/>
+                    <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC1058AbunBe"></relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
