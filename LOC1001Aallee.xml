@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
                <place type="waradā">
                   <placeName xml:id="n1">Aallee</placeName>
+                  <placeName xml:id="n2">TEST 7</placeName>
                   <country ref="LOC3010Ethiop">Ethiopia</country>
                   <region ref="LOC6530Oromiyaa">Oromiyaa Regional State</region>
                <location> 
