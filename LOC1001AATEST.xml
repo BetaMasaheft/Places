@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>TEST GIT HOOK</title>
+                <title>TEST GIT HOOK 2</title>
                 <author/>
             </titleStmt>
             <publicationStmt>
