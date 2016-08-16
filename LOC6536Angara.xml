@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC1426Amhara">Amhara</region>
                     <location>
-                        <geo>13.3020663 36.6134553</geo>
+                        <geo cert="medium">13.3020 36.6134</geo>
                     </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>

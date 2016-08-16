@@ -56,13 +56,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <persName ref="PRS9153TaklaHa">Takla Haymānot</persName>, while before
                             it used to be near the church of <placeName ref="LOC6540Entone">abba
                                 Ǝnṭonǝs</placeName> in the north-western part of <placeName
-                                ref="LOC3577Gondar">Gondar</placeName>.</ab>
+                                ref="LOC3577Gondar">Gondar</placeName>. During the Italian
+                            occupation, <placeName ref="LOC1058AbunBe">Abun Bet</placeName> was
+                            moved near <placeName ref="LOC6541DabraSahaySell">Dabra Śahay
+                                Śǝllase</placeName> church in the central part of the city, while
+                            the site near Gābrǝʾel church was restored after the Italians where
+                            expelled in <date>1941</date>.</ab>
                     </note>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="#LOC6539Gabrǝel" passive="LOC3577Gondar"/>
                     <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC3288Gannat"/>
-                    <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC1058AbunBe"></relation>
+                    <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC1058AbunBe"/>
                 </listRelation>
             </listPlace>
         </body>

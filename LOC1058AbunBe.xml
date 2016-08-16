@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region ref="LOC1426Amhara">Amhara</region>
                <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
                <location>
-                  <geo>12.6000 37.4666</geo>
+                  <geo cert="medium">12.6000 37.4666</geo>
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
@@ -54,8 +54,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">Abun Bet (literally "house of the <roleName type="title"
                         >abun</roleName>") is a quarter north-west of the castles in <placeName
                         ref="LOC3577Gondar">Gondar</placeName>. It was the residence of the
-                     Metropolitan (<roleName type="title">abun</roleName>) and a place of
-                     asylum.</ab>
+                     Metropolitan (<roleName type="title">abun</roleName>) and a place of asylum.
+                     Its location changed over the centuries: it was first located near <placeName
+                        ref="LOC6540Entone">Abba Ǝnṭonǝs</placeName> church; then, in the second
+                     half of the 18th century, it was moved near <placeName ref="LOC6539Gabrǝel"
+                        >Gābrǝʾel</placeName> church; finally, during the Italian occupation, it was
+                     briefly moved near <placeName ref="LOC6541DabraSahaySell">Dabra Śahay
+                        Śǝllase</placeName> before the site near <placeName ref="LOC6539Gabrǝel"
+                        >Gābrǝʾel</placeName> church was restored following the Italians' expulsion
+                     in <date>1941</date>.</ab>
                </note>
             </place>
             <listRelation>

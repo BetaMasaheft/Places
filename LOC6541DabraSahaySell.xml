@@ -3,25 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    type="place"
-    xml:lang="en"
-    xml:id="LOC6533DabraSahayQwe">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6541DabraSahaySell">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Śahay Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>am</title>
-<!--                FP: for some reason apices are not reflected in the title-->
+                <title>Dabra Śahay Śǝllase </title>
                 <author/>
             </titleStmt>
             <publicationStmt>
-                <authority>Gazetteer of Places related to
-                    Ethiopian Written tradition</authority>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
                 <date>2016-03-21</date>
             </publicationStmt>
             <sourceDesc>
-                <p>A TEI file converted from the ETHIO-authority
-                    google spreadsheet</p>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -33,14 +27,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-08-16" who="FP">added info to new record created by SG</change>
+            <change when="2016-08-16" who="FP">created new record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1">Dabra Śahay Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>am</placeName>
+                    <placeName xml:id="n1">Dabra Śahay Śǝllase</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region ref="LOC1426Amhara">Amhara</region>
                     <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
@@ -52,14 +46,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Dabra Śahay Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>am is a church in the north-western part of <placeName
-                            ref="LOC3577Gondar">Gondar</placeName> and close to <placeName ref="LOC6540Entone">Abba Ǝnṭonǝs</placeName>.</ab>
+                        <ab type="description">Dabra Śahay Śǝllase is a church in the central part
+                            of <placeName ref="LOC3577Gondar">Gondar</placeName> where the residence
+                            of the <roleName type="title">abun</roleName> was moved during the
+                            Italian occupation.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="#LOC6533DabraSahayQwe" passive="LOC3577Gondar"/>
-                    <relation name="gn:nearBy" active="#LOC6533DabraSahayQwe" passive="LOC6540Entone"/>
-                    <relation name="gn:nearBy" active="#LOC6533DabraSahayQwe" passive="LOC1058AbunBe"></relation>
+                    <relation name="gn:locatedIn" active="#LOC6541DabraSahaySell"
+                        passive="LOC3577Gondar"/>
                 </listRelation>
             </listPlace>
         </body>
