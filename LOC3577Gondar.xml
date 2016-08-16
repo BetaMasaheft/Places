@@ -60,9 +60,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      largest cities in Ethiopia. Gondar started to flourish after aṣe <persName
                         ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his camp to
                      control the collection of customs on the <placeName ref="LOC5339RedSea">Red
-                        Sea</placeName> - <placeName ref="LOC5888Tana">Lake Ṭana</placeName> -
+                        Sea</placeName> - <placeName ref="LOC5888Tana"> Ṭana</placeName> -
                         <placeName ref="LOC2966Ennary">Ǝnnarya</placeName> trade routes. By the late
-                     17th century, Gondar had become a permanent and sizeable settlement resided
+                     17th century, Gondar had become a permanent and sizeable settlement where Ethiopians' rulers resided
                      when not campaigning and where the highest commerical, political and religious
                      classes gathered around the throne.</ab>
                </note>
@@ -81,6 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="LOC5148Qaha"/>
                <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
                   passive="LOC1452Angara"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar" passive="LOC4775Menzer"></relation>
 
             </listRelation>
          </listPlace>

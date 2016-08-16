@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6542QannBet">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Qaññ Bet</title>
+                <author/>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+                <date>2016-03-21</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-08-16" who="FP">new record created</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="quarter">
+                    <placeName xml:id="n1">Qaññ Bet</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region ref="LOC1426Amhara">Amhara</region>
+                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <location>
+                        <geo cert="medium">12.6000 37.4666</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">Qaññ Bet is a quarter east and south-east of the castles in
+                                <placeName ref="LOC3577Gondar">Gondar</placeName> and home to many
+                            nobles.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#LOC6542QannBet" passive="LOC3577Gondar"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

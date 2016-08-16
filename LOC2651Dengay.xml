@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dǝngay</title>
+            <title>Dǝngāy</title>
             <author/>
          </titleStmt>
          <publicationStmt>
@@ -32,6 +32,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-16" who="FP"></change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -41,10 +42,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Dǝngay</placeName>
+            <place type="quarter">
+               <placeName xml:id="n1">Dǝngāy</placeName>
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region ref="LOC1426Amhara">Amhara</region>
+               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <location>
+                  <geo cert="medium">12.6000 37.4666</geo>
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="description">Dǝngāy is a quarter south-west of
+                     <placeName ref="LOC3577Gondar">Gondar</placeName> and home to many
+                     merchants.</ab>
+               </note>
             </place>
-         </listPlace>
+            <listRelation>
+               <relation name="gn:locatedIn" active="#LOC2651Dengay" passive="LOC3577Gondar"/>
+            </listRelation>
+            </listPlace>
       </body>
    </text>
 </TEI>
