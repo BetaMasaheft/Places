@@ -35,9 +35,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="quarter">
                     <placeName xml:id="n1">Qaññ Bet</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
-                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <placeName xml:lang="gez" corresp="#n1">ቀኝ፡ ቤት</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region ref="LOC1426Amhara"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
                         <geo cert="medium">12.6000 37.4666</geo>
                     </location>
@@ -50,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             nobles.</ab>
                     </note>
                 </place>
-                <listRelation>
-                    <relation name="gn:locatedIn" active="#LOC6542QannBet" passive="LOC3577Gondar"/>
-                </listRelation>
+
             </listPlace>
         </body>
     </text>

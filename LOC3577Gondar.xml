@@ -42,8 +42,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1">ጎንደር</placeName>
                <placeName type="alt" xml:id="n2">Gwandar</placeName>
                <placeName xml:lang="gez" type="alt" corresp="#n2">ጐንደር</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
+               <settlement type="zone">North Gondar Zone</settlement>
+              
                <location>
                   <geo>12.6000 37.4666</geo>
                </location>
@@ -53,28 +56,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <ab type="description">The town of Gondar is located in today's North Gondar Zone
                      (historically <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
-                        <placeName ref="LOC1426Amhara">Amhara Regional State</placeName>. It evolved
-                     from an obscure 17th century market town into the flourishing capital of the
+                     <placeName ref="LOC1426Amhara">Amhara Regional State</placeName>. It evolved
+                     from an obscure <date>17th century</date> market town into the flourishing capital of the
                      Ethiopian monarchy, passed through an era of decline and destruction and
-                     underwent a slow renaissance in the mid-20th century. It is today one of the
-                     largest cities in Ethiopia. Gondar started to flourish after aṣe <persName
+                     underwent a slow renaissance in the mid-<date>20th century</date>. It is today one of the
+                     largest cities in Ethiopia. Gondar started to flourish after ʾaṣe <persName
                         ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his camp to
                      control the collection of customs on the <placeName ref="LOC5339RedSea">Red
-                        Sea</placeName> - <placeName ref="LOC5888Tana"> Ṭana</placeName> -
-                        <placeName ref="LOC2966Ennary">Ǝnnarya</placeName> trade routes. By the late
-                     17th century, Gondar had become a permanent and sizeable settlement where Ethiopians' rulers resided
+                        Sea</placeName> - <placeName ref="LOC5888Tana"> Ṭānā</placeName> -
+                     <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade routes. By the late
+                     <date>17th century</date>, Gondar had become a permanent and sizeable settlement where Ethiopians' rulers resided
                      when not campaigning and where the highest commerical, political and religious
                      classes gathered around the throne.</ab>
                </note>
             </place>
             <listRelation>
                <relation name="gn:nearBy" active="#LOC3577Gondar" passive="LOC5888Tana">
-                  <desc>Gondar is in a strategic location 35 km north of the Lake Ṭana.</desc>
+                  <desc>Gondar is in a strategic location 35 km north of the Lake Ṭānā.</desc>
                </relation>
                <relation name="gn:locatedIn" active="#LOC3577Gondar" passive="LOC1713Bagemd">
                   <desc>Gondar is located in the former Bagemdǝr province.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="#LOC3577Gondar" passive="LOC4051Kemant">
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar" passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmant country.</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"

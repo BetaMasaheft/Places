@@ -38,10 +38,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1">Āzazo Takla Haymānot</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:id="n1">ʾĀzazo Takla Haymānot</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC1426Amhara"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
                   <geo>12.5500 37.4333</geo>
                   <!--                 Geo coord based on Gazeteer -->
@@ -50,9 +50,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Āzazo Takla Haymānot is one of the 44 churches of
+                  <ab type="description">ʾĀzazo Takla Haymānot is one of the 44 churches of
                         <placeName ref="LOC3577Gondar">Gondar</placeName> where the monastic
-                     community of <placeName ref="LOC2297DabraL">Dabra Libanos</placeName> settled
+                     community of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> settled
                      after relocating, like the royal court, from <placeName ref="LOC5597Sawa"
                         >Šawā</placeName> to the lake <placeName ref="LOC5888Tana">Ṭānā</placeName>
                      region.</ab>
