@@ -39,10 +39,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="quarter">
                <placeName xml:id="n1">Abun Bet</placeName>
-               <placeName xml:lang="gez" corresp="#n1">አቡን ቤት</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:lang="gez" corresp="#n1">አቡን፡ ቤት</placeName>
+               <placeName xml:lang="en" corresp="#n1">House of the <roleName type="title"
+                  >abun</roleName></placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC1426Amhara"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
                   <geo cert="medium">12.6000 37.4666</geo>
                </location>
@@ -51,13 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Abun Bet (literally "house of the <roleName type="title"
-                        >abun</roleName>") is a quarter north-west of the castles in <placeName
+                  <ab type="description">Abun Bet is a quarter north-west of the castles in <placeName
                         ref="LOC3577Gondar">Gondar</placeName>. It was the residence of the
                      Metropolitan (<roleName type="title">abun</roleName>) and a place of asylum.
                      Its location changed over the centuries: it was first located near <placeName
                         ref="LOC6540Entone">Abba Ǝnṭonǝs</placeName> church; then, in the second
-                     half of the 18th century, it was moved near <placeName ref="LOC6539Gabrǝel"
+                     half of the <date>18th century</date>, it was moved near <placeName ref="LOC6539Gabrǝel"
                         >Gābrǝʾel</placeName> church; finally, during the Italian occupation, it was
                      briefly moved near <placeName ref="LOC6541DabraSahaySell">Dabra Śahay
                         Śǝllase</placeName> before the site near <placeName ref="LOC6539Gabrǝel"
