@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abun Bet</title>
-            <author/>
+            <title>ʾAbun Bet</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-18" who="FP">corrections</change>
          <change when="2016-08-11" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,12 +39,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName xml:id="n1">Abun Bet</placeName>
+               <placeName xml:id="n1">ʾAbun Bet</placeName>
                <placeName xml:lang="gez" corresp="#n1">አቡን፡ ቤት</placeName>
                <placeName xml:lang="en" corresp="#n1">House of the <roleName type="title"
-                  >abun</roleName></placeName>
+                     >ʾabun</roleName></placeName>
                <country ref="LOC3010Ethiop"/>
-               <region ref="LOC1426Amhara"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
                <settlement type="town" ref="LOC3577Gondar"/>
                <location>
                   <geo cert="medium">12.6000 37.4666</geo>
@@ -53,21 +56,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Abun Bet is a quarter north-west of the castles in <placeName
-                        ref="LOC3577Gondar">Gondar</placeName>. It was the residence of the
-                     Metropolitan (<roleName type="title">abun</roleName>) and a place of asylum.
-                     Its location changed over the centuries: it was first located near <placeName
-                        ref="LOC6540Entone">Abba Ǝnṭonǝs</placeName> church; then, in the second
-                     half of the <date>18th century</date>, it was moved near <placeName ref="LOC6539Gabrǝel"
-                        >Gābrǝʾel</placeName> church; finally, during the Italian occupation, it was
-                     briefly moved near <placeName ref="LOC6541DabraSahaySell">Dabra Śahay
-                        Śǝllase</placeName> before the site near <placeName ref="LOC6539Gabrǝel"
-                        >Gābrǝʾel</placeName> church was restored following the Italians' expulsion
-                     in <date>1941</date>.</ab>
+                  <ab type="description">ʾAbun Bet is a quarter north-west of the castles in
+                        <placeName ref="LOC3577Gondar">Gondar</placeName>. It was the residence of
+                     the Metropolitan (<roleName type="title">ʾabun</roleName>) and a place of
+                     asylum. Its location changed over the centuries: it was first located near
+                        <placeName ref="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName> church; then, in
+                     the second half of the <date>18th century</date>, it was moved near <placeName
+                        ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church; finally, during the
+                     Italian occupation, it was briefly moved near <placeName
+                        ref="LOC6541DabraSahaySell">Dabra Śahāy Śǝllāse</placeName> before the site
+                     near <placeName ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church was restored
+                     following the Italians' expulsion in <date>1941</date>.</ab>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:locatedIn" active="#LOC1058AbunBe" passive="LOC3577Gondar"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
+                  passive="LOC6540Entone"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
+                  passive="LOC6539Gabrǝel"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
+                  passive="LOC6541DabraSahaySell"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
+                  passive="LOC6535EccBet"/>
             </listRelation>
          </listPlace>
       </body>

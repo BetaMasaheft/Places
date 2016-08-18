@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6534Addaba">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6530Oromiyaa">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAddabābāy</title>
-                <editor key="FP"></editor>
+                <title>Oromiyaa Regional State</title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -26,34 +27,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-08-18" who="FP">small changes</change>
-            <change when="2016-08-10" who="FP">created new record</change>
+            <change when="2016-08-18" who="FP">new record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="quarter">
-                    <placeName xml:id="n1">ʾAddabābāy</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">አደባባይ</placeName>
-<!--                    transcription in Ethiopic needs checking-->
+                <place type="RegionalState">
+                    <placeName xml:id="n1">Oromiyaa</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
-                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
-                    <settlement type="zone" ref="LOC6544NorthGondar"/>
-                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
-                        <geo>12.6000 37.4666</geo>
+                        <geo></geo>
                     </location>
                     <listBibl type="secondary">
-                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">ʾĀddabābāy is a public square to the south of the
-                            royal compound in <placeName ref="LOC3577Gondar">Gondar</placeName>,
-                            used for assemblies and for the Monday market.</ab>
+                        <ab type="description"></ab>
                     </note>
                 </place>
+                <listRelation>
+                </listRelation>
             </listPlace>
         </body>
     </text>

@@ -1,16 +1,15 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6535EccBet">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ǝč̣č̣age Bet</title>
-                <author/>
+                <title>ʾƎč̣č̣age Bet</title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-03-21</date>
+                <date>2016-08-11</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -25,6 +24,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-08-18" who="FP">corrections</change>
             <change when="2016-08-11" who="FP">new record created</change>
         </revisionDesc>
     </teiHeader>
@@ -32,10 +32,16 @@
         <body>
             <listPlace>
                 <place type="quarter">
-                    <placeName xml:id="n1">Ǝč̣č̣age Bet</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
-                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <placeName xml:id="n1">ʾƎč̣č̣age Bet</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">እጭጨገ፡ ቤት</placeName>
+                    <!--                    transcription in Ethiopic needs checking-->
+                    <placeName xml:lang="en" corresp="#n1">House of the <roleName
+                        type="title">ʾǝč̣č̣age</roleName></placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
                         <geo>12.6000 37.4666</geo>
                     </location>
@@ -44,17 +50,13 @@
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Ǝč̣č̣age Bet (literally "house of the <roleName
-                                type="title">ǝč̣č̣age</roleName>") is a quarter west of the castles
+                        <ab type="description">ʾƎč̣č̣age Bet is a quarter west of the castles
                             in <placeName ref="LOC3577Gondar">Gondar</placeName>. It was the
-                            residence of the <roleName type="title">ǝč̣č̣age</roleName>, i.e. the
+                            residence of the <roleName type="title">ʾǝč̣č̣age</roleName>, i.e. the
                             leader of the Ethiopian monasticism, and a refuge for offenders. </ab>
                     </note>
                 </place>
-                <listRelation>
-                    <relation name="gn:locatedIn" active="#LOC6535EccBet" passive="LOC3577Gondar"/>
-                </listRelation>
-            </listPlace>
+                </listPlace>
         </body>
     </text>
 </TEI>

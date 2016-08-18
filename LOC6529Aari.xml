@@ -8,7 +8,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <title>Aari Mountains</title>
-                <author/>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -36,8 +36,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="mountain">
                     <placeName xml:id="n1">Aari</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC6530Oromiyaa">Oromiyaa Regional State</region>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
+                    <region notAfter="1974" type="Province"/>
+                    <settlement type="zone" ref="LOC6543SouthOmo"/>
+                    <settlement type="area" ref="LOC1002Aari"/>
                     <location>
                         <geo cert="medium">6.227592 36.797590</geo>
                     </location>
@@ -48,15 +51,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <ab type="description">The Aari Mountains are located in the <placeName
-                            ref="LOC1002Aari">Aari region</placeName>, in the <placeName ref="LOC6530Oromiyaa">Oromiyaa Regional State</placeName>. They are used
-                            as a point of reference to define the territories of groups such as the
-                                <persName ref="ETH1223Basket">Basketo</persName>, the Dokko, the
-                                <persName ref="ETH1188Balta">Balta</persName>, the <persName
-                                ref="ETH1346Dafa">Dafa</persName>, the <persName ref="ETH1810Laha"
-                                    >Laha</persName>, the Dola-Mašira, the <persName ref="ETH1402Dime">Dime</persName> and the <persName ref="ETH1835Maale">Maale</persName>.</ab>
-                        <!--                        the  following groups do not appear in the google spreadsheet: Dokko,  Dola-Mašira-->
+                                ref="LOC1002Aari">Aari</placeName> area, in the <placeName
+                                ref="LOC6530Oromiyaa">Oromiyaa</placeName> Regional State. They are
+                            used as a point of reference to define the territories of groups such as
+                            the <persName ref="ETH1223Basket">Basketo</persName>, the <persName
+                                ref="ETH2260Dokko">Dokko</persName>, the <persName
+                                ref="ETH1188Balta">Balta</persName>, the <persName ref="ETH1346Dafa"
+                                >Dafa</persName>, the <persName ref="ETH1810Laha">Laha</persName>,
+                            the <persName ref="ETH2261DoMas">Dola-Mašira</persName>, the <persName
+                                ref="ETH1402Dime">Dime</persName> and the <persName
+                                ref="ETH1835Maale">Maale</persName>.</ab>
                     </note>
                 </place>
+                <listRelation>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1223Basket" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH2260Dokko" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1188Balta" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1346Dafa" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1810Laha" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH2261DoMas" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1402Dime" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1835Maale" passive="#LOC6529Aari"/>
+                </listRelation>
             </listPlace>
         </body>
     </text>

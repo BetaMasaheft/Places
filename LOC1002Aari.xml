@@ -8,11 +8,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Aari region</title>
-            <author/>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-            <date>2016-03-21</date>
+            <date>2016-08-18</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-18" who="FP">small changes</change>
          <change when="2016-08-04" who="FP">added information</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,9 +39,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="area">
-               <placeName xml:id="n1">Aari </placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC6530Oromiyaa" type="regionalState">Oromiyaa</region>
+               <placeName xml:id="n1">Aari</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
+               <region notAfter="1974" type="Province"/>
+               <settlement type="zone" ref="LOC6543SouthOmo"/>
                <location>
                   <geo cert="medium">6.227592 36.797590</geo>
                </location>
@@ -50,12 +53,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl><ptr target="bm:Tadesse2005EnAeGinka"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">The Aari "region" or "country" is the south-western spur of
-                     the highlands and adjacent lowlands of the South Omo Region of <placeName ref="LOC3010Ethiop">Ethiopia</placeName>, to the
-                     north of the town of <placeName ref="LOC3508Jinka">Ğinka</placeName> in today's <placeName ref="LOC6530Oromiyaa">Oromiyaa
-                        Regional State</placeName>.</ab>
+                  <ab type="description">The Aari area is the south-western spur of the highlands
+                     and adjacent lowlands of the <placeName ref="LOC6543SouthOmo">South
+                        Omo</placeName> Zone of <placeName ref="LOC6530Oromiyaa"
+                        >Oromiyaa</placeName> Regional State, to the north of the town of <placeName
+                        ref="LOC3508Jinka">Ğinkā</placeName>.</ab>
                </note>
             </place>
+            <listRelation>
+               <relation name="gn:nearBy" active="#LOC1002Aari" passive="LOC3508Jinka"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
