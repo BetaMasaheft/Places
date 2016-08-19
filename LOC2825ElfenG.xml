@@ -3,24 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC2825ElfenG">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2825ElfenG">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝlfǝñ Giyorgis</title>
-            <author/>
+            <title>ʾƎlfǝñ Giyorgis</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,10 +27,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-09" who="FP">added info and relation to Gondar</change>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -43,25 +39,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1">Ǝlfǝñ Giyorgis</placeName>
+               <placeName xml:id="n1">ʾƎlfǝñ Giyorgis</placeName>
+               <placeName xml:lang="gez" corresp="#n1">እልፍኝ፡ጊዮርጊስ</placeName>
                <placeName type="alt" xml:id="n2">Mākkābabiyā Giyorgis</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:lang="gez" corresp="#n2">ማካበቢያ፡ጊዮርጊስ</placeName>
+               <!--               translitteration in gez to be checked-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Ǝlfǝñ Giyorgis is one of two churches (the other is <placeName ref="LOC3407GemjaB">Gǝmǧa Bet Maryam</placeName>) founded by <roleName type="title">aṣe</roleName> <persName
-                     ref="PRS4015Fasilada">Fāsiladas</persName> close to his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName> in the 17th century.</ab>
-                  </note>
+                  <ab type="description">ʾƎlfǝñ Giyorgis is one of two churches (the other is
+                        <placeName ref="LOC3407GemjaB">Gǝmǧā Bet Māryām</placeName>) founded by
+                        <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> close to his stone castle
+                     in <placeName ref="LOC3577Gondar">Gondar</placeName> in the <date>17th
+                        century</date>.</ab>
+               </note>
             </place>
-            <listRelation>
-               <relation name="gn:locatedIn" active="#LOC2825ElfenG" passive="LOC3577Gondar"></relation>
-             </listRelation>
          </listPlace>
       </body>
    </text>

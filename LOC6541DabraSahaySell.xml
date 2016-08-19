@@ -7,12 +7,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Śahay Śǝllase </title>
-                <author/>
+                <title>Dabra Ḍahāy Śǝllāse </title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-03-21</date>
+                <date>2016-08-16</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-16" who="FP">created new record</change>
         </revisionDesc>
     </teiHeader>
@@ -34,13 +35,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1">Dabra Śahay Śǝllase</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
-                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <placeName xml:id="n1">Dabra Ḍahāy Śǝllāse</placeName>
+                    <placeName xml:lang="gez" corresp="#n1"></placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
                         <geo cert="medium">12.6000 37.4666</geo>
-                    </location>
+                        <!--                        used general coordinates for Gondar, i.e. not specific to this quarter--></location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>

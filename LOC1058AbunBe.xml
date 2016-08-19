@@ -50,6 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement type="town" ref="LOC3577Gondar"/>
                <location>
                   <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>

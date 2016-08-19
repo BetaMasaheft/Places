@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gannat Tarra</title>
-            <author/>
+            <title>Gannat Tarrā</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-12" who="FP">added info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -39,13 +40,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="hill">
                <placeName xml:id="n1">Gannat Tarrā</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ገነት፡ተራ</placeName>
                <placeName type="alt" xml:id="n2">Tǝgre Mač̣č̣ohyā</placeName>
-               <placeName type="alt" xml:id="n3">Āč̣anākǝr</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:lang="gez" corresp="#n2">ትግሬ፡መጮህያ</placeName>
+               <placeName xml:lang="eng" corresp="#n2"> Cry of <placeName ref="LOC5932Tegray"
+                     >Tǝgrāy</placeName></placeName>
+               <placeName type="alt" xml:id="n3">ʾĀč̣anākǝr</placeName>
+               <placeName xml:lang="gez" corresp="#n3">አጨናክር</placeName>
+               <!--               translitterations in gez need checking-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
@@ -54,16 +64,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <ab type="description">Gannat Tarrā is a hill in the northern part of <placeName
                         ref="LOC3577Gondar">Gondar</placeName> overlooking the city. It used to be
-                     referred as Tǝgre Mač̣č̣ohyā ("Cry of <placeName ref="LOC5932Tegray"
-                        >Tǝgray</placeName>"), the area where people from <placeName
-                        ref="LOC5932Tegray">Tǝgray</placeName> camped when they came to <placeName
-                        ref="LOC3577Gondar">Gondar</placeName> to appeal to the <roleName
+                     referred as <placeName>Tǝgre Mač̣č̣ohyā</placeName>, the area where people from
+                        <placeName ref="LOC5932Tegray">Tǝgrāy</placeName> camped when they came to
+                        <placeName ref="LOC3577Gondar">Gondar</placeName> to appeal to the <roleName
                         type="function">emperor</roleName>.</ab>
                </note>
             </place>
-            <listRelation>
-               <relation name="gn:nearBy" active="#LOC3288Gannat" passive="LOC3577Gondar"></relation>
-            </listRelation>
          </listPlace>
       </body>
    </text>

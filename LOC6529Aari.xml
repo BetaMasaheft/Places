@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Aari Mountains</title>
+                <title>Aari mountains</title>
                 <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
@@ -42,7 +42,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement type="zone" ref="LOC6543SouthOmo"/>
                     <settlement type="area" ref="LOC1002Aari"/>
                     <location>
-                        <geo cert="medium">6.227592 36.797590</geo>
+                        <geo cert="low">6.227592 36.797590</geo>
+                        <!--                        used same coordinates as for Aari area-->
                     </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:Amha2003EnAeBasketo"/></bibl>
@@ -64,14 +65,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place" active="ETH1223Basket" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH2260Dokko" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH1188Balta" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH1346Dafa" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH1810Laha" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH2261DoMas" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH1402Dime" passive="#LOC6529Aari"/>
-                    <relation name="syriaca:has-relation-to-place" active="ETH1835Maale" passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1223Basket"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH2260Dokko"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1188Balta"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1346Dafa"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1810Laha"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH2261DoMas"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1402Dime"
+                        passive="#LOC6529Aari"/>
+                    <relation name="syriaca:has-relation-to-place" active="ETH1835Maale"
+                        passive="#LOC6529Aari"/>
                 </listRelation>
             </listPlace>
         </body>

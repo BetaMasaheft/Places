@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <title>ʾAddabābāy</title>
-                <editor key="FP"></editor>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -36,14 +36,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="quarter">
                     <placeName xml:id="n1">ʾAddabābāy</placeName>
                     <placeName xml:lang="gez" corresp="#n1">አደባባይ</placeName>
-<!--                    transcription in Ethiopic needs checking-->
+                    <!--                    transcription in Ethiopic needs checking-->
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
                     <settlement type="zone" ref="LOC6544NorthGondar"/>
                     <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
-                        <geo>12.6000 37.4666</geo>
+                        <geo cert="medium">12.6000 37.4666</geo>
+                        <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
                     </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>

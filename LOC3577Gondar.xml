@@ -87,7 +87,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="LOC1452Angara"/>
                <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
                   passive="LOC4775Menzer"/>
-
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
+                  passive="LOC1058AbunBe"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
+                  passive="LOC6535EccBet"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
+                  passive="LOC6534Addaba"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
+                  passive="LOC2999EslamB"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC4506Manbar" passive="LOC3577Gondar"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC3407GemjaB" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC3091FitAbb" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC1009Abarra" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC4038KaylaM" passive="LOC3577Gondar"></relation>
+               <relation name="gn:locatedIn" active="#LOC1526Arbaet" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC2825ElfenG" passive="LOC3577Gondar"/>
+               <relation name="gn:nearBy" active="#LOC3288Gannat" passive="LOC3577Gondar"/>
+               
             </listRelation>
          </listPlace>
       </body>

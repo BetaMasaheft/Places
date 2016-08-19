@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kayla Meda</title>
-            <author/>
+            <title>Kāylā Medā</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-10" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,25 +39,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName xml:id="n1">Kayla Meda</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:id="n1">Kāylā Medā</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ካይላ፡ሜዳ</placeName>
+<!--               translitteration in gez to be checked-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
-               </location>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
+                  </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Kayla Meda is one of four quarters in <placeName
+                  <ab type="description">Kāylā Medā is one of four quarters in <placeName
                         ref="LOC3577Gondar">Gondar</placeName> that were assigned to the <persName
-                           ref="ETH1274Betaes">Beta Ǝsraʾel</persName> in the second half of the 17th
-                     centurỵ</ab>
+                           ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> in the second half of the <date>17th
+                     century</date>.</ab>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:locatedIn" active="#LOC4038KaylaM" passive="LOC3577Gondar"></relation>
                <relation name="gn:nearBy" active="#LOC4038KaylaM" passive="LOC5148Qaha"></relation>
             </listRelation>
          </listPlace>

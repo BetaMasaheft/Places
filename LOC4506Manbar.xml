@@ -3,24 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC4506Manbar">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4506Manbar">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Manbara MangǝśtMadḫāne ʿĀlam</title>
-            <author/>
+            <title>Manbara Mangǝśt Madḫāne ʿAlam</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,10 +27,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-<change when="2016-08-09" who="FP">added info and relation to Gondar</change>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-08-19" who="FP">corrections</change>
+         <change when="2016-08-09" who="FP">added info and relation to Gondar</change>
+         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -43,24 +39,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1">Manbara MangǝśtMadḫane ʿAlam</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:id="n1">Manbara Mangǝśt Madḫāne ʿAlam</placeName>
+               <placeName xml:lang="gez" corresp="#n1">መንበረ፡ መንግሥት፡መድኃነ፡አለም</placeName>
+               <!--               transitteration in gez to be checked-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description"> Manbara MangǝśtMadḫane ʿAlam is one of five churches founded in the 17th century by <roleName type="title">aṣe</roleName> <persName
-                     ref="PRS4015Fasilada">Fāsiladas</persName> outside the central nucleus comprising his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
+                  <ab type="description"> Manbara Mangǝśt Madḫāne ʿAlam is one of five churches
+                     founded in the <date>17th century</date> by <roleName type="title"
+                        >ʾaṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> outside the central
+                     nucleus comprising his stone castle in <placeName ref="LOC3577Gondar"
+                        >Gondar</placeName>.</ab>
                </note>
             </place>
-            <listRelation>
-               <relation name="gn:locatedIn" active="#LOC4506Manbar" passive="LOC3577Gondar"></relation>
-            </listRelation>
          </listPlace>
       </body>
    </text>

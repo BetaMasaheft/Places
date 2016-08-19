@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Qaha</title>
-            <author/>
+            <title>Qāhā</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-12" who="FP">added info to record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,24 +39,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="river">
-               <placeName xml:id="n1">Qaha</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:id="n1">Qāhā</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ቃሃ</placeName>
+               <!--               translitteration in gez to be checked-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this river-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                   <bibl><ptr target="bm:Wubneh2003EnAeAngarab"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">The Qaha river skirts the eastern side of <placeName
+                  <ab type="description">The Qāhā river skirts the eastern side of <placeName
                         ref="LOC3577Gondar">Gondar</placeName> and joins the <placeName
-                        ref="LOC1452Angara">Small Āngarab</placeName> south of <placeName
-                        ref="LOC3577Gondar">Gondar</placeName> near <placeName ref="LOC2999EslamB"
-                        >Ǝslam Bet</placeName>. Muslims and the <persName ref="ETH1274Betaes">Beta
-                        Ǝsrāʾel</persName> were settled below town on the Qaha's banks.</ab>
+                        ref="LOC1452Angara">Small ʾAngarab</placeName> south of the town near
+                        <placeName ref="LOC2999EslamB">ʾƎslām Bet</placeName>. Muslims and the
+                        <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> were settled below
+                     town on the Qāhā's banks.</ab>
                </note>
             </place>
             <listRelation>
@@ -63,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="#LOC5148Qaha" passive="LOC1452Angara"/>
                <relation name="gn:nearBy" active="#LOC5148Qaha" passive="LOC2999EslamB"/>
                <relation name="gn:nearBy" active="#LOC5148Qaha" passive="LOC4402Magac"/>
-              </listRelation>
+            </listRelation>
          </listPlace>
       </body>
    </text>

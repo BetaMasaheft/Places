@@ -33,7 +33,7 @@
             <listPlace>
                 <place type="quarter">
                     <placeName xml:id="n1">ʾƎč̣č̣age Bet</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">እጭጨገ፡ ቤት</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">እጨገ፡ ቤት</placeName>
                     <!--                    transcription in Ethiopic needs checking-->
                     <placeName xml:lang="en" corresp="#n1">House of the <roleName
                         type="title">ʾǝč̣č̣age</roleName></placeName>

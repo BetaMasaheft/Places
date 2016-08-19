@@ -3,24 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC1001Aallee">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1001Aallee">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Aallee</title>
-            <author/>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,32 +27,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change when="2016-08-02" who="FP">test</change>
+         <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-03" who="FP">added information from EnAe</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-               <place type="waradā">
-                  <placeName xml:id="n1">Aallee</placeName>
-                  <country ref="LOC3010Ethiop">Ethiopia</country>
-                  <region ref="LOC6530Oromiyaa">Oromiyaa Regional State</region>
-               <location> 
+            <place type="waradā">
+               <placeName xml:id="n1">Aallee</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
+               <region notAfter="1974" type="Province"/>
+               <settlement type="zone"/>
+               <location>
                   <geo cert="low">8.431601 35.688606</geo>
                </location>
-                  <listBibl type="secondary">
-                     <bibl><ptr target="bm:Zitelmann2007EnAeIllubabor"/></bibl>
-                  </listBibl>
-                  <note>
-                     <date type="foundation" atLeast="1991">After 1991</date>
-                     <ab type="description">Aallee is one of 12 waradā created in the highland <placeName ref="LOC3924Illuba">Illubabor </placeName> after 1991 and the introduction of "ethnic federalism". </ab>
-                  </note>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:Zitelmann2007EnAeIllubabor"/></bibl>
+               </listBibl>
+               <note>
+                  <date type="foundation" atLeast="1991">After 1991</date>
+                  <ab type="description">Aallee is one of 12 <placeName>waradā</placeName> created in the highland
+                        <placeName ref="LOC3924Illuba">Illubabor </placeName> after <date>1991</date> and the
+                     introduction of "ethnic federalism". </ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="#LOC1001Aallee" passive="LOC3924Illuba"></relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>

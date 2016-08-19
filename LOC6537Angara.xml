@@ -7,12 +7,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Āngarab</title>
-                <author/>
+                <title>ʾAngarab</title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-03-21</date>
+                <date>2016-08-12</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-12" who="FP">created new record</change>
         </revisionDesc>
     </teiHeader>
@@ -34,20 +35,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="town">
-                    <placeName xml:id="n1">Āngarab</placeName>
+                    <placeName xml:id="n1">ʾAngarab</placeName>
                     <placeName xml:lang="gez" corresp="#n1">አንገረብ</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province"/>
+                    <settlement type="zone"/>
                     <location>
-                        <geo>13.1500 37.2900</geo>
+                        <geo cert="medium">13.1500 37.2900</geo>
                     </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                         <bibl><ptr target="bm:Wubneh2003EnAeAngarab"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Āngarab is the name of a small town situated on the
-                                <placeName ref="LOC6536Angara">Great Āngarab</placeName>) river, on
+                        <ab type="description">ʾAngarab is the name of a small town situated on the
+                                <placeName ref="LOC6536Angara">Great ʾAngarab</placeName>) river, on
                             the road connecting <placeName ref="LOC6538Humara">Humarā</placeName>
                             with <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
                     </note>

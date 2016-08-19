@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Aari region</title>
+            <title>Aari area</title>
             <editor key="FP"/>
          </titleStmt>
          <publicationStmt>

@@ -7,12 +7,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>(Great) Āngarab</title>
-                <author/>
+                <title>Great ʾAngarab</title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-03-21</date>
+                <date>2016-08-11</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+<change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-11" who="FP">created new record</change>
         </revisionDesc>
     </teiHeader>
@@ -34,12 +35,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="river">
-                    <placeName xml:id="n1">Āngarab</placeName>
-                    <placeName type="alt" xml:id="n2">Great Āngarab</placeName>
+                    <placeName xml:id="n1">ʾAngarab</placeName>
                     <placeName xml:lang="gez" corresp="#n1">አንገረብ</placeName>
-                    <placeName type="alt" xml:id="n3">G<hi rend="apices">w</hi>ang</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
+                    <placeName type="alt" xml:id="n2">Great ʾAngarab</placeName>
+                    <placeName type="alt" xml:id="n3">G<hi rend="apices">w</hi>āng</placeName>
+                    <placeName xml:lang="gez" corresp="#n3">ጓንግ</placeName>
+<!--                    translitteration in gez to be checked-->
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province"/>
+                    <settlement type="zone"/>
                     <location>
                         <geo cert="medium">13.3020 36.6134</geo>
                     </location>
@@ -48,16 +53,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <bibl><ptr target="bm:Wubneh2003EnAeAngarab"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">There are two rivers known by the name Āngarab. This
-                            record refers to the so called Great Āngarab (cfr. <placeName
-                                ref="LOC1452Angara">Small Āngarab</placeName>), a tributary of the
-                            <placeName ref="LOC1598Atbara">Ātbārā</placeName>. It rises north of <placeName
+                        <ab type="description">There are two rivers known by the name ʾĀngarab. This
+                            record refers to the so called Great ʾAngarab (cfr. <placeName
+                                ref="LOC1452Angara">Small ʾAngarab</placeName>), a tributary of the
+                            <placeName ref="LOC1598Atbara">ʾĀtbārā</placeName>. It rises north of <placeName
                                 ref="LOC3577Gondar">Gondar</placeName>, near <placeName
-                                ref="LOC2580Dawa">Dawa</placeName> in <placeName ref="LOC6144Wagara"
+                                ref="LOC2580Dawa">Dāwā</placeName> in <placeName ref="LOC6144Wagara"
                                 >Wagarā</placeName>. It flows west through <placeName
-                                ref="LOC1537Armace">Armaḉč̣ǝho</placeName>, along the border between
+                                ref="LOC1537Armace">ʾArmāč̣ǝho</placeName>, along the border between
                                 <placeName ref="LOC6144Wagara">Wagarā</placeName> and <placeName
-                                ref="LOC3577Gondar">Gondar</placeName> awraǧǧas.</ab>
+                                ref="LOC3577Gondar">Gondar</placeName> <placeName>ʾawrāǧǧās</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>

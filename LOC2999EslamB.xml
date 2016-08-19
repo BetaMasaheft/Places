@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝslam Bet</title>
-            <author/>
+            <title>ʾƎslām Bet</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-10" who="FP">added relation and info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,30 +39,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName xml:id="n1">Ǝslam Bet</placeName>
-               <placeName type="alt" xml:id="n2">Ǝslamge</placeName>
-               <placeName type="alt" xml:id="n3">Āddis ʿAlam</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:id="n1">ʾƎslām Bet</placeName>
+               <placeName xml:lang="gez" corresp="#n1">እስላም፡ ቤት</placeName>
+               <placeName type="alt" xml:id="n2">ʾƎslāmge</placeName>
+               <placeName xml:lang="gez" corresp="#n2">እስላምገ</placeName>
+               <placeName type="alt" xml:id="n3">ʾAddis ʿAlam</placeName>
+               <placeName xml:lang="gez" corresp="#n3">አዲስ፡ አለም</placeName>
+               <!--               translitterations in gez to be checked-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Ǝslam Bet is a quarter in <placeName ref="LOC3577Gondar"
-                        >Gondar</placeName> that was assigned to the Muslims to live in in the 17th
-                     century.</ab>
+                  <ab type="description">ʾƎslām Bet is a quarter in <placeName ref="LOC3577Gondar"
+                        >Gondar</placeName> that was assigned to the Muslims to live in in the
+                        <date>17th century</date>.</ab>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:locatedIn" active="#LOC2999EslamB" passive="LOC3577Gondar">
-                  <desc>Ǝslam Bet is a quarter of Gondar where Muslims had to live.</desc>
-                  </relation>
-               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC1452Angara"></relation>
-               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC5148Qaha"></relation>
+               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC1452Angara"/>
+               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC5148Qaha"/>
             </listRelation>
          </listPlace>
       </body>
