@@ -103,6 +103,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="#LOC1526Arbaet" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="#LOC2825ElfenG" passive="LOC3577Gondar"/>
                <relation name="gn:nearBy" active="#LOC3288Gannat" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC6541DabraSahaySell"
+                  passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC6533DabraSahayQwe"
+                  passive="LOC3577Gondar"/>
                
             </listRelation>
          </listPlace>

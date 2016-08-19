@@ -36,7 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church">
                     <placeName xml:id="n1">Dabra Ḍahāy Śǝllāse</placeName>
-                    <placeName xml:lang="gez" corresp="#n1"></placeName>
+                    <placeName xml:lang="gez" corresp="#n1">ደብረ፡ፀሃይ፡ሥላሴ</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -44,22 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
                         <geo cert="medium">12.6000 37.4666</geo>
-                        <!--                        used general coordinates for Gondar, i.e. not specific to this quarter--></location>
+                        <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
+                    </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Dabra Śahay Śǝllase is a church in the central part
+                        <ab type="description">Dabra Ḍahāy Śǝllāse is a church in the central part
                             of <placeName ref="LOC3577Gondar">Gondar</placeName> where the residence
-                            of the <roleName type="title">abun</roleName> was moved during the
+                            of the <roleName type="title">ʾabun</roleName> was moved during the
                             Italian occupation.</ab>
                     </note>
                 </place>
-                <listRelation>
-                    <relation name="gn:locatedIn" active="#LOC6541DabraSahaySell"
-                        passive="LOC3577Gondar"/>
-                </listRelation>
             </listPlace>
         </body>
     </text>
