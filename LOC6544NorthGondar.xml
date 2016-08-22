@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>North Gondar Zone</title>
+                <title>Samen Gondar Zone</title>
                 <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +34,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="zone">
-                    <placeName xml:id="n1">North Gondar</placeName>
+                    <placeName xml:id="n1">Samen Gondar</placeName>
+                    <placeName type="alt" xml:id="n2" xml:lang="eng">North Gondar</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region ref="LOC1426Amhara" type="RegionalState"/>
                     <location>

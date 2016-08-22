@@ -8,7 +8,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Abādir ʿUmar ar-Riḍā Shrine</title>
-            <author/>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-22" who="FP">corrections</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
@@ -38,11 +39,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName xml:id="n1">Abādir ʿUmar ar-Riḍā </placeName>
+               <placeName xml:id="n1">Abādir ʿUmar ar-Riḍā</placeName>
                <!--              traslitteration of the name in Arabic not inserted -->
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC3786Harar" type="regionalState">Harari </region>
-               <settlement type="city" ref="LOC3786Harar">Harar</settlement>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC6545Harari" />
+               <region notAfter="1974" type="Province" ref="LOC3787Hararg"/>
+               <settlement type="zone"/>
+               <settlement type="city" ref="LOC3786Harar"/>       
                <location>
                   <geo cert="low">9.295641 42.129846</geo>
                </location>
@@ -55,13 +58,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" cert="low" atLeast="1850" atMost="1900">End of the 19th
                      Century</date>
                   <ab type="description">This shrine is located inside the walls of <placeName
-                        ref="LOC3786Harar">Harar</placeName> and is the tomb of <persName
+                        ref="LOC3786Harar">Hārar</placeName> and is the tomb of <persName
                         ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated
                      saint in this town. It is also the tomb of <roleName type="title"> amīr </roleName>
-                     <persName ref="PRS1216Abdulla">ʿAbdullāhi b. Muḥammad</persName>
+                     <persName ref="PRS1216Abdulla">ʿAbdullāhi b. Muḥammad</persName>.
                   </ab>
                </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place" active="PRS1006Abadir" passive="#LOC1005Abadir"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS1216Abdulla" passive="#LOC1005Abadir"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

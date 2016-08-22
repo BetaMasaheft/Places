@@ -3,16 +3,16 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6542QannBet">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6545Harari">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qaññ Bet</title>
+                <title>Hārari People's National Regional State</title>
                 <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-08-16</date>
+                <date>2016-08-22</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,34 +27,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2016-08-22" who="FP">corrections</change>
-            <change when="2016-08-16" who="FP">new record created</change>
+            <change when="2016-08-18" who="FP">new record</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="quarter">
-                    <placeName xml:id="n1">Qaññ Bet</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">ቀኝ፡ ቤት</placeName>
+                <place type="RegionalState">
+                    <placeName xml:id="n1">Hārari</placeName>
+                    <placeName type="alt" xml:id="n2" xml:lang="eng">Hārari People's National
+                        Regional State</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
-                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
-                    <settlement type="zone" ref="LOC6544NorthGondar"/>
-                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
-                        <geo cert="medium">12.6000 37.4666</geo>
-                        <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
+                        <geo/>
                     </location>
-                    <listBibl type="secondary">
-                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                    </listBibl>
+                    <listBibl type="secondary"> </listBibl>
                     <note>
-                        <ab type="description">Qaññ Bet is a quarter east and south-east of the castles in
-                                <placeName ref="LOC3577Gondar">Gondar</placeName> and home to many
-                            nobles.</ab>
+                        <ab type="description"/>
                     </note>
                 </place>
+                <listRelation> </listRelation>
             </listPlace>
         </body>
     </text>

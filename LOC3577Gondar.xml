@@ -107,7 +107,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="#LOC6533DabraSahayQwe"
                   passive="LOC3577Gondar"/>
-               
+               <relation name="gn:locatedIn" active="#LOC6540Entone" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC6539Gabrǝel" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC1059AbunMa" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="#LOC2651Dengay" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC6542QannBet" passive="#LOC3577Gondar"/>
             </listRelation>
          </listPlace>
       </body>

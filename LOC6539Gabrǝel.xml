@@ -7,12 +7,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gābrǝʾel Church</title>
-                <author/>
+                <title>Gabrǝʾel Church</title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-03-21</date>
+                <date>2016-08-15</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-08-22" who="FP">corrections</change>
             <change when="2016-08-15" who="FP">record created</change>
         </revisionDesc>
     </teiHeader>
@@ -34,40 +35,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1">Gābrǝʾel</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
-                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <placeName xml:id="n1">Gabrǝʾel</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">ገብርኤል</placeName>
+                    <!--                    translitteration in gez to be checked-->
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
-                        <geo>12.6154 37.4681</geo>
+                        <geo cert="medium">12.6154 37.4681</geo>
                     </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Gābrǝʾel is a church north of <placeName
+                        <ab type="description">Gabrǝʾel is a church north of <placeName
                                 ref="LOC3577Gondar">Gondar</placeName>, at the foot of <placeName
                                 ref="LOC3288Gannat">Gannat Tarrā</placeName> hill. <roleName
-                                type="title">Ābuna</roleName>
+                                type="title">ʾAbuna</roleName>
                             <persName ref="PRS10450YosabI">Yosab</persName> moved his residence
-                            (cfr. <placeName ref="LOC1058AbunBe">Abun Bet</placeName>) near Gābrǝʾel
-                            Church during the reign of <roleName type="title">āṣe</roleName>
-                            <persName ref="PRS9153TaklaHa">Takla Haymānot</persName>, while before
-                            it used to be near the church of <placeName ref="LOC6540Entone">abba
-                                Ǝnṭonǝs</placeName> in the north-western part of <placeName
+                            (cfr. <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName>) near
+                            Gabrǝʾel Church during the reign of <roleName type="title"
+                                >ʾaṣe</roleName>
+                            <persName ref="PRS9153TaklaHa">Takla Hāymānot</persName>, while before
+                            it used to be near the church of <placeName ref="LOC6540Entone">ʾAbbā
+                                ʾƎnṭonǝs</placeName> in the north-western part of <placeName
                                 ref="LOC3577Gondar">Gondar</placeName>. During the Italian
-                            occupation, <placeName ref="LOC1058AbunBe">Abun Bet</placeName> was
-                            moved near <placeName ref="LOC6541DabraSahaySell">Dabra Śahay
-                                Śǝllase</placeName> church in the central part of the city, while
-                            the site near Gābrǝʾel church was restored after the Italians where
+                            occupation, <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName> was
+                            moved near <placeName ref="LOC6541DabraSahaySell">Dabra Ḍahāy
+                                Śǝllāse</placeName> church in the central part of the city, while
+                            the site near Gabrǝʾel church was restored after the Italians were
                             expelled in <date>1941</date>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="#LOC6539Gabrǝel" passive="LOC3577Gondar"/>
                     <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC3288Gannat"/>
-                    <relation name="gn:nearBy" active="#LOC6539Gabrǝel" passive="LOC1058AbunBe"/>
+                    <relation name="syriaca:has-relation-to-place" active="#LOC6539Gabrǝel"
+                        passive="LOC1058AbunBe"/>
                 </listRelation>
             </listPlace>
         </body>

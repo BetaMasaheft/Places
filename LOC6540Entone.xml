@@ -7,12 +7,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Abba Ǝnṭonǝs</title>
-                <author/>
+                <title>ʾAbbā ʾƎnṭonǝs</title>
+                <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
                 <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
-                <date>2016-03-21</date>
+                <date>2016-08-15</date>
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-08-22" who="FP">corrections</change>
             <change when="2016-08-15" who="FP">record created</change>
         </revisionDesc>
     </teiHeader>
@@ -34,30 +35,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1">Abba Ǝnṭonǝs</placeName>
-                    <placeName type="alt" xml:id="n2">Abba Ǝnṭonyos</placeName>
-                    <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region ref="LOC1426Amhara">Amhara</region>
-                    <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+                    <placeName xml:id="n1">ʾAbbā ʾƎnṭonǝs</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">አባ፡እንጦንስ</placeName>
+                    <placeName type="alt" xml:id="n2">ʾAbbā ʾƎnṭonyos</placeName>
+                    <placeName xml:lang="gez" corresp="#n2">አባ፡እንጦንዮስ</placeName>
+                    <!--                    translitteration in gez to be checked-->
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
                     <location>
-                        <geo>12.6000 37.4666</geo>
+                        <geo cert="medium">12.6000 37.4666</geo>
+                        <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
                     </location>
                     <listBibl type="secondary">
                         <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                         <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Abba Ǝnṭonǝs is a church in the north-western part of
-                                <placeName ref="LOC3577Gondar">Gondar</placeName> close to which
-                                <placeName ref="LOC1058AbunBe">Abun Bet</placeName> was originally
+                        <ab type="description">ʾAbbā ʾƎnṭonǝs is a church in the north-western part
+                            of <placeName ref="LOC3577Gondar">Gondar</placeName> close to which
+                                <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName> was originally
                             located before being moved near <placeName ref="LOC6539Gabrǝel"
-                                >Gābrǝʾel</placeName> church during the reign of <roleName
-                                type="title">āṣe</roleName>
-                            <persName ref="PRS9153TaklaHa">Takla Haymānot</persName>.</ab>
+                                >Gabrǝʾel</placeName> church during the reign of <roleName
+                                type="title">ʾaṣe</roleName>
+                            <persName ref="PRS9153TaklaHa">Takla Hāymānot</persName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="#LOC6540Entone" passive="LOC3577Gondar"/>
                     <relation name="gn:nearBy" active="#LOC6540Entone" passive="LOC1058AbunBe"/>
                 </listRelation>
             </listPlace>

@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abun Mask</title>
-            <author/>
+            <title>ʾAbun Mask</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-22" who="FP">corrections</change>
          <change when="2016-08-16" who="FP">added info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,26 +39,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="area">
-               <placeName xml:id="n1">Abun Mask</placeName>
-               <country ref="LOC3010Ethiop">Ethiopia</country>
-               <region ref="LOC1426Amhara">Amhara</region>
-               <settlement type="town" ref="LOC3577Gondar">Gondar</settlement>
+               <placeName xml:id="n1">ʾAbun Mask</placeName>
+               <placeName xml:lang="gez" corresp="#n1">አቡን፡መስክ</placeName>
+               <!--              translitteration in gez to be checked -->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
                <location>
                   <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                        used general coordinates for Gondar, i.e. not specific to this area-->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                   <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">Abun Mask is the name of the specific area surrounding the
-                     residence of the <roleName type="title">abun</roleName> in the <placeName
-                        ref="LOC1058AbunBe">Abun Bet</placeName> quarter in <placeName
+                  <ab type="description">ʾAbun Mask is the name of the specific area surrounding the
+                     residence of the <roleName type="title">ʾabun</roleName> in the <placeName
+                        ref="LOC1058AbunBe">ʾAbun Bet</placeName> quarter in <placeName
                         ref="LOC3577Gondar">Gondar</placeName>.</ab>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:locatedIn" active="#LOC1059AbunMa" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="#LOC1059AbunMa" passive="LOC1058AbunBe"/>
             </listRelation>
          </listPlace>
