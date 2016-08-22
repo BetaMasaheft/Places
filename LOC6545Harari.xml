@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Hārari People's National Regional State</title>
+                <title>Ḥārari People's National Regional State</title>
                 <editor key="FP"/>
             </titleStmt>
             <publicationStmt>
@@ -34,8 +34,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="RegionalState">
-                    <placeName xml:id="n1">Hārari</placeName>
-                    <placeName type="alt" xml:id="n2" xml:lang="eng">Hārari People's National
+                    <placeName xml:id="n1" xml:lang="amh">ሓረሪ</placeName>
+                    <placeName corresp="n1" type="normalized" xml:lang="amh">Ḥārari</placeName>
+                    
+                    <placeName type="alt" xml:id="n2" xml:lang="eng">Harari People's National
                         Regional State</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <location>
