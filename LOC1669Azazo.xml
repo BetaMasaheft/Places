@@ -3,24 +3,19 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC1669Azazo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1669Azazo">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Azäzo</title>
-            <author/>
+            <title>ʾAzazo</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to
-                                                  Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -32,9 +27,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-08-22" who="FP">added info to record</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -42,8 +38,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Azäzo</placeName>
+               <placeName xml:id="n1">ʾAzazo</placeName>
+               <placeName xml:lang="gez" corresp="#n1">አዘዞ</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <location>
+                  <geo>12.5500 37.4333</geo>
+                  <!--                 Geo coord based on Gazeteer -->
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:Wubneh2003EnAeAzazo"/></bibl>
+                  <bibl><ptr target="bm:Wubneh2003EnAeAzazoTakla"/></bibl>
+               </listBibl>
+               <note>
+                  <ab type="history">ʾAzazo is a town located 13 km ca.
+                     southwest of the historic city of <placeName ref="LOC3577Gondar"
+                        >Gondar</placeName>. During the <date>17th century</date>, it became a major
+                     religious and political centre and it remained a royal residence and a
+                     residence of the <roleName type="function">ʾǝč̣č̣age</roleName> for much of the
+                        <date>18th and 19th century</date>. Under <roleName type="title"
+                        >ʾaṣe</roleName>
+                     <persName ref="PRS9038Susenyos">Susǝnyos</persName> it became an important
+                     residence for both the <roleName type="function">Emperor</roleName> and the
+                     Jesuits. It remained the seat of the <roleName type="function"
+                        >ʾǝč̣č̣age</roleName> until the <date>19th century</date>, even after the
+                     establishment of the quarter of <placeName ref="LOC6535EccBet">ʾƎč̣č̣age
+                        Bet</placeName> in <placeName ref="LOC3577Gondar">Gondar</placeName>. ʾAzazo
+                     was the place where the monastery of <placeName ref="LOC2297DabraL">Dabra
+                        Libānos</placeName> was relocated from the <placeName ref="LOC5597Sawa"
+                        >Šawā</placeName> (cfr. <placeName ref="LOC1670AzazoT">ʾAzazo Takla
+                        Hāymānot</placeName>). </ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1669Azazo" passive="LOC3577Gondar"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1669Azazo" passive="LOC6535EccBet"/>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1669Azazo" passive="LOC2297DabraL"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

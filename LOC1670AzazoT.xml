@@ -7,8 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Āzazo Takla Haymānot</title>
-            <author/>
+            <title>ʾAzazo Takla Hāymānot</title>
+            <editor key="FP"/>
          </titleStmt>
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
@@ -27,6 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-22" who="FP">added info to record</change>
          <change when="2016-08-16" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -38,26 +39,48 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1">ʾĀzazo Takla Haymānot</placeName>
+               <placeName xml:id="n1">ʾAzazo Takla Hāymānot</placeName>
+               <placeName xml:lang="gez" corresp="#n1">አዘዞ፡ተክለ፡ሃይማኖት</placeName>
+               <placeName type="alt" xml:id="n2">ʾAzazo Zadabra Libānos</placeName>
+               <placeName xml:lang="gez" corresp="#n2">አዘዞ፡ዘደብረ፡ሊባኖስ</placeName>
                <country ref="LOC3010Ethiop"/>
-               <region ref="LOC1426Amhara"/>
-               <settlement type="town" ref="LOC3577Gondar"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC1669Azazo"/>
                <location>
                   <geo>12.5500 37.4333</geo>
                   <!--                 Geo coord based on Gazeteer -->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+                  <bibl><ptr target="bm:Wubneh2003EnAeAzazoTakla"/></bibl>
                </listBibl>
                <note>
-                  <ab type="description">ʾĀzazo Takla Haymānot is one of the 44 churches of
-                        <placeName ref="LOC3577Gondar">Gondar</placeName> where the monastic
+                  <ab type="history">ʾAzazo Takla Hāymānot is one of the so-called 44 churches of
+                        <placeName ref="LOC3577Gondar">Gondar</placeName>. It is located in the town
+                     of <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, 13 km southwest of
+                        <placeName ref="LOC3577Gondar">Gondar</placeName>. Local priests believe
+                     that it was built by <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName>, while according to
+                        <persName ref="PRS2916Bruce">James Bruce</persName> it was built by
+                        <persName ref="PRS5617IyasuII">Iyasu II</persName>. This church played in important role in the history of Ethiopian monasticism: where the monastic
                      community of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> settled
                      after relocating, like the royal court, from <placeName ref="LOC5597Sawa"
                         >Šawā</placeName> to the lake <placeName ref="LOC5888Tana">Ṭānā</placeName>
-                     region.</ab>
+                     region. </ab>
+                  <ab type="description">ʾAzazo Takla Hāymānot is located at the centre of the
+                     hilltop, surrounded by a courtyard and a circular stone wall with a square
+                     tower.</ab>
                </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1670AzazoT"
+                  passive="LOC2297DabraL">
+                  <desc>The monastic community of Dabra Libānos relocated to ʾAzazo Takla
+                     Hāymānot.</desc>
+               </relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
