@@ -43,42 +43,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1">አዘዞ፡ተክለ፡ሃይማኖት</placeName>
                <placeName type="alt" xml:id="n2">ʾAzazo Zadabra Libānos</placeName>
                <placeName xml:lang="gez" corresp="#n2">አዘዞ፡ዘደብረ፡ሊባኖስ</placeName>
+               <!--              translitterazion in gez to be checked -->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
                <settlement type="zone" ref="LOC6544NorthGondar"/>
                <settlement type="town" ref="LOC1669Azazo"/>
                <location>
-                  <geo>12.5500 37.4333</geo>
-                  <!--                 Geo coord based on Gazeteer -->
+                  <geo cert="medium">12.5500 37.4333</geo>
+                  <!--                 Geo coord refer to the town of ʾAzazo and are based on Gazeteer -->
                </location>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
                   <bibl><ptr target="bm:Wubneh2003EnAeAzazoTakla"/></bibl>
+                  <bibl><ptr target="bm:Wubneh2003EnAeAzazo"/></bibl>
                </listBibl>
                <note>
+                  <date type="foundation" cert="low">17th-18th century</date>
+                  <desc type="foundation">Local priests believe that it was built by <roleName
+                        type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> in the <date>17th
+                        century</date>, while, according to <persName ref="PRS2916Bruce">James
+                        Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">Iyasu
+                        II</persName>, meaning it was built only in the <date>18th century</date>.</desc>
                   <ab type="history">ʾAzazo Takla Hāymānot is one of the so-called 44 churches of
                         <placeName ref="LOC3577Gondar">Gondar</placeName>. It is located in the town
                      of <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, 13 km southwest of
-                        <placeName ref="LOC3577Gondar">Gondar</placeName>. Local priests believe
-                     that it was built by <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS4015Fasilada">Fāsiladas</persName>, while according to
-                        <persName ref="PRS2916Bruce">James Bruce</persName> it was built by
-                        <persName ref="PRS5617IyasuII">Iyasu II</persName>. This church played in important role in the history of Ethiopian monasticism: where the monastic
-                     community of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> settled
-                     after relocating, like the royal court, from <placeName ref="LOC5597Sawa"
-                        >Šawā</placeName> to the lake <placeName ref="LOC5888Tana">Ṭānā</placeName>
-                     region. </ab>
-                  <ab type="description">ʾAzazo Takla Hāymānot is located at the centre of the
+                        <placeName ref="LOC3577Gondar">Gondar</placeName>. This church played an
+                     important role in the history of Ethiopian monasticism: following the burning of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> in <date>1532</date> and the decision to move the monastic community north in the lake <placeName ref="LOC5888Tana">Ṭānā</placeName> area, the monastic
+                     community of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> finally settled in <placeName ref="LOC1669Azazo">ʾAzazo</placeName>.
+                     </ab>
+                  <ab type="description">ʾAzazo Takla Hāymānot is located at the centre of a
                      hilltop, surrounded by a courtyard and a circular stone wall with a square
-                     tower.</ab>
-               </note>
+                     tower.</ab> 
+                     <ab type="tabot">At one hand of the courtyar, there is a semi-circular domed castle wher, according to local traditio, the tabot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo"
+       >ʾAzazo</placeName>, although the tabot's movements are actually quite complicated to reconstruct.</ab>
+                     <measure quantity="1"/>
+                       </note>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place" active="#LOC1670AzazoT"
                   passive="LOC2297DabraL">
                   <desc>The monastic community of Dabra Libānos relocated to ʾAzazo Takla
                      Hāymānot.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC1670AzazoT" passive="LOC3577Gondar">
+                  <desc>ʾAzazo Takla
+                     Hāymānot is one of the so-called 44 churches of Gondar.</desc>
+               </relation>
+               <relation name="gn:nearBy" active="#LOC1670AzazoT" passive="LOC5888Tana">
+                  <desc>ʾAzazo Takla
+                     Hāymānot is in the Lake Ṭānā area.</desc>
                </relation>
             </listRelation>
          </listPlace>
