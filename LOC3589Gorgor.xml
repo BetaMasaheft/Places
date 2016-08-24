@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3589Gorgor">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3589Gorgor">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Gorgorā peninsula</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -52,37 +66,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <height unit="m">1850</height>
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:Martinez2005EnAeGorgora"/></bibl>
-                  <bibl><ptr target="bm:Nosnitsin2005Dambeya"/></bibl>
-                  <bibl><ptr target="bm:Pankhurst2005EnAeDekana"/></bibl>
-                  <bibl><ptr target="bm:AvanziniEtAl2007EnAeInscriptions"/></bibl>
-                  <bibl><ptr target="bm:FiaccadoriCalchiNovati2007EnAeItaly"/></bibl>
-                  <bibl><ptr target="bm:Martinez2010EnAePaez"/></bibl>
-                  <bibl><ptr target="bm:Thomaz2010EnAePortugal"/></bibl>
-                  <bibl><ptr target="bm:Crummey2010EnAeTakla1"/></bibl>
-                  <bibl><ptr target="bm:LachalGascon2010EnAeTana"/></bibl>
-                  <bibl><ptr target="bm:Nosnitsin2014EnAeYasay"/></bibl>
-                  <bibl><ptr target="bm:Fiaccadori2014EnAeSinai"/></bibl>
+                  <bibl>
+                     <ptr target="bm:Martinez2005EnAeGorgora"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Nosnitsin2005Dambeya"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Pankhurst2005EnAeDekana"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:AvanziniEtAl2007EnAeInscriptions"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:FiaccadoriCalchiNovati2007EnAeItaly"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Martinez2010EnAePaez"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Thomaz2010EnAePortugal"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Crummey2010EnAeTakla1"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:LachalGascon2010EnAeTana"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Nosnitsin2014EnAeYasay"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Fiaccadori2014EnAeSinai"/>
+                  </bibl>
                </listBibl>
                <note>
-                  <ab type="description">Gorgorā is a peninsula on the north of the Lake<placeName
-                        ref="LOC5888Tana">Ṭānā</placeName>. It is <width>12 km</width> wide in its
+                  <ab type="description">Gorgorā is a peninsula on the north of the Lake<placeName ref="LOC5888Tana">Ṭānā</placeName>. It is <width>12 km</width> wide in its
                      southern part and stands on a strategical location, an elevated rocky
                      promontory overlooking the lake and next to a series of islands suitable for
-                     providing shelter. The peninsula is located in today's <placeName
-                        ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State while once formed
+                     providing shelter. The peninsula is located in today's <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State while once formed
                      part of the of the <placeName ref="LOC2481Dambey">Dambǝyā</placeName> province.
                      Gorgorā gained its prominence under the Jesuits as a missionary residence and a
-                     major Catholic church thanks to a land grant offered by <roleName type="title"
-                        >ʾaṣe</roleName>
+                     major Catholic church thanks to a land grant offered by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date>1607</date>. In
                         <date>1611</date>, <persName ref="PRS9038Susenyos">Susǝnyos</persName>
                      established a <placeName>katamā</placeName> in Gorgorā and in <date>1621</date>
                      he asked the Jesuits to build a royal palace to the south-west, in an area that
                      became known as <placeName>New Gorgorā</placeName>. After the restauration of
                      Orthodoxy, <placeName>New Gorgorā</placeName> was the first residence to be
-                     abandoned by the missionaries and, in <date>1665</date>, <roleName type="title"
-                        >ʾaṣe</roleName>
+                     abandoned by the missionaries and, in <date>1665</date>, <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> ordered the burning of the
                      "books of Franks". The Italians seized the Gorgorā peninsula on <date>14 April
                         1936</date> and in <date>1938</date> inaugurated the <placeName>Faro della
@@ -108,31 +140,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      1684.</desc>
                </relation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1721BaherD"/>
-               <relation name="syriaca:has-relation-to-place" active="LOC3078Feremo"
-                  passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS4015Fasilada"
-                  passive="LOC3589Gorgor">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3078Feremo"
+                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS4015Fasilada"
+                         passive="LOC3589Gorgor">
                   <desc>Fāsiladas ordered the burning of the library of the Jesuits' mission in
                      Gorgorā</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="PRS9038Susenyos"
-                  passive="LOC3589Gorgor">
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS9038Susenyos"
+                         passive="LOC3589Gorgor">
                   <desc>Susǝnyos offered land grants to Jesuit missionaries to build a residence in
                      Gorgorā. He also established there a katamā and asked the Jesuits to move their
                      residence from "Old Gorgorā" to "New Gorgorā".</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="PRS7601Nogueira"
-                  passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS1767Almeida"
-                  passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS4079Fernande"
-                  passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS4386Gabriel"
-                  passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS8681SeelaK"
-                  passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS10194Yaeqob"
-                  passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS7601Nogueira"
+                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS1767Almeida"
+                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS4079Fernande"
+                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS4386Gabriel"
+                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS8681SeelaK"
+                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS10194Yaeqob"
+                         passive="LOC3589Gorgor"/>
             </listRelation>
          </listPlace>
       </body>

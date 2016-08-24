@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3291Gannat">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3291Gannat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Gannata ʾIyasus</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -51,15 +65,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!--                 coordinates refer to the town of ʾAzazo and are based on Gazeteer -->
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:Wubneh2003EnAeAzazo"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2005EnAeGannataI"/></bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAzazo"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2005EnAeGannataI"/>
+                  </bibl>
                </listBibl>
                <note>
                   <date type="foundation">1623</date>
-                  <ab type="history">Gannata ʾIyasus is a Catholic church located in <placeName
-                        ref="LOC1669Azazo">ʾAzazo</placeName> on the <placeName ref="LOC6546Wagan"
-                        >ʾAṣe Wagan</placeName> hill. It was commissioned by <roleName type="title"
-                        >ʾaṣe</roleName>
+                  <ab type="history">Gannata ʾIyasus is a Catholic church located in <placeName ref="LOC1669Azazo">ʾAzazo</placeName> on the <placeName ref="LOC6546Wagan">ʾAṣe Wagan</placeName> hill. It was commissioned by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date>1621</date>, built
                      by the Jesuit <persName ref="PRS7699Paez">Pedro Páez</persName> and consacrated
                      in <date>1623</date>. <persName ref="PRS9038Susenyos">Susǝnyos</persName> is

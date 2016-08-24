@@ -1,14 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6535EccBet">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC6535EccBet">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ʾƎč̣č̣age Bet</title>
                 <editor key="FP"/>
-            </titleStmt>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
             <publicationStmt>
-                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+                
                 <date>2016-08-11</date>
             </publicationStmt>
             <sourceDesc>
@@ -35,8 +50,8 @@
                     <placeName xml:id="n1">ʾƎč̣č̣age Bet</placeName>
                     <placeName xml:lang="gez" corresp="#n1">እጨገ፡ ቤት</placeName>
                     <!--                    transcription in Ethiopic needs checking-->
-                    <placeName xml:lang="en" corresp="#n1">House of the <roleName
-                        type="title">ʾǝč̣č̣age</roleName></placeName>
+                    <placeName xml:lang="en" corresp="#n1">House of the <roleName type="title">ʾǝč̣č̣age</roleName>
+               </placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -46,8 +61,12 @@
                         <geo>12.6000 37.4666</geo>
                     </location>
                     <listBibl type="secondary">
-                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                        <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
+                        <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                        <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAbunBet"/>
+                  </bibl>
                     </listBibl>
                     <note>
                         <ab type="description">ʾƎč̣č̣age Bet is a quarter west of the castles

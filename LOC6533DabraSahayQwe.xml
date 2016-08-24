@@ -3,16 +3,30 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6533DabraSahayQwe">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC6533DabraSahayQwe">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dabra Ḍahāy Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>ām</title>
                 <!--                FP: for some reason apices are not reflected in the title-->
                 <editor key="FP"/>
-            </titleStmt>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
             <publicationStmt>
-                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+                
                 <date>2016-08-16</date>
             </publicationStmt>
             <sourceDesc>
@@ -36,8 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1">Dabra Ḍahāy Q<hi rend="apices">w</hi>ǝsq<hi rend="apices"
-                            >w</hi>ām</placeName>
+                    <placeName xml:id="n1">Dabra Ḍahāy Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>ām</placeName>
                     <placeName xml:lang="gez" corresp="#n1">ደብረ፡ፀሃይ፡ቍስቋም</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
@@ -49,21 +62,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <!--                        used general coordinates for Gondar, i.e. not specific to this church-->
                     </location>
                     <listBibl type="secondary">
-                        <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                        <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
+                        <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                        <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAbunBet"/>
+                  </bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Dabra Ḍahāy Q<hi rend="apices">w</hi>ǝsq<hi
-                                rend="apices">w</hi>ām is a church in the north-western part of
+                        <ab type="description">Dabra Ḍahāy Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>ām is a church in the north-western part of
                                 <placeName ref="LOC3577Gondar">Gondar</placeName> and close to
                                 <placeName ref="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="#LOC6533DabraSahayQwe"
-                        passive="LOC6540Entone"/>
-                    <relation name="gn:nearBy" active="#LOC6533DabraSahayQwe"
-                        passive="LOC1058AbunBe"/>
+                    <relation name="gn:nearBy"
+                         active="#LOC6533DabraSahayQwe"
+                         passive="LOC6540Entone"/>
+                    <relation name="gn:nearBy"
+                         active="#LOC6533DabraSahayQwe"
+                         passive="LOC1058AbunBe"/>
                 </listRelation>
             </listPlace>
         </body>

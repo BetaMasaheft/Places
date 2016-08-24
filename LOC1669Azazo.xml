@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1669Azazo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1669Azazo">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>ʾAzazo</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -49,33 +63,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!--                 Geo coord based on Gazeteer -->
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:Wubneh2003EnAeAzazo"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2003EnAeAzazoTakla"/></bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAzazo"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAzazoTakla"/>
+                  </bibl>
                </listBibl>
                <note>
                   <ab type="history">ʾAzazo is a town located 13 km ca.
-                     southwest of the historic city of <placeName ref="LOC3577Gondar"
-                        >Gondar</placeName>. During the <date>17th century</date>, it became a major
+                     southwest of the historic city of <placeName ref="LOC3577Gondar">Gondar</placeName>. During the <date>17th century</date>, it became a major
                      religious and political centre and it remained a royal residence and a
                      residence of the <roleName type="function">ʾǝč̣č̣age</roleName> for much of the
-                        <date>18th and 19th century</date>. Under <roleName type="title"
-                        >ʾaṣe</roleName>
+                        <date>18th and 19th century</date>. Under <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> it became an important
                      residence for both the <roleName type="function">Emperor</roleName> and the
-                     Jesuits. It remained the seat of the <roleName type="function"
-                        >ʾǝč̣č̣age</roleName> until the <date>19th century</date>, even after the
+                     Jesuits. It remained the seat of the <roleName type="function">ʾǝč̣č̣age</roleName> until the <date>19th century</date>, even after the
                      establishment of the quarter of <placeName ref="LOC6535EccBet">ʾƎč̣č̣age
                         Bet</placeName> in <placeName ref="LOC3577Gondar">Gondar</placeName>. ʾAzazo
                      was the place where the monastery of <placeName ref="LOC2297DabraL">Dabra
-                        Libānos</placeName> was relocated from the <placeName ref="LOC5597Sawa"
-                        >Šawā</placeName> (cfr. <placeName ref="LOC1670AzazoT">ʾAzazo Takla
+                        Libānos</placeName> was relocated from the <placeName ref="LOC5597Sawa">Šawā</placeName> (cfr. <placeName ref="LOC1670AzazoT">ʾAzazo Takla
                         Hāymānot</placeName>). </ab>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1669Azazo" passive="LOC3577Gondar"/>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1669Azazo" passive="LOC6535EccBet"/>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1669Azazo" passive="LOC2297DabraL"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1669Azazo"
+                         passive="LOC3577Gondar"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1669Azazo"
+                         passive="LOC6535EccBet"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1669Azazo"
+                         passive="LOC2297DabraL"/>
             </listRelation>
          </listPlace>
       </body>

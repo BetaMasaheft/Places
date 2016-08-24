@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6543SouthOmo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC6543SouthOmo">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dabub Omo Zone</title>
                 <editor key="FP"/>
-            </titleStmt>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
             <publicationStmt>
-                <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+                
                 <date>2016-08-18</date>
             </publicationStmt>
             <sourceDesc>
@@ -39,12 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop"/>
                     <region ref="LOC6530Oromiyaa" type="RegionalState"/>
                     <location>
-                        <geo></geo>
+                        <geo/>
                     </location>
                     <listBibl type="secondary">
                         </listBibl>
                     <note>
-                    <ab type="description"></ab>
+                    <ab type="description"/>
                     </note>
                 </place>
                 <listRelation>
@@ -53,4 +67,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </body>
     </text>
 </TEI>
-

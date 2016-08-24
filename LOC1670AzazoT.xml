@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1670AzazoT">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1670AzazoT">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>ʾAzazo Takla Hāymānot</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -54,14 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!--                 Geo coord refer to the town of ʾAzazo and are based on Gazeteer -->
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2003EnAeAzazoTakla"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2003EnAeAzazo"/></bibl>
+                  <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAzazoTakla"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAzazo"/>
+                  </bibl>
                </listBibl>
                <note>
                   <date type="foundation" cert="low">17th-18th century</date>
-                  <desc type="foundation">Local priests believe that it was built by <roleName
-                        type="title">ʾaṣe</roleName>
+                  <desc type="foundation">Local priests believe that it was built by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> in the <date>17th
                         century</date>, while, according to <persName ref="PRS2916Bruce">James
                            Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">Iyāsu
@@ -76,18 +95,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">ʾAzazo Takla Hāymānot is located at the centre of a
                      hilltop, surrounded by a courtyard and a circular stone wall with a square
                      tower.</ab> 
-                     <ab type="tabot">At one hand of the courtyar, there is a semi-circular domed castle wher, according to local traditio, the tabot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo"
-       >ʾAzazo</placeName>, although the tabot's movements are actually quite complicated to reconstruct.</ab>
+                     <ab type="tabot">At one hand of the courtyar, there is a semi-circular domed castle wher, according to local traditio, the tabot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, although the tabot's movements are actually quite complicated to reconstruct.</ab>
                      <measure quantity="1"/>
                        </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1670AzazoT"
-                  passive="LOC2297DabraL">
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1670AzazoT"
+                         passive="LOC2297DabraL">
                   <desc>The monastic community of Dabra Libānos relocated to ʾAzazo Takla
                      Hāymānot.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1670AzazoT" passive="LOC3577Gondar">
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1670AzazoT"
+                         passive="LOC3577Gondar">
                   <desc>ʾAzazo Takla
                      Hāymānot is one of the so-called 44 churches of Gondar.</desc>
                </relation>

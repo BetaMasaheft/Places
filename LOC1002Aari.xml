@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1002Aari">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1002Aari">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Aari area</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-08-18</date>
          </publicationStmt>
          <sourceDesc>
@@ -48,16 +62,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <geo cert="medium">6.227592 36.797590</geo>
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:TsugeFord2003EnAeAari"/></bibl>
-                  <bibl><ptr target="bm:Tadesse2005EnAeGawla"/></bibl>
-                  <bibl><ptr target="bm:Tadesse2005EnAeGinka"/></bibl>
+                  <bibl>
+                     <ptr target="bm:TsugeFord2003EnAeAari"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Tadesse2005EnAeGawla"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Tadesse2005EnAeGinka"/>
+                  </bibl>
                </listBibl>
                <note>
                   <ab type="description">The Aari area is the south-western spur of the highlands
                      and adjacent lowlands of the <placeName ref="LOC6543SouthOmo">South
-                        Omo</placeName> Zone of <placeName ref="LOC6530Oromiyaa"
-                        >Oromiyaa</placeName> Regional State, to the north of the town of <placeName
-                        ref="LOC3508Jinka">Ğinkā</placeName>.</ab>
+                        Omo</placeName> Zone of <placeName ref="LOC6530Oromiyaa">Oromiyaa</placeName> Regional State, to the north of the town of <placeName ref="LOC3508Jinka">Ğinkā</placeName>.</ab>
                </note>
             </place>
             <listRelation>

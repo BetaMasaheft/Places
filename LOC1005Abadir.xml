@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1005Abadir">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1005Abadir">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Abādir ʿUmar ar-Riḍā Shrine</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -42,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1">Abādir ʿUmar ar-Riḍā</placeName>
                <!--              traslitteration of the name in Arabic not inserted -->
                <country ref="LOC3010Ethiop"/>
-               <region notBefore="1991" type="RegionalState" ref="LOC6545Harari" />
+               <region notBefore="1991" type="RegionalState" ref="LOC6545Harari"/>
                <region notAfter="1974" type="Province" ref="LOC3787Hararg"/>
                <settlement type="zone"/>
                <settlement type="city" ref="LOC3786Harar"/>       
@@ -50,24 +64,32 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <geo cert="low">9.295641 42.129846</geo>
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:Wagner2003EnAeAbadirUmar"/></bibl>
-                  <bibl><ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/></bibl>
-                  <bibl><ptr target="bm:AsanteEtAl2005EnAeHarar"/></bibl>
+                  <bibl>
+                     <ptr target="bm:Wagner2003EnAeAbadirUmar"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Zekaria2003EnAeAbdullahiMuhammad"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:AsanteEtAl2005EnAeHarar"/>
+                  </bibl>
                </listBibl>
                <note>
                   <date type="foundation" cert="low" atLeast="1850" atMost="1900">End of the 19th
                      Century</date>
-                  <ab type="description">This shrine is located inside the walls of <placeName
-                        ref="LOC3786Harar">Hārar</placeName> and is the tomb of <persName
-                        ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated
+                  <ab type="description">This shrine is located inside the walls of <placeName ref="LOC3786Harar">Hārar</placeName> and is the tomb of <persName ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated
                      saint in this town. It is also the tomb of <roleName type="title"> amīr </roleName>
                      <persName ref="PRS1216Abdulla">ʿAbdullāhi b. Muḥammad</persName>.
                   </ab>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="PRS1006Abadir" passive="#LOC1005Abadir"/>
-               <relation name="syriaca:has-relation-to-place" active="PRS1216Abdulla" passive="#LOC1005Abadir"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS1006Abadir"
+                         passive="#LOC1005Abadir"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="PRS1216Abdulla"
+                         passive="#LOC1005Abadir"/>
             </listRelation>
          </listPlace>
       </body>

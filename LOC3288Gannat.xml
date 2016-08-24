@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3288Gannat">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3288Gannat">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Gannat Tarrā</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -43,8 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1">ገነት፡ተራ</placeName>
                <placeName type="alt" xml:id="n2">Tǝgre Mač̣č̣ohyā</placeName>
                <placeName xml:lang="gez" corresp="#n2">ትግሬ፡መጮህያ</placeName>
-               <placeName xml:lang="eng" corresp="#n2"> Cry of <placeName ref="LOC5932Tegray"
-                     >Tǝgrāy</placeName></placeName>
+               <placeName xml:lang="eng" corresp="#n2"> Cry of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>
+               </placeName>
                <placeName type="alt" xml:id="n3">ʾĀč̣anākǝr</placeName>
                <placeName xml:lang="gez" corresp="#n3">አጨናክር</placeName>
                <!--               translitterations in gez need checking-->
@@ -58,16 +72,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
+                  <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAbunBet"/>
+                  </bibl>
                </listBibl>
                <note>
-                  <ab type="description">Gannat Tarrā is a hill in the northern part of <placeName
-                        ref="LOC3577Gondar">Gondar</placeName> overlooking the city. It used to be
+                  <ab type="description">Gannat Tarrā is a hill in the northern part of <placeName ref="LOC3577Gondar">Gondar</placeName> overlooking the city. It used to be
                      referred as <placeName>Tǝgre Mač̣č̣ohyā</placeName>, the area where people from
                         <placeName ref="LOC5932Tegray">Tǝgrāy</placeName> camped when they came to
-                        <placeName ref="LOC3577Gondar">Gondar</placeName> to appeal to the <roleName
-                        type="function">emperor</roleName>.</ab>
+                        <placeName ref="LOC3577Gondar">Gondar</placeName> to appeal to the <roleName type="function">emperor</roleName>.</ab>
                </note>
             </place>
          </listPlace>

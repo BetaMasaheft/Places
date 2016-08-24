@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1058AbunBe">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1058AbunBe">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>ʾAbun Bet</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -41,8 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="quarter">
                <placeName xml:id="n1">ʾAbun Bet</placeName>
                <placeName xml:lang="gez" corresp="#n1">አቡን፡ ቤት</placeName>
-               <placeName xml:lang="en" corresp="#n1">House of the <roleName type="title"
-                     >ʾabun</roleName></placeName>
+               <placeName xml:lang="en" corresp="#n1">House of the <roleName type="title">ʾabun</roleName>
+               </placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -53,8 +67,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!--                        used general coordinates for Gondar, i.e. not specific to this quarter-->
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2003EnAeAbunBet"/></bibl>
+                  <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAbunBet"/>
+                  </bibl>
                </listBibl>
                <note>
                   <ab type="description">ʾAbun Bet is a quarter north-west of the castles in
@@ -62,23 +80,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      the Metropolitan (<roleName type="title">ʾabun</roleName>) and a place of
                      asylum. Its location changed over the centuries: it was first located near
                         <placeName ref="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName> church; then, in
-                     the second half of the <date>18th century</date>, it was moved near <placeName
-                        ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church; finally, during the
-                     Italian occupation, it was briefly moved near <placeName
-                        ref="LOC6541DabraSahaySell">Dabra Śahāy Śǝllāse</placeName> before the site
+                     the second half of the <date>18th century</date>, it was moved near <placeName ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church; finally, during the
+                     Italian occupation, it was briefly moved near <placeName ref="LOC6541DabraSahaySell">Dabra Śahāy Śǝllāse</placeName> before the site
                      near <placeName ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church was restored
                      following the Italians' expulsion in <date>1941</date>.</ab>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
-                  passive="LOC6540Entone"/>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
-                  passive="LOC6539Gabrǝel"/>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
-                  passive="LOC6541DabraSahaySell"/>
-               <relation name="syriaca:has-relation-to-place" active="#LOC1058AbunBe"
-                  passive="LOC6535EccBet"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1058AbunBe"
+                         passive="LOC6540Entone"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1058AbunBe"
+                         passive="LOC6539Gabrǝel"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1058AbunBe"
+                         passive="LOC6541DabraSahaySell"/>
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC1058AbunBe"
+                         passive="LOC6535EccBet"/>
             </listRelation>
          </listPlace>
       </body>

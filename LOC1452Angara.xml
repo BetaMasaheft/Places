@@ -3,15 +3,29 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1452Angara">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1452Angara">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Small ʾAngarab</title>
             <editor key="FP"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -51,19 +65,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <!--                        used general coordinates for Gondar, i.e. not specific to this river-->
                </location>
                <listBibl type="secondary">
-                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
-                  <bibl><ptr target="bm:Wubneh2003EnAeAngarab"/></bibl>
+                  <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Wubneh2003EnAeAngarab"/>
+                  </bibl>
                </listBibl>
                <note>
                   <ab type="description">There are two rivers known by the name ʾAngarab. This
-                     record refers to the so called Small ʾAngarab (cfr. <placeName
-                        ref="LOC6536Angara">Great ʾAngarab</placeName>) which rises a few miles
+                     record refers to the so called Small ʾAngarab (cfr. <placeName ref="LOC6536Angara">Great ʾAngarab</placeName>) which rises a few miles
                      north of <placeName ref="LOC3577Gondar">Gondar</placeName> and flows southwards
                      to join the <placeName ref="LOC4402Magac">Megeč̣</placeName> river, which in
                      turn empties into the Lake <placeName ref="LOC5889Tana">Ṭānā</placeName>. The
                      Small ʾAngarab and the <placeName ref="LOC5148Qaha">Qāhā</placeName> river
-                     skirt the western and eastern sides of <placeName ref="LOC3577Gondar"
-                        >Gondar</placeName> respectively. They are the main sources of water of the
+                     skirt the western and eastern sides of <placeName ref="LOC3577Gondar">Gondar</placeName> respectively. They are the main sources of water of the
                      city and they join south of <placeName ref="LOC3577Gondar">Gondar</placeName>
                      near <placeName ref="LOC2999EslamB">ʾƎslām Bet</placeName>, before joining the
                         <placeName ref="LOC4402Magac">Megeč̣</placeName> river.</ab>
