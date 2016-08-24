@@ -39,10 +39,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1">ʾAzazo Takla Hāymānot</placeName>
-               <placeName xml:lang="gez" corresp="#n1">አዘዞ፡ተክለ፡ሃይማኖት</placeName>
-               <placeName type="alt" xml:id="n2">ʾAzazo Zadabra Libānos</placeName>
-               <placeName xml:lang="gez" corresp="#n2">አዘዞ፡ዘደብረ፡ሊባኖስ</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAzazo Takla Hāymānot</placeName>
+               <placeName xml:lang="gez" xml:id="n1" >አዘዞ፡ ተክለ፡ ሃይማኖት</placeName>
+               <placeName type="normalized" xml:lang="gez" corresp="#n2">ʾAzazo Za-Dabra Libānos</placeName>
+               <placeName xml:lang="gez" xml:id="n2">አዘዞ፡ ዘደብረ፡ ሊባኖስ</placeName>
                <!--              translitterazion in gez to be checked -->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
@@ -64,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> in the <date>17th
                         century</date>, while, according to <persName ref="PRS2916Bruce">James
-                        Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">Iyasu
+                           Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">Iyāsu
                         II</persName>, meaning it was built only in the <date>18th century</date>.</desc>
                   <ab type="history">ʾAzazo Takla Hāymānot is one of the so-called 44 churches of
                         <placeName ref="LOC3577Gondar">Gondar</placeName>. It is located in the town
