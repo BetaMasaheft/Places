@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-08-24" who="FP">further info and mark-up</change>
          <change when="2016-08-18" who="FP">corrections</change>
          <change when="2016-08-09" who="FP">inserted info and relations</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -53,10 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName xml:id="n1">Gondar</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ጎንደር</placeName>
-               <placeName type="alt" xml:id="n2">Gwandar</placeName>
-               <placeName xml:lang="gez" type="alt" corresp="#n2">ጐንደር</placeName>
+               <placeName xml:id="n1" xml:lang="amh">ጎንደር</placeName>
+               <placeName corresp="#n1" xml:lang="amh" type="normalized">Gondar</placeName>
+               <placeName xml:id="n2" xml:lang="amh" type="alt">ጐንደር</placeName>
+               <placeName corresp="#n2" xml:lang="amh" type="normalized">Gwandar</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -70,20 +71,56 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="description">The town of Gondar is located in today's <placeName ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
+                  <date type="foundation" cert="low">17th century</date>
+                  <desc type="foundation">Although the name "Gondar" is first mentioned in the
+                        <date>14th century</date> to designate a regiment of soldiers and
+                     subsequently was used to designate a small market town inhabited by Muslim
+                     traders and <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> craftsme,
+                     it developed as a major centre only after <roleName type="title"
+                        >ʾaṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
+                        <date>1636-1637</date>.</desc>
+                  <ab type="history">The town of Gondar is located in today's <placeName ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
                         <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
-                        <placeName ref="LOC1426Amhara">ʾAmhāra</placeName> Regional State. It
+                        <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State. It
                      evolved from an obscure <date>17th century</date> market town into the
                      flourishing capital of the Ethiopian monarchy, passed through an era of decline
                      and destruction and underwent a slow renaissance in the mid-<date>20th
-                        century</date>. It is today one of the largest cities in <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. Gondar started to flourish after
-                     ʾaṣe <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his
-                     camp to control the collection of customs on the <placeName ref="LOC5339RedSea">Red Sea</placeName> - <placeName ref="LOC5888Tana"> Ṭānā</placeName> -
-                        <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade routes. By the
-                     late <date>17th century</date>, Gondar had become a permanent and sizeable
-                     settlement where Ethiopians' rulers resided when not campaigning and where the
-                     highest commerical, political and religious classes gathered around the
-                     throne.</ab>
+                        century</date>. Gondar started to flourish after <roleName type="title"
+                        >ʾaṣe</roleName>
+                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his camp
+                     in <date>1636/'37</date> to control the collection of customs on the <placeName ref="LOC5339RedSea">Red Sea</placeName> - <placeName ref="LOC5888Tana">
+                        Ṭānā</placeName> - <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade
+                     routes. <persName ref="PRS4015Fasilada">Fāsiladas</persName> built the first
+                     nucleus including his castle, some churches and his pleasure pool. After him,
+                     his son <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10375Yohanne">Yoḥānnǝs I</persName> and grandson <roleName
+                        type="title">ʾaṣe</roleName>
+                     <persName ref="PRS5616IyasuI">Iyāsu I</persName> chose to remain in Gondar and
+                     built their own castles and churches. So by the late <date>17th century</date>,
+                     Gondar had become a permanent and sizeable settlement where Ethiopian rulers
+                     resided when not campaigning and where the highest commerical, political and
+                     religious classes gathered around the throne. In the <date>17th century</date>
+                     Gondar also became the major commercial centre of northern <placeName
+                        ref="LOC3010Ethiop">Ethiopia</placeName>. During the <date>18th
+                        century</date>, the royal compound was completed with the construction of
+                     castles by <persName ref="PRS3430DawitII">Dāwit III</persName>, <persName
+                        ref="PRS2377Bakaffa">Bakāffā</persName> and <persName ref="PRS5617IyasuII"
+                        >Iyāsu II</persName>, the church of <placeName ref="LOC1582ASSaSa">ʾAṭṭāṭāmi
+                        Mikāʾel</placeName> by <persName ref="PRS3430DawitII">Dāwit III</persName>
+                     and various subsidiary building the whole surrounded by a double wall with
+                     twelve gates and reinforcing towers. </ab>
+                  <ab type="description">Gondar has enjoyed a strategic positio: it is 35 km north
+                     of the lake <placeName ref="LOC5888Tana"> Ṭānā</placeName> close to the point
+                     where two strategic caravan routes joined. It also benefitted from being
+                     surrounded by a semi-cyrcle of mountains and close to fertile lands and water
+                     supply. Historically, Gondar population was divided into two main groups that
+                     lived in clearly separated quarters and neighbourhoods: the royal court and
+                     nobility on the one hand; the merchants, craftsmen and commoners on the other.
+                     Muslims and <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> had to live
+                     separated from the Christians and were assigned precise quarters. Gondar is
+                     today one of the largest cities in <placeName ref="LOC3010Ethiop"
+                        >Ethiopia</placeName>.</ab>
                </note>
             </place>
             <listRelation>
@@ -143,6 +180,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn"
                          active="LOC6542QannBet"
                          passive="#LOC3577Gondar"/>
+               
+               LOC1582ASSaSa
+               ʾAṣṣāṣāme Qǝddus Mikāʾel is a church built by <persName
+                  ref="PRS3430DawitII">Dāwit III</persName> in <placeName ref="LOC3577Gondar"
+                     >Gondar</placeName> in the first half of the <date>18th century</date>
             </listRelation>
          </listPlace>
       </body>
