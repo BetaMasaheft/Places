@@ -79,11 +79,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="#LOC6536Angara" passive="LOC3577Gondar"/>
-                    <relation name="gn:nearBy" active="#LOC6536Angara" passive="LOC1598Atbara"/>
-                    <relation name="gn:nearBy" active="#LOC6536Angara" passive="LOC2580Dawa"/>
-                    <relation name="gn:nearBy" active="#LOC6536Angara" passive="LOC1537Armace"/>
-                    <relation name="gn:nearBy" active="#LOC6536Angara" passive="LOC6144Wagara"/>
+                    <relation name="gn:nearBy" active="LOC6536Angara" passive="LOC3577Gondar"/>
+                    <relation name="gn:nearBy" active="LOC6536Angara" passive="LOC1598Atbara"/>
+                    <relation name="gn:nearBy" active="LOC6536Angara" passive="LOC2580Dawa"/>
+                    <relation name="gn:nearBy" active="LOC6536Angara" passive="LOC1537Armace"/>
+                    <relation name="gn:nearBy" active="LOC6536Angara" passive="LOC6144Wagara"/>
                     </listRelation>
             </listPlace>
         </body>

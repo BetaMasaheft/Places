@@ -88,13 +88,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1669Azazo"
+                         active="LOC1669Azazo"
                          passive="LOC3577Gondar"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1669Azazo"
+                         active="LOC1669Azazo"
                          passive="LOC6535EccBet"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1669Azazo"
+                         active="LOC1669Azazo"
                          passive="LOC2297DabraL"/>
             </listRelation>
          </listPlace>

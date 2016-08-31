@@ -82,10 +82,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:locatedIn" active="#LOC3291Gannat" passive="LOC6546Wagan">
+               <relation name="gn:locatedIn" active="LOC3291Gannat" passive="LOC6546Wagan">
                   <desc>Gannata ʾIyasus is located on ʾAṣe Wagan hill.</desc>
                </relation>
-               <relation name="gn:nearBy" active="#LOC3291Gannat" passive="LOC1670AzazoT">
+               <relation name="gn:nearBy" active="LOC3291Gannat" passive="LOC1670AzazoT">
                   <desc>Gannata ʾIyasus is located near ʾAzazo Takla Hāymānot.</desc>
                </relation>
             </listRelation>

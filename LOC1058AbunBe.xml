@@ -88,16 +88,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1058AbunBe"
+                         active="LOC1058AbunBe"
                          passive="LOC6540Entone"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1058AbunBe"
+                         active="LOC1058AbunBe"
                          passive="LOC6539Gabrǝel"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1058AbunBe"
+                         active="LOC1058AbunBe"
                          passive="LOC6541DabraSahaySell"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1058AbunBe"
+                         active="LOC1058AbunBe"
                          passive="LOC6535EccBet"/>
             </listRelation>
          </listPlace>

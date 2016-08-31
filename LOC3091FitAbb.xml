@@ -78,7 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:nearBy" active="#LOC3091FitAbb" passive="LOC1526Arbaet"/>
+               <relation name="gn:nearBy" active="LOC3091FitAbb" passive="LOC1526Arbaet"/>
             </listRelation>
          </listPlace>
       </body>

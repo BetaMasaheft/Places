@@ -86,10 +86,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
                          active="PRS1006Abadir"
-                         passive="#LOC1005Abadir"/>
+                         passive="LOC1005Abadir"/>
                <relation name="syriaca:has-relation-to-place"
                          active="PRS1216Abdulla"
-                         passive="#LOC1005Abadir"/>
+                         passive="LOC1005Abadir"/>
             </listRelation>
          </listPlace>
       </body>

@@ -101,18 +101,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1670AzazoT"
+                         active="LOC1670AzazoT"
                          passive="LOC2297DabraL">
                   <desc>The monastic community of Dabra Libānos relocated to ʾAzazo Takla
                      Hāymānot.</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC1670AzazoT"
+                         active="LOC1670AzazoT"
                          passive="LOC3577Gondar">
                   <desc>ʾAzazo Takla
                      Hāymānot is one of the so-called 44 churches of Gondar.</desc>
                </relation>
-               <relation name="gn:nearBy" active="#LOC1670AzazoT" passive="LOC5888Tana">
+               <relation name="gn:nearBy" active="LOC1670AzazoT" passive="LOC5888Tana">
                   <desc>ʾAzazo Takla
                      Hāymānot is in the Lake Ṭānā area.</desc>
                </relation>

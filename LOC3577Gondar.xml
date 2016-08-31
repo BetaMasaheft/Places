@@ -124,62 +124,62 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:nearBy" active="#LOC3577Gondar" passive="LOC5888Tana">
+               <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC5888Tana">
                   <desc>Gondar is in a strategic location 35 km north of the Lake Ṭānā.</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmānt territory.</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC5148Qaha"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC1452Angara"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC4775Menzer"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC1058AbunBe"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC6535EccBet"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC6534Addaba"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC2999EslamB"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC4506Manbar"
+                         active="LOC4506Manbar"
                          passive="LOC3577Gondar"/>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3407GemjaB"
+                         active="LOC3407GemjaB"
                          passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC3091FitAbb" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC1009Abarra" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC4038KaylaM" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC1526Arbaet" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC2825ElfenG" passive="LOC3577Gondar"/>
-               <relation name="gn:nearBy" active="#LOC3288Gannat" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC3091FitAbb" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC1009Abarra" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC4038KaylaM" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC1526Arbaet" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC2825ElfenG" passive="LOC3577Gondar"/>
+               <relation name="gn:nearBy" active="LOC3288Gannat" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn"
-                         active="#LOC6541DabraSahaySell"
+                         active="LOC6541DabraSahaySell"
                          passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn"
-                         active="#LOC6533DabraSahayQwe"
+                         active="LOC6533DabraSahayQwe"
                          passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC6540Entone" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC6540Entone" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn"
-                         active="#LOC6539Gabrǝel"
+                         active="LOC6539Gabrǝel"
                          passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC1059AbunMa" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn" active="#LOC2651Dengay" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC1059AbunMa" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC2651Dengay" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn"
                          active="LOC6542QannBet"
-                         passive="#LOC3577Gondar"/>
+                         passive="LOC3577Gondar"/>
                
                LOC1582ASSaSa
                ʾAṣṣāṣāme Qǝddus Mikāʾel is a church built by <persName

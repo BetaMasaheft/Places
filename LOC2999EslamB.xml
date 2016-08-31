@@ -80,8 +80,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC1452Angara"/>
-               <relation name="gn:nearBy" active="#LOC2999EslamB" passive="LOC5148Qaha"/>
+               <relation name="gn:nearBy" active="LOC2999EslamB" passive="LOC1452Angara"/>
+               <relation name="gn:nearBy" active="LOC2999EslamB" passive="LOC5148Qaha"/>
             </listRelation>
          </listPlace>
       </body>
