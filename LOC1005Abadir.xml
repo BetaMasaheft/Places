@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-09-21" who="FP">corrected information required for place name</change>
          <change when="2016-08-22" who="FP">corrections</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -53,7 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName xml:id="n1">Abādir ʿUmar ar-Riḍā</placeName>
+               <placeName xml:id="n1" xml:lang="ar"></placeName>
+               <placeName corresp="#n1" xml:lang="ar" type="normalized">Abādir ʿUmar ar-Riḍā</placeName>
                <!--              traslitteration of the name in Arabic not inserted -->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC6545Harari"/>
