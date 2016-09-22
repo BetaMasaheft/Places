@@ -3,29 +3,27 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC6537Angara">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6537Angara">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ʾAngarab</title>
                 <editor key="FP"/>
-            <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
             <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <pubPlace>Hamburg</pubPlace>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
-            <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
-               </licence>
-            </availability>
-                
+                <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+                    Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p> This file is licensed under the Creative Commons Attribution-ShareAlike
+                            4.0. </p>
+                    </licence>
+                </availability>
+
                 <date>2016-08-12</date>
             </publicationStmt>
             <sourceDesc>
@@ -38,9 +36,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-09-22" who="FP">made corrections to place name structure and info
+                required as per Eugenia's email dated 24/08/2016 and changed xml:lang to Amharic</change>
             <change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-12" who="FP">created new record</change>
         </revisionDesc>
@@ -49,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="town">
-                    <placeName xml:id="n1">ʾAngarab</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">አንገረብ</placeName>
+                    <placeName xml:id="n1" xml:lang="am">አንገረብ፡</placeName>
+                    <placeName  corresp="#n1" xml:lang="am" type="normalized">ʾAngarab</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province"/>
@@ -60,11 +61,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </location>
                     <listBibl type="secondary">
                         <bibl>
-                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
-                  </bibl>
+                            <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                        </bibl>
                         <bibl>
-                     <ptr target="bm:Wubneh2003EnAeAngarab"/>
-                  </bibl>
+                            <ptr target="bm:Wubneh2003EnAeAngarab"/>
+                        </bibl>
                     </listBibl>
                     <note>
                         <ab type="description">ʾAngarab is the name of a small town situated on the

@@ -3,29 +3,27 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC6546Wagan">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6546Wagan">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>ʾAṣe Wagan</title>
                 <editor key="FP"/>
-            <funder>Akademie der Wissenschaften in Hamburg</funder>
-         </titleStmt>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
             <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <pubPlace>Hamburg</pubPlace>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
-            <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
-               </licence>
-            </availability>
-                
+                <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+                    Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p> This file is licensed under the Creative Commons Attribution-ShareAlike
+                            4.0. </p>
+                    </licence>
+                </availability>
+
                 <date>2016-08-23</date>
             </publicationStmt>
             <sourceDesc>
@@ -38,9 +36,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-09-22" who="FP">made corrections to place name structure and info
+                required as per Eugenia's email dated 24/08/2016 and changed xml:lang to Amharic</change>
             <change when="2016-08-23" who="FP">created new record</change>
         </revisionDesc>
     </teiHeader>
@@ -48,9 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="hill">
-                    <placeName xml:id="n1">ʾAṣe Wagan</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">አጼ፡ወገን</placeName>
-                    <!--                    translitteration in gez to be checked-->
+                    <placeName xml:id="n1" xml:lang="am">አጼ፡ ወገን፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAṣe Wagan</placeName>
+                    <!--                    translitteration in fidel by FP and xml:lang assigned as Amharic to be checked-->
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -62,11 +63,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </location>
                     <listBibl type="secondary">
                         <bibl>
-                     <ptr target="bm:Wubneh2003EnAeAzazo"/>
-                  </bibl>
+                            <ptr target="bm:Wubneh2003EnAeAzazo"/>
+                        </bibl>
                         <bibl>
-                     <ptr target="bm:Wubneh2005EnAeGannataI"/>
-                  </bibl>
+                            <ptr target="bm:Wubneh2005EnAeGannataI"/>
+                        </bibl>
                     </listBibl>
                     <note>
                         <ab type="description">ʾAṣe Wagan is the name of a hill in the town of
@@ -77,9 +78,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="LOC6546Wagan"
-                         passive="LOC3291Gannat">
+                    <relation name="syriaca:has-relation-to-place" active="LOC6546Wagan"
+                        passive="LOC3291Gannat">
                         <desc>The church of Gannata ʾIyasus was built on the ʾAṣe Wagan hill in the
                             17th century.</desc>
                     </relation>

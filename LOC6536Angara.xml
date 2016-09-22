@@ -36,11 +36,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change when="2016-09-21" who="FP">made corrections to place name structure and info
-                required as per Eugenia's email dated 24/08/2016</change>
+                required as per Eugenia's email dated 24/08/2016 and changed xml:lang to Amharic</change>
             <change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-11" who="FP">created new record</change>
         </revisionDesc>
@@ -49,12 +50,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="river">
-                    <placeName xml:id="n1" xml:lang="gez">አንገረብ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAngarab</placeName>
+                    <placeName xml:id="n1" xml:lang="am">አንገረብ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAngarab</placeName>
                     <placeName xml:id="n2" xml:lang="en" type="alt">Great ʾAngarab</placeName>
-                    <placeName xml:id="n3" xml:lang="gez" type="alt">ጓንግ፡</placeName>
-                    <placeName corresp="#n3" xml:lang="gez" type="normalized">G<hi rend="apices">w</hi>āng</placeName>
-                    <!--                    translitteration in gez (by FP) and xml:lang assigned as gez to be checked-->
+                    <placeName xml:id="n3" xml:lang="am" type="alt">ጓንግ፡</placeName>
+                    <placeName corresp="#n3" xml:lang="am" type="normalized">G<hi rend="apices">w</hi>āng</placeName>
+                    <!--                    translitteration in gez (by FP) and xml:lang assigned as Amharic to be checked-->
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province"/>

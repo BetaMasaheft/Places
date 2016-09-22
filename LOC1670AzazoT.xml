@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" xml:id="n1" >አዘዞ፡ ተክለ፡ ሃይማኖት፡</placeName>
                <placeName type="normalized" xml:lang="gez" corresp="#n2">ʾAzazo Za-Dabra Libānos</placeName>
                <placeName type="alt" xml:lang="gez" xml:id="n2">አዘዞ፡ ዘደብረ፡ ሊባኖስ፡</placeName>
-               <!--              translitterazion in gez to be checked -->
+               <!--              translitterazion in fidel by FP and xml:lang assigned as gez to be checked -->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
