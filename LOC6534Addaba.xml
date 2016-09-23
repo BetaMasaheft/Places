@@ -38,9 +38,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-09-23" who="FP">made corrections to place name structure and info
+                required as per Eugenia's email dated 24/08/2016</change>
             <change when="2016-08-18" who="FP">small changes</change>
             <change when="2016-08-10" who="FP">created new record</change>
         </revisionDesc>
@@ -49,9 +52,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="quarter">
-                    <placeName xml:id="n1">ʾAddabābāy</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">አደባባይ</placeName>
-                    <!--                    transcription in Ethiopic needs checking-->
+                    <placeName xml:id="n1" xml:lang="am" >አደባባይ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAddabābāy</placeName>
+                    <!--                    transcription in fidel and xml:lang assigned as Amharic need checking-->
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

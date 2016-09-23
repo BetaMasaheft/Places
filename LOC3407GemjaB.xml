@@ -41,6 +41,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-09-23" who="FP">made corrections to place name structure and info
+            required as per Eugenia's email dated 24/08/2016</change>
          <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-09" who="FP">added info and relation to Gondar</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -53,9 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1">Gǝmǧā Bet Māryām</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ግምጃ፡ቤት፡ማርያም</placeName>
-               <!--               translitteration in gez to be checked-->
+               <placeName xml:id="n1" xml:lang="gez">ግምጃ፡ ቤት፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gǝmǧā Bet Māryām</placeName>
+               <!--               translitteration in fidel by FP and xml:lang assigned as gez to be checked-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

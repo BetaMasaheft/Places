@@ -38,9 +38,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-09-23" who="FP">made corrections to place name structure and info
+            required as per Eugenia's email dated 24/08/2016</change>
          <change when="2016-08-19" who="FP">corrections</change>
          <change when="2016-08-12" who="FP">added info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -53,15 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="hill">
-               <placeName xml:id="n1">Gannat Tarrā</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ገነት፡ተራ</placeName>
-               <placeName type="alt" xml:id="n2">Tǝgre Mač̣č̣ohyā</placeName>
-               <placeName xml:lang="gez" corresp="#n2">ትግሬ፡መጮህያ</placeName>
-               <placeName xml:lang="eng" corresp="#n2"> Cry of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>
+               <placeName xml:id="n1" xml:lang="am">ገነት፡ ተራ፡</placeName>
+               <placeName  corresp="#n1" xml:lang="am" type="normalized">Gannat Tarrā</placeName>
+               <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡ መጮህያ፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre Mač̣č̣ohyā</placeName>
+               <placeName corresp="#n2" xml:lang="en"> Cry of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>
                </placeName>
-               <placeName type="alt" xml:id="n3">ʾĀč̣anākǝr</placeName>
-               <placeName xml:lang="gez" corresp="#n3">አጨናክር</placeName>
-               <!--               translitterations in gez need checking-->
+               <placeName xml:id="n3" xml:lang="am" type="alt">አጨናክር፡</placeName>
+               <placeName corresp="#n3" xml:lang="am" type="normalized">ʾĀč̣anākǝr</placeName>
+               <!--               translitterations in fidel by FP and xml:lang assigned as gez need checking-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

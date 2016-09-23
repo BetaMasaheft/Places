@@ -41,6 +41,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-09-23" who="FP">made corrections to place name structure and info
+                required as per Eugenia's email dated 24/08/2016</change>
             <change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-16" who="FP">created new record</change>
         </revisionDesc>
@@ -49,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1">Dabra Ḍahāy Śǝllāse</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">ደብረ፡ፀሃይ፡ሥላሴ</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ፀሃይ፡ ሥላሴ፡</placeName>
+                    <placeName  corresp="#n1" xml:lang="gez" type="normalized">Dabra Ḍahāy Śǝllāse</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

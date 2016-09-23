@@ -41,6 +41,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-09-22" who="FP">made corrections to place name structure and info
+            required as per Eugenia's email dated 24/08/2016</change>
          <change when="2016-08-18" who="FP">corrections</change>
          <change when="2016-08-11" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -53,9 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName xml:id="n1">ʾAbun Bet</placeName>
-               <placeName xml:lang="gez" corresp="#n1">አቡን፡ ቤት</placeName>
-               <placeName xml:lang="en" corresp="#n1">House of the <roleName type="title">ʾabun</roleName>
+               <placeName xml:id="n1" xml:lang="gez" >አቡን፡ ቤት፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAbun Bet</placeName>
+               <placeName corresp="#n1" xml:lang="en">House of the <roleName type="title">ʾabun</roleName>
                </placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
