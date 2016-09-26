@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC2806Egziab">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2806Egziab">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝgziʾabǝḥer Ab</title>
+            <title>ʾƎgziʾabǝḥer ʾAb</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -43,9 +40,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-09-23" who="FP">completed record with info</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -53,7 +51,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝgziʾabǝḥer Ab</placeName>
+               <placeName xml:id="n1" xml:lang="gez">እግዚአብሔር፡ አብ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎgziʾabǝḥer
+                  ʾAb</placeName>
+               <!--               translitteration and lang assigned to be checked-->
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
+               <location>
+                  <geo cert="medium">12.6000 37.4666</geo>
+                  <!--                  geo coord refer to Gondar as a whole-->
+               </location>
+               <listBibl type="secondary">
+                  <bibl><ptr target="bm:BerryEtAl2005EnAeGondar"/></bibl>
+               </listBibl>
+               <note>
+                  <date type="foundation" notBefore="1881">Late 19th century</date>
+                  <ab type="description">In <date>1881</date>, <persName ref="PRS10378Yohanne"
+                        >Yoḥānnǝs IV</persName> burnt the mosque in <placeName ref="LOC2999EslamB"
+                           >ʾƎslām Bet</placeName> and built the church of ʾƎgziʾabǝḥer ʾAb</ab>
+               </note>
             </place>
          </listPlace>
       </body>

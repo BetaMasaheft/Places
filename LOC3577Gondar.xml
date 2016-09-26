@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3577Gondar">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3577Gondar">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,17 +12,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -38,9 +36,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-09-23" who="FP">corrected xml:lang, some transcription and added info to
+            record</change>
          <change when="2016-08-24" who="FP">further info and mark-up</change>
          <change when="2016-08-18" who="FP">corrections</change>
          <change when="2016-08-09" who="FP">inserted info and relations</change>
@@ -54,10 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName xml:id="n1" xml:lang="amh">ጎንደር</placeName>
-               <placeName corresp="#n1" xml:lang="amh" type="normalized">Gondar</placeName>
-               <placeName xml:id="n2" xml:lang="amh" type="alt">ጐንደር</placeName>
-               <placeName corresp="#n2" xml:lang="amh" type="normalized">Gwandar</placeName>
+               <placeName xml:id="n1" xml:lang="am">ጎንደር፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">Gondar</placeName>
+               <placeName xml:id="n2" xml:lang="am" type="alt">ጐንደር፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Gwandar</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -80,7 +81,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         >ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
                         <date>1636-1637</date>.</desc>
-                  <ab type="history">The town of Gondar is located in today's <placeName ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
+                  <ab type="history">The town of Gondar is located in today's <placeName
+                        ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
                         <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
                         <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State. It
                      evolved from an obscure <date>17th century</date> market town into the
@@ -89,7 +91,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         century</date>. Gondar started to flourish after <roleName type="title"
                         >ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose Gondar as his camp
-                     in <date>1636/'37</date> to control the collection of customs on the <placeName ref="LOC5339RedSea">Red Sea</placeName> - <placeName ref="LOC5888Tana">
+                     in <date>1636/'37</date> to control the collection of customs on the <placeName
+                        ref="LOC5339RedSea">Red Sea</placeName> - <placeName ref="LOC5888Tana">
                         Ṭānā</placeName> - <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade
                      routes. <persName ref="PRS4015Fasilada">Fāsiladas</persName> built the first
                      nucleus including his castle, some churches and his pleasure pool. After him,
@@ -109,7 +112,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         >Iyāsu II</persName>, the church of <placeName ref="LOC1582ASSaSa">ʾAṭṭāṭāmi
                         Mikāʾel</placeName> by <persName ref="PRS3430DawitII">Dāwit III</persName>
                      and various subsidiary building the whole surrounded by a double wall with
-                     twelve gates and reinforcing towers. </ab>
+                     twelve gates and reinforcing towers. By the late <date>18th century</date> no
+                     more castles were built and from the <date>19th century</date> Gondar gradually
+                     lost its political power and shrank in size while the centre of the power moved
+                     to <placeName ref="LOC5597Sawa">Šawā</placeName>. <persName
+                        ref="PRS9430Tewodros">Tewodros II</persName> set his capital in <placeName
+                        ref="LOC2385DabraT">Dabra Tābor</placeName> and, in <date>1866</date>
+                     attacked, burnt and looted Gondar. Finally, in 1888 and 1889, the Mahdists
+                     attacked and burnt down what was left of the city which saw some redevelopment
+                     only in the <date>1920s</date> . During the Italian occupation, it became the
+                     capital of the <placeName ref="LOC6552Amhara">Provincia di Amhara</placeName> (one of six provinces forming the <placeName ref="LOC6553Africa">Africa
+                        Orientale Italiana</placeName>) and was restructured and rebuilt along modernist lines.</ab>
                   <ab type="description">Gondar has enjoyed a strategic positio: it is 35 km north
                      of the lake <placeName ref="LOC5888Tana"> Ṭānā</placeName> close to the point
                      where two strategic caravan routes joined. It also benefitted from being
@@ -127,64 +140,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC5888Tana">
                   <desc>Gondar is in a strategic location 35 km north of the Lake Ṭānā.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC4051Kemant">
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmānt territory.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC5148Qaha"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC1452Angara"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC4775Menzer"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC1058AbunBe"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC6535EccBet"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC6534Addaba"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3577Gondar"
-                         passive="LOC2999EslamB"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC4506Manbar"
-                         passive="LOC3577Gondar"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3407GemjaB"
-                         passive="LOC3577Gondar"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC5148Qaha"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC1452Angara"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC4775Menzer"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC1058AbunBe"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC6535EccBet"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC6534Addaba"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
+                  passive="LOC2999EslamB"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC4506Manbar"
+                  passive="LOC3577Gondar"/>
+               <relation name="syriaca:has-relation-to-place" active="LOC3407GemjaB"
+                  passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC3091FitAbb" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC1009Abarra" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC4038KaylaM" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC1526Arbaet" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC2825ElfenG" passive="LOC3577Gondar"/>
                <relation name="gn:nearBy" active="LOC3288Gannat" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn"
-                         active="LOC6541DabraSahaySell"
-                         passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn"
-                         active="LOC6533DabraSahayQwe"
-                         passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC6541DabraSahaySell" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC6533DabraSahayQwe" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC6540Entone" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn"
-                         active="LOC6539Gabrǝel"
-                         passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC6539Gabrǝel" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC1059AbunMa" passive="LOC3577Gondar"/>
                <relation name="gn:locatedIn" active="LOC2651Dengay" passive="LOC3577Gondar"/>
-               <relation name="gn:locatedIn"
-                         active="LOC6542QannBet"
-                         passive="LOC3577Gondar"/>
-               
-               LOC1582ASSaSa
-               ʾAṣṣāṣāme Qǝddus Mikāʾel is a church built by <persName
-                  ref="PRS3430DawitII">Dāwit III</persName> in <placeName ref="LOC3577Gondar"
-                     >Gondar</placeName> in the first half of the <date>18th century</date>
+               <relation name="gn:locatedIn" active="LOC6542QannBet" passive="LOC3577Gondar"/>
+               <relation name="gn:locatedIn" active="LOC1582ASSaSa" passive="#LOC3577Gondar">
+                  <desc>Church located in Gondar</desc>
+               </relation>
+               <relation name="gn:locatedIn" active="LOC1676Baata" passive="#LOC3577Gondar">
+                  <desc>Church located in Gondar</desc>
+               </relation>
+               <relation name="gn:locatedIn" active="LOC6551RasB" passive="#LOC3577Gondar">
+                  <desc>Castle serving as headquarters of noblemen located in Gondar</desc>
+               </relation>
+               <relation name="gn:locatedIn" active="LOC2806Egziab" passive="#LOC3577Gondar">
+                  <desc>Church built by Yoḥānnǝs IV in Gondar</desc>
+               </relation>
             </listRelation>
          </listPlace>
       </body>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6551RasB">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rās Bet</title>
+                <editor key="FP"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+                    Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <p> This file is licensed under the Creative Commons Attribution-ShareAlike
+                            4.0. </p>
+                    </licence>
+                </availability>
+
+                <date>2016-09-23</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-09-23" who="FP">new record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="castle">
+                    <placeName xml:id="n1" xml:lang="am">ራስ፡ ቤት፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">Rās Bet</placeName>
+                    <placeName xml:id="n2" xml:lang="am" type="alt">ራስ፡ ግምብ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="am" type="normalized">Rās Gǝmb</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+                    <settlement type="zone" ref="LOC6544NorthGondar"/>
+                    <settlement type="town" ref="LOC3577Gondar"/>
+                    <location>
+                        <geo>12.6000 37.4666</geo>
+<!--                        geo coord refer to Gondar rather than being specific for this quarter-->
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                        </bibl>
+                    </listBibl>
+                    <note>
+                        <date type="foundation">18th century</date>
+                        <ab type="description">This is a miniature caslte built in the
+                                <date>mid-18th century</date> in <placeName ref="LOC3577Gondar"
+                                >Gondar</placeName> to serve as the headquarters of the noblemen
+                            that effectively governed the kingdom.</ab>
+                    </note>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
