@@ -78,7 +78,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Although the name "Gondar" is first mentioned in the
                         <date>14th century</date> to designate a regiment of soldiers and it was
                      subsequently used to designate a small market town inhabited by Muslim traders
-                     and <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> craftsmen it
+                     and <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> craftsmen, it
                      developed as a major centre only after <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
                         <date>1636-1637</date>.</desc>
@@ -112,8 +112,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         ref="PRS2377Bakaffa">Bakāffā</persName> and <persName ref="PRS5617IyasuII"
                         >Iyāsu II</persName>, the church of <placeName ref="LOC1582ASSaSa">ʾAṭṭāṭāmi
                         Mikāʾel</placeName> by <persName ref="PRS3430DawitII">Dāwit III</persName>
-                     and various subsidiary building, the whole surrounded by a double wall with
-                     twelve gates and reinforcing towers. However, by the late <date>18th
+                     and various subsidiary buildings (the whole surrounded by a double wall with
+                     twelve gates and reinforcing towers). However, by the late <date>18th
                         century</date>, no more castles were built and, from the <date>19th
                         century</date>, Gondar gradually lost its political power and shrank in size
                      while the centre of the power moved to <placeName ref="LOC5597Sawa"
@@ -131,7 +131,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> and <placeName
                         ref="LOC5671Semen">Sǝmen</placeName>, flourished and grew in population
                      becoming a major commercial and cultural centre.</ab>
-                  <ab type="description">Gondar has enjoyed a strategic positio: it is 35 km north
+                  <ab type="description">Gondar has enjoyed a strategic position: it is 35 km north
                      of the lake <placeName ref="LOC5888Tana"> Ṭānā</placeName> close to the point
                      where two strategic caravan routes joined. It also benefitted from being
                      surrounded by a semi-cyrcle of mountains and close to fertile lands and water
