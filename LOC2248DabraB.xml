@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC2248DabraB">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2248DabraB">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Bǝrhan Śǝllase</title>
+            <title>Dabra Bǝrhān Śǝllāse</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -43,9 +40,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-10-03" who="FP">added info to record</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -53,8 +51,54 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Däbrä Bǝrhan Śǝllase</placeName>
-               <region>Gondär</region>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ብርሃን፡ ሥላሴ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Bǝrhān
+                  Śǝllāse</placeName>
+               <placeName corresp="#n1" xml:lang="en">Mount of Light of the Trinity</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ሥሉስ፡ ቅዱስ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Śǝllus Qǝddus</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <settlement type="town" ref="LOC3577Gondar"/>
+               <location>
+                  <geo>12.6000 37.4666</geo>
+                  <!--                  general geo coord for Gondar, not specific to this church-->
+               </location>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:PankhurstBalicka2005EnAeDabraBS"/>
+                  </bibl>
+               </listBibl>
+               <note>
+                  <date type="foundation">1694</date>
+                  <ab type="history">Dabra Bǝrhān Śǝllāse was an influential church situated on an
+                     elevated land north-west of <placeName ref="LOC3577Gondar">Gondar</placeName>
+                     and consecrated in <date>1694</date> during the reign of <roleName type="title"
+                        >ʾaṣe</roleName>
+                     <persName ref="PRS5616IyasuI">Iyāsu I</persName>. The original establishment
+                     included 170 clergy and generous land grants. In this church the <roleName
+                        type="function">emperor</roleName> and his court celebrated the Feast of the
+                     Trinity. The church was destroyed by lightning in <date>1707</date> but
+                     immediately rebuilt. Probably between <date>1800</date> and <date>1830</date>,
+                     it was replaced by the current rectangular building which survived the attack
+                     of Gondar by the dervishes in <date>1888</date>.</ab>
+                  <ab type="description">Dabra Bǝrhān Śǝllāse is described in both the Chronicle and
+                     in the Vita of <persName ref="PRS5616IyasuI">Iyāsu I</persName>. The <roleName
+                        type="function">emperor</roleName> himself prescribed that the round walls
+                     had to be four cubits thick and exactly one hundred cubits from north to south
+                     and from east to west. The central part of the church was encircled by twelve
+                     entrances with twelve pillars supporting arcades. The roof was surmounted by a
+                     gold roof decoration (gullǝlat) and a large gold cross holding spheres the size
+                     of ostrich eggs. The belfry had two large bells. The rectangular church built
+                     in the <date>19th century</date> has a rectangular hall with a half-circular
+                     apse at the east end, three entrances (north, south, west) and a thatched roof.
+                     The inside of the church is completely covered by paintings.</ab>
+               </note>
             </place>
          </listPlace>
       </body>
