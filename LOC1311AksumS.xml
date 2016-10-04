@@ -56,6 +56,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Aksum Ṣǝyon</placeName>
                <placeName type="alt">Gäbäzä Ṣǝyon</placeName>
                <placeName type="alt">Maryam Ṣǝyon; Ǝnda Maryam Ṣǝyon</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notAfter="1974" type="Province" ref=""/>
+               <settlement type="zone" ref=""/>
+               <settlement type="town" ref="LOC1310Aksum"/>
+               <location>
+                  <geo>14.1305 38.7195</geo>
+               </location>
+            <listBibl type="secondary">
+               <bibl>
+                  <ptr target="bm:MunroHay2003EnAeAksumS"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:MunroHayFattovich2003EnAeAksum"/>
+                                 </bibl>
+            <bibl>
+               <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+            </bibl>
+            </listBibl>
             </place>
          </listPlace>
       </body>
