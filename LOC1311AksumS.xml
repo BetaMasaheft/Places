@@ -3,10 +3,7 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC1311AksumS">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1311AksumS">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -16,22 +13,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -45,9 +42,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change when="2016-10-04" who="FP">added info to record</change>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -61,28 +58,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Māryām Ṣǝyon</placeName>
                <placeName corresp="#n2" xml:lang="en">Mary of Zion</placeName>
                <placeName xml:id="n3" xml:lang="gez" type="alt">እንዳ፡ ማርያም፡ ጽዮን፡</placeName>
-               <placeName corresp="n3" xml:lang="gez" type="normalized">ʾƎndā Māryām Ṣǝyon</placeName>
+               <placeName corresp="n3" xml:lang="gez" type="normalized">ʾƎndā Māryām
+                  Ṣǝyon</placeName>
                <placeName xml:id="n4" xml:lang="gez" type="alt">ገበዘ፡ ጽዮን፡</placeName>
                <placeName corresp="#n4" xml:lang="gez" type="normalized">Gabaza Ṣǝyon</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <region notAfter="1974" type="Province" ref=""/>
+               <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
+               <!--               need to verify ʾAksum belonging to Tǝgre rather than Bagemdǝr province before 1974 reforms-->
                <settlement type="zone" ref="LOC6555CentralTegray"/>
                <settlement type="town" ref="LOC1310Aksum"/>
                <location>
                   <geo>14.1305 38.7195</geo>
                </location>
-            <listBibl type="secondary">
-               <bibl>
-                  <ptr target="bm:MunroHay2003EnAeAksumS"/>
-               </bibl>
-               <bibl>
-                  <ptr target="bm:MunroHayFattovich2003EnAeAksum"/>
-                                 </bibl>
-            <bibl>
-               <ptr target="bm:BerryEtAl2005EnAeGondar"/>
-            </bibl>
-            </listBibl>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:MunroHay2003EnAeAksumS"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:MunroHayFattovich2003EnAeAksum"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:BerryEtAl2005EnAeGondar"/>
+                  </bibl>
+               </listBibl>
+               <note>
+                  <ab type="history">The church of ʾAksum Ṣǝyon has a long and complex history of
+                     destructions and reconstructions with a number of legendary aspects. It has a
+                     key role in Ethiopia's cultural heritage and is referred to in a number of
+                     sources: <ref type="work" corresp="LIT1913Mashaf">Maṣḥāfa ʾAksum</ref>,
+                        <persName ref="PRS1778Alvares">Francisco Alvares</persName>'s account (1520
+                     ca.), <ref type="work" corresp="LIT1473GadlaL">Gadla Libānos</ref> (1400), Iter
+                     de Venetiis ad Indiam (1400). Although the remains of ancient structures were
+                     identified under or embedded in today's church, the early history of this
+                     church is hard to reconstruct and involved legendary figures such as <persName
+                        ref="PRS1284Abrehaa">ʾAbrǝhā and ʾAṣbǝḥā</persName> and <roleName
+                        type="title">queen</roleName>
+                     <persName ref="PRS3858esato">ʾƎsāto</persName>. <ref type="work"
+                        corresp="LIT1473GadlaL">Gadla Libānos</ref> refers that <roleName
+                        type="title">ʾaṣe</roleName>
+                     <persName ref="PRS3429DawitII">Dāwit II</persName> ordered the church restored
+                     in <date>1406</date>. The possessions of the church grew significantly over
+                     time and <ref type="work" corresp="LIT1913Mashaf">Maṣḥāfa ʾAksum</ref> records
+                     a number of land grants to the church. The church was destroyed in
+                        <date>1535</date> by <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm
+                        al-Ġāzī</persName>. <roleName type="title">ʾAṣe</roleName>
+                     <persName ref="PRS8550sardaDe">Śarṣa Dǝngǝl</persName> in the second half of
+                     the <date>16th cent.</date>. According to a Jesuit annual letter, it was burned
+                     down by the <persName ref="ETH1973Oromo">Oromo</persName> in <date>1611</date>
+                     but it was probably quickly restored as the church was visited and described by
+                     Manoel de Almeida, Thomas Barreto and Emmanuel Barradas in the 1620s - early
+                     1630s. The church was restored in 1655 by ʾaṣe Fāsiladas and again in 1749-50 by ʾaṣe ʾ</ab>
+                  <ab type="description">The <ref type="work" corresp="LIT1913Mashaf">Maṣḥāfa
+                        ʾAksum</ref> describes ʾAksum Ṣǝyon in technical terms, <persName
+                        ref="PRS1778Alvares">Francisco Alvares</persName> describes the old church
+                     as "very large; it has five aisles of good width and great length, vaulted
+                     above, and all the vaults closed, the ceiling and sides all painted. Below, the
+                     body of the church is well worked with handsome cut stone; it has seven
+                     chapels, all with their backs to the east, and their altars well ornamented. It
+                     has a choir after our fashion, except that it is low, and they reach the
+                     vaulted roof with their heads; and the choir is also over the vault, and they
+                     do not use it." </ab> Following the church reconstruction by <persName
+                     ref="PRS8550sardaDe">Śarṣa Dǝngǝl</persName>, it is described as having a new
+                  smaller church built into the remains and walls of a larger older church. </note>
             </place>
          </listPlace>
       </body>
