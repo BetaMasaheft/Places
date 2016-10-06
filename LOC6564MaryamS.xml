@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" type="place" xml:id="LOC6564MaryamS">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Māryām Ṣǝyon</title>
+                <editor key="FP"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file created from original data</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="FP" when="2016-10-06">CREATED: place</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church">
+                    <placeName xml:id="n1" xml:lang="am" type="alt">ማርያም፡ ጽዮን፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">Māryām
+                        Ṣǝyon</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Mary of Zion</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+                    <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
+                    <!--               need to verify ʾAksum belonging to Tǝgre rather than Bagemdǝr province before 1974 reforms-->
+                    <settlement type="zone" ref="LOC6555CentralTegray"/>
+                    <settlement type="town" ref="LOC1310Aksum"/>
+                    <location>
+                        <geo>14.1305 38.7195</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:MunroHay2003EnAeAksumS"/>
+                        </bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">The large new round church of Māryām Ṣǝyon was built by
+                                <roleName type="title">ʾaṣe</roleName>
+                            <persName ref="PRS5226haylase">Ḫaila Śǝllāse I</persName> next to the
+                            old church of <placeName ref="LOC1311AksumS">ʾAksum Ṣǝyon</placeName> in
+                                <placeName ref="LOC1310Aksum">ʾAksum</placeName>.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:nearBy" active="#LOC6564MaryamS" passive="LOC1311AksumS">
+                        <desc>The new church of Māryām Ṣǝyon was built next to the old church of ʾAksum Ṣǝyon.</desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
