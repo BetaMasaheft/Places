@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Ḍahāy Śǝllāse </title>
+                <title>Dabra Ḍaḥay Śǝllāse</title>
                 <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -41,6 +41,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            
+            <change when="2016-10-07" who="FP">minor correction from h to ḥ</change>
             <change when="2016-09-23" who="FP">made corrections to place name structure and info
                 required as per Eugenia's email dated 24/08/2016</change>
             <change when="2016-08-19" who="FP">corrections</change>
@@ -51,8 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ፀሃይ፡ ሥላሴ፡</placeName>
-                    <placeName  corresp="#n1" xml:lang="gez" type="normalized">Dabra Ḍahāy Śǝllāse</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ፀሐይ፡ ሥላሴ፡</placeName>
+                    <placeName  corresp="#n1" xml:lang="gez" type="normalized">Dabra Ḍaḥay Śǝllāse</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -71,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">Dabra Ḍahāy Śǝllāse is a church in the central part
+                        <ab type="description">Dabra Ḍaḥay Śǝllāse is a church in the central part
                             of <placeName ref="LOC3577Gondar">Gondar</placeName> where the residence
                             of the <roleName type="title">ʾabun</roleName> was moved during the
                             Italian occupation.</ab>
