@@ -58,8 +58,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎslām Bet</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt">እስላምገ፡</placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾƎslāmge</placeName>
-               <placeName xml:id="n3" xml:lang="gez" type="alt">አዲስ፡ አለም፡</placeName>
-               <placeName corresp="#n3" xml:lang="gez" type="normalized">ʾAddis ʿAlam</placeName>
+               <placeName xml:id="n3" xml:lang="gez" type="alt">አዲስ፡ ዓለም፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">ʾAddis ʿĀlam</placeName>
                <!--               translitterations in gez (by FP) and xml:lang assigned as gez to be checked-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
