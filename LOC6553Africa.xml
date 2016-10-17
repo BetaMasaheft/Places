@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>Africa Orientale Italiana</title>
                 <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,14 +39,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AB" when="2016-02-09">CREATED: place</change>
+            <change who="FP" when="2016-10-17">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place>
-                    <placeName/>
+                    <placeName>Africa Orientale Italiana</placeName>
                     <placeName type="alt"/>
                     <country> </country>
                     <region/>

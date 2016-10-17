@@ -5,11 +5,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" type="place" xml:id="LOC6552Amhara">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6567Derdera" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Provincia di Amhara</title>
+                <title>Dǝrdǝrā</title>
                 <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,8 +45,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place>
-                    <placeName>Provincia di Amhara</placeName>
+                <place type="area">
+                    <placeName>Dǝrdǝrā</placeName>
                     <placeName type="alt"/>
                     <country> </country>
                     <region/>
