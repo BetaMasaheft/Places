@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Amhara</title>
+            <title>ʾAmhārā (National State)</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-10-18" who="FP">added some disambiguation info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,9 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Amhara</placeName>
-               <placeName type="alt">Amara</placeName>
+            <place type="RegionalState">
+               <placeName>ʾAmhārā</placeName>
+               <placeName type="alt">ʾAmārā</placeName>
+               <placeName type="alt">Amhara National State</placeName>
             </place>
          </listPlace>
       </body>

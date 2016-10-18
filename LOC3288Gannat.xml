@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName  corresp="#n1" xml:lang="am" type="normalized">Gannat Tarrā</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡ መጮህያ፡</placeName>
                <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre Mač̣č̣ohyā</placeName>
-               <placeName corresp="#n2" xml:lang="en"> Cry of <placeName ref="LOC5932Tegray">Tǝgrāy</placeName>
+               <placeName corresp="#n2" xml:lang="en"> Cry of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
                </placeName>
                <placeName xml:id="n3" xml:lang="am" type="alt">አጨናክር፡</placeName>
                <placeName corresp="#n3" xml:lang="am" type="normalized">ʾĀč̣anākǝr</placeName>
@@ -85,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   <ab type="description">Gannat Tarrā is a hill in the northern part of <placeName ref="LOC3577Gondar">Gondar</placeName> overlooking the city. It used to be
                      referred as <placeName>Tǝgre Mač̣č̣ohyā</placeName>, the area where people from
-                        <placeName ref="LOC5932Tegray">Tǝgrāy</placeName> camped when they came to
+                     <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> camped when they came to
                         <placeName ref="LOC3577Gondar">Gondar</placeName> to appeal to the <roleName type="function">emperor</roleName>.</ab>
                </note>
             </place>

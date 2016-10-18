@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Gulo Maḵadā</placeName>
 
                <country ref="LOC3010Ethiop"/>
-               <region ref="LOC5932Tegray"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
             </place>
          </listPlace>
