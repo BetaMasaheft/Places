@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>St Petersburg</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -35,26 +35,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-
-      </profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         <language ident="ru">Russian</language>
+         </langUsage>
+               </profileDesc>
       <revisionDesc>
-
+<change when="2016-10-26" who="FP">inserted reference to GeoNames record</change>
          <change who="ES" when="2016-05-25">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="town">
+            <place type="city" sameAs="gn:498817">
                <placeName xml:lang="en" corresp="#n1">St Petersburg</placeName>
                <placeName xml:lang="ru" xml:id="n1">Санкт Петербург</placeName>
-               <placeName xml:lang="en" corresp="#n2">Leningrad</placeName>
-               <placeName xml:lang="ru" xml:id="n2">Ленинград</placeName>
-               <placeName xml:lang="en" corresp="#n3">Petrograd</placeName>
-               <placeName xml:lang="ru" xml:id="n3">Петроград</placeName>
                
-               <country ref="LOC5389Russia"/>
-
+               <placeName xml:lang="en" corresp="#n2">Leningrad</placeName>
+               <placeName xml:lang="ru" xml:id="n2" type="alt">Ленинград</placeName>
+               
+               <placeName xml:lang="en" corresp="#n3">Petrograd</placeName>
+               <placeName xml:lang="ru" xml:id="n3" type="alt">Петроград</placeName>
+               
+               <country ref="gn:2017370"/>
+               <region ref="gn:536203"/>
             </place>
          </listPlace>
       </body>

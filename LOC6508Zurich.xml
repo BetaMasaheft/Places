@@ -40,10 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="de">German</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-10-26" who="FP">added reference to GeoNames ID</change>
+         <change when="2016-10-26" who="FP">added reference to GeoNames ID and location info</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -54,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="city" sameAs="gn:2657896">
-               <placeName>Zurich</placeName>
+               <placeName xml:id="n1" xml:lang="de">Zürich</placeName>
+               <placeName corresp="#n1" xml:lang="en">Zurich</placeName>
+               <country ref="gn:2658434"/>
+               <region ref="gn:6458798"/>
             </place>
          </listPlace>
       </body>

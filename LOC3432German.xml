@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Germany</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -40,9 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="de">German</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+<change when="2016-10-26" who="FP">tidied up records name IDs</change>
          <change when="2016-10-24" who="FP">inserted @sameAs to GeoNames</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
@@ -54,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="country" sameAs="gn:2921044">
-               <placeName>Germany</placeName>
+               <placeName xml:id="n1" xml:lang="de">Deutschland</placeName>
+               <placeName corresp="#n1" xml:lang="en">Germany</placeName>
             </place>
          </listPlace>
       </body>
