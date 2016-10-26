@@ -10,9 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Zanzibar</title>
+            <title>Zanzibar Archipelago</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-10-26" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country">
-               <placeName>Zanzibar</placeName>
+            <place type="region" sameAs="gn:8426441">
+               <placeName xml:id="n1" xml:lang="en">Zanzibar Archipelago</placeName>
+               <country ref="gn:149590"/>
             </place>
          </listPlace>
       </body>
