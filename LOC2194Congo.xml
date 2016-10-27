@@ -10,9 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Congo</title>
+            <title>Democratic Republic of Congo</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -40,9 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="fr">French</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+<change when="2016-10-27" who="FP">record completed</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +54,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country">
-               <placeName>Congo</placeName>
+            <place type="country" sameAs="gn:203312">
+               <placeName xml:id="n1" xml:lang="fr" notBefore="1997">République démocratique du Congo</placeName>
+               <placeName corresp="#n1" xml:lang="en" notBefore="1997">Democratic Republic of Congo</placeName>
+               <placeName corresp="#n1" xml:lang="en" notBefore="1997">DRC</placeName>
+               <placeName corresp="#n1" xml:lang="en" notBefore="1997">DR Congo</placeName>
+               <placeName corresp="#n1" xml:lang="en" notBefore="1997">DROC</placeName>
+               <placeName xml:id="n2" xml:lang="en" notBefore="1997">Congo-Kinshasa</placeName>
+               <placeName xml:id="n3" xml:lang="en" notBefore="1997">Congo</placeName>
+               <placeName xml:id="n4" xml:lang="fr" notBefore="1971" notAfter="1997">République du Zaïre</placeName>
+               <placeName corresp="#n4" xml:lang="en" notBefore="1971" notAfter="1997">Republic of Zaire</placeName>
             </place>
          </listPlace>
       </body>
