@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Moscow</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -35,9 +35,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="ru">Russian</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-10-28" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -47,11 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town">
-               <placeName xml:lang="en">Moscow</placeName>
-               <placeName xml:lang="ru">Москва</placeName>
-               <country ref="LOC5389Russia"/>
-
+            <place type="city" sameAs="gn:524901">
+               <placeName xml:id="n1" xml:lang="ru">Москва</placeName>
+               <placeName corresp="#n1" xml:lang="en">Moscow</placeName>
+               <country ref="gn:2017370"/>
+               <region ref="gn:524894"/>
             </place>
          </listPlace>
       </body>
