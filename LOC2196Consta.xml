@@ -7,6 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC2196Consta">
+   <!--   please, refer to LOC3938Istanb-->
    <teiHeader>
       <fileDesc>
          <titleStmt>
