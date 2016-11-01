@@ -11,8 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Yemen</title>
+            <!--this record does not distinguish between contemporary and historical Yemen, although this distinction may be necessary-->
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-10-31" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country">
-               <placeName>Yemen</placeName>
+            <place type="country" sameAs="gn:69543">
+               <placeName xml:id="n1" xml:lang="ar" type="normalized">al-Jumhūrīyah al-Yamanīyah</placeName>
+               <placeName corresp="#n1" xml:lang="en">Republic of Yemen</placeName>
+               <placeName xml:id="n2" xml:lang="ar" type="normalized" subtype="alt">al-Yaman</placeName>
+               <placeName corresp="#n2" xml:lang="en">Yemen</placeName>
             </place>
          </listPlace>
       </body>
