@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Sweden</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -40,9 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="sv">Swedish</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+        <change when="2016-11-02" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country">
-               <placeName>Sweden</placeName>
+            <place type="country" sameAs="gn:2661886">
+               <placeName xml:id="n1" xml:lang="sv">Konungariket Sverige</placeName>
+              <placeName corresp="#n1" xml:lang="en">Kingdom of Sweden</placeName>
+             <placeName xml:id="n2" xml:lang="sv" type="alt">Sverige</placeName>
+               <placeName corresp="#n2" xml:lang="en">Sweden</placeName>
             </place>
          </listPlace>
       </body>

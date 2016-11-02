@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC5830Switze">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC5830Switze">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Switzerland</title>
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -40,21 +37,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="de">German</language>
+            <language ident="fr">French</language>
+            <language ident="ro">Romansh</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-11-02" who="FP">completed record</change>
+         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="country">
-               <placeName>Switzerland</placeName>
-            </place>
+            <place type="country" sameAs="gn:2658434">
+               <placeName xml:id="n1" xml:lang="de">Schweizerische Eidgenossenschaft</placeName>
+               <placeName corresp="#n1" xml:lang="fr">Confédération suisse</placeName>
+               <placeName corresp="#n1" xml:lang="it">Confederazione Svizzera</placeName>
+               <placeName corresp="#n1" xml:lang="ro">Confederaziun svizra</placeName>
+               <placeName corresp="#n1" xml:lang="la">Confoederatio Helvetica</placeName>
+               <placeName corresp="#n1" xml:lang="en">Swiss Confederation</placeName>
+               
+               <placeName xml:id="n2" xml:lang="de" type="alt">Schweiz</placeName>
+               <placeName corresp="#n2" xml:lang="fr">Suisse</placeName>
+               <placeName corresp="#n2" xml:lang="it">Svizzera</placeName>
+               <placeName corresp="#n2" xml:lang="ro">Svizra</placeName>
+               <placeName corresp="#n1" xml:lang="en">Switzerland</placeName>
+
+               </place>
          </listPlace>
       </body>
    </text>
