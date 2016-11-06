@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
-            <language ident="ks">Kiswahili</language>
+            <language ident="sw">Kiswahili</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -55,9 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="country" sameAs="gn:192950">
-               <placeName xml:id="n1" xml:lang="ks">Jamhuri ya Kenya</placeName>
+               <placeName xml:id="n1" xml:lang="sw">Jamhuri ya Kenya</placeName>
                <placeName corresp="#n1" xml:lang="en">Republic of Kenya</placeName>
-               <placeName xml:id="n2" xml:lang="ks" type="alt">Kenya</placeName>
+               <placeName xml:id="n2" xml:lang="sw" type="alt">Kenya</placeName>
             </place>
          </listPlace>
       </body>

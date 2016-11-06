@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="gez">Gǝʿǝz</language>
             <language ident="de">German</language>
             <language ident="fr">French</language>
-            <language ident="ro">Romansh</language>
+            <language ident="rm">Romansh</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -57,14 +57,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="de">Schweizerische Eidgenossenschaft</placeName>
                <placeName corresp="#n1" xml:lang="fr">Confédération suisse</placeName>
                <placeName corresp="#n1" xml:lang="it">Confederazione Svizzera</placeName>
-               <placeName corresp="#n1" xml:lang="ro">Confederaziun svizra</placeName>
+               <placeName corresp="#n1" xml:lang="rm">Confederaziun svizra</placeName>
                <placeName corresp="#n1" xml:lang="la">Confoederatio Helvetica</placeName>
                <placeName corresp="#n1" xml:lang="en">Swiss Confederation</placeName>
                
                <placeName xml:id="n2" xml:lang="de" type="alt">Schweiz</placeName>
                <placeName corresp="#n2" xml:lang="fr">Suisse</placeName>
                <placeName corresp="#n2" xml:lang="it">Svizzera</placeName>
-               <placeName corresp="#n2" xml:lang="ro">Svizra</placeName>
+               <placeName corresp="#n2" xml:lang="rm">Svizra</placeName>
                <placeName corresp="#n1" xml:lang="en">Switzerland</placeName>
 
                </place>
