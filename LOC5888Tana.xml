@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṭana</title>
+            <title>Ṭānā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,9 +40,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-11-06" who="FP">insterted sameAs and minor transcription corrections</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,9 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="lake">
-               <placeName>Ṭana</placeName>
-               <placeName type="alt">Ṣana</placeName>
+            <place type="lake" sameAs="gn:327932">
+               <placeName xml:id="n1" xml:lang="am">ጣና፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">Ṭānā</placeName>
+               <placeName xml:id="n2" xml:lang="am" type="alt">ጻና፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Ṣānā</placeName>
             </place>
          </listPlace>
       </body>
