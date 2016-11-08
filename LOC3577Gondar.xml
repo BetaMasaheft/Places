@@ -89,7 +89,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      started to flourish after <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
                         <date>1636-'37</date> to control the collection of customs on the <placeName
-                        ref="LOC5339RedSea">Red Sea</placeName> - <placeName ref="LOC5888Tana">
+                           ref="gn:350155">Red Sea</placeName> - <placeName ref="LOC5888Tana">
                         Ṭānā</placeName> - <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade
                      routes. Following its foundation and for approx. 130 years (from
                         <date>1630s</date> to <date>1760s</date>), Gondar was the political,

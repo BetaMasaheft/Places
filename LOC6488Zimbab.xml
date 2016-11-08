@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-11-08" who="FP">small updates</change>
          <change when="2016-10-26" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
@@ -54,7 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="country" sameAs="gn:878675">
-               <placeName xml:id="n1" xml:lang="en">Republic of Zimbabwe</placeName>
+               <placeName xml:id="n1" xml:lang="en" notBefore="1979">Republic of Zimbabwe</placeName>
+               <placeName xml:id="n2" xml:lang="en" notBefore="1965" notAfter="1979">Republic of Rhodesia</placeName>
             </place>
          </listPlace>
       </body>
