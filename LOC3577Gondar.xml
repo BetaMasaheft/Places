@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+<change when="2016-11-18" who="FP">added link to GeoNames entity</change>
          <change when="2016-09-26" who="FP">added info to record regarding history and
             relations</change>
          <change when="2016-09-23" who="FP">corrected xml:lang, some transcription and added info to
@@ -56,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town">
+            <place type="town" sameAs="gn:336014">
                <placeName xml:id="n1" xml:lang="am">ጎንደር፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Gondar</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ጐንደር፡</placeName>
