@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-11-22" who="DR">corrected transliteration</change>
          <change when="2016-10-28" who="FP">completed record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
@@ -54,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="city" sameAs="gn:360630">
-               <placeName xml:id="n1" xml:lang="ar" type="normalized">al-Qāhirah</placeName>
+               <placeName xml:id="n1" xml:lang="ar" type="normalized">al-Qāhira</placeName>
                <placeName corresp="#n1" xml:lang="en">Cairo</placeName>
                <country ref="gn:357994"/> 
                <region ref="gn:360631"/>
