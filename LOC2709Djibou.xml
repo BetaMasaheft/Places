@@ -11,8 +11,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Djibouti</title>
+<!--           record completed through GeoNames, however this may be a record for which more info may be required -->
             <author/>
-            <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -40,9 +41,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="fr">French</language>
+            <language ident="so">Somali</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2016-11-25" who="FP">completed record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,10 +56,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country">
-               <placeName>Djibouti</placeName>
-               <placeName type="alt">Côte Française des Somalis; Ǧumhūriya Ǧībūtī;</placeName>
-               <placeName type="alt">République de Djibouti; Territoire Française des Afars et Issas</placeName>
+            <place type="country" sameAs="gn:223816">
+               <placeName xml:id="n1" xml:lang="ar" type="normalized">Djibouti</placeName>
+               <placeName xml:id="n2" xml:lang="fr" type="alt">République de Djibouti</placeName>
+               <placeName corresp="#n2" xml:lang="so">Ǧumhūriya Ǧībūtī</placeName>
+               <placeName xml:id="n3" xml:lang="fr" type="alt">Côte Française des Somalis</placeName>
+               <placeName xml:id="n4" xml:lang="fr" type="alt">Territoire Française des Afars et Issas</placeName>
             </place>
          </listPlace>
       </body>
