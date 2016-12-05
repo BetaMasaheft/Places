@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n2" xml:lang="am" type="normalized">Gwargorā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
-               <region notAfter="1974" type="Province" ref="LOC2481Dambey"/>
+               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
                <settlement type="zone" ref="LOC6544NorthGondar"/>
                <location>
                   <geo cert="high">12.233333 37.300000</geo>
@@ -109,7 +109,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      southern part and stands on a strategical location, an elevated rocky
                      promontory overlooking the lake and next to a series of islands suitable for
                      providing shelter. The peninsula is located in today's <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State while once formed
-                     part of the of the <placeName ref="LOC2481Dambey">Dambǝyā</placeName> province.
+                     part of <placeName ref="LOC2481Dambey">Dambǝyā</placeName>.
                      Gorgorā gained its prominence under the Jesuits as a missionary residence and a
                      major Catholic church thanks to a land grant offered by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> in <date>1607</date>. In
