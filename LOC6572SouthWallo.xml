@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6572SouthWallo" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dabub Wallo</title>
+                <editor key="FP"/>
+                <editor role="generalEditor" key="AB"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file created from original data</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-10" who="FP">record completed</change>
+            <change who="FP" when="2016-10-17">CREATED: place</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="zone" sameAs="gn:7732961">
+                    <placeName xml:id="n1" xml:lang="am">ደቡብ፡ ወሎ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">Dabub Wallo</placeName>
+                    <placeName corresp="#n1" xml:lang="en">South Wallo</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <location>
+                        <geo>11.0000 39.2500</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:FicquetAhmed2010EnAeWallo"/>
+                        </bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">Dabub Wallo is an administrative zone in the
+                            contemporary <placeName ref="LOC1426Amhara">Amhara Regional
+                                State</placeName> and its territory corresponds approximately to
+                            that of "historical" <placeName ref="LOC6185Wallo">Wallo</placeName>. </ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="syriaca:has-relation-to-place" active="#LOC6572SouthWallo" passive="LOC6185Wallo">
+                        <desc>The territory of the South Wallo Zone corresponds approximately to that of historical Wallo.</desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

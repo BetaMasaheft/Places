@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6573NorthWallo" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Samen Wallo</title>
+                <editor key="FP"/>
+                <editor role="generalEditor" key="AB"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file created from original data</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italiano</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-12-08" who="FP">record completed</change>
+            <change who="FP" when="2016-12-08">CREATED: place</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="zone" sameAs="gn:7869862">
+                    <placeName xml:id="n1" xml:lang="am">ሰሜን፡ ወሎ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">Samen Wallo</placeName>
+                    <placeName corresp="#n1" xml:lang="en">North Wallo</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+                    <location>
+                        <geo>11.9200 39.1000</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:FicquetAhmed2010EnAeWallo"/>
+                        </bibl>
+                        <bibl>
+                            <ptr target="bm:Kassu2007EnAeLasta"/>
+                        </bibl>
+                    </listBibl>
+                    <note>
+                        <ab type="description">Samen Wallo is a zone within the contemporary
+                                <placeName ref="LOC1426Amhara">Amhara Regional State</placeName> and
+                            corresponds approximately to the historical provinces (now ʾawrāǧǧā) of
+                                <placeName ref="LOC4259Lasta">Lāstā</placeName> and <placeName
+                                ref="LOC6135Wag">Wāg</placeName>.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC4259Lasta" passive="#LOC6573NorthWallo">
+                        <desc>The territory of the historical province (now ʾawrāǧǧā) of Lāstā is
+                            located within the Samen Wallo zone.</desc>
+                    </relation>
+                    <relation name="gn:locatedIn" active="LOC6135Wag" passive="#LOC6573NorthWallo">
+                        <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
+                            located within the Samen Wallo zone.</desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

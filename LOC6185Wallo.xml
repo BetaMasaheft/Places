@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC6185Wallo">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6185Wallo">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wällo</title>
-            <author/>
+            <title>Wallo</title>
+            <editor key="FP"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -40,12 +37,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="om">Oromo</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change when="2016-12-10" who="FP">record completed</change>
+         <change when="2016-12-08" who="FP">added info</change>
+         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -53,8 +54,111 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="province">
-               <placeName>Wällo</placeName>
+               <placeName xml:id="n1" xml:lang="om">Walloo</placeName>
+               <placeName xml:id="n2" xml:lang="am">ወሎ፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Wallo</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>11.0000 39.2500</geo>
+               </location>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:FicquetAhmed2010EnAeWallo"/>
+                  </bibl>
+               </listBibl>
+               <note>
+                  <ab type="history">Wallo is an area in central <placeName ref="LOC3010Ethiop"
+                        >Ethiopia</placeName> and takes its name from a large <persName
+                        ref="ETH1973Oromo">Oromo</persName>'s subgroup that settled in this area
+                     from the <date notBefore="1550" notAfter="1600">late 16th cent.</date>. The
+                        <persName ref="ETH1973Oromo">Oromo</persName> of Wallo were further divided
+                     into seven main sub-units that lived in different parts of Wallo and have been
+                     used until today to designate the major administrative divisions of this area.
+                     In spite of being occupied by <persName ref="ETH1973Oromo">Oromo</persName>,
+                     certain parts of Wallo were deeply influenced by the <persName
+                        ref="ETH1126Amhara">ʾAmhārā</persName> language and culture and were
+                     involved in the Christian monarchy politics, especially during the <date
+                        notBefore="1700" notAfter="1799">18th</date> and <date notBefore="1800"
+                        notAfter="1899">19th century</date>. Other parts of Wallo retained a
+                     separate identity and adhered to Islam, undertaking a process of islamization
+                     of Wallo in the <date notBefore="1700" notAfter="1799">18th century</date>.
+                     However, from the <date notBefore="1850" notAfter="1899">mid-19th
+                        century</date>, the Christian Emperors undertook the re-conquest and
+                     Christian conversion of Wallo in name of a political reunification as well as
+                     to preserve the egemony of the Christian faith and state. In spite of this,
+                     Islam has survived in Wallo where there are important centres of Islamic
+                     learning and shrines. In <date when="1917">1917</date>, with the defeat of
+                        <roleName type="title">rās</roleName>
+                     <persName ref="PRS7079Mikael">Mikāʾel</persName> , father of <persName
+                        ref="PRS5620IyasuV">ʾIyāsu</persName>, Wallo lost its importance and was
+                     reduced to a buffer zone to be ruled and taxed for the benefit of Šawān
+                     officials. Following these events, the imperial power monitored Wallo carefully
+                     an <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName> regarded it as a
+                     potentially insurrectionary area and kept it subjugated with a stong military
+                     presence. Following the Italian defeat in <date when="1941">1941</date>, Wallo
+                     continued to be looked at with suspicion, was neglected by the central power in
+                     the process of modernization and governed by non-local governors. Some of its
+                     territories were merged with <placeName ref="LOC5597Sawa">Šawā</placeName> and
+                        <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>. Wallo played a role in
+                     the end of the regime of <persName ref="PRS5226haylase">Ḫāyla Śǝllāse
+                        I</persName>: in <date when="1973">1973</date>, it was hit by a dramatic
+                     famine which caused scandal and triggered protests that culminated in the
+                     Ethiopian Revolution of <date when="1974">1974</date>. Following another severe
+                     famine in <date when="1984">1984</date> and the Darg's policy of forced
+                     resettlement, the anti-regime movement operating in Wallo received great
+                     support and played an important role in the collapse of the regime in <date
+                        when="1991">1991</date>.</ab>
+                  <ab type="description">Wallo is one of the major areas of central Ethiopia and
+                     held the status of province until the <date notBefore="1985" notAfter="1989"
+                        >late 1980s</date>. Its territory was approximately delimited the <placeName
+                        ref="LOC1797Baselo">Bašǝlo</placeName> to the north, the <placeName
+                        ref="LOC1022Abbay">Abbay</placeName> to the west, the <placeName
+                        ref="LOC6201Wancet">Wančit</placeName> to the south and the upper <placeName
+                        ref="LOC1975Borkan">Borkannā</placeName> to the east. In the <date
+                        notBefore="1900" notAfter="1999">20th century</date>, its territory as an
+                     administrative division of the Ethiopian state expanded to the fringes of
+                        <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> to the north, <placeName
+                        ref="LOC3999Karako">Kārākore</placeName> to the south and the border with
+                        <placeName ref="LOC2709Djibou">Djibouti</placeName> to the east.</ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place" active="LOC1797Baselo"
+                  passive="#LOC6185Wallo">
+                  <desc>The river Bašǝlo marked the northern border of hirstorical Wallo.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="LOC1022Abbay"
+                  passive="#LOC6185Wallo">
+                  <desc>The river Abbay marked the western border of historical Wallo.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="LOC6201Wancet"
+                  passive="#LOC6185Wallo">
+                  <desc>The river Wančit marked the southern border of historical Wallo.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="LOC1975Borkan"
+                  passive="#LOC6185Wallo">
+                  <desc>The upper Borkannā marked the eastern border of historical Wallo.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC6185Wallo"
+                  passive="LOC6569Tegray">
+                  <desc>Certain parts of Wallo were merged with Tǝgrāy. In the 20th century, the
+                     administrative territory of Wallo expanded to the fringes of Tǝgrāy.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="LOC3999Karako"
+                  passive="#LOC6185Wallo">
+                  <desc>In the 20th century, the administrative territory of Wallo extended to
+                     Kārākore to the south.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="LOC2709Djibou"
+                  passive="#LOC6185Wallo">
+                  <desc>In the 20th century, the administrative territory of Wallo extended to the
+                     border with Djibouti.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC6185Wallo"
+                  passive="LOC5597Sawa">
+                  <desc>Certain parts of Wallo were merged with the territory of Šawā.</desc>
+               </relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
