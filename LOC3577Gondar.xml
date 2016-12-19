@@ -124,8 +124,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <date>1888</date> and <date>1889</date>, the Mahdists attacked and burnt
                      down what was left of the city which saw some redevelopment only in the
                         <date>1920s</date> . During the Italian occupation, Gondar became the
-                     capital of the <placeName ref="LOC6552Amhara">Provincia di Amhara</placeName>
-                     (one of six provinces forming the <placeName ref="LOC6553Africa">Africa
+                     capital of the <placeName ref="LOC6552Amhara">Governo dell'Amhara</placeName>
+                     (one of six governorates forming the <placeName ref="LOC6553Africa">Africa
                         Orientale Italiana</placeName>), it was restructured and rebuilt along
                      modernist lines and its population increased significantly. After the defeat of
                      the Italians in <date>1941</date>, Gondar became the capital of the Province of
@@ -251,8 +251,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </relation>
                <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
                   passive="LOC6552Amhara">
-                  <desc>During the Italian occupation, Gondar became the capital of the Provincia di
-                     Amhara.</desc>
+                  <desc>During the Italian occupation, Gondar became the capital of the Governo dell'Amhara.</desc>
                </relation>
             </listRelation>
          </listPlace>
