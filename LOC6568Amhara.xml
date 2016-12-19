@@ -44,7 +44,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="province">
+                <place type="area">
                     <placeName>ʾAmhārā</placeName>
                     <placeName type="alt"/>
                     <country> </country>
@@ -54,8 +54,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <geo/>
                         <height/>
                     </location>
-                    <listBibl>
-                        <bibl/>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:Nosnitsin2014EnAeAmhara"/>
+                        </bibl>
+                        <bibl>
+                            <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
+                        </bibl>
                     </listBibl>
                 </place>
                 <listRelation>

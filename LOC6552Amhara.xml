@@ -9,8 +9,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Provincia di Amhara</title>
-                <editor/>
+                <title>Governo dell'Amhara</title>
+                <editor key="FP"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -39,29 +39,37 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2016-12-19" who="FP">added info and completed record</change>
             <change who="FP" when="2016-10-17">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place>
-                    <placeName>Provincia di Amhara</placeName>
-                    <placeName type="alt"/>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
+                <place type="administrativeUnit">
+                    <placeName xml:id="n1" xml:lang="it">Governo dell'Amhara</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region ref="LOC6553Africa" notBefore="1936" notAfter="1941"/>
                     <location>
-                        <geo/>
-                        <height/>
+                        <geo>12.6000 37.46667</geo>
                     </location>
-                    <listBibl>
-                        <bibl/>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
+                        </bibl>
                     </listBibl>
+                    <note>
+                        <date type="foundation" when="1936">1936</date>
+                        <ab type="history">In <date>1936</date>, the Ethiopian Empire became
+                            part of the <placeName ref="LOC6553Africa">Africa Orientale
+                                Italiana</placeName> which was divided into six "governi"
+                            (governorates), including the Governo dell'Amhara with <placeName
+                                ref="LOC3577Gondar">Gondar</placeName> as its capital.</ab>
+                    </note>
                 </place>
                 <listRelation>
-                    <relation>
-                        <desc/>
+                    <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar" passive="#LOC6552Amhara">
+                        <desc>Gondar was the capital of the Governo dell'Amhara during the Italian occupation.</desc>
                     </relation>
                 </listRelation>
             </listPlace>
