@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kəsād Māʿtab</title>
+            <title>Kǝsād Māʿtab</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                
                <placeName xml:id="n1" xml:lang="gez">ክሳድ፡ ማዐተብ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Kəsād Māʿtab</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Kǝsād Māʿtab</placeName>
 
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
