@@ -10,7 +10,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Africa Orientale Italiana</title>
-                <editor/>
+                <editor key="FP"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -39,25 +39,35 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-01-11" who="FP">completed record</change>
             <change who="FP" when="2016-10-17">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place>
-                    <placeName>Africa Orientale Italiana</placeName>
-                    <placeName type="alt"/>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
+                <place type="administrativeUnit">
+                    <placeName xml:id="n1" xml:lang="it">Africa Orientale Italiana</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Italian East Africa</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    
                     <location>
                         <geo/>
                         <height/>
                     </location>
-                    <listBibl>
-                        <bibl/>
+                    
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
+                        </bibl>
                     </listBibl>
+<!--                  add bibliography  -->
+                    
+                    <note>
+                        <date type="foundation" when=""></date>
+                        <ab type="history"></ab>
+                    </note>
+                    
                 </place>
                 <listRelation>
                     <relation>

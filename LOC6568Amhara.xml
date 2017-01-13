@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAmhārā (historical province)</title>
+                <title>ʾAmharā</title>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -38,6 +38,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change when="2017-01-11" who="FP">added info</change>
             <change who="FP" when="2016-10-18">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
@@ -45,15 +46,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName>ʾAmhārā</placeName>
-                    <placeName type="alt"/>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
+                    <placeName xml:id="n1" xml:lang="gez">አምሐራ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAmḥarā</placeName>
+                    <placeName xml:id="n2" xml:lang="gez" type="alt">አምኀራ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾAmḫarā</placeName>
+                    <placeName xml:id="n3" xml:lang="gez" type="alt">አማራ፡</placeName>
+                    <placeName corresp="#n3" xml:lang="gez" type="normalized">ʾAmārā</placeName>
+                    <country ref="LOC3010Ethiop"/>
                     <location>
                         <geo/>
                         <height/>
                     </location>
+                    <!--add location info-->
                     <listBibl type="secondary">
                         <bibl>
                             <ptr target="bm:Nosnitsin2014EnAeAmhara"/>
@@ -62,6 +66,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
                         </bibl>
                     </listBibl>
+                    <note>
+                        <ab type="description">ʾAmḥarā is the name of an historical area in central
+                                <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. This place-name
+                            does not appear in the sources of the Aksumite period and its earlierst
+                            preserved mention can be found in a manuscript of the
+                            <!--"Golden Gospel"--> of <placeName ref="">Dabra Libānos</placeName>
+                            dating to <date when="1322">1322</date>. These mentions became numerous
+                            in Ethiopic medieval sources and increased over time. The importance of
+                            this area seems to have increased after the fall of the <persName ref=""
+                                >Zagʷe</persName> dinasty and the re-establishment of the Solomonic
+                            dinasty in the <date notBefore="1250" notAfter="1300">late 13th
+                                century</date>. </ab>
+                    </note>
                 </place>
                 <listRelation>
                     <relation>

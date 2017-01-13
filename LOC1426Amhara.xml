@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC1426Amhara">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1426Amhara">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾAmhārā (National State)</title>
-            <author/>
+            <title>ʾAmharā (Regional State)</title>
+            <editor key="FP"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -40,13 +37,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-01-11" who="FP">completed record</change>
+         <change when="2016-12-19" who="FP">added info</change>
          <change when="2016-10-18" who="FP">added some disambiguation info</change>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -54,9 +54,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="RegionalState" sameAs="gn:444180">
-               <placeName>ʾAmhārā</placeName>
-               <placeName type="alt">ʾAmārā</placeName>
-               <placeName type="alt">Amhara National State</placeName>
+               <placeName xml:id="n1" xml:lang="am">አምሀራ፡ ክልል፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAmharā kǝllǝl</placeName>
+               <placeName xml:id="n2" xml:lang="am" type="alt">አምሀራ፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">ʾAmharā</placeName>
+               <placeName xml:id="n3" xml:lang="en" type="alt">Amhara Regional State</placeName>
+               <country ref="LOC3010Ethiop"/>
+
+               <location>
+                  <geo>11.5000 38.5000</geo>
+                  </location>
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Nosnitsin2014EnAeAmhara"/>
@@ -66,15 +73,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="description">
-                     Amhara, kǝllǝl s. Amhara, reg.;
-                     North Gondär; North Šäwa;
-                     North Wällo; South
-                     Gondär; South Wällo; West
-                     Goǧǧam; West Gondär
-                  </ab>
+                  <date type="foundation" when="1994">1994</date>
+                  <ab type="description">The ʾAmharā kǝllǝl is one of nine kǝllǝl that were
+                     constituted following the promulgation of the Constitution of the Federal
+                     Republic of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> on the
+                        <date>8th December 1994</date> The state is divided into the following
+                     zones: <placeName ref="LOC6544NorthGondar">North Gondar</placeName>, <placeName ref="LOC6574NorthSawa">North
+                        Šawā</placeName>, <placeName ref="LOC6573NorthWallo">North Wallo</placeName>, <placeName
+                           ref="LOC6575SouthGondar">South Gondar</placeName>, <placeName ref="LOC6572SouthWallo">South Wallo</placeName>, <placeName ref="LOC6576WestGogg">West Goǧǧām</placeName>, and <placeName ref=""LOC6577WestGondar
+                              "">West Gondar</placeName>.
+                     Its capital is <placeName ref="LOC1721BaherD">Bāḥǝr Dār</placeName>. </ab>
                </note>
             </place>
+            <listRelation>
+               <relation name="" active=></relation>
+            </listRelation>
+            North Gondar
+            North Šawā
+            North Wallo
+            South Gondar
+            South Wallo
+            West Goǧǧām
+            West Gondar
+            Baḥǝr Dar
+               
          </listPlace>
       </body>
    </text>
