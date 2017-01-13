@@ -10,8 +10,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Libanos</title>
-            <author/>
+            <title>Dabra Libānos</title>
+            <!--            refer to institution INS0341DL-->
+            <editor key="FP"/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -43,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-01-13" who="FP">inserted reference to institution record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Däbrä Libanos</placeName>
+            <place type="monastery" sameAs="INS0341DL">
+               <placeName>Dabra Libānos</placeName>
                <placeName type="alt">ʿAsbo</placeName>
                <region>Šäwa</region>
             </place>
