@@ -5,12 +5,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" type="place" xml:id="LOC6553Africa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6575SouthGondar" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Africa Orientale Italiana</title>
-                <editor key="FP"/>
+                <title>South Gondar Zone</title>
+                <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -39,36 +39,25 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2017-01-11" who="FP">some info added</change>
-            <change who="FP" when="2016-10-17">CREATED: place</change>
+            <change who="FP" when="2017-01-13">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="administrativeUnit">
-                    <placeName xml:id="n1" xml:lang="it">Africa Orientale Italiana</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Italian East Africa</placeName>
-                    <country ref="LOC3010Ethiop"/>
-                    
+                <place type="zone">
+                    <placeName/>
+                    <placeName type="alt"/>
+                    <country> </country>
+                    <region/>
+                    <settlement/>
                     <location>
                         <geo/>
                         <height/>
                     </location>
-                    
-                    <listBibl type="secondary">
-                        <bibl>
-                            <ptr target="bm:CalchiNovati2003EnAeAOI"/>
-                        </bibl>
-                        <bibl>
-                            <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
-                        </bibl>
-                   </listBibl>
-                   <note>
-                        <date type="foundation" when=""></date>
-                        <ab type="history"></ab>
-                    </note>
-                    
+                    <listBibl>
+                        <bibl/>
+                    </listBibl>
                 </place>
                 <listRelation>
                     <relation>
