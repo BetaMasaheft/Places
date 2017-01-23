@@ -47,15 +47,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2017-01-23" who="ES">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="kingdom">
-               <placeName>Raydān</placeName>
-               <placeName type="alt">RYDN</placeName>
-               <placeName type="alt">Räydan</placeName>
+               <placeName xml:id="n1">Raydān</placeName>
+               <placeName type="alt" corresp="#n1">RYDN</placeName>
+               <placeName corresp="#n1" xml:lang="gez">ረይዳን</placeName>
             </place>
          </listPlace>
       </body>
