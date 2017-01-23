@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täkkäze</title>
+            <title>Takkaze</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,13 +47,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2017-01-23" who="ES">updated record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="river">
-               <placeName>Täkkäze</placeName>
+               <placeName corresp="#n1" type="normalized">Takkaze</placeName>
+               <placeName xml:id="n1">ተከዜ </placeName>
+               
+               <placeName corresp="#n2" type="normalized">Takkazi</placeName>
+               <placeName xml:id="n2">ተከዚ </placeName>
             </place>
          </listPlace>
       </body>
