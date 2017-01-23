@@ -6,13 +6,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC56574Stutt">
+     xml:id="LOC6578Engabo">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Stuttgart</title>
+            <title>Ḥimyar</title>
             <author/>
-            <editor key="FP"/>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="ES"></editor>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -27,11 +28,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </licence>
             </availability>
             
-            <date>2016-03-21</date>
+            <date>2017-01-23</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p></p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -43,18 +43,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         
-         
-         
-         <change who="ES" when="2017-01-09">CREATED: place</change>
+
+         <change when="2017-01-23" who="ES">created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:2825297">
-               <placeName>Stuttgart</placeName>
-               <placeName xml:lang="it">Stoccarda</placeName>
+            <place type="region">
+               
+               <placeName xml:id="n1" xml:lang="gez">እንገቦ  </placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎngabo </placeName>
             </place>
          </listPlace>
       </body>
