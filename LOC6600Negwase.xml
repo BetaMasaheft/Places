@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC5626Seda">
+     xml:id="LOC6598Kemalke">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seda</title>
+            <title>Nǝgʷase</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -27,11 +27,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </licence>
             </availability>
             
-            <date>2016-03-21</date>
+            <date>2017-01-24</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p></p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -42,21 +41,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change when="2017-01-24" who="ES">updated record</change>
+
+         <change when="2017-01-24" who="ES">created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="river">
-               <placeName xml:lang="gez" xml:id="n1">ሴዳ</placeName>
-               <placeName xml:lang="gez" type="normalized" corresp="#n1">Seda</placeName>
-               <placeName xml:lang="gez" xml:id="n2" type="alt">ሲዳ</placeName>
-               <placeName xml:lang="gez" type="normalized" corresp="#n2">Sida</placeName>
+            <place type="town">
+               <placeName corresp="#n1" type="normalized">Nǝgʷase </placeName>
+               <placeName xml:id="n1">ንጐሴ</placeName>              
+<note>a Nobā town attested in inscriptions or a common noun ('capital city')</note>
             </place>
          </listPlace>
       </body>
