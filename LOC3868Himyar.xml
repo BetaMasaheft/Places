@@ -57,6 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1">Ḥimyar</placeName>
                <placeName xml:id="n2" xml:lang="gez">ሕሜር </placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Ḥǝmer</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ሐሜር</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Ḥamer</placeName>
             </place>
          </listPlace>
       </body>
