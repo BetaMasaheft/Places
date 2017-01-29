@@ -54,6 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="province">
                <placeName>Tǝgray</placeName>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:Smidt2010EnAeTegray"/>
+                  </bibl>
+               </listBibl>
+               <note>
+                  <ab type="desc">Tǝgray, kǝllǝl s. Central Tǝgray; East
+                     Tǝgray; Mäqälä; South
+                     Tǝgray; Tǝgray, prov.; West
+                     Tǝgra</ab>
+               </note>
             </place>
          </listPlace>
       </body>
