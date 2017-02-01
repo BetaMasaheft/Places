@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="quarter">
-                    <placeName xml:id="n1" xml:lang="am" >አደባባይ፡</placeName>
+                    <placeName xml:id="n1" xml:lang="am">አደባባይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAddabābāy</placeName>
                     <!--                    transcription in fidel and xml:lang assigned as Amharic need checking-->
                     <country ref="LOC3010Ethiop"/>

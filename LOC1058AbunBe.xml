@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="quarter">
-               <placeName xml:id="n1" xml:lang="gez" >አቡን፡ ቤት፡</placeName>
+               <placeName xml:id="n1" xml:lang="gez">አቡን፡ ቤት፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAbun Bet</placeName>
                <placeName corresp="#n1" xml:lang="en">House of the <roleName type="title">ʾabun</roleName>
                </placeName>
