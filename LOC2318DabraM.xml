@@ -7,6 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC2318DabraM">
+   <!-- moved to INS0358TanaDM -->
    <teiHeader>
       <fileDesc>
          <titleStmt>

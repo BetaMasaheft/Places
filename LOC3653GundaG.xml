@@ -7,6 +7,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC3653GundaG">
+   
+   <!-- see INSINS0005Gund -->
    <teiHeader>
       <fileDesc>
          <titleStmt>

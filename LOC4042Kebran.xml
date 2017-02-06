@@ -7,10 +7,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC4042Kebran">
+   
+   <!-- now under INS0357Kebran -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kǝbran Gäbrǝʾel</title>
+            <title>Kǝbran Gabrǝʾel</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
