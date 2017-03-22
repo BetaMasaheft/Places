@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dabra Ḍaḥay Q<hi rend="apices">w</hi>ǝsq<hi rend="apices">w</hi>ām</title>
+                <title>Dabra Ḍaḥay Qʷǝsqʷām</title>
                 <!--                FP: ATTENTION: empty record as its content was moved to a new institution record INS0330DDQ-->
                 <editor key="FP"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
