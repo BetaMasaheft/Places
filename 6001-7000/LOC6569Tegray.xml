@@ -47,7 +47,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="province">
                     <placeName>Tǝgrāy</placeName>
                     <placeName type="alt"/>
-                    <country> </country>
+                    <country ref="LOC3010Ethiop">
                     <region/>
                     <settlement/>
                     <location>
