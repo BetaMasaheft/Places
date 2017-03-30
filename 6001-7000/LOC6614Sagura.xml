@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">Šagʷǝrā</title>
-            <title xml:id="t2">Šagurā</title>
+            
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -48,6 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <body>
+         <listPlace>
+            <place type="region">
+               <placeName xml:id="n1">Šagʷǝrā</placeName>
+               <placeName xml:id="n2">Šagurā</placeName>
+               <note>In the chronicle of ʿAnda Ṣǝyon</note>
+            </place>
+         </listPlace>
          <ab/>
       </body>
    </text>

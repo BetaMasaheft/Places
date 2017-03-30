@@ -6,12 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC6617Zaber">
+     xml:id="LOC6618Samarya">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Zabǝr</title>
-  
+            <title xml:id="t1">Samāryā</title>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -43,11 +42,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
 
-         <change who="ES" when="2017-03-29">CREATED:  record</change>
+         <change who="ES" when="2017-03-30">CREATED:  record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
+         <listPlace>
+            <place type="district">
+               <placeName xml:id="n1">Samāryā</placeName>
+               
+               <note>In the chronicle of ʿAnda Ṣǝyon</note>
+            </place>
+         </listPlace>
          <ab/>
       </body>
    </text>

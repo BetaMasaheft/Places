@@ -47,6 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <body>
+         <listPlace>
+            <place type="region">
+               <placeName xml:id="n1">Māʾǝkala Bāḥr</placeName>
+               
+               <note>In the chronicle of ʿAnda Ṣǝyon</note>
+            </place>
+         </listPlace>
          <ab/>
       </body>
    </text>
