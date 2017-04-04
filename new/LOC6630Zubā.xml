@@ -1,0 +1,22 @@
+<exist:result xmlns:exist="http://exist.sourceforge.net/NS/exist">
+    <exist:collection name="/db/apps" created="2017-03-23T08:00:13.136+01:00" owner="Pietro" group="ealgeids" permissions="rwxrwxr-x">
+        <exist:collection name="dict" created="2017-03-23T08:05:10.075+01:00" owner="Pietro" group="dba" permissions="rwxrwxr-x"/>
+        <exist:collection name="eXide" created="2017-03-23T08:00:18.261+01:00" owner="eXide" group="eXide" permissions="rwxrwxr-x"/>
+        <exist:collection name="resources" created="2017-04-04T11:04:29.197+02:00" owner="Pietro" group="eagleids" permissions="rwxrwxr-x"/>
+        <exist:collection name="eagleids" created="2017-04-04T11:09:03.83+02:00" owner="Pietro" group="dba" permissions="rwxr-xr-x"/>
+        <exist:collection name="BetMas" created="2017-03-23T08:06:22.864+01:00" owner="Pietro" group="dba" permissions="rwxrwxr-x"/>
+        <exist:collection name="dashboard" created="2017-03-23T08:00:17.513+01:00" owner="SYSTEM" group="dba" permissions="rwxr-xr-x"/>
+        <exist:collection name="templates" created="2017-04-04T11:04:29.162+02:00" owner="Pietro" group="eagleids" permissions="rwxrwxr-x"/>
+        <exist:collection name="modules" created="2017-04-04T11:04:29.077+02:00" owner="Pietro" group="eagleids" permissions="rwxrwxr-x"/>
+        <exist:collection name="shared-resources" created="2017-03-23T08:00:13.137+01:00" owner="admin" group="dba" permissions="rwxrwxr-x"/>
+        <exist:collection name="monex" created="2017-03-23T08:00:19.29+01:00" owner="monex" group="monex" permissions="rwxrwxr-x"/>
+        <exist:resource name="index.html" created="2017-03-23T08:00:18.873+01:00" last-modified="2017-03-23T08:00:18.873+01:00" owner="Pietro" group="eagleids" permissions="rw-rw-r--"/>
+        <exist:resource name="pre-install.xql" created="2017-04-04T11:04:28.987+02:00" last-modified="2017-04-04T11:05:51.197+02:00" owner="Pietro" group="eagleids" permissions="rwxrwxr-x"/>
+        <exist:resource name="controller.xql" created="2017-04-04T11:04:29.019+02:00" last-modified="2017-04-04T11:05:51.226+02:00" owner="Pietro" group="eagleids" permissions="rwxrwxr-x"/>
+        <exist:resource name="error-page.html" created="2017-03-23T08:00:18.882+01:00" last-modified="2017-03-23T08:00:18.882+01:00" owner="Pietro" group="eagleids" permissions="rw-rw-r--"/>
+        <exist:resource name="collection.xconf" created="2017-03-23T08:00:18.884+01:00" last-modified="2017-03-23T08:00:18.884+01:00" owner="Pietro" group="eagleids" permissions="rw-rw-r--"/>
+        <exist:resource name="expath-pkg.xml" created="2017-04-04T11:04:28.857+02:00" last-modified="2017-04-04T11:05:51.149+02:00" owner="Pietro" group="eagleids" permissions="rw-rw-r--"/>
+        <exist:resource name="repo.xml" created="2017-04-04T11:04:28.881+02:00" last-modified="2017-04-04T11:05:51.164+02:00" owner="Pietro" group="eagleids" permissions="rw-rw-r--"/>
+        <exist:resource name="build.xml" created="2017-04-04T11:04:29.308+02:00" last-modified="2017-04-04T11:05:51.681+02:00" owner="Pietro" group="dba" permissions="rw-r--r--"/>
+    </exist:collection>
+</exist:result>
