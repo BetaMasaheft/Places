@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="region ">
                     <placeName>Wǝrgāl / Wurgār</placeName>
                 </place>
-            </listPlace><!--in the AS chronicle-->
+            </listPlace><!--in the AS chronicle; cp also LOC6622Wargar???-->
         </body>
     </text>
 </TEI>
