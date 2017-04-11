@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="̧2017-02-06" who="FP">added info</change>
+         <change when="2017-02-06" who="FP">added info</change>
          <change when="2017-02-01" who="FP">added info</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue
             48.</change>
