@@ -1,59 +1,65 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6583WestTegray" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6653EastTegray" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="ti" xml:id="t1">Mǝʿrābāwi Tǝgrāy</title>
-                <editor key="FP"/>
+                <title xml:lang="ti" xml:id="t1">Mǝbrāqāwi Tǝgrāy</title>
                 <editor role="generalEditor" key="AB"/>
+                <editor key="FP"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                    Forschungsumgebung / beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
-
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
-
             </publicationStmt>
             <sourceDesc>
-                <p>A TEI file created from original data</p>
+                <p/>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
         <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="ar">Arabic</language>
-                <language ident="it">Italiano</language>
+                <language ident="it">Italian</language>
+                <language ident="am">Amharic</language>
                 <language ident="gez">Gǝʿǝz</language>
                 <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2017-04-13">added info</change>
-            <change who="FP" when="2017-04-08">CREATED: place</change>
+            <change who="FP" when="2017-04-07">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="zone">
-                    <placeName xml:id="n1" xml:lang="ti">ምዕራባዊ፡ ትግራይ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Mǝʿrābāwi
+                <place type="zoba  zone " sameAs="gn:7869879">
+                    
+                    <placeName xml:id="n1" xml:lang="ti">ምብራቃዊ፡ ትግራይ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Mǝbrāqāwi
                         Tǝgrāy</placeName>
-                    <placeName xml:id="n2" xml:lang="en" type="alt">Western Tǝgrāy Zone</placeName>
+                    <placeName xml:id="n2" xml:lang="en" type="alt">Eastern Tǝgrāy Zone</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-
+                    
                     <location>
-                        <geo>14.2782 36.5963</geo>
+                        <geo>14.1154 39.58699</geo>
                     </location>
                     <listBibl type="secondary">
                         <bibl>
@@ -62,18 +68,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
-                        <ab type="desc">The Western Tǝgrāy Zone is a subdivision of the <placeName
-                                ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
-                            capital <placeName ref="LOC6538Humara">Humarā</placeName>.</ab>
+                        <ab type="desc">The Eastern Tǝgrāy Zone is a subdivision of the <placeName
+                            ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
+                            capital <placeName ref="LOC1212Addigr">ʿAddigrāt</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC6538Humara"
-                        passive="#LOC6583WestTegray">
-                        <desc>Humarā is the capital of the Western Tǝgrāy Zone.</desc>
+                    <relation name="gn:locatedIn" active="LOC1212Addigr"
+                        passive="#LOC6653EastTegray">
+                        <desc>ʿAddigrāt is the capital of the Eastern Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>
             </listPlace>
+            
         </body>
     </text>
 </TEI>
