@@ -9,8 +9,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Tǝgrāy (historical province)</title>
+                <title>Tǝgrāy (historical "province")</title>
                 <editor role="generalEditor" key="AB"/>
+                <editor key="FP"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -35,9 +36,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <language ident="ar">Arabic</language>
                 <language ident="it">Italiano</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="am">Amharic</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="FP" when="2017-04-13">added info</change>
             <change who="FP" when="2016-10-18">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
@@ -45,10 +49,47 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="province">
+                    <placeName xml:id="n1" xml:lang="ti">ትግራይ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy</placeName>
+                    <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre</placeName>
                     <placeName>Tǝgrāy</placeName>
-                    <placeName type="alt"/>
+
                     <country ref="LOC3010Ethiop"/>
-                  
+                    <location>
+                        <geo/>
+                        <height/>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:Smidt2010EnAeTegray"/>
+                        </bibl>
+                    </listBibl>
+
+                    <note>
+                        <ab type="history">A variant of the term Tǝgrāy first appears in a <date
+                                notBefore="0900" notAfter="0999">10th-century</date> gloss to
+                                <persName ref="PRS3204CosmasI">Cosmas Indicopleustes</persName>,
+                            although its origin and meaning are unclear. Historical Tǝgrāy was the
+                            most important northern province of <placeName ref="LOC3010Ethiop"
+                                >Ethiopia</placeName> due to its symbolic, economic and strategic
+                            power. It encompassed <placeName ref="LOC1264Adwa">ʿAdwā</placeName>,
+                                <placeName ref="LOC1310Aksum">ʾAksum</placeName> and <placeName
+                                ref="LOC6384Yeha">Yǝḥa</placeName>, but it also extended and
+                            controlled adiacent territories, periodically including other areas
+                            beyond its central core. Territories that were often and for long
+                            periods of time subject to Tǝgrāy's control include <placeName
+                                ref="LOC3826Hawzen">Ḥāwzen</placeName> and <placeName
+                                ref="LOC2973Enticc">Ǝnṭiḉḉo</placeName> and sometimes also
+                                <placeName ref="LOC5749Sire">Šire</placeName> and <placeName
+                                ref="LOC5882Tamben">Tamben</placeName>. Tǝgrāy was densely populated
+                            since ancient times and characterised by the interaction between Semitic
+                            and Cushitic groups with southern Arabian influences. The capital of
+                            historical Tǝgrāy changed over time. Tǝgrāy owed part of its importantce
+                            to the sacred town of <placeName ref="LOC1310Aksum">ʾAksum</placeName>
+                            that was part of its territory, althugh enjoyed its own self-government.
+                        </ab>
+                    </note>
                 </place>
             </listPlace>
         </body>

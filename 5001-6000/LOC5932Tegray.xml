@@ -58,9 +58,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Bǝḥerāwi Kǝllǝlāwi Mangǝśti
                   Tǝgrāy</placeName>
                <placeName corresp="#n1" xml:lang="en">Tǝgrāy National Regional State</placeName>
-               <placeName xml:id="n2" xml:lang="ti">ትግራይ፡</placeName>
+               <placeName xml:id="n2" xml:lang="ti" type="alt">ትግራይ፡</placeName>
                <placeName corresp="#n2" xml:lang="ti" type="normalized">Tǝgrāy</placeName>
-               <placeName xml:id="n3" xml:lang="am">ትግሬ፡</placeName>
+               <placeName xml:id="n3" xml:lang="am" type="alt">ትግሬ፡</placeName>
                <placeName corresp="#n3" xml:lang="am" type="normalized">Tǝgre</placeName>
                <country ref="LOC3010Ethiop"/>
 
@@ -77,14 +77,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" notBefore="1991">1991</date>
                   <ab type="history">Tǝgrāy National Regional State was created in 1991 following a
                      radical reshaping ofthe historical Tǝgrāy province and the merger of diverse
-                     historical northern provinces. Tǝgray, kǝllǝl s. Central Tǝgray; East Tǝgray;
-                     Mäqälä; South Tǝgray; Tǝgray, prov.; West Tǝgra</ab>
+                     historical northern provinces.</ab>
                   <ab type="desc">Tǝgrāy borders with <placeName ref="LOC2991Eritre"
-                     >Eritrea</placeName> to the north, <placeName ref="gn:366755"
-                           >Sudan</placeName> to the west, <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> kǝllǝl to the south and <placeName ref="LOC1274Afar">ʿAfār</placeName> kǝllǝl
-                     to the east. Its national language is <persName ref="ETH2126Tegren">Tǝgrǝññā</persName> and its capital is <placeName ref="LOC4545Maqala">Maq̲ala</placeName>.
-                     Although the state was originally divided into four zones, but in <date cert="medium">2005</date> these were 
-                     increased to six: South Zone, South-East Zone, Central Zone</ab>
+                        >Eritrea</placeName> to the north, <placeName ref="gn:366755"
+                        >Sudan</placeName> to the west, <placeName ref="LOC1426Amhara"
+                        >ʾAmhārā</placeName> kǝllǝl to the south and <placeName ref="LOC1274Afar"
+                        >ʿAfār</placeName> kǝllǝl to the east. Its national language is <persName
+                        ref="ETH2126Tegren">Tǝgrǝññā</persName> and its capital is <placeName
+                        ref="LOC4545Maqala">Maq̲ala</placeName>. Although the state was originally
+                     divided into four zones, in <date cert="medium">2005</date> these were
+                     increased to six: <placeName ref="LOC6583WestTegray">Western Tǝgrāy
+                        Zone</placeName>, <placeName ref="LOC6653EastTegray">Eastern Tǝgrāy
+                        Zone</placeName>, <placeName ref="LOC6654CentralTegray">Central Tǝgrāy
+                        Zone</placeName>, <placeName ref="LOC6655SudTegray">Southern Tǝgrāy
+                        Zone</placeName>, <placeName ref="LOC6656NWTegray">North-Western Tǝgrāy
+                        Zone</placeName>, <placeName ref="LOC6657SETegray">South-Eastern Tǝgrāy
+                        Zone</placeName>. Tǝgrāy presents a rich cultural heritage consisting of
+                     curches, monasteries and other religious places, both Christian and Islamic:
+                     manuscript collections; land charters; inscriptions; etc. </ab>
                </note>
             </place>
          </listPlace>
