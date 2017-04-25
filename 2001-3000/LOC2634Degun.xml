@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Degun</placeName>
+               <placeName xml:id="n1">Dǝgʷǝn</placeName>
+               <placeName xml:id="n2">Dǝgun</placeName>
+               <placeName xml:id="n3">Degun</placeName>
             </place>
-         </listPlace>
+         </listPlace> <!-- Dǝgʷǝn in the AS chronicle -->
       </body>
    </text>
 </TEI>
