@@ -53,8 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town"  sameAs="gn:71132">
-               <placeName>Ṣanʿāʾ</placeName>
-               <placeName type="alt">Ṣanaʿāʾ</placeName>
+               <placeName xml:id="n1">Ṣanʿāʾ</placeName>
+               <placeName type="alt" corresp="#n1">Ṣanaʿāʾ</placeName>
                <country ref="LOC6387Yemen"/>
                <location>
                   <geo>15.26069 44.42489</geo>
