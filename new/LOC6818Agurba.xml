@@ -49,9 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="region ">
                     <placeName>ʾAgurbā</placeName>
+                    <placeName>ʾǝgʷǝrba</placeName>
+                    <note>possibly identifiable with the <ref type="place" corresp="ETH1149Argobb">Argobba</ref></note>
                 </place>
                 <listRelation>
                     <relation name="saws:formsPartOf" active="LOC6818Agurba" passive="LOC6817Zalan"/>
+                    <relation name="saws:isRelatedTo" cert="medium" active="LOC6818Agurba" passive="ETH1149Argobb"></relation>
                 </listRelation>
             </listPlace><!--in the AS chronicle-->
         </body>

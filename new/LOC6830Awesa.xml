@@ -49,8 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="region ">
                     <placeName>ʾAwesā</placeName>
+                    <note>Could be the same as <ref type="place" corresp="ETH1171awsa">ʾAwsa</ref></note>
                 </place>
-                <listRelation><relation name="saws:formsPartOf" active="LOC6830Awesa" passive="LOC6829Gabal"/></listRelation>
+                <listRelation><relation name="saws:formsPartOf" active="LOC6830Awesa" passive="LOC6829Gabal"/>
+                    <relation name="saws:isRelatedTo" cert="medium" active="LOC6830Awesa" passive="ETH1171awsa"></relation>
+                </listRelation>
+                
             </listPlace><!--in the AS chronicle-->
         </body>
     </text>
