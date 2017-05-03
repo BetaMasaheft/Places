@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hagära</title>
+            <title>Hagarā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,8 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Hagära</placeName>
+               <placeName>Hagarā</placeName>
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="LOC3735Hagara" passive="LIT4275ChronAmdS"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
