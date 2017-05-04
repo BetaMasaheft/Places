@@ -1,24 +1,34 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6636Delhoya" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6714Warakwso" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Dǝlhoyā</title>
-                <editor role="generalEditor" key="AB"/>
-                <editor key="ES"/>
+                <title xml:lang="gez" xml:id="t1"/>
+                <editor role="generalEditor">Alessandro Bausi</editor>
+                <editor>Eugenia Sokolinski</editor>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
+            <!--
+            THIS IS A POSTPROCESSED FILE WHICH ADDS USEFULL 
+            DATA STORED IN OTHER COLLECTIONS WITH
+            THE RESOURCE YOU ARE REQUESTING.
+            
+            THE ACTUAL SOURCE FILE FOR THIS ENTRY CAN BE 
+            SEEN ADDING .XML AT THE END OF THE ENTRY URL.
+            
+                -->
             <publicationStmt>
                 <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
                             Forschungsumgebung / beta maṣāḥǝft</publisher>
-                <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
                                 licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
+                <date>2017-05-04T13:37:48.452+02:00</date>
             </publicationStmt>
             <sourceDesc>
                 <p/>
@@ -41,17 +51,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2017-04-04">Created entity</change>
+            <change who="ES" when="2017-04-26">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="region ">
-                    <placeName>Dǝlhoyā</placeName>
-                    <placeName>Dǝlḫoyā</placeName>
+                    <placeName/>
                 </place>
-            </listPlace><!--in the AS chronicle-->
+            </listPlace>
         </body>
     </text>
 </TEI>
