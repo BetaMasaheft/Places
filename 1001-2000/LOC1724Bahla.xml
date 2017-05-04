@@ -53,8 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place>
-               <placeName>Bāḥlā</placeName>
+               <placeName xml:lang="gez">Bahalā</placeName>
+               <placeName xml:lang="ar">Bāḥlā</placeName>
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="LOC1724Bahla" passive="LIT4275ChronAmdS"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
