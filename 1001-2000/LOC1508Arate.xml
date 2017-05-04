@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Arate</title>
+            <title>ʿĀrāte</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,9 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="area">
-               <placeName>Arate</placeName>
+            <place type="area town">
+               <placeName>ʿĀrāte</placeName>
+               <placeName>ʾĀrāte</placeName>
+               
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="LOC1508Arate" passive="LIT4275ChronAmdS"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

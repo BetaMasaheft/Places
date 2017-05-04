@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6646Sasogi" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6841BekwelZor" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="gez" xml:id="t1">Sasogi</title>
+                <title xml:lang="gez" xml:id="t1">Bǝqʷǝl Zor</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,19 +41,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2017-04-04">Created entity</change>
+            <change who="ES" when="2017-05-04">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="region ">
-                    <placeName>Sasogi</placeName>
-                    <placeName>Sāsogi</placeName>
+                <place type="site ">
+                    <placeName>Bǝqʷǝl Zor</placeName>
                 </place>
-                <listRelation>
-                    <relation name="lawd:hasAttestation" active="LOC6646Sasogi" passive="LIT4275ChronAmdS"/>
-                </listRelation>
             </listPlace><!--in the AS chronicle-->
         </body>
     </text>
