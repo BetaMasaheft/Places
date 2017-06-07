@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="region" sameAs="Q2894614">
                <placeName>Wägära</placeName>
                <placeName type="alt">Wäggära</placeName>
+              
             </place>
          </listPlace>
       </body>
