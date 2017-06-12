@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Maryam aasäyti</title>
+            <title>Däbrä Maryam Ṗaasäyti</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Däbrä Maryam aasäyti</placeName>
+               <placeName>Däbrä Maryam Ṗaasäyti</placeName>
             </place>
          </listPlace>
       </body>

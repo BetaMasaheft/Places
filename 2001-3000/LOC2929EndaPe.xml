@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝnda eṭros</title>
+            <title>Ǝnda Ṗeṭros</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="archaeologicalSite">
-               <placeName>Ǝnda eṭros</placeName>
+               <placeName>Ǝnda Ṗeṭros</placeName>
             </place>
          </listPlace>
       </body>
