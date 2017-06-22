@@ -64,13 +64,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n3" xml:lang="am" type="normalized">Tǝgre</placeName>
                <country ref="LOC3010Ethiop"/>
 
-               <location>
+               <location source="#Smidt">
                   <geo>14.1666 38.8333</geo>
                   <height>1975 m</height>
                </location>
                <listBibl type="secondary">
-                  <bibl>
+                  <bibl xml:id="Smidt">
                      <ptr target="bm:Smidt2010EnAeTegray"/>
+                     
                   </bibl>
                </listBibl>
                <note>
