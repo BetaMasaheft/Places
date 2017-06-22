@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="la">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -54,15 +55,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="port" sameAs="Q378940">
-               <placeName>Adulis</placeName>
+            <place type="city port" sameAs="Q378940">
+             <placeName xml:id="n1">Adulis</placeName>
+               <placeName xml:id="n2" xml:lang="en" type="alt">the arbour of the Adulitae</placeName>
+               <placeName xml:id="n3" xml:lang="gez" type="alt">ገበዛ፡</placeName> 
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabazā</placeName>
+               <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae</placeName>
+               <placeName xml:id="n5" type="alt">WDTT</placeName>
+               <state type="existence" ref="Aks"></state>
                <location type="relative" source="#FattovichMunro"><desc>20 stades from the actual port</desc></location>
             <listBibl type="secondary">
                <bibl xml:id="FattovichMunro">
                   <ptr target="bm:FattovichMunro2003EnAeAdulis"/>
-               </bibl>
+                              </bibl>
+            <bibl xml:id="Smith">
+               <ptr  target="bm:SmithGreekRomanGeo"/>
+               <citedRange unit="item">s.v. Adu'le or Adu'lis</citedRange>
+            </bibl>
             </listBibl>
-               <note></note>
+               
+               <note source="#Smith"><ref cRef="http://data.perseus.org/citations/urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7">Ptolemy 4.7.8</ref></note>
             </place>
             
          </listPlace>
