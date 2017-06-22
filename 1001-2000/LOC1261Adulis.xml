@@ -13,6 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Adulis</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-06-22" who="FP">added information and tested new attributes</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,9 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="port">
+            <place type="port" sameAs="Q378940">
                <placeName>Adulis</placeName>
+               <location type="relative" source="#FattovichMunro"><desc>20 stades from the actual port</desc></location>
+            <listBibl type="secondary">
+               <bibl xml:id="FattovichMunro">
+                  <ptr target="bm:FattovichMunro2003EnAeAdulis"/>
+               </bibl>
+            </listBibl>
+               <note></note>
             </place>
+            
          </listPlace>
       </body>
    </text>
