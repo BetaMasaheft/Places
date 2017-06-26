@@ -48,9 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="district site">
-                    <placeName>Arafta</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">አረፍታ</placeName>
+                    <placeName  corresp="#n1" type="normalized">Arafta</placeName>
+                    <state type="existence" ref="Paks2"/>
                 </place>
-            </listPlace><!--an unidentified place-->
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC6844Arafta" passive="LOC6569Tegray"/>
+                    </listRelation>
+            </listPlace>
+            <!--an unidentified place-->
         </body>
     </text>
 </TEI>
