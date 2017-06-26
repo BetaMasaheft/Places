@@ -85,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         >ʾAmhārā</placeName> kǝllǝl to the south and <placeName ref="LOC1274Afar"
                         >ʿAfār</placeName> kǝllǝl to the east. Its national language is <persName
                         ref="ETH2126Tegren">Tǝgrǝññā</persName> and its capital is <placeName
-                        ref="LOC4545Maqala">Maq̲ala</placeName>. Although the state was originally
+                           ref="LOC4545Maqala">Maq&#x332;ala</placeName>. Although the state was originally
                      divided into four zones, in <date cert="medium">2005</date> these were
                      increased to six: <placeName ref="LOC6583WestTegray">Western Tǝgrāy
                         Zone</placeName>, <placeName ref="LOC6653EastTegray">Eastern Tǝgrāy
