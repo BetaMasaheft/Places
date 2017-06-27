@@ -48,7 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="region">
-                    <placeName>Bar Aǧam</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">በር፡ አጀም፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Bar Aǧam</placeName>
+                    <state type="existence" ref="Paks2"/>
+                    
+                   
                 </place>
             </listPlace   ><!---->
         </body>

@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Agraro</title>
+                <title>ʾAgrāro</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,8 +48,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="qabale">
-                    <placeName>Agraro</placeName>
+                   
+                    <placeName xml:lang="gez" xml:id="n1">አግራሮ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAgrāro</placeName>
+                    <state type="existence" ref="Paks2"/>
+                  
                 </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#LOC6847Agraro" passive="LOC2582Dawaro"/>
+                </listRelation>
+                
             </listPlace><!--Agraro-->
         </body>
     </text>
