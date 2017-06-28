@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Addis Abäba</title>
+            <title>ʾAddis ʾAbabā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,6 +40,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
+            <language ident="om">Oromo</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -47,14 +49,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2017-06-28">Additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Addis Abäba</placeName>
-               <placeName type="alt">Finfinnee</placeName>
+            <place type="town" sameAs="Q3624">
+               <placeName xml:lang="am" xml:id="n1">አዲስ፡ አበባ፡</placeName>
+               <placeName xml:lang="am" corresp="#n1" type="normalized">ʾAddis ʾAbabā</placeName>
+               <placeName type="alt" xml:lang="om">Finfinnee</placeName>
+               <country ref="LOC3010Ethiop"/>
             </place>
          </listPlace>
       </body>
