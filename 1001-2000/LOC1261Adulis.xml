@@ -75,7 +75,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <location type="relative" source="#FattovichMunro">
                   <desc>20 stades from the actual port</desc>
                   <desc>The ancient site of ʾAdulis is located in the coastal plain of the
-                        <placeName ref="LOC6503Zula">Gulf of Zulā</placeName>, approx. <measure>40
+                        <ref type="place" target="#LOC6503Zula">Gulf of Zulā</ref>, approx. <measure>40
                         km</measure> to the south of <placeName ref="LOC4631Massaw"
                         >Māssāwā</placeName>, at the northen side of the river <placeName
                            ref="LOC3727Haddas">Ḥaddās</placeName> and at about <measure>4 km</measure>
