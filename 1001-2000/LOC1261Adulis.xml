@@ -64,21 +64,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae
                      <note source="#Smith"><ref
                         cRef="http://data.perseus.org/citations/urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7"
-                        >Source: Ptolemy 4.7.8</ref></note><note source="#Epiphanius">Source:
+                        >Ptolemy 4.7.8</ref></note><note source="#Epiphanius">
                      Epiphanius (listing nine kingdoms of the 'Indians', he refers to the Adulites
                      other then to the Aksumites)</note></placeName>
                <placeName xml:id="n5" type="alt" source="#FattovichMunro">WDTT <note
-                     source="#FattovichMunro">Source: the geographical lists of the Egyptian 18th
+                     source="#FattovichMunro">The geographical lists of the Egyptian 18th
                      dynasty (<date when="-1450" precision="low">ca. 1450
                   B.C.</date>)</note></placeName>
                <state type="existence" ref="Aks"/>
                <location type="relative" source="#FattovichMunro">
-                  <desc>20 stades from the actual port</desc>
+                  <desc>20 stades from the actual port.</desc>
                   <desc>The ancient site of ʾAdulis is located in the coastal plain of the
-                        <ref type="place" target="#LOC6503Zula">Gulf of Zulā</ref>, approx. <measure>40
+                        <ref type="place" target="#LOC6503Zula">Gulf of Zulā</ref>, approx. <measure unit="km" quantity="40">40
                         km</measure> to the south of <placeName ref="LOC4631Massaw"
                         >Māssāwā</placeName>, at the northen side of the river <placeName
-                           ref="LOC3727Haddas">Ḥaddās</placeName> and at about <measure>4 km</measure>
+                           ref="LOC3727Haddas">Ḥaddās</placeName> and at about <measure unit="km" quantity="4">4 km</measure>
                      from the coast.</desc>
                </location>
                <listBibl type="secondary">
