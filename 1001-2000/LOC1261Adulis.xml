@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Adulis</title>
+            <title>ʾAdulis</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="FP"/>
@@ -56,12 +56,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="city port" sameAs="Q378940">
-             <placeName xml:id="n1">Adulis</placeName>
+               <placeName xml:id="n1">ʾAdulis</placeName>
                <placeName xml:id="n2" xml:lang="en" type="alt">the arbour of the Adulitae</placeName>
                <placeName xml:id="n3" xml:lang="gez" type="alt">ገበዛ፡</placeName> 
                <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabazā</placeName>
-               <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae</placeName>
-               <placeName xml:id="n5" type="alt">WDTT</placeName>
+               <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae <note source="#Smith"><ref cRef="http://data.perseus.org/citations/urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7">Ptolemy 4.7.8</ref></note><note source="#FattovichMunro">Epiphanius, listing nine kingdoms of the 'Indians', refers to the Adulites other then to the Aksumites.</note></placeName>
+               <placeName xml:id="n5" type="alt">WDTT <note source="#FattovichMunro">the geographical lists of the Egyptian 18th dynasty (<date when="-1450" precision="low">ca. 1450 B.C.</date>)</note></placeName>
                <state type="existence" ref="Aks"></state>
                <location type="relative" source="#FattovichMunro"><desc>20 stades from the actual port</desc></location>
             <listBibl type="secondary">
@@ -73,8 +73,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <citedRange unit="item">s.v. Adu'le or Adu'lis</citedRange>
             </bibl>
             </listBibl>
-               
-               <note source="#Smith"><ref cRef="http://data.perseus.org/citations/urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7">Ptolemy 4.7.8</ref></note>
+               <note>
+                  <ab type="history">ʾAdulis was the main port of <placeName ref="LOC1310Aksum">ʾAksum</placeName> during the zenith of the Aksumite Empire. This port is mentioned in numerous foreign reports and played a key role in maintaining trade contacts with other powers of the time. The city probably lay some distance (20 stades) from the actual port.</ab>
+               </note>
+              
             </place>
             
          </listPlace>
