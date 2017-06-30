@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabazā</placeName>
                <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae
                      <note source="#Smith"><ref
-                        cRef="http://data.perseus.org/citations/urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7"
+                        cRef="urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7"
                         >Ptolemy 4.7.8</ref></note><note source="#Epiphanius">
                      Epiphanius (listing nine kingdoms of the 'Indians', he refers to the Adulites
                      other then to the Aksumites)</note></placeName>
