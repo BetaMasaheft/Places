@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region" sameAs="Q157727">
+            <place type="region">
                <placeName>Ifat</placeName>
                <placeName type="alt">Ifāt; Awfat</placeName>
                <placeName type="alt">Wifat; Yǝfat</placeName>
