@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="RegionalState" sameAs="gn:444187">
+            <place type="RegionalState" sameAs="Q200127">
                <placeName xml:id="n1" xml:lang="am">ብሔራዊ፡ ክልላዊ፡ መንግሥቲ፡ ትግራይ፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Bǝḥerāwi Kǝllǝlāwi Mangǝśti
                   Tǝgrāy</placeName>
@@ -62,6 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n2" xml:lang="ti" type="normalized">Tǝgrāy</placeName>
                <placeName xml:id="n3" xml:lang="am" type="alt">ትግሬ፡</placeName>
                <placeName corresp="#n3" xml:lang="am" type="normalized">Tǝgre</placeName>
+               <state type="existence" notBefore="1991"/>
                <country ref="LOC3010Ethiop"/>
 
                <location source="#Smidt">
@@ -71,13 +72,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listBibl type="secondary">
                   <bibl xml:id="Smidt">
                      <ptr target="bm:Smidt2010EnAeTegray"/>
-                     
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
                   </bibl>
                </listBibl>
                <note>
                   <date type="foundation" notBefore="1991">1991</date>
                   <ab type="history">Tǝgrāy National Regional State was created in 1991 following a
-                     radical reshaping ofthe historical Tǝgrāy province and the merger of diverse
+                     radical reshaping of the historical Tǝgrāy province and the merger of diverse
                      historical northern provinces.</ab>
                   <ab type="desc">Tǝgrāy borders with <placeName ref="LOC2991Eritre"
                         >Eritrea</placeName> to the north, <placeName ref="gn:366755"
@@ -85,7 +88,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         >ʾAmhārā</placeName> kǝllǝl to the south and <placeName ref="LOC1274Afar"
                         >ʿAfār</placeName> kǝllǝl to the east. Its national language is <persName
                         ref="ETH2126Tegren">Tǝgrǝññā</persName> and its capital is <placeName
-                           ref="LOC4545Maqala">Maq&#x332;ala</placeName>. Although the state was originally
+                           ref="LOC4545Maqala">Maqala</placeName>. Although the state was originally
                      divided into four zones, in <date cert="medium">2005</date> these were
                      increased to six: <placeName ref="LOC6583WestTegray">Western Tǝgrāy
                         Zone</placeName>, <placeName ref="LOC6653EastTegray">Eastern Tǝgrāy
