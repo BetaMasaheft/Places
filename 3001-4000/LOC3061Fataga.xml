@@ -79,7 +79,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listBibl type="secondary" >
                   <bibl>
                      <ptr target="bm:Derat2005Fatagar"/>
-               </bibl></listBibl>
+               </bibl>
+                  <bibl>
+                     <ptr target="bm:Solomon2015Geography"/>
+                     <biblScope unit="page">109-118</biblScope>
+                  </bibl>
+               </listBibl>
             <note>
                <ab type="history">It was a large historical region (possibly once a muslim sultanate), was located in the south-east of 
                   <placeName ref="LOC5597Sawa"/> on the northern shore of  the <placeName ref="LOC1617Awas"/> river. 
