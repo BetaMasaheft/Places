@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>mountains</title>
+                <title>mountains of the Christian kingdom of Ethiopia</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="mountain">  <placeName xml:lang="gez" xml:id="n1">አድባራት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">mountains</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">mountains of the Christian kingdom</placeName>
                     
                     
                     
