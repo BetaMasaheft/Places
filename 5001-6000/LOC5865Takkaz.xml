@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="area" sameAs="LOC6569Tegray">
+            <place type="area">
                <placeName xml:id="n1" xml:lang="ti">ተከዜ፡ ምላሽ፡</placeName>
                <placeName corresp="#n1" xml:lang="ti" type="normalized">Takkaze Mǝllaš</placeName>
                <placeName corresp="#n1" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz">Takkaze</placeName></placeName>

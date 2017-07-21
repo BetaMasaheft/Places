@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-07-21" who="FP">added sameas and Wikidata object ID</change>
          <change when="2016-11-08" who="FP">small updates</change>
          <change when="2016-10-26" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -54,9 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:878675">
+            <place type="country" sameAs="Q954">
                <placeName xml:id="n1" xml:lang="en" notBefore="1979">Republic of Zimbabwe</placeName>
-               <placeName xml:id="n2" xml:lang="en" notBefore="1965" notAfter="1979">Republic of Rhodesia</placeName>
+               <placeName xml:id="n2" xml:lang="en" notBefore="1965" notAfter="1979" sameAs="LOC5347Rhodes">Republic of Rhodesia</placeName>
             </place>
          </listPlace>
       </body>

@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+        <change who="FP" when="2017-07-21">removed wrong sameas</change> 
          <change when="2016-11-08" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
@@ -53,9 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="LOC6488Zimbab">
+            <place type="country">
                <placeName>Rhodesia</placeName>
-            </place>
+               </place>
          </listPlace>
       </body>
    </text>
