@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3826Hawzen">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3826Hawzen">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Ḥawzen</title>
-            <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -43,17 +40,53 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="FP" when="2017-07-21">added info</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="town region">
-               <placeName>Ḥawzen</placeName>
+            <place type="town administrativeUnit" sameAs="Q3128790 Q3128788">
+               <placeName xml:id="n1" xml:lang="gez" source="#Lusini">ሐውዜን፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥawzen</placeName>
+               <placeName xml:id="n2" xml:lang="gez" type="alt" source="#Lusini">ሐውዜና፡ <note>This
+                     place name is mentioned in two land-granting documents of the <ref type="work"
+                        corresp="LIT1913Mashaf">Liber Axumae</ref></note></placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Ḥawzena</placeName>
+               <state type="existence" ref="Aks Gon MoPe Paks1 Paks2 ZaMa"/>
+               <country ref="LOC3010Ethiop"/>
+               <region type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
+               <region notAfter="1991" ref="LOC6569Tegray" type="Province"/>
+               <region type="area" ref="LOC3307Garalt"/>
+               <!--               check type of LOC3307Garalt-->
+               <settlement type="zone" ref="LOC6583WestTegray" notBefore="1991"/>
+               <location>
+                  <geo>14.0000 39.3333</geo>
+                  <height/>
+               </location>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:Smidt2010EnAeTegray"/>
+                  </bibl>
+                  <bibl xml:id="Lusini">
+                     <ptr target="bm:Lusini2005EAEHawzen"/>
+                  </bibl>
+               </listBibl>
+               <note>
+                  <ab type="desc">Ḥawzen is the name both of a wäräda and of its administrative
+                     capital. This area was already important in Aksumite times and maintained an
+                     important role also after the decline of Aksum. Its territory was often and for
+                     long periods of time subject to historical <placeName ref="LOC6569Tegray"
+                        >Tǝgrāy</placeName>'s control. Still preserved in the modern town of Ḥawzen
+                     is a three-aisled rock-hewn church possibly dating to the 10th-13th century
+                     with a sanctuary containing a tabot dedicated to <roleName type="title"
+                        >ʾAbuna</roleName>
+                     <persName ref="PRS9151TaklaHa" type="tabot">Takla Hāymānot</persName>.</ab>
+               </note>
             </place>
          </listPlace>
       </body>
