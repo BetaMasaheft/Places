@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6860borderland" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6873BaraArab" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Southern borderland of the Christian kingdom</title>
+                <title>Bara ʿArab</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,26 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2017-07-17">Created entity</change>
+            <change who="SG" when="2017-07-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="settlement">
+                <place type="country">
+                    <placeName xml:lang="gez" xml:id="n1">በረ፡ ዓረብ</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Bara ʿArab</placeName>
+                    <state type="existence" ref="Paks2"/>
                     
-                        <placeName xml:lang="gez" xml:id="n1">ጽንፍ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Southern borderland of the Christian kingdom</placeName>
-                        <state type="existence" ref="Paks2"/>
-                        
-                        
-                        
-                    </place>
-                    <listRelation>
-                        <relation name="gn:locatedIn" active="#LOC6848Agay" passive="LOC5597Sawa"/>
-                    </listRelation>
                     
-                     </listPlace><!---->
+                    
+                </place>
+                
+                
+                
+            </listPlace><!---->
         </body>
     </text>
 </TEI>
+                    
