@@ -3,35 +3,32 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC4545Maqala">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4545Maqala">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäqälä</title>
-            <author/>
+            <title>Maala</title>
             <editor role="generalEditor" key="AB"/>
+            <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+               Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
             <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                Forschungsumgebung / beta maṣāḥǝft</publisher>
+               Forschungsumgebung / beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -40,21 +37,91 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="ti">Tigrinya</language>
+            <language ident="am">Amharic</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="FP" when="2017-07-28">added info</change>
+         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Mäqälä</placeName>
+            <place type="town" sameAs="Q332319">
+               <placeName xml:id="n1" xml:lang="ti">መቐለ፡</placeName>
+               <placeName corresp="#n1" xml:lang="ti" type="normalized">Maala</placeName>
+               <placeName xml:id="n2" xml:lang="am" type="alt">መቀሌ፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Maqalle</placeName>
+               <state type="existence" ref="ZaMa MoPe "/>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement/>
+               <location>
+                  <geo>13.4833 39.4666</geo>
+                  <height>2254</height>
+               </location>
+               <listBibl type="secondary">
+                  <bibl xml:id="AberraGebrelibanos">
+                     <ptr target="bm:AberraGebrelibanos2007EAeMaqala"/>
+                  </bibl>
+               </listBibl>
+               <note>
+                  <date type="foundation" notBefore="1800" notAfter="1850" precision="low">early
+                     19th century</date>
+                  <ab type="history">Maala probably evolved from a <date notBefore="1200"
+                        notAfter="1299">13th</date>-century hamlet called <placeName
+                        ref="LOC2922EndaMa">Ǝndā Masqal</placeName> (later <placeName
+                        ref="LOC2908EndaMa">Ǝndā Madḫane ʿAlam</placeName>). It became a town by the
+                        <date notBefore="1800" notAfter="1850">early 19th</date> century. Maala
+                     grew into a regional centre under <persName ref="PRS10378Yohanne">Yoḥannǝs
+                        IV</persName> who chose it for strategic reasons, both commercial (it was
+                     located along important trade routes) and political (it was located on the
+                     route to Šawā). Maala became an important market town and, in the <date
+                        notBefore="1880" notAfter="1889">1880s</date>, the emperor's capital city.
+                     However, with the succession of <persName ref="PRS7006Menilek">Mǝnilǝk
+                        II</persName>, the political and commercial balance shifted to southern
+                        <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in favour of <placeName
+                        ref="LOC5597Sawa">Šawā</placeName> and <placeName ref="LOC1216AddisA">ʾAddis
+                        ʾAbabā</placeName>. In <date when="1895">1895</date>, Maala was occcupied
+                     by the Italians and became part of the Colonia Eritrea, but <persName
+                        ref="PRS7006Menilek">Mǝnilǝk</persName> reconquered it in <date>Januar
+                        1896</date>. Maala urbanized progressively during the <date
+                        notBefore="1900" notAfter="1999">20th</date> century and three particularly
+                     important moments can be identified. Under <roleName type="title"
+                        >daǧǧāzmāč</roleName>
+                     <persName ref="PRS1285AbrehaA">ʾAbrǝha ʾArʾayā Dǝmṣu</persName>, new buildings
+                     were built, a new Saturday Market was established and variousoccupational
+                     groups were attracked to the town. In the <date notBefore="1920"
+                        notAfter="1929">1920s</date> and <date notBefore="1930" notAfter="1939"
+                        >1930s</date>, the town witnessed an increase in trade activity and
+                     modernization of the infrastructure, also thanks to the Italian occupation. In
+                     spite of the damages caused by the British air bombardments in
+                     <date>September-October 1943</date>, the third wave of urbanization took place between <date when="1942">1942</date>
+                     and <date when="1974">1974</date>, including the development of infrastructure, services, commercial
+                     activities and administration. The <date notBefore="1974" notAfter="1991">1974-1991</date> war seriously hindered the
+                     urbanization process but, after <date when="1991">1991</date>, it has resumed at a great pace. Maala
+                     is today the capital of <placeName ref="LOC5932Tegray">Tǝgrāy National Regional
+                        State</placeName>. </ab>
+                  <ab type="desc"/>
+               </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC4545Maqala"
+                  passive="#LOC2922EndaMa">
+                  <desc>Maala probably evolved from a 13th-century hamlet called Ǝndā
+                     Masqal.</desc>
+               </relation>
+               <relation name="syriaca:has-relation-to-place" active="#LOC4545Maqala"
+                  passive="#LOC2908EndaMa">
+                  <desc>Maala probably evolved from a 13th-century hamlet called Ǝndā Masqal, later
+                     Ǝndā Madḫane ʿAlam.</desc>
+               </relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
