@@ -10,7 +10,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäzäga</title>
+            <title>Mazagā</title>
+            <editor role="generalEditor" key="AB"/>
+            
+            <editor key="SG"/>
+            
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="am">Amharic</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -47,16 +52,77 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-04">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Mäzäga</placeName>
-               <placeName type="alt">Mazaǧa</placeName>
+               <placeName xml:lang="am" xml:id="n1">መዘጋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Mazagā</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">መዘጀ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Mazaǧa</placeName>
+               
+               <state type="existence" ref="Paks2"/>
+               <country ref="LOC3010Ethiop"></country>
+               <location> </location>
+               <listBibl type="editions"> 
+                  <bibl>
+                     <ptr target="bm:Solomon2016Galawdewos"/>
+                     
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Conzelman1895Galawdewos"/>
+                  </bibl>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listBibl>
+               
+               
+               
+               
+               <listBibl type="secondary" >
+                  <bibl>
+                     <ptr target="bm:Luisini2007Mazaga"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Solomon2015Geography"/>
+                     <biblScope unit="page">109-118</biblScope>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <biblScope unit="page">97, 132, 133, 247</biblScope>
+                  </bibl>
+                  
+                  
+               </listBibl>
+               <note>
+                  
+                  <ab type="history">It was a historical region located on the Sudanese border, in the north of the province of <placeName ref="LOC6186Walqay"/>, 
+                     limited at great extent by the <placeName ref="LOC5697Setit"/>and<placeName ref="LOC5864Takkaz"/> 
+                     river, in what is today <placeName ref="LOC2991Eritre"/>. It was a region with hot and dry climate, a fortunate circumstance during 16th century for King 
+                     <persName ref="PRS4428Galawdew"/> as while <placeName ref="Q2359535"/> fighting there suffered because of the harsh climatic condition. Prior to  the sixteenth century,
+                     it was an islamic Sultanate, inhabited by <persName ref="ETH1194Balaw"/> and ruled by  
+                     <persName ref="PRS6537Makattar"/>, an ally of <persName ref="PRS1522Ahmadb"/>.  
+                     <persName ref="PRS6537Makattar"/> died shortly after<persName ref="PRS1522Ahmadb"/>, the rule  was taken over by his own sister, 
+                     <persName ref="PRS4406Gaewa"/>, who made alliance with the <placeName ref="Q2359535"/>. She was defeated in <date>1557</date>, 
+                     and the region was finally incorporated in the Christian empire. </ab>     
+               </note>
+               
+               
+               
+               
             </place>
+            
          </listPlace>
       </body>
    </text>
 </TEI>
+
+
+            

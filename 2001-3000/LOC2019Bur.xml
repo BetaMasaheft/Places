@@ -11,6 +11,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bur</title>
+            <editor role="generalEditor" key="AB"/>
+            
+            <editor key="SG"/>
+            
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -70,6 +74,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
+        
+                          
+     
+               
+          
                   
                </listBibl>
                
@@ -84,6 +93,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Solomon2015Geography"/>
                      <biblScope unit="page">109-118</biblScope>
                   </bibl>
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <biblScope unit="page">95, 96-100, 120, 133, 163,249 </biblScope>
+                  </bibl>
+                  
+                  
                </listBibl>
                <note>
               
