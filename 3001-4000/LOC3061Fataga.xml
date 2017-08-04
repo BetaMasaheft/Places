@@ -13,6 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Faṭagār</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+         
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -84,6 +85,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Solomon2015Geography"/>
                      <biblScope unit="page">109-118</biblScope>
                   </bibl>
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <biblScope unit="page">69,73, 79, 83, 86-88, 95, 101-103, 107, 112.
+                   ,117, 119, 121-23, 127, 128, 130, 246</biblScope>
+                  </bibl>
+                  
                </listBibl>
             <note>
                <ab type="history">It was a large historical region (possibly once a muslim sultanate), was located in the south-east of 
