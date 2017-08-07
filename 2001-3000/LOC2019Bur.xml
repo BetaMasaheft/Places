@@ -95,7 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <biblScope unit="page">95, 96-100, 120, 133, 163,249 </biblScope>
+                     <biblScope unit="page">95, 96-100, 120, 133, 163, 249 </biblScope>
                   </bibl>
                   
                   

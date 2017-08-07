@@ -10,7 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bale</title>
+            <title>Bāle</title>
+            <editor role="generalEditor" key="AB"/>
+            
+            <editor key="SG"/>
+            
+            
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,17 +52,94 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-07">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Bale</placeName>
-               <placeName type="alt">Bali</placeName>
-               <placeName type="alt">Baale</placeName>
+            <place type="region" sameAs="Q804883">
+               <placeName xml:lang="gez" xml:id="n1">ባሌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Bāle</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ባሊ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Bāli</placeName>
+               <placeName xml:lang="gez" xml:id="n3" type="alt">ባሌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Bāāle</placeName>
+               
+               
+               <state type="existence" ref="Paks2"/>
+               <country ref="LOC3010Ethiop"></country>
+               <listBibl type="editions"> 
+                  <bibl>
+                     <ptr target="bm:Solomon2016Galawdewos"/>
+                     
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Conzelman1895Galawdewos"/>
+                  </bibl>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listBibl>
+               
+               
+               
+               
+               <listBibl type="secondary" >
+                  <bibl>
+                     <ptr target="bm:Mohammed2003Bale"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Solomon2015Geography"/>
+                     <biblScope unit="page">109-118</biblScope>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <biblScope unit="page">85, 86, 94, 95, 101, 102, 106, 117, 118, 121, 123, 127, 131, 137, 142, 248 </biblScope>
+                  </bibl>
+                  
+                  
+               </listBibl>
+               <note>
+                  
+                  <ab type="history">The medieval state of Bāle was bordered by the medieval Muslim states of <placeName ref="LOC2587Dawro"/> 
+                     and <placeName ref="LOC5582Sarka"/> in the north, <placeName ref="LOC3720Hadiyy"/> in the west , <placeName ref="LOC1094Adal"/> and
+                     <placeName ref="LOC2587Dawro"/> in the east and huge grazing ground of the <persName ref="ETH1973Oromo"/> pastoralist in the south.
+                     It came to existence as a muslim sate in the 11th and 13th centuries. The history of the Muslim state of Bale linked to the history of  
+                     <persName ref="PRS5438husayn"/>, the great early 13th century standard bearer of Islam in Bāle. The Muslim states of Bale was famous for its cotton cloth weaving industry, 
+                     and its foreign traders, including Arabs and Persians. Like other Muslim states of the southern Ethiopia, Bāle was conquered by <persName ref="PRS1854Amdase"/>
+                     in the fourteenth century and became part of the Christian kingdom of Ethiopia. Of all Muslim states of southern Ethiopia,
+                     it was Bāle that seems to have shaped the course of the early  histroy  <persName ref="ETH1973Oromo"/>.
+                     Historical Bale was the Original home of primeval <persName ref="ETH1973Oromo"/>
+                     groups that were engaged in a mixed economy.
+                     
+                     
+                  </ab>
+               </note>
             </place>
+               <listRelation>
+                  <relation name="syriaca:has-relation-to-place"
+                     active="LOC1743Bale"
+                     passive="LOC2587Dawro"
+                          />
+                  <relation name="syriaca:has-relation-to-place"
+                     active="LOC1743Bale"
+                     passive="LOC5582Sarka"/>
+               </listRelation>
+                  
+                     
+               
+               
+               
+               
+           
          </listPlace>
       </body>
    </text>
 </TEI>
+
+
+               
