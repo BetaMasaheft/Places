@@ -11,6 +11,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Mäzäga</title>
+            <editor role="generalEditor" key="AB"/>
+            
+            <editor key="SG"/>
+            
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
