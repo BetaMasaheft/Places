@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="SG" when="2017-07-19">Complete record</change>
+         <change who="SG" when="2017-08-08">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
