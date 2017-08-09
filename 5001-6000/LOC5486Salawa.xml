@@ -10,7 +10,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säläwa</title>
+            <title>Salawā</title>
+            <editor role="generalEditor" key="AB"/>
+            
+            <editor key="SG"/>
+            
+            
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,16 +52,106 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-09">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Säläwa</placeName>
-               <placeName type="alt">Salaoa</placeName>
-            </place>
+    
+               <place type="region">
+                  <placeName xml:lang="gez" xml:id="n1">ሰለዋ፡</placeName>
+                  <placeName xml:lang="gez" corresp="#n1" type="normalized">Salawā</placeName>
+                  <placeName xml:lang="gez" xml:id="n2" type="alt">Salaoa</placeName>
+                 
+                  
+                  
+                  
+                  <state type="existence" ref="Paks2"/>
+                  <country ref="LOC3010Ethiop"></country>
+                  
+                  <listBibl type="editions"> 
+                     <bibl>
+                        <ptr target="bm:Solomon2016Galawdewos"/>
+                        
+                     </bibl>
+                     <bibl>
+                        <ptr target="bm:Conzelman1895Galawdewos"/>
+                     </bibl>
+                     
+                     
+                     
+                     
+                     
+                     
+                  </listBibl>
+                  
+                  
+                  
+                  
+                  <listBibl type="secondary" >
+                     <bibl>
+                        <ptr target="bm:SmidtPankhurst2010Salawa"/>
+                     </bibl>
+                     <bibl>
+                        <ptr target="bm:Solomon2015Geography"/>
+                        <biblScope unit="page">109-118</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ptr target="bm:Huntingford1987Historicalgeo"/>
+                        <biblScope unit="page">61n, 96, 99, 134, 166, 234, 236, 237</biblScope></bibl>
+                     
+                     
+                     
+                  </listBibl>
+                  <note>
+                     
+                     <ab type="history">It was a historic province in northern <placeName ref="LOC3010Ethiop"/> and until 1970s a waradā, 
+                        south of<placeName ref="LOC5882Tamben"/> and of 
+                        <placeName ref="LOC5467Sahart"/>, west of <placeName ref="LOC6148Wajjar"/>, at the southern borders of central <placeName ref="LOC5932Tegray"/>. 
+                        It was governed under its won governors, the Šum Salawā. The people of Salawā were a strong supporters of the Christian kings during the turbulent sixteenth century: 
+                        <persName ref="PRS6229LebnaDe"></persName> fighting at Salawā in <date>1539</date>, during his war against <persName ref="PRS1522Ahmadb"/>. 
+                        In the 17th century, Salawā was one of a number of areas placed under the rule of <roleName type="title">daǧǧāzmāč</roleName> 
+                        <persName ref="PRS10434Yolyos"/>. In the 18th century, Salawā was one of the several localities whose rulers  
+                        <persName ref="PRS5616IyasuI"/>interrogated in <date>1698</date> about taxes levied in <placeName ref="LOC5932Tegray"/>, 
+                        while <persName ref="PRS5617IyasuII"/> is reported to have visited the district in <date>1749</date>. In 1930s,  it was a sub-district of 
+                        <placeName ref="LOC5882Tamben"/> province. In Salawā there are several rock-hewn churches. 
+                        Not all have been documented, such as one <placeName ref="PRS4552Gawi"/>.
+                           </ab>
+                  </note>
+               </place>
+               <listRelation>
+                  <relation name="syriaca:has-relation-to-place"
+                     active="LOC5486Salawa"
+                     passive="LOC5932Tegray"
+                  />
+                  
+               </listRelation>
+               
+               
+               
+               
+               
+               
          </listPlace>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
