@@ -10,9 +10,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Damot</title>
-            <author/>
+            <title>Dāmot</title>
             <editor role="generalEditor" key="AB"/>
+            <editor key="SG"/>
+            
+            
+            <author/>
+        
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -47,15 +51,110 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-14">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Damot</placeName>
+            <place type="region" sameAs="Q2902588">
+               <placeName xml:lang="gez" xml:id="n1">ዳሞት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dāmot</placeName>
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               <country ref="LOC3010Ethiop"/>
+               
+               <listBibl type="editions"> 
+                  <bibl>
+                     <ptr target="bm:Solomon2016Galawdewos"/>
+                     
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Conzelman1895Galawdewos"/>
+                  </bibl>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listBibl>
+               
+               
+               
+               
+               <listBibl type="secondary" >
+                  <bibl>
+                     <ptr target="bm:Berry2005Damot"/>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Solomon2015Geography"/>
+                     <biblScope unit="page">109-118</biblScope>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <biblScope unit="page">21, 22, 24, 30, 52, 69, 70, 71,73, 76, 78, 82-4, 86-88, 92-95, 106, 118, 119, 123, 127, 128,130, 131, 133, 138, 140, 141, 
+                        142, 147, 149, 150, 155, 158, 168-170, 172, 174, 175, 176, 179, 184, 187, 196, 197, 201, 216, 225, 226, 230, 239</biblScope></bibl>
+                  
+                  
+                  
+               </listBibl>
+               <note>
+                  
+                  <ab type="history">The kingdom of Dāmot seems to have been in existence at least as early as the 10th century in the region immediately south of the 
+                     <placeName ref="LOC1022Abbay"/> in the present-day <placeName ref="LOC6178Wallag"/> and Western <placeName ref="LOC5597Sawa"/>. 
+                     Its bounds are uncertain, but they may have stretched as far west as  <placeName ref="LOC2667Didess"/>
+                     river as far south as <placeName ref="LOC6165Walamo"/>. It is believed that  Dāmot  from the 10th to the 13th century was the dominant power over both the Christian and Muslim principlaities. 
+                     However, in the late 13th century <persName ref="PRS10303Yekunno"/> drove Dāmot from the <placeName ref="LOC5597Sawa"/>n plateau, 
+                     but it was <roleName type="title">ʾaṣe</roleName><persName ref="PRS1854Amdase"/> in the early 14th century who subjugating the kingdom.
+                     There after the Christian culture slowly diffused among the population. By the 16th century, Dāmot had become an integral province of the Christian kingdom of
+                     <placeName ref="LOC3010Ethiop"/>. During the mid sixteenth century, the partly christianized population joined with their <persName ref="ETH1126Amhara"/> and 
+                     <persName ref="ETH2125Tegre"/> in fighting against the Muslim invasion of <persName ref="PRS1522Ahmadb"/>. In the late sixteenth century, Dāmot  was occupied by the 
+                     <persName ref="ETH1973Oromo"/>who made their new homeland. Throughout the 17th and 18th century Dāmot allied itself with 
+                     <placeName ref="LOC3549Gojjam"/>and<placeName ref="LOC5284Qwara"/> in pursuit of influence and power in <placeName ref="LOC3577Gondar"/>.
+                     In the mid 20th century, Dāmot was incorporated into the province of  <placeName ref="LOC3549Gojjam"/>as an ʾawrāǧǧā.
+                        
+                  </ab>
+               </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place"
+                  active="LOC2488Damot"
+                  passive="LOC3549Gojjam"
+               />
+               <relation name="syriaca:has-relation-to-place"
+                  active="LOC2488Damot"
+                  passive="LOC5597Sawa"/>
+            </listRelation>
+            
+            
+            
+            
+            
+            
+            
+            
          </listPlace>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
