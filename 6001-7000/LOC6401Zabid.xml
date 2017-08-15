@@ -11,8 +11,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Zabīd</title>
-            <author/>
+            <editor key="SG"></editor>
             <editor role="generalEditor" key="AB"/>
+            
+            <author/>
+           
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -47,15 +50,115 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-15">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Zabīd</placeName>
-            </place>
+            <place type="town" sameAs="Q138986">
+          
+                  <placeName xml:lang="gez" xml:id="n1">ዘቢድ፡</placeName>
+                  <placeName xml:lang="gez" corresp="#n1" type="normalized">Zabīd</placeName>
+                  
+                  
+                  <state type="existence" ref="Paks2"/>
+                  <country ref="LOC3010Ethiop"></country>
+                  
+                  <listBibl type="editions"> 
+                     <bibl>
+                        <ptr target="bm:Solomon2016Galawdewos"/>
+                        
+                     </bibl>
+                     <bibl>
+                        <ptr target="bm:Conzelman1895Galawdewos"/>
+                     </bibl>
+                     
+                     
+                     
+                     
+                     
+                     
+                  </listBibl>
+                  
+                  
+                  
+                  
+                  <listBibl type="secondary" >
+                     <bibl>
+                        <ptr target="bm:Miran2014Zabid"/>
+                     </bibl>
+                     <bibl>
+                        <ptr target="bm:Solomon2015Geography"/>
+                        <biblScope unit="page">109-118</biblScope>
+                     </bibl>
+                     
+                     
+                  </listBibl>
+                  <note>
+                     
+                     <ab type="history">Zabīd is the name of  a town and an administrative district in the <placeName ref="LOC5977Tihama"/>
+                        coastal plain of <placeName ref="LOC6387Yemen"/>. It is located 25 km from the<placeName ref="LOC5339RedSea"/> shore in area of fertile 
+                        agricultural lands irrigated by<placeName ref="LOC6129WadiRi"/> in the north, <placeName ref="LOC6131WadiZa"/> to which it owes its name, in the south.
+                        Zabīd was founded in the 9th century under the <persName ref="PRS11715Ziyadi"/>dynasty, from <date>819</date> to <date>1021</date> who made its political centre.
+                        As early as the 10th-11th century Zabīd was recognized as one of the leading urban centres in the Islamic world.  Zabīd was taken by the <placeName ref="Q12560"/> 
+                        who made it their chief <placeName ref="Q1163682"/>centre between <date>1538</date> and <date>1636</date>. During that period dynamic commercial,
+                        political and religious interactions between <placeName ref="LOC6387Yemen"/> and North east Africa persisted. The Influence of Zabīd's religious academics on islamic institutions 
+                        and scholars in the Horn of Africa since 18th century can not be overstated. 
+                           
+                     </ab>
+                  </note>
+               </place>
+               <listRelation>
+                  
+                  <relation name="syriaca:has-relation-to-place"
+                     active="LOC6401Zabid"
+                     passive="LOC6387Yemen" />
+                  <relation name="gn:nearBy"
+                     active="LOC6401Zabid"
+                     passive="LOC5339RedSea">
+                     <desc>Zabid is located 25km from the shore of the Red sea</desc>
+                  </relation>
+                  
+                 
+                  <relation name="syriaca:has-relation-to-place"
+                     active="LOC6401Zabid"
+                     passive="Q1163682"/>
+                
+      </listRelation>
          </listPlace>
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+               
+               
+               
+               
+               
+               
+               
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
