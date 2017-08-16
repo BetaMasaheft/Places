@@ -13,8 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>ʿAdāl</title>
             <editor role="generalEditor" key="AB"/>
             
-            <editor key="SG"/>
-            
+            <editor key="SG"/>            
             
             <author/>
   
@@ -53,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-08-15">Complete record</change>
+         <change who="SG" when="2017-08-16">addition to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -104,15 +104,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl>
                         <ptr target="bm:Huntingford1987Historicalgeo"/>
                         <biblScope unit="page">91, 101, 107, 111, 117, 141, 248</biblScope></bibl>
+                     <bibl>
+                        <ptr target="bm:Braukamper2002Islam"/>
+                        <biblScope unit="page">29-38</biblScope></bibl>
+                     
+                     
                      
                      
                      
                   </listBibl>
                   <note>
                      
-                     <ab type="history">The name ʾAdal first appeared in the historical record at the end of the 13th century.  It was first under the authonomy 
+                     <ab type="history">The name ʾAdal first appeared in the historical record at the end of the 13th century. It was first under the authonomy 
                         of the the Muslim sultanate of <placeName ref="LOC3921Ifat"/>. However, in the decades after 1288 ʾAdal must have regained its sovereignty which continued to 1415. 
-                        .Soon after <date>1415</date>, however,  ʾAdal must again have become subordinate to <placeName ref="LOC3921Ifat"/>.
+                        Soon after <date>1415</date>, however,  ʾAdal must again have become subordinate to <placeName ref="LOC3921Ifat"/>.
                      </ab>
                   </note>
                </place>

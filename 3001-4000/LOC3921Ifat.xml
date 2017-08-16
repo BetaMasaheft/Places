@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-08-08">Complete record</change>
+         <change who="SG" when="2017-08-16">addition to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -103,6 +104,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
                      <biblScope unit="page">76, 78, 80, 86-89, 91,95, 101, 106-108, 117, 121, 122, 128-30, 156, 168, 179, 240</biblScope></bibl>
+                  <bibl>
+                     <ptr target="bm:Braukamper2002Islam"/>
+                     <biblScope unit="page">24-29</biblScope></bibl>
+                  
+                  
                  
                   
                   

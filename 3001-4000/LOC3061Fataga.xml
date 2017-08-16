@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-07-18">Complete record</change>
+         <change who="SG" when="2017-08-16">addition to bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -90,6 +91,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <biblScope unit="page">69,73, 79, 83, 86-88, 95, 101-103, 107, 112.
                    ,117, 119, 121-23, 127, 128, 130, 246</biblScope>
                   </bibl>
+                  <bibl>
+                     <ptr target="bm:Braukamper2002Islam"/>
+                     <biblScope unit="page">39-40</biblScope></bibl>
+                  
+                  
                   
                </listBibl>
             <note>
