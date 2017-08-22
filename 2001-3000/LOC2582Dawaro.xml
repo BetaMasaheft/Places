@@ -10,9 +10,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däwaro</title>
-            <author/>
+            <title>Dawāro</title>
             <editor role="generalEditor" key="AB"/>
+            
+            
+            <editor key="SG"/>            
+            
+            
+            <author/>
+        
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -47,17 +53,101 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2017-08-22">Complete record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Däwaro</placeName>
-               <placeName type="alt">Dauarro</placeName>
-               <placeName type="alt">Davvaro; Dauri</placeName>
+            <place type="region" sameAs="Q24361543">
+               <placeName xml:lang="gez" xml:id="n1">ደዋሮ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dawāro</placeName>
+               <placeName xml:lang="ar" xml:id="n2" type="alt">Dauarro</placeName>
+               <placeName xml:lang="ar" xml:id="n3" type="alt">Davvaro</placeName>
+            
+               
+               <placeName xml:lang="ar" xml:id="n4" type="alt"> Dauri</placeName>
+             
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               <country ref="LOC3010Ethiop"></country>
+               <location></location>
+               
+               <listBibl type="editions"> 
+                  <bibl>
+                     <ptr target="bm:Solomon2016Galawdewos"/>
+                     
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Conzelman1895Galawdewos"/>
+                  </bibl>
+                  
+                  
+                  
+                  
+                  
+                  
+               </listBibl>
+               
+               
+               
+               
+               <listBibl type="secondary" >
+                  <bibl>
+                     <ptr target="bm:Muth2005Dawaro"/>
+                     
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Solomon2015Geography"/>
+                     <biblScope unit="page">109-118</biblScope>
+                  </bibl>
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <biblScope unit="page">83, 86-88, 91, 95, 101, 102, 107, 110-112, 117, 121-123, 125, 126, 130, 131, 134, 249</biblScope></bibl>
+                  <bibl>
+                     <ptr target="bm:Braukamper2002Islam"/>
+                     <biblScope unit="page">70-76</biblScope></bibl>
+                  
+                  
+                  
+               </listBibl>
+               <note>
+                  
+                  <ab type="history">Dawāro was one of the seven Muslim trading states of the southern  <placeName ref="LOC3010Ethiop"/>
+                     which corresponds to the present day <placeName ref="LOC6874Arsi"/>. It is bordered with <placeName ref="LOC1743Bale"/>Sultanate in south, 
+                     Dawāro was separated from it by the <placeName ref="LOC6095WabiSa"/> river and bordered on <placeName ref="LOC3921Ifat"/> on the right bank of  
+                     <placeName ref="LOC1617Awas"/>. In the east, it reached the edge of the <placeName ref="LOC1274Afar"/> lowlands, in th south-west it bordered on the small principalities of 
+                     <placeName ref="LOC5581Sarha"/> and <placeName ref="LOC1499Arabab"/>. It was incorporated into the Christian empire in the 14th century, during the reign of 
+                     <roleName type="title">ʾaṣe</roleName><persName ref="PRS1854Amdase"/>. </ab>
+                  
+                  
+               </note>
             </place>
+            <listRelation>
+               <relation name="syriaca:has-relation-to-place"
+                  active="LOC2582Dawaro"
+                  passive="LOC3061Fataga"
+               />
+               <relation name="syriaca:has-relation-to-place"
+                  active="LOC2582Dawaro"
+                  passive="LOC5693Serka"
+               />
+            </listRelation>
+            
+            
+            
+            
+            
+            
+            
+            
+            
          </listPlace>
       </body>
    </text>
 </TEI>
+
+
+               
