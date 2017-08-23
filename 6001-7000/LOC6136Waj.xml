@@ -123,10 +123,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <persName ref="PRS2334BaedaM"/> it was served as an important startegic region to conduct a military campaigns against <placeName ref="LOC1095Adal"/>. 
                   Following the death of <persName ref="PRS1522Ahmadb"/>, Waǧ was also a strong hold of King <persName ref="PRS4428Galawdew" />where he built his royal seat 
                   in<date>1550</date>. In <date>1577</date>, <roleName type="title">ʾaṣe</roleName><persName ref="PRS8550sardaDe"/>, on his way to attack 
-                  sultān of <placeName  ref="LOC1095Adal"/>, passed through Waǧ . 
+                  sultān of <placeName  ref="LOC1095Adal"/>, passed through Waǧ  </ab>
+               </note>               
                   
-                  
-               </note>
+              
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
