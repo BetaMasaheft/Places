@@ -76,7 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="description">ʾƎslām Bet is a quarter in <placeName ref="LOC3577Gondar">Gondar</placeName> that was assigned to the Muslims to live in in the
+                  <ab type="description">ʾƎslām Bet is a quarter in <placeName ref="LOC3577Gondar">Gondar</placeName> that was assigned to the Muslims to live in the
                         <date>17th century</date>. During the Italian occupation, Muslims were allowed to settle outside this quarter.</ab>
                </note>
             </place>
