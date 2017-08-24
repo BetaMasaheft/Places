@@ -85,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                
-               <listBibl type="secondary" >
+               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Nosnistin2003Bur"/>
                   </bibl>

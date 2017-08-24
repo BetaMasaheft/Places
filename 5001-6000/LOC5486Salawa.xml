@@ -89,7 +89,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   
-                  <listBibl type="secondary" >
+                  <listBibl type="secondary">
                      <bibl>
                         <ptr target="bm:SmidtPankhurst2010Salawa"/>
                      </bibl>
