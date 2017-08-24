@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <relation name="saws:hasPart" active="LOC6688Hasya" passive="LOC6687LalayHasya LOC6686TahtayHasya"></relation>
             </listBibl>
             <listPlace>
-                <place type="region ">
+                <place type="region">
                     <placeName>Ḥasyā</placeName>
                 </place>
             </listPlace><!--consists of Upper Ḥasyā (LOC6687LalayHasya) and Lower Ḥasyā (LOC6686TahtayHasya)-->

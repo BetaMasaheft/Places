@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="region ">
+                <place type="region">
                     <placeName>ʾAgurbā</placeName>
                     <placeName>ʾǝgʷǝrba</placeName>
                     <note>possibly identifiable with the <ref type="place" corresp="ETH1149Argobb">Argobba</ref></note>

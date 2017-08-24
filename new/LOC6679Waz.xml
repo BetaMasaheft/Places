@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <relation name="dcterms:isPartOf" active="LOC6679Waz" passive="LOC6677LalayWaz LOC6678TahtayWaz"></relation>                                    
             </listBibl>
             <listPlace>
-                <place type="region ">
+                <place type="region">
                     <placeName>Wāz</placeName>
                 </place>
             </listPlace><!--in the AS chronicle, consists of Upper Wāz (LOC6677LalayWaz) and Lower Wāz (LOC6678TahtayWaz)-->

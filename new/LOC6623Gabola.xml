@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="fort ">
+                <place type="fort">
                     <placeName>Gabolā / Gabalā</placeName>
                 </place>
             </listPlace><!---->

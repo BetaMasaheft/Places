@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <relation name="saws:hasPart" active="LOC6621Labakala" passive="LOC6716LalayLabakala LOC6717TahtayLabakala"></relation>
             </listBibl>
             <listPlace>
-                <place type="town ">
+                <place type="town">
                     <placeName>Labakalā</placeName>
                 </place>
             </listPlace><!---->
