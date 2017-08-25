@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n1" xml:lang="ti" type="normalized">Maala</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">መቀሌ፡</placeName>
                <placeName corresp="#n2" xml:lang="am" type="normalized">Maqalle</placeName>
-               <state type="existence" ref="ZaMa MoPe "/>
+               <state type="existence" ref="ZaMa MoPe"/>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement/>

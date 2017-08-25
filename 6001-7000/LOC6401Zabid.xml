@@ -113,7 +113,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <relation name="syriaca:has-relation-to-place"
                      active="LOC6401Zabid"
-                     passive="LOC6387Yemen" />
+                     passive="LOC6387Yemen"/>
                   <relation name="gn:nearBy"
                      active="LOC6401Zabid"
                      passive="LOC5339RedSea">
