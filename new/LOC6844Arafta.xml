@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="PL" when="2017-06-26">Created entity</change>
+            <change who="SG" when="2017-09-15">Complete record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -51,12 +52,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="gez">አረፍታ</placeName>
                     <placeName  corresp="#n1" type="normalized">ʾAraftā</placeName>
                     <state type="existence" ref="Paks2"/>
+                    <country ref="LOC3010Ethiop"></country>
+                    <location><geo>14.25000 38.9167	
+                    </geo>
+                    </location>
+                    <listBibl type="editions"> 
+                        <bibl>
+                            <ptr target="bm:Solomon2016Galawdewos"/>
+                            
+                        </bibl>
+                        <bibl>
+                            <ptr target="bm:Conzelman1895Galawdewos"/>
+                        </bibl>
+                        
+                    </listBibl>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:Zewde2003AmbaSanayti"/>
+                           
+                        </bibl>
+                        
+                  
+                        <bibl>
+                            <ptr target="bm:Solomon2015Geography"/>
+                            <biblScope unit="page">109-118</biblScope>
+                        </bibl>
+                               </listBibl>
+                    <note>
+                        
+                        <ab type="history">The chronicle of King<persName ref="PRS4428Galawdew"/>locates ʾAraftā somewhere in<placeName ref="LOC6569Tegray"/>. 
+                            According to this chronicle, it was a place where the Christians army became victorious over the Muslims forces with the support of the<placeName ref="LOC5111Portug"/>
+                            soldiers in<date>1542</date>. On the other hand, <persName ref="PRS3047Castanho"/>'s account reports the Portuguese army defeated the forces of 
+                            <persName ref="PRS1500Ahmad"/>in the same year, as indicated in the chronicle, at a place called <placeName ref="LOC1400AmbaSa"/> which is today in the region of 
+                            <placeName ref="LOC1263Adwa"/>. <placeName ref="LOC1400AmbaSa"/> has 70 districts. Therefore, ʾAraftā would probably be  a locality in one of the districts of<placeName ref="LOC1400AmbaSa"/>. </ab> 
+               
+                        
+                        
+                    </note>
+                    
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="LOC6844Arafta" passive="LOC6569Tegray"/>
                     </listRelation>
             </listPlace>
-            <!--an unidentified place-->
+            
         </body>
     </text>
 </TEI>
