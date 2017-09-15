@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="DR" when="2017-09-15">Fixed tābot</change>
          <change who="FP" when="2017-07-21">added info</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
             48.</change>
@@ -81,11 +82,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      capital. This area was already important in Aksumite times and maintained an
                      important role also after the decline of Aksum. Its territory was often and for
                      long periods of time subject to historical <placeName ref="LOC6569Tegray"
-                        >Tǝgrāy</placeName>'s control. Still preserved in the modern town of Ḥawzen
+                        >Tǝgrāy</placeName>'s control.</ab>
+                    <ab type="tabot"> Still preserved in the modern town of Ḥawzen
                      is a three-aisled rock-hewn church possibly dating to the 10th-13th century
                      with a sanctuary containing a tabot dedicated to <roleName type="title"
                         >ʾAbuna</roleName>
-                     <persName ref="PRS9151TaklaHa" type="tabot">Takla Hāymānot</persName>.</ab>
+                       <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName>.</ab>
                </note>
             </place>
          </listPlace>
