@@ -95,11 +95,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </bibl>
                      <bibl>
                         <ptr target="bm:Solomon2015Geography"/>
-                        <biblScope unit="page">109-118</biblScope>
+                        <citedRange unit="page">109-118</citedRange>
                      </bibl>
                      <bibl>
                         <ptr target="bm:Huntingford1987Historicalgeo"/>
-                        <biblScope unit="page">61n, 96, 99, 134, 166, 234, 236, 237</biblScope></bibl>
+                        <citedRange unit="page">61n, 96, 99, 134, 166, 234, 236, 237</citedRange></bibl>
                      
                      
                      

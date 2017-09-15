@@ -98,14 +98,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Solomon2015Geography"/>
-                     <biblScope unit="page">109-118</biblScope>
+                     <citedRange unit="page">109-118</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <biblScope unit="page">61n, 79, 81, 84, 91, 95, 96, 97, 99, 100, 114, 119, 134, 137, 144, 147, 166, 171, 247, </biblScope></bibl>
+                     <citedRange unit="page">61n, 79, 81, 84, 91, 95, 96, 97, 99, 100, 114, 119, 134, 137, 144, 147, 166, 171, 247, </citedRange></bibl>
                   <bibl>
                   <ptr target="bm:Braukamper2002Islam"/>
-                  <biblScope unit="page">43-47</biblScope></bibl>
+                  <citedRange unit="page">43-47</citedRange></bibl>
                   
                   
                   

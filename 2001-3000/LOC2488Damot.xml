@@ -91,12 +91,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Solomon2015Geography"/>
-                     <biblScope unit="page">109-118</biblScope>
+                     <citedRange unit="page">109-118</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <biblScope unit="page">21, 22, 24, 30, 52, 69, 70, 71,73, 76, 78, 82-4, 86-88, 92-95, 106, 118, 119, 123, 127, 128,130, 131, 133, 138, 140, 141, 
-                        142, 147, 149, 150, 155, 158, 168-170, 172, 174, 175, 176, 179, 184, 187, 196, 197, 201, 216, 225, 226, 230, 239</biblScope></bibl>
+                     <citedRange unit="page">21, 22, 24, 30, 52, 69, 70, 71,73, 76, 78, 82-4, 86-88, 92-95, 106, 118, 119, 123, 127, 128,130, 131, 133, 138, 140, 141, 
+                        142, 147, 149, 150, 155, 158, 168-170, 172, 174, 175, 176, 179, 184, 187, 196, 197, 201, 216, 225, 226, 230, 239</citedRange></bibl>
                   
                   
                   
