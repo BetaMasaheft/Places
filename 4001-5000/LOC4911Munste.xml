@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="city" sameAs="gn:2867543">
                <placeName xml:id="n1" xml:lang="de">Münster</placeName>
-               <country ref="gn:2921044"/>
+               <country ref="Q183"/>
                <region ref="gn:2861876"/>
                
             </place>

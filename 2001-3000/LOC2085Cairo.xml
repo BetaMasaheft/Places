@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="city" sameAs="gn:360630">
                <placeName xml:id="n1" xml:lang="ar" type="normalized">al-Qāhira</placeName>
                <placeName corresp="#n1" xml:lang="en">Cairo</placeName>
-               <country ref="gn:357994"/> 
+               <country ref="Q79"/> 
                <region ref="gn:360631"/>
             </place>
          </listPlace>
