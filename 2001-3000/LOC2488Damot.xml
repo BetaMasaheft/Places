@@ -48,8 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-08-14">Complete record</change>
       </revisionDesc>
@@ -57,12 +56,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region" sameAs="Q2902588">
+            <place type="region">  <!--sameAs="Q2902588"-->
                <placeName xml:lang="gez" xml:id="n1">ዳሞት፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dāmot</placeName>
-               
-               
-               
                <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop"/>
                
@@ -74,17 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
-                  
-                  
-                  
-                  
-                  
-                  
                </listBibl>
-               
-               
-               
-               
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Berry2005Damot"/>
@@ -97,8 +83,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
                      <citedRange unit="page">21, 22, 24, 30, 52, 69, 70, 71,73, 76, 78, 82-4, 86-88, 92-95, 106, 118, 119, 123, 127, 128,130, 131, 133, 138, 140, 141, 
                         142, 147, 149, 150, 155, 158, 168-170, 172, 174, 175, 176, 179, 184, 187, 196, 197, 201, 216, 225, 226, 230, 239</citedRange></bibl>
-                  
-                  
                   
                </listBibl>
                <note>
@@ -128,33 +112,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   active="LOC2488Damot"
                   passive="LOC5597Sawa"/>
             </listRelation>
-            
-            
-            
-            
-            
-            
-            
-            
          </listPlace>
       </body>
    </text>
-</TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
+</TEI>    
