@@ -108,7 +108,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                </listBibl>
             <note>
-               <ab type="history">It was a large historical region (possibly once a muslim sultanate), was located in the south-east of 
+               <ab type="history">It was a large historical region (possibly once a Muslim sultanate), was located in the south-east of 
                   <placeName ref="LOC5597Sawa"/> on the northern shore of  the <placeName ref="LOC1617Awas"/> river. 
                   In the 14th-15th centuries, it was progressively integrated into the Christian empire. The region held a strategic position between the Christian empire and the southern Muslim sultanates.
                   In the beginning of the sixteenth century, Faṭagār came back under the Muslim control, under which it remained even after the death of <persName ref="PRS1522Ahmadb"/>. 

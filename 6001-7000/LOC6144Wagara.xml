@@ -107,15 +107,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="history">Wagarā is a district north of <placeName ref="LOC5888Tana"/>and south west of 
+                  <ab type="history">Wagarā is a district north of <placeName ref="LOC5888Tana"/> and south west of 
                      <placeName ref="LOC5671Semen"/>, inhabited mostly by the <persName ref="ETH1083Agaw"/>. It was one of the provinces in which  
-                     <persName ref="PRS6229LebnaDe"/>sought refuge during the Muslim wars of sixteenth century. After<persName ref="PRS6229LebnaDe"/> was defeated in the mid 1530s, 
-                     Wagarā became the  strong hold of  the muslim leader<placeName ref="PRS1522Ahmadb"/> until he was defeated and killed by King<persName ref="PRS4428Galawdew"/> forces in 1543. 
+                     <persName ref="PRS6229LebnaDe"/> sought refuge during the Muslim wars of the sixteenth century. After<persName ref="PRS6229LebnaDe"/> was defeated in the mid 1530s, 
+                     Wagarā became the  stronghold of  the Muslim leader<placeName ref="PRS1522Ahmadb"/> until he was defeated and killed by King<persName ref="PRS4428Galawdew"/> forces in 1543. 
                      <persName ref="PRS7102Minas"/> and <persName ref="PRS8275SablaD"/> used Wagarā as a staging ground for repeated campaigns against the 
                      <persName ref="ETH1274Betaes"/> of <placeName ref="LOC5671Semen"/>, who in <date>1585</date> raided and pillaged Wagarā.  In
                      the 17th century, dissension and rebellion in Wagarā persisted during the reign of <persName ref="PRS9038Susenyos"/>.  
                      Wagarā had been also one of the regions where the Portuguese Jesuits proselytized: 
-                     the Jesuits claimed that there were about 100, 000 Catholics in Wagarā and <placeName ref="LOC2481Dambey"/>in <date>1630</date>. 
+                     the Jesuits claimed that there were about 100, 000 Catholics in Wagarā and <placeName ref="LOC2481Dambey"/> in <date>1630</date>. 
                      During the 17th and 18th century, Wagarā was a granary for<placeName ref="LOC3577Gondar"/>.  
                      Under the mid 20th century, imperial administration, Wagarā was an awrāǧǧā within <placeName ref="LOC1713Bagemd"/> composed of five waradās: 
                      <placeName ref="LOC2221Dabat"/>, <placeName ref="LOC5443Sagade"/>, <placeName ref="LOC5596SatitH"/>,  
