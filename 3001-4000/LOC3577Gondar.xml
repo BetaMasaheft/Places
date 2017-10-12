@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="am">ጎንደር፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Gondar</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ጐንደር፡</placeName>
-               <placeName corresp="#n2" xml:lang="am" type="normalized">Gwandar</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Gʷandar</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
