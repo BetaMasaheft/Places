@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-10-12" who="DR">minor transliteration corrections</change>
          <change when="2016-08-22" who="FP">added info to record</change>
          <change when="2016-08-16" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -95,7 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">ʾAzazo Takla Hāymānot is located at the centre of a
                      hilltop, surrounded by a courtyard and a circular stone wall with a square
                      tower.</ab> 
-                     <ab type="tabot">At one hand of the courtyar, there is a semi-circular domed castle wher, according to local traditio, the tabot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, although the tabot's movements are actually quite complicated to reconstruct.</ab>
+                     <ab type="tabot">At one hand of the courtyard, there is a semi-circular domed castle where, according to local tradition, the tābot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, although the tābot's movements are actually quite complicated to reconstruct.</ab>
                      <measure quantity="1"/>
                        </note>
             </place>
