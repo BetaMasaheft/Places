@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n2" xml:lang="gez" type="alt" source="#Lusini">ሐውዜና፡ <note>This
                      place name is mentioned in two land-granting documents of the <ref type="work"
                         corresp="LIT1913Mashaf">Liber Axumae</ref></note></placeName>
-               <placeName corresp="#n2" xml:lang="gez" type="normalized">Ḥawzena</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Ḥawzenā</placeName>
                <state type="existence" ref="Aks Gon MoPe Paks1 Paks2 ZaMa"/>
                <country ref="LOC3010Ethiop"/>
                <region type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
