@@ -79,7 +79,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="desc">Ḥawzen is the name both of a waradā and of its administrative
+                  <ab type="description">Ḥawzen is the name both of a waradā and of its administrative
                      capital. This area was already important in Aksumite times and maintained an
                      important role also after the decline of Aksum. Its territory was often and for
                      long periods of time subject to historical <placeName ref="LOC6569Tegray"
