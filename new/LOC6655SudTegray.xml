@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
-                        <ab type="desc">The Southern Tǝgrāy Zone is a subdivision of the <placeName
+                        <ab type="description">The Southern Tǝgrāy Zone is a subdivision of the <placeName
                             ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC4667MayCaw">Māy Ḉaw</placeName>.</ab>
                     </note>

@@ -64,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
-                        <ab type="desc">The Central Tǝgrāy Zone is a subdivision of the <placeName
+                        <ab type="description">The Central Tǝgrāy Zone is a subdivision of the <placeName
                             ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC1310Aksum">ʾAksum</placeName>.</ab>
                     </note>

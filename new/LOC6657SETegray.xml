@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="2005">2005</date>
-                        <ab type="desc">The South-Eastern Tǝgrāy Zone is a new subdivision of the <placeName
+                        <ab type="description">The South-Eastern Tǝgrāy Zone is a new subdivision of the <placeName
                             ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC4545Maqala">Maqala</placeName>.</ab>
                     </note>

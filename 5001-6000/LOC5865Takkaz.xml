@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="desc">The name Takkaze Mǝllaš was occasionally used to refer to historical <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> and its dependent territories. </ab>
+                  <ab type="description">The name Takkaze Mǝllaš was occasionally used to refer to historical <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> and its dependent territories. </ab>
                </note>
             </place>
          </listPlace>

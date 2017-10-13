@@ -82,7 +82,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Tǝgrāy National Regional State was created in 1991 following a
                      radical reshaping of the historical Tǝgrāy province and the merger of diverse
                      historical northern provinces.</ab>
-                  <ab type="desc">Tǝgrāy borders with <placeName ref="LOC2991Eritre"
+                  <ab type="description">Tǝgrāy borders with <placeName ref="LOC2991Eritre"
                         >Eritrea</placeName> to the north, <placeName ref="gn:366755"
                         >Sudan</placeName> to the west, <placeName ref="LOC1426Amhara"
                         >ʾAmhārā</placeName> kǝllǝl to the south and <placeName ref="LOC1274Afar"
