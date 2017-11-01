@@ -53,9 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region" sameAs="gn:3164604">
+            <place type="region" sameAs="Q1243">
                <placeName xml:id="n1" xml:lang="it">Veneto</placeName>
-               <country ref="gn:3175395"/>
+               <country ref="Q38"/>
             </place>
          </listPlace>
       </body>

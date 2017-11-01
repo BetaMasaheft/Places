@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6655SudTegray" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="LOC6655SudTegray"
+     xml:lang="en"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="zoba zone" sameAs="gn:7667868">
+                <place type="zoba zone" sameAs="Q3020955">
                     <placeName xml:id="n1" xml:lang="ti">ደቡባዊ፡ ትግራይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Dabubāwi Tǝgrāy</placeName>
                     <placeName xml:id="n2" xml:lang="en" type="alt">Southern Tǝgrāy Zone</placeName>
@@ -65,14 +70,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
-                        <ab type="description">The Southern Tǝgrāy Zone is a subdivision of the <placeName
-                            ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
+                        <ab type="description">The Southern Tǝgrāy Zone is a subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC4667MayCaw">Māy Ḉaw</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC4667MayCaw"
-                        passive="#LOC6655SudTegray">
+                    <relation name="gn:locatedIn"
+                         active="LOC4667MayCaw"
+                         passive="#LOC6655SudTegray">
                         <desc>Māy Ḉaw is the capital of the Southern Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

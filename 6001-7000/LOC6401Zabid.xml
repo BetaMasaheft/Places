@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Zabīd</title>
-            <editor key="SG"></editor>
+            <editor key="SG"/>
             <editor role="generalEditor" key="AB"/>
             
             <author/>
@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   <state type="existence" ref="Paks2"/>
-                  <country ref="LOC3010Ethiop"></country>
+                  <country ref="LOC3010Ethiop"/>
                   
                   <listBibl type="editions"> 
                      <bibl>
@@ -112,53 +112,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listRelation>
                   
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC6401Zabid"
-                     passive="LOC6387Yemen"/>
-                  <relation name="gn:nearBy"
-                     active="LOC6401Zabid"
-                     passive="LOC5339RedSea">
+                         active="LOC6401Zabid"
+                         passive="LOC6387Yemen"/>
+                  <relation name="gn:nearBy" active="LOC6401Zabid" passive="LOC5339RedSea">
                      <desc>Zabid is located 25km from the shore of the Red sea</desc>
                   </relation>
                   
                  
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC6401Zabid"
-                     passive="Q1163682"/>
+                         active="LOC6401Zabid"
+                         passive="Q1163682"/>
                 
-      </listRelation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-               
-               
-               
-               
-               
-               
-               
-               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            

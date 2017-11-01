@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1261Adulis">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC1261Adulis">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -58,27 +61,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAdulis</placeName>
                <placeName xml:id="n2" xml:lang="en" type="alt" source="#FattovichMunro">the arbour
                   of the Adulitae</placeName>
-               <placeName xml:id="n3" xml:lang="gez" type="alt" source="#FattovichMunro"
-                  >ገበዛ፡</placeName>
+               <placeName xml:id="n3" xml:lang="gez" type="alt" source="#FattovichMunro">ገበዛ፡</placeName>
                <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabazā</placeName>
                <placeName xml:id="n4" xml:lang="la" type="alt" source="#FattovichMunro">Adulitae
-                     <note source="#Smith"><ref
-                        cRef="urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7"
-                        >Ptolemy 4.7.8</ref></note><note source="#Epiphanius">
+                     <note source="#Smith">
+                     <ref cRef="urn:cts:greekLit:tlg0363.tlg007.perseus-grc1:4.7">Ptolemy 4.7.8</ref>
+                  </note>
+                  <note source="#Epiphanius">
                      Epiphanius (listing nine kingdoms of the 'Indians', he refers to the Adulites
-                     other then to the Aksumites)</note></placeName>
-               <placeName xml:id="n5" type="alt" source="#FattovichMunro">WDTT <note
-                     source="#FattovichMunro">The geographical lists of the Egyptian 18th
+                     other then to the Aksumites)</note>
+               </placeName>
+               <placeName xml:id="n5" type="alt" source="#FattovichMunro">WDTT <note source="#FattovichMunro">The geographical lists of the Egyptian 18th
                      dynasty (<date when="-1450" precision="low">ca. 1450
-                  B.C.</date>)</note></placeName>
+                  B.C.</date>)</note>
+               </placeName>
                <state type="existence" ref="Aks"/>
                <location type="relative" source="#FattovichMunro">
                   <desc>20 stades from the actual port.</desc>
                   <desc>The ancient site of ʾAdulis is located in the coastal plain of the
                         <ref type="place" target="#LOC6503Zula">Gulf of Zulā</ref>, approx. <measure unit="km" quantity="40">40
-                        km</measure> to the south of <placeName ref="LOC4631Massaw"
-                        >Māssāwā</placeName>, at the northen side of the river <placeName
-                           ref="LOC3727Haddas">Ḥaddās</placeName> and at about <measure unit="km" quantity="4">4 km</measure>
+                        km</measure> to the south of <placeName ref="LOC4631Massaw">Māssāwā</placeName>, at the northen side of the river <placeName ref="LOC3727Haddas">Ḥaddās</placeName> and at about <measure unit="km" quantity="4">4 km</measure>
                      from the coast.</desc>
                </location>
                <listBibl type="secondary">
@@ -100,8 +102,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="history">ʾAdulis was the main port of <placeName ref="LOC1310Aksum"
-                        >ʾAksum</placeName> during the zenith of the Aksumite Empire. This port is
+                  <ab type="history">ʾAdulis was the main port of <placeName ref="LOC1310Aksum">ʾAksum</placeName> during the zenith of the Aksumite Empire. This port is
                      mentioned in numerous foreign reports and played a key role in maintaining
                      trade contacts with other powers of the time. The city probably lay some
                      distance (20 stades) from the actual port. <note source="#Pliny">According to

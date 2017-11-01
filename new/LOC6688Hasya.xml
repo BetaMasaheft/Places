@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6688Hasya" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="LOC6688Hasya"
+     xml:lang="en"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,13 +53,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listBibl type="relations">
                 <bibl/>
-                <relation name="saws:hasPart" active="LOC6688Hasya" passive="LOC6687LalayHasya LOC6686TahtayHasya"></relation>
+                <relation name="saws:hasPart"
+                      active="LOC6688Hasya"
+                      passive="LOC6687LalayHasya LOC6686TahtayHasya"/>
             </listBibl>
             <listPlace>
                 <place type="region">
                     <placeName>Ḥasyā</placeName>
                 </place>
-            </listPlace><!--consists of Upper Ḥasyā (LOC6687LalayHasya) and Lower Ḥasyā (LOC6686TahtayHasya)-->
+            </listPlace>
+         <!--consists of Upper Ḥasyā (LOC6687LalayHasya) and Lower Ḥasyā (LOC6686TahtayHasya)-->
         </body>
     </text>
 </TEI>

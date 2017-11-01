@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:5101798">
+            <place type="city" sameAs="Q25395">
                <placeName>Newark</placeName>
             </place>
          </listPlace>

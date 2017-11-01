@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:3017382">
+            <place type="country" sameAs="Q142">
                <placeName xml:id="n1" xml:lang="fr">République française</placeName> 
                <placeName corresp="#n1" xml:lang="en">French Republic</placeName>
                <placeName xml:id="n2" xml:lang="fr">France</placeName>

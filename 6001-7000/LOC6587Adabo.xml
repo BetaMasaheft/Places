@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>ʾAdabo </title>
             <author/>
             <editor role="generalEditor" key="AB"/>
-            <editor key="ES"></editor>
+            <editor key="ES"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -31,7 +31,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2017-01-23</date>
          </publicationStmt>
          <sourceDesc>
-            <p></p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -54,7 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <placeName xml:id="n1" xml:lang="gez">አደቦ </placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAdabo </placeName>
-               <note>can possibly be identified with  <placeName corresp="LOC1265Adyabo"/></note>
+               <note>can possibly be identified with  <placeName corresp="LOC1265Adyabo"/>
+               </note>
             </place>
          </listPlace>
       </body>

@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6657SETegray" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="LOC6657SETegray"
+     xml:lang="en"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="zoba zone" sameAs="gn:11153778">
+                <place type="zoba zone" sameAs="Q42419144">
                     <placeName xml:id="n1" xml:lang="ti">ደቡባዊ፡ ምብራቅ፡ ትግራይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Dabubāwi Mǝbrāq Tǝgrāy</placeName>
                     <placeName xml:id="n2" xml:lang="en" type="alt">South-Eastern Tǝgrāy Zone</placeName>
@@ -65,14 +70,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="2005">2005</date>
-                        <ab type="description">The South-Eastern Tǝgrāy Zone is a new subdivision of the <placeName
-                            ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
+                        <ab type="description">The South-Eastern Tǝgrāy Zone is a new subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC4545Maqala">Maqala</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC4545Maqala"
-                        passive="#LOC6657SETegray">
+                    <relation name="gn:locatedIn"
+                         active="LOC4545Maqala"
+                         passive="#LOC6657SETegray">
                         <desc>Maqala is the capital of the South-Eastern Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

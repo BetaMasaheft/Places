@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church">
                <placeName xml:id="n1" xml:lang="gez">እልፍኝ፡ ጊዮርጊስ፡</placeName>
-               <placeName  corresp="#n1" xml:lang="gez" type="normalized">ʾƎlfǝñ Giyorgis</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎlfǝñ Giyorgis</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt">ማካበቢያ፡ ጊዮርጊስ፡</placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Mākkābabiyā Giyorgis</placeName>
                <!--               translitteration in fidel by FP and xml:lang assigned as gez to be checked-->

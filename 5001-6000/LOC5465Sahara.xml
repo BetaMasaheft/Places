@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="desert" sameAs="gn:2212709">
+            <place type="desert" sameAs="Q6583">
                <placeName>Sahara</placeName>
             </place>
          </listPlace>

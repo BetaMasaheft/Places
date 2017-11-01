@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4506Manbar">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC4506Manbar">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -75,11 +78,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
                   <ab type="description"> Manbara Mangǝśt Madḫāne ʿĀlam is one of five churches
-                     founded in the <date>17th century</date> by <roleName type="title"
-                        >ʾaṣe</roleName>
+                     founded in the <date>17th century</date> by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> outside the central
-                     nucleus comprising his stone castle in <placeName ref="LOC3577Gondar"
-                        >Gondar</placeName>.</ab>
+                     nucleus comprising his stone castle in <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
                </note>
             </place>
          </listPlace>

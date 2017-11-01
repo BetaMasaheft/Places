@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:1036973">
+            <place type="country" sameAs="Q1029">
                <placeName>Mozambique</placeName>
             </place>
          </listPlace>

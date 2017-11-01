@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6546Wagan">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC6546Wagan">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -78,8 +81,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place" active="LOC6546Wagan"
-                        passive="LOC3291Gannat">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="LOC6546Wagan"
+                         passive="LOC3291Gannat">
                         <desc>The church of Gannata ʾIyasus was built on the ʾAṣe Wagan hill in the
                             17th century.</desc>
                     </relation>

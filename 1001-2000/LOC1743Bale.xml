@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
                <listBibl type="editions"> 
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
@@ -126,12 +126,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
                <listRelation>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC1743Bale"
-                     passive="LOC2587Dawro"
-                          />
+                         active="LOC1743Bale"
+                         passive="LOC2587Dawro"/>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC1743Bale"
-                     passive="LOC5582Sarka"/>
+                         active="LOC1743Bale"
+                         passive="LOC5582Sarka"/>
                </listRelation>
                   
                      
@@ -144,6 +143,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               

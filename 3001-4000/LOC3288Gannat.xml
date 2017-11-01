@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="hill">
                <placeName xml:id="n1" xml:lang="am">ገነት፡ ተራ፡</placeName>
-               <placeName  corresp="#n1" xml:lang="am" type="normalized">Gannat Tarrā</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">Gannat Tarrā</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡ መጮህያ፡</placeName>
                <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre Mač̣č̣ohyā</placeName>
                <placeName corresp="#n2" xml:lang="en"> Cry of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>

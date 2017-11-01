@@ -53,11 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="island" sameAs="gn:3172455">
+            <place type="island" sameAs="Q52437">
                <placeName xml:id="n1" xml:lang="it">Murano</placeName>
-               <country ref="gn:3175395"/>
-               <region ref="gn:3164604"/>
-               <settlement type="city" ref="gn:3164603"/>
+               <country ref="Q38"/>
+               <region ref="Q1243"/>
+               <settlement type="city" ref="Q641"/>
             </place>
          </listPlace>
       </body>

@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:2510769">
+            <place type="country" sameAs="Q29">
                <placeName xml:id="n1" xml:lang="es">Reino de España</placeName>
                <placeName corresp="#n1" xml:lang="en">Kingdom of Spain</placeName>
                <placeName xml:id="n2" xml:lang="es" type="alt">España</placeName>

@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="settlement" sameAs="gn:2992604">
+            <place type="settlement" sameAs="Q7160">
                <placeName>Montferrer</placeName>
             </place>
          </listPlace>

@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region" sameAs="gn:1167710">
+            <place type="region" sameAs="Q22424">
                <placeName>Punjab</placeName>
             </place>
          </listPlace>

@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2248DabraB">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC2248DabraB">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -78,19 +81,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation">1694</date>
                   <ab type="history">Dabra Bǝrhān Śǝllāse was an influential church situated on an
                      elevated land north-west of <placeName ref="LOC3577Gondar">Gondar</placeName>
-                     and consecrated in <date>1694</date> during the reign of <roleName type="title"
-                        >ʾaṣe</roleName>
+                     and consecrated in <date>1694</date> during the reign of <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>. The original establishment
-                     included 170 clergy and generous land grants. In this church the <roleName
-                        type="function">emperor</roleName> and his court celebrated the Feast of the
+                     included 170 clergy and generous land grants. In this church the <roleName type="function">emperor</roleName> and his court celebrated the Feast of the
                      Trinity. The church was destroyed by lightning in <date>1707</date> but
                      immediately rebuilt. Probably between <date>1800</date> and <date>1830</date>,
                      it was replaced by the current rectangular building which survived the attack
                      of Gondar by the dervishes in <date>1888</date>.</ab>
-                  <ab type="description">Dabra Bǝrhān Śǝllāse is described in both the <ref
-                        type="work" corresp="LIT3950ChronIyasu">Chronicle</ref> and in the Vita of
-                        <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>. The <roleName
-                        type="function">emperor</roleName> himself prescribed that the round walls
+                  <ab type="description">Dabra Bǝrhān Śǝllāse is described in both the <ref type="work" corresp="LIT3950ChronIyasu">Chronicle</ref> and in the Vita of
+                        <persName ref="PRS5616IyasuI">ʾIyāsu I</persName>. The <roleName type="function">emperor</roleName> himself prescribed that the round walls
                      had to be four cubits thick and exactly one hundred cubits from north to south
                      and from east to west. The central part of the church was encircled by twelve
                      entrances with twelve pillars supporting arcades. The roof was surmounted by a

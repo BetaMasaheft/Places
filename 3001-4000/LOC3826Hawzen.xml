@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3826Hawzen">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3826Hawzen">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -56,8 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="gez" source="#Lusini">ሐውዜን፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥawzen</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt" source="#Lusini">ሐውዜና፡ <note>This
-                     place name is mentioned in two land-granting documents of the <ref type="work"
-                        corresp="LIT1913Mashaf">Liber Axumae</ref></note></placeName>
+                     place name is mentioned in two land-granting documents of the <ref type="work" corresp="LIT1913Mashaf">Liber Axumae</ref>
+                  </note>
+               </placeName>
                <placeName corresp="#n2" xml:lang="gez" type="normalized">Ḥawzenā</placeName>
                <state type="existence" ref="Aks Gon MoPe Paks1 Paks2 ZaMa"/>
                <country ref="LOC3010Ethiop"/>
@@ -82,12 +86,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">Ḥawzen is the name both of a waradā and of its administrative
                      capital. This area was already important in Aksumite times and maintained an
                      important role also after the decline of Aksum. Its territory was often and for
-                     long periods of time subject to historical <placeName ref="LOC6569Tegray"
-                        >Tǝgrāy</placeName>'s control.</ab>
+                     long periods of time subject to historical <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>'s control.</ab>
                     <ab type="tabot">Still preserved in the modern town of Ḥawzen
                      is a three-aisled rock-hewn church possibly dating to the 10th-13th century
-                     with a sanctuary containing a tābot dedicated to <roleName type="title"
-                        >ʾAbuna</roleName>
+                     with a sanctuary containing a tābot dedicated to <roleName type="title">ʾAbuna</roleName>
                        <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName>.</ab>
                </note>
             </place>

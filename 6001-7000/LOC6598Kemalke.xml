@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2017-01-24</date>
          </publicationStmt>
          <sourceDesc>
-            <p></p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place>
                <placeName corresp="#n1" type="normalized">Kǝmalke</placeName>
                <placeName xml:id="n1">ክመልኬ</placeName>              
-<note>ford (riverford)</note>
+               <note>ford (riverford)</note>
             </place>
          </listPlace>
       </body>

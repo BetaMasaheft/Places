@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:3175395">
+            <place type="country" sameAs="Q38">
                
                <placeName xml:id="n1" xml:lang="it">Italia</placeName>
                <placeName corresp="#n1" xml:lang="en">Italy</placeName>

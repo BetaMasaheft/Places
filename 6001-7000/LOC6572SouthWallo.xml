@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6572SouthWallo" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="LOC6572SouthWallo"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -47,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="zone" sameAs="gn:7732961">
+                <place type="zone" sameAs="Q2919962">
                     <placeName xml:id="n1" xml:lang="am">ደቡብ፡ ወሎ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">Dabub Wallo</placeName>
                     <placeName corresp="#n1" xml:lang="en">South Wallo</placeName>
@@ -69,7 +70,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place" active="#LOC6572SouthWallo" passive="LOC6185Wallo">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#LOC6572SouthWallo"
+                         passive="LOC6185Wallo">
                         <desc>The territory of the South Wallo Zone corresponds approximately to that of historical Wallo.</desc>
                     </relation>
                 </listRelation>

@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Mazaǧa</placeName>
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
                <location> </location>
                <listBibl type="editions"> 
                   <bibl>
@@ -123,6 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-            

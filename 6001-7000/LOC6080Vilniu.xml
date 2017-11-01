@@ -43,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-<change when="2016-10-28" who="FP">completed record</change>
+         <change when="2016-10-28" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -53,10 +53,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="gn:593116">
+            <place type="town" sameAs="Q216">
                <placeName xml:id="n1" xml:lang="en">Vilnius</placeName>
-               <country ref="gn:597427"/>
-               <region ref="gn:864485"/>
+               <country ref="Q37"/>
+               <region ref="Q216"/>
             </place>
          </listPlace>
       </body>

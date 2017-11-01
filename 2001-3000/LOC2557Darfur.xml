@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="area" sameAs="gn:8693107">
+            <place type="area" sameAs="Q46733">
                <placeName>Darfur</placeName>
                <placeName type="alt">Dārfūr</placeName>
             </place>

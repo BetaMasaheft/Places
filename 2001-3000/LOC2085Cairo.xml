@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -54,11 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:360630">
+            <place type="city" sameAs="Q85">
                <placeName xml:id="n1" xml:lang="ar" type="normalized">al-Qāhira</placeName>
                <placeName corresp="#n1" xml:lang="en">Cairo</placeName>
                <country ref="Q79"/> 
-               <region ref="gn:360631"/>
+               <region ref="Q30805"/>
             </place>
          </listPlace>
       </body>
