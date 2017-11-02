@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
               
             
                     <listRelation>
-                        <relation name="gn:locatedIn" active="LOC6856Gabal" passive="gn:69543"/>
+                        <relation name="gn:locatedIn" active="LOC6856Gabal" passive="Q2119459"/>
                         
                 </listRelation>
             </listPlace>
