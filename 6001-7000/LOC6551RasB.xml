@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6551RasB">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC6551RasB">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -68,8 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <note>
                         <date type="foundation">mid-18th century</date>
                         <ab type="description">This is a miniature caslte built in the
-                                <date>mid-18th century</date> in <placeName ref="LOC3577Gondar"
-                                >Gondar</placeName> to serve as the headquarters of the noblemen
+                                <date>mid-18th century</date> in <placeName ref="LOC3577Gondar">Gondar</placeName> to serve as the headquarters of the noblemen
                             that effectively governed the kingdom in the second half of the
                                 <date>18th century</date>. During the Italian occupation, it served
                             as the seat of the Italian Vice-Regal authority. </ab>

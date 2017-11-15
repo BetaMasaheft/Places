@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-<change when="2016-10-27" who="FP">record completed</change>
+         <change when="2016-10-27" who="FP">record completed</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:203312">
+            <place type="country" sameAs="Q974">
                <placeName xml:id="n1" xml:lang="fr" notBefore="1997">République démocratique du Congo</placeName>
                <placeName corresp="#n1" xml:lang="en" notBefore="1997">Democratic Republic of Congo</placeName>
                <placeName corresp="#n1" xml:lang="en" notBefore="1997">DRC</placeName>

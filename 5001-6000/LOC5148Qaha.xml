@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC5148Qaha">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC5148Qaha">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -73,9 +76,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="description">The Qāhā river skirts the eastern side of <placeName
-                        ref="LOC3577Gondar">Gondar</placeName> and joins the <placeName
-                        ref="LOC1452Angara">Small ʾAngarab</placeName> south of the town near
+                  <ab type="description">The Qāhā river skirts the eastern side of <placeName ref="LOC3577Gondar">Gondar</placeName> and joins the <placeName ref="LOC1452Angara">Small ʾAngarab</placeName> south of the town near
                         <placeName ref="LOC2999EslamB">ʾƎslām Bet</placeName>. Muslims and the
                         <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> were settled below
                      town on the Qāhā's banks.</ab>

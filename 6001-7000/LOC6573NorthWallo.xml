@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6573NorthWallo" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="LOC6573NorthWallo"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -47,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="zone" sameAs="gn:7869862">
+                <place type="zone" sameAs="Q2916300">
                     <placeName xml:id="n1" xml:lang="am">ሰሜን፡ ወሎ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">Samen Wallo</placeName>
                     <placeName corresp="#n1" xml:lang="en">North Wallo</placeName>
@@ -68,16 +69,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <ab type="description">Samen Wallo is a zone within the contemporary
                                 <placeName ref="LOC1426Amhara">Amhara Regional State</placeName> and
                             corresponds approximately to the historical provinces (now ʾawrāǧǧā) of
-                                <placeName ref="LOC4259Lasta">Lāstā</placeName> and <placeName
-                                ref="LOC6135Wag">Wāg</placeName>.</ab>
+                                <placeName ref="LOC4259Lasta">Lāstā</placeName> and <placeName ref="LOC6135Wag">Wāg</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC4259Lasta" passive="#LOC6573NorthWallo">
+                    <relation name="gn:locatedIn"
+                         active="LOC4259Lasta"
+                         passive="#LOC6573NorthWallo">
                         <desc>The territory of the historical province (now ʾawrāǧǧā) of Lāstā is
                             located within the Samen Wallo zone.</desc>
                     </relation>
-                    <relation name="gn:locatedIn" active="LOC6135Wag" passive="#LOC6573NorthWallo">
+                    <relation name="gn:locatedIn"
+                         active="LOC6135Wag"
+                         passive="#LOC6573NorthWallo">
                         <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
                             located within the Samen Wallo zone.</desc>
                     </relation>

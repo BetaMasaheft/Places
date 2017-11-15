@@ -68,8 +68,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" xml:id="n4">ሲዋ፡</placeName>
                <placeName xml:lang="gez" corresp="#n4" type="normalized">Siwā</placeName>
                
-             <state type="existence" ref="Paks2"/>
-                  <country ref="LOC3010Ethiop"></country>
+               <state type="existence" ref="Paks2"/>
+                  <country ref="LOC3010Ethiop"/>
                   
                   <listBibl type="editions"> 
                      <bibl>
@@ -107,10 +107,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </bibl>
                      <bibl>
                         <ptr target="bm:Huntingford1987Historicalgeo"/>
-                        <citedRange unit="page">14, 69, 70, 73, 76, 78, 79, 80, 83, 86, 88, 95, 102, 104, 108, 112, 116-118, 123, 126-128, 138, 142, 153-156, 168, 178, 179, 222,224, 267, </citedRange></bibl>
+                        <citedRange unit="page">14, 69, 70, 73, 76, 78, 79, 80, 83, 86, 88, 95, 102, 104, 108, 112, 116-118, 123, 126-128, 138, 142, 153-156, 168, 178, 179, 222,224, 267, </citedRange>
+                  </bibl>
                      <bibl>
                         <ptr target="bm:Braukamper2002Islam"/>
-                        <citedRange unit="page">24-29</citedRange></bibl>
+                        <citedRange unit="page">24-29</citedRange>
+                  </bibl>
                      
                      
                      
@@ -125,7 +127,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <placeName ref="LOC1458Angot"/>,<placeName ref="LOC3367Gayent"/>, <placeName ref="LOC3440Gesse"/>
                         as well as <placeName ref="LOC6167Walaqa"/>and <placeName ref="LOC4578Marhab"/>, came under the firm control of the Chrisitian monarchs in the 14th century, 
                         following the victories 
-                        of <roleName type="title">ʾaṣe</roleName><persName ref="PRS1854Amdase"/>. In the west, Šawā neigboured with <placeName ref="LOC2488Damot"/>in 
+                        of <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS1854Amdase"/>. In the west, Šawā neigboured with <placeName ref="LOC2488Damot"/>in 
                         the south and souteast,  the chain of the Muslim Sultanates of which <placeName ref="LOC3921Ifat"/> was the strongest. The presence of numerous rock-cut and cave churches 
                         is a conspicuous feature of Šawā's early Salomonic period, clearly showing the regions's importance and cultural and political affiliation. In the late 15th century -16 th century several locations in Šawā appear to have been important sites of 
                         the royal moving capitals. After ǧihad the importance of  Šawā was re-established  for a while. In the 17th century Šawā was de facto separated from Gondarine kingdom. 
@@ -136,12 +139,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </place>
                <listRelation>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC5597Sawa"
-                     passive="LOC3921Ifat"
-                  />
+                         active="LOC5597Sawa"
+                         passive="LOC3921Ifat"/>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC5597Sawa"
-                     passive="LOC2488Damot"/>
+                         active="LOC5597Sawa"
+                         passive="LOC2488Damot"/>
                </listRelation>
                
                
@@ -155,21 +157,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            

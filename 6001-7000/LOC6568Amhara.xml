@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6568Amhara" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="LOC6568Amhara"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -69,13 +70,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <ab type="history">ʾAmḥarā is the name of a historical area in central
                                 <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. This place-name
                             does not appear in the sources of the Aksumite period and its earlierst
-                            preserved mention can be found in a manuscript of the <ref type="work"
-                                corresp="LIT4277GoldenG">Golden Gospel</ref> of <placeName
-                                ref="INS0341DL">Dabra Libānos</placeName> dating to <date
-                                when="1322">1322</date>. These mentions became numerous in Ethiopic
+                            preserved mention can be found in a manuscript of the <ref type="work" corresp="LIT4277GoldenG">Golden Gospel</ref> of <placeName ref="INS0341DL">Dabra Libānos</placeName> dating to <date when="1322">1322</date>. These mentions became numerous in Ethiopic
                             medieval sources and increased over time. The importance of this area
-                            seems to have increased after the fall of the <persName
-                                ref="PRS10523Zagwe">Zagʷe</persName> and the re-establishment of the
+                            seems to have increased after the fall of the <persName ref="PRS10523Zagwe">Zāgʷe</persName> and the re-establishment of the
                             Solomonic dynasty in the <date notBefore="1250" notAfter="1300">late
                                 13th century</date>. ʾAmḥarā is also referred to as a "kingdom" in
                             correspondence between Solomonic and Egyptian rulers, in Arabic
@@ -90,23 +87,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <date notAfter="1600">pre-17th century</date> Ethiopian empire,
                             ʾAmḥarā was the heart of the empire and the core of the political and
                             religious power, protected by the richer but more heterogeneous and
-                            unstable <placeName ref="LOC5597Sawa">Šawā</placeName>. From the <date
-                                notBefore="1550" notAfter="1600" precision="low">mid-16th
+                            unstable <placeName ref="LOC5597Sawa">Šawā</placeName>. From the <date notBefore="1550" notAfter="1600" precision="low">mid-16th
                                 century</date>, ʾAmḥarā started to decline due to invasio, sacking
                             and destruction by <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm
                                 al-Ġāzī</persName>'s forces and Oromo groups as well as to religious
                             and political struggles. The centre of the imperial power moved to the
                             lake <placeName ref="LOC5888Tana">Ṭānā</placeName> and the physiognomy
-                            of ʾAmḥarā changed, up to its disintegration in the <date
-                                notBefore="1850" notAfter="1900">second half of the 19th
+                            of ʾAmḥarā changed, up to its disintegration in the <date notBefore="1850" notAfter="1900">second half of the 19th
                                 century</date>. The territorial concept of historical ʾAmḥarā was
-                            not re-utilised in later administrative divisions of <placeName
-                                ref="LOC3010Ethiop">Ethiopia</placeName>: its territories were first
-                            included into the province of <placeName ref="LOC6185Wallo"
-                                notAfter="1994">Wallo</placeName> and then divided into the
+                            not re-utilised in later administrative divisions of <placeName ref="LOC3010Ethiop">Ethiopia</placeName>: its territories were first
+                            included into the province of <placeName ref="LOC6185Wallo" notAfter="1994">Wallo</placeName> and then divided into the
                                 <placeName ref="LOC6573NorthWallo" notBefore="1994">North
-                                Wallo</placeName> and <placeName ref="LOC6572SouthWallo"
-                                notBefore="1994">South Wallo</placeName> zones. </ab>
+                                Wallo</placeName> and <placeName ref="LOC6572SouthWallo" notBefore="1994">South Wallo</placeName> zones. </ab>
                     </note>
                 </place>
                 <listRelation>
@@ -122,19 +114,29 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:locatedIn" active="LOC4020Kasam" passive="LOC6568Amhara">
                         <desc>The Kasam river probably marked one of the borders of the historical ʾAmḥarā territory.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="LOC5597Sawa" passive="LOC6568Amhara">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="LOC5597Sawa"
+                         passive="LOC6568Amhara">
                         <desc>Šawā served as the bulwark for protecting ʾAmḥarā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="LOC5888Tana" passive="LOC6568Amhara">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="LOC5888Tana"
+                         passive="LOC6568Amhara">
                         <desc>The centre of the power moved from ʾAmḥarā to the lake Ṭānā region.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="LOC6185Wallo" passive="LOC6568Amhara">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="LOC6185Wallo"
+                         passive="LOC6568Amhara">
                         <desc>The territories of ʾAmḥarā became part of the Wallo province.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="LOC6573NorthWallo" passive="LOC6568Amhara">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="LOC6573NorthWallo"
+                         passive="LOC6568Amhara">
                         <desc>Part of the territories of historical ʾAmḥarā are part of the North Wallo Zone.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="LOC6572SouthWallo" passive="LOC6568Amhara">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="LOC6572SouthWallo"
+                         passive="LOC6568Amhara">
                         <desc>Part of the territories of historical ʾAmḥarā are part of the South Wallo Zone.</desc>
                     </relation>
                 </listRelation>

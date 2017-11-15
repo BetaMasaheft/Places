@@ -1,7 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6844Arafta" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="LOC6844Arafta"
+     xml:lang="en"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -50,10 +55,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="district site">
                     <placeName xml:id="n1" xml:lang="gez">አረፍታ</placeName>
-                    <placeName  corresp="#n1" type="normalized">ʾAraftā</placeName>
+                    <placeName corresp="#n1" type="normalized">ʾAraftā</placeName>
                     <state type="existence" ref="Paks2"/>
-                    <country ref="LOC3010Ethiop"></country>
-                    <location><geo>14.25000 38.9167	
+                    <country ref="LOC3010Ethiop"/>
+                    <location>
+                  <geo>14.25000 38.9167	
                     </geo>
                     </location>
                     <listBibl type="editions"> 

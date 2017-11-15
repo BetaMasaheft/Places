@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Mazaǧa</placeName>
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
                <location> </location>
                <listBibl type="editions"> 
                   <bibl>
@@ -107,7 +107,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      limited at great extent by the <placeName ref="LOC5697Setit"/>and<placeName ref="LOC5864Takkaz"/> 
                      river, in what is today <placeName ref="LOC2991Eritre"/>. It was a region with hot and dry climate, a fortunate circumstance during 16th century for King 
                      <persName ref="PRS4428Galawdew"/> as while <placeName ref="Q2359535"/> fighting there suffered because of the harsh climatic condition. Prior to  the sixteenth century,
-                     it was an islamic Sultanate, inhabited by <persName ref="ETH1194Balaw"/> and ruled by  
+                     it was an Islamic Sultanate, inhabited by <persName ref="ETH1194Balaw"/> and ruled by  
                      <persName ref="PRS6537Makattar"/>, an ally of <persName ref="PRS1522Ahmadb"/>.  
                      <persName ref="PRS6537Makattar"/> died shortly after<persName ref="PRS1522Ahmadb"/>, the rule  was taken over by his own sister, 
                      <persName ref="PRS4406Gaewa"/>, who made alliance with the <placeName ref="Q2359535"/>. She was defeated in <date>1557</date>, 
@@ -123,6 +123,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-            

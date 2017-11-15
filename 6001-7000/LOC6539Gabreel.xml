@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC6539Gabrǝel">
+     xml:id="LOC6539Gabreel">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 required as per Eugenia's email dated 24/08/2016</change>
             <change when="2016-08-22" who="FP">corrections</change>
             <change when="2016-08-15" who="FP">record created</change>
+            <change when="2017-11-15" who="DR">Updated ID</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,9 +87,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="LOC6539Gabrǝel" passive="LOC3288Gannat"/>
+                    <relation name="gn:nearBy" active="LOC6539Gabreel" passive="LOC3288Gannat"/>
                     <relation name="syriaca:has-relation-to-place"
-                         active="LOC6539Gabrǝel"
+                        active="LOC6539Gabreel"
                          passive="LOC1058AbunBe"/>
                 </listRelation>
             </listPlace>

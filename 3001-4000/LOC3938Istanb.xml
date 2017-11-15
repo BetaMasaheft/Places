@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3938Istanb">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3938Istanb">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,29 +56,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:745044">
+            <place type="city" sameAs="Q406">
                <placeName xml:id="n1" xml:lang="tu" notBefore="1923">stanbul</placeName>
 
-               <placeName xml:id="n2" xml:lang="grc" notBefore="-0660" notAfter="0330"
-                  type="normalized" subtype="alt">Byzántion</placeName>
-               <placeName corresp="#n2" xml:lang="en" notBefore="-0660" notAfter="0330"
-                  >Byzantium</placeName>
+               <placeName xml:id="n2"
+                          xml:lang="grc"
+                          notBefore="-0660"
+                          notAfter="0330"
+                          type="normalized"
+                          subtype="alt">Byzántion</placeName>
+               <placeName corresp="#n2" xml:lang="en" notBefore="-0660" notAfter="0330">Byzantium</placeName>
 
-               <placeName xml:id="n3" xml:lang="grc" type="normalized" subtype="alt"
-                  notBefore="0330" notAfter="1923">Konstantinoúpolis</placeName>
-               <placeName corresp="#n3" xml:lang="la" notBefore="0330" notAfter="1923"
-                  >Constantinopolis</placeName>
-               <placeName corresp="#n3" xml:lang="tu" type="normalized" notBefore="0330"
-                  notAfter="1923">Ḳosṭanṭīnīye</placeName>
-               <placeName corresp="#n3" xml:lang="gez" notBefore="0330"
-                  notAfter="1923">ቍስጥንጥንያ፡</placeName>
-               <placeName corresp="#n3" xml:lang="gez" type="normalized" notBefore="0330"
-                  notAfter="1923">Qwǝsṭǝnṭǝnya</placeName>
-               <placeName corresp="#n3" xml:lang="en" notBefore="0330" notAfter="1923"
-                  >Constantinople</placeName>
+               <placeName xml:id="n3"
+                          xml:lang="grc"
+                          type="normalized"
+                          subtype="alt"
+                          notBefore="0330"
+                          notAfter="1923">Konstantinoúpolis</placeName>
+               <placeName corresp="#n3" xml:lang="la" notBefore="0330" notAfter="1923">Constantinopolis</placeName>
+               <placeName corresp="#n3"
+                          xml:lang="tu"
+                          type="normalized"
+                          notBefore="0330"
+                          notAfter="1923">Ḳosṭanṭīnīye</placeName>
+               <placeName corresp="#n3" xml:lang="gez" notBefore="0330" notAfter="1923">ቍስጥንጥንያ፡</placeName>
+               <placeName corresp="#n3"
+                          xml:lang="gez"
+                          type="normalized"
+                          notBefore="0330"
+                          notAfter="1923">Qwǝsṭǝnṭǝnya</placeName>
+               <placeName corresp="#n3" xml:lang="en" notBefore="0330" notAfter="1923">Constantinople</placeName>
                
-               <country ref="gn:298795"/>
-               <region ref="gn:745042"/>
+               <country ref="Q43"/>
+               <region ref="Q406"/>
             </place>
          </listPlace>
       </body>

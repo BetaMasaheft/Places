@@ -71,7 +71,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   
                   <state type="existence" ref="Paks2"/>
-                  <country ref="LOC3010Ethiop"></country>
+                  <country ref="LOC3010Ethiop"/>
                   
                   <listBibl type="editions"> 
                      <bibl>
@@ -103,10 +103,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </bibl>
                      <bibl>
                         <ptr target="bm:Huntingford1987Historicalgeo"/>
-                        <citedRange unit="page">91, 101, 107, 111, 117, 141, 248</citedRange></bibl>
+                        <citedRange unit="page">91, 101, 107, 111, 117, 141, 248</citedRange>
+                  </bibl>
                      <bibl>
                         <ptr target="bm:Braukamper2002Islam"/>
-                        <citedRange unit="page">29-38</citedRange></bibl>
+                        <citedRange unit="page">29-38</citedRange>
+                  </bibl>
                      
                      
                      
@@ -123,9 +125,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </place>
                <listRelation>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC1095Adal"
-                     passive="LOC3921Ifat"
-                  />
+                         active="LOC1095Adal"
+                         passive="LOC3921Ifat"/>
                   </listRelation>
                
                
@@ -140,21 +141,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               

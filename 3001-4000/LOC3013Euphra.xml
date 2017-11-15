@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="river" sameAs="gn:315147">
+            <place type="river" sameAs="Q34589">
                <placeName>Euphrates</placeName>
             </place>
          </listPlace>

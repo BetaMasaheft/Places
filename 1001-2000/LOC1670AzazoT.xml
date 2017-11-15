@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2017-10-12" who="DR">minor transliteration corrections</change>
          <change when="2016-08-22" who="FP">added info to record</change>
          <change when="2016-08-16" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -83,7 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc type="foundation">Local priests believe that it was built by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> in the <date>17th
                         century</date>, while, according to <persName ref="PRS2916Bruce">James
-                           Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">Iyāsu
+                           Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">ʾIyāsu
                         II</persName>, meaning it was built only in the <date>18th century</date>.</desc>
                   <ab type="history">ʾAzazo Takla Hāymānot is one of the so-called 44 churches of
                         <placeName ref="LOC3577Gondar">Gondar</placeName>. It is located in the town
@@ -95,7 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">ʾAzazo Takla Hāymānot is located at the centre of a
                      hilltop, surrounded by a courtyard and a circular stone wall with a square
                      tower.</ab> 
-                     <ab type="tabot">At one hand of the courtyar, there is a semi-circular domed castle wher, according to local traditio, the tabot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, although the tabot's movements are actually quite complicated to reconstruct.</ab>
+                     <ab type="tabot">At one hand of the courtyard, there is a semi-circular domed castle where, according to local tradition, the tābot of <persName ref="PRS6819Mary">Mary</persName> of <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> was first installed when it was moved from <placeName ref="LOC2297DabraL">Dabra Libānos</placeName> to <placeName ref="LOC1669Azazo">ʾAzazo</placeName>, although the tābot's movements are actually quite complicated to reconstruct.</ab>
                      <measure quantity="1"/>
                        </note>
             </place>

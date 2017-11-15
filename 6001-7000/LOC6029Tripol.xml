@@ -53,11 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:2210247">
+            <place type="city" sameAs="Q3579">
                <placeName xml:id="n1" xml:lang="ar" type="normalized">Ṭarābulus</placeName>
                <placeName corresp="#n1" xml:lang="en">Tripoli</placeName>
-               <country ref="gn:2215636"/>
-               <region ref="gn:2210245"/>
+               <country ref="Q1016"/>
+               <region ref="Q3579"/>
             </place>
          </listPlace>
       </body>

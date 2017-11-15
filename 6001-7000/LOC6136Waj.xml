@@ -69,8 +69,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
-               <location><geo>7.943354 38.850544</geo></location>
+               <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>7.943354 38.850544</geo>
+               </location>
                
                <listBibl type="editions"> 
                   <bibl>
@@ -102,10 +104,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <citedRange unit="page">61n, 79, 81, 84, 91, 95, 96, 97, 99, 100, 114, 119, 134, 137, 144, 147, 166, 171, 247, </citedRange></bibl>
+                     <citedRange unit="page">61n, 79, 81, 84, 91, 95, 96, 97, 99, 100, 114, 119, 134, 137, 144, 147, 166, 171, 247, </citedRange>
+                  </bibl>
                   <bibl>
-                  <ptr target="bm:Braukamper2002Islam"/>
-                  <citedRange unit="page">43-47</citedRange></bibl>
+                     <ptr target="bm:Braukamper2002Islam"/>
+                     <citedRange unit="page">43-47</citedRange>
+                  </bibl>
                   
                   
                   
@@ -115,28 +119,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">Waǧ is a historical region in <placeName ref="LOC5597Sawa"/>south of the river <placeName ref="LOC4892Mugar"/>
                      which flows into the <placeName ref="LOC1022Abbay"/> west of <placeName ref="INS0341DL"/> of <placeName ref="LOC5597Sawa"/>.
                      It was one of the seven districts of <placeName ref="LOC5597Sawa"/> which contributed to troops to <persName ref="PRS10303Yekunno"/>
-                     for his campaign against the last Zagʷe king. It was also the native region of <persName ref="PRS6734MarhaKr"/> the 15th century 9th 
+                     for his campaign against the last Zāgʷe king. It was also the native region of <persName ref="PRS6734MarhaKr"/> the 15th century 9th 
                   <roleName type="title">ʾǝč̣č̣age</roleName> of <placeName ref="INS0341DL"/>. The history of Waǧ is closely connected to 
                   its neigbour on the east<placeName ref="LOC3061Fataga"/>.  <persName ref="PRS1854Amdase"/> is reported to have defeated the Zebdār of Waǧ  
-                  and appointed a governor with the title Masfǝn. During the time of <roleName type="title">ʾaṣe</roleName><persName ref="PRS10626ZaraY"/>
+                  and appointed a governor with the title Masfǝn. During the time of <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10626ZaraY"/>
                   the governor bore the title hǝgāno, a possible indication that the district was Islamic by that time. During the time of <roleName type="title">ʾaṣe</roleName>  
-                  <persName ref="PRS2334BaedaM"/> it was served as an important startegic region to conduct a military campaigns against <placeName ref="LOC1095Adal"/>. 
-                  Following the death of <persName ref="PRS1522Ahmadb"/>, Waǧ was also a strong hold of King <persName ref="PRS4428Galawdew"/>where he built his royal seat 
-                  in<date>1550</date>. In <date>1577</date>, <roleName type="title">ʾaṣe</roleName> <persName ref="PRS8550sardaDe"/>, on his way to attack 
-                     sultān of <placeName  ref="LOC1095Adal"/>, passed through Waǧ.</ab>
+                     <persName ref="PRS2334BaedaM"/> it was served as an important startegic region to conduct a military campaigns against <placeName ref="LOC1095Adal"/>. 
+                  Following the death of <persName ref="PRS1522Ahmadb"/>, Waǧ was also a stronghold of King <persName ref="PRS4428Galawdew"/> where he built his royal seat 
+                  in<date>1550</date>. In <date>1577</date>, <roleName type="title">ʾaṣe</roleName> 
+                     <persName ref="PRS8550sardaDe"/>, on his way to attack 
+                     sultān of <placeName ref="LOC1095Adal"/>, passed through Waǧ.</ab>
                </note>               
                   
               
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                  active="LOC6136Waj"
-                  passive="LOC3061Fataga"
-               />
+                         active="LOC6136Waj"
+                         passive="LOC3061Fataga"/>
                <relation name="syriaca:has-relation-to-place"
-                  active="LOC6136Waj"
-                  passive="LOC5693Serka"
-               />
+                         active="LOC6136Waj"
+                         passive="LOC5693Serka"/>
             </listRelation>
             
             
@@ -151,23 +155,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               
-              

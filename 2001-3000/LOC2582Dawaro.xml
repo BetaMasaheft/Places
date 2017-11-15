@@ -12,11 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
             <title>Dawāro</title>
             <editor role="generalEditor" key="AB"/>
-            
-            
             <editor key="SG"/>            
-            
-            
             <author/>
         
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -59,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region" sameAs="Q24361543">
+            <place type="region" sameAs="Q6424991">
                <placeName xml:lang="gez" xml:id="n1">ደዋሮ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dawāro</placeName>
                <placeName xml:lang="ar" xml:id="n2" type="alt">Dauarro</placeName>
@@ -72,8 +68,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
-               <location></location>
+               <country ref="LOC3010Ethiop"/>
+               <location/>
                
                <listBibl type="editions"> 
                   <bibl>
@@ -105,10 +101,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <citedRange unit="page">83, 86-88, 91, 95, 101, 102, 107, 110-112, 117, 121-123, 125, 126, 130, 131, 134, 249</citedRange></bibl>
+                     <citedRange unit="page">83, 86-88, 91, 95, 101, 102, 107, 110-112, 117, 121-123, 125, 126, 130, 131, 134, 249</citedRange>
+                  </bibl>
                   <bibl>
                      <ptr target="bm:Braukamper2002Islam"/>
-                     <citedRange unit="page">70-76</citedRange></bibl>
+                     <citedRange unit="page">70-76</citedRange>
+                  </bibl>
                   
                   
                   
@@ -120,18 +118,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Dawāro was separated from it by the <placeName ref="LOC6095WabiSa"/> river and bordered on <placeName ref="LOC3921Ifat"/> on the right bank of  
                      <placeName ref="LOC1617Awas"/>. In the east, it reached the edge of the <placeName ref="LOC1274Afar"/> lowlands, in th south-west it bordered on the small principalities of 
                      <placeName ref="LOC5581Sarha"/>and <placeName ref="LOC1499Arabab"/>. In Ethiopic chronicles it appears first in that of 
-                     <roleName type="title">ʾaṣe</roleName><persName ref="PRS1854Amdase"/>. Acccording to this source, he subdued Dawāro  together with 
+                     <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS1854Amdase"/>. Acccording to this source, he subdued Dawāro  together with 
                      <placeName ref="LOC3921Ifat"/>,  <placeName ref="LOC5581Sarha"/> and <placeName ref="LOC1743Bale"/> in the war of <date>1332</date>, 
                      when it was ruled by a governor
-                     called <persName ref="PRS5193haydara"/>. After the victory of  <roleName type="title">ʾaṣe</roleName><persName ref="PRS1854Amdase"/> in <date>1332</date>, 
-                     Dawāro  became a strong hold of the Christian empire. Following the defeat of the Christian emepror, <roleName type="title">ʾaṣe</roleName>, 
+                     called <persName ref="PRS5193haydara"/>. After the victory of  <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS1854Amdase"/> in <date>1332</date>, 
+                     Dawāro  became a stronghold of the Christian empire. Following the defeat of the Christian emperor, <roleName type="title">ʾaṣe</roleName>, 
                      <persName ref="PRS6229LebnaDe"/>, in <date>1529</date>, Dawāro came under the domain of the Muslim territoy. It was ruled first by the son of 
-                     <persName ref="PRS1522Ahmadb"/>, <persName ref="PRS7506Nasraddi"></persName> during the first year of the reign of  <roleName type="title">ʾaṣe</roleName> 
+                     <persName ref="PRS1522Ahmadb"/>, <persName ref="PRS7506Nasraddi"/> during the first year of the reign of  <roleName type="title">ʾaṣe</roleName> 
                      <persName ref="PRS4428Galawdew"/>. After the death of <persName ref="PRS7506Nasraddi"/> in <date>1542</date>, 
                      Dawāro was ruled by one of the a great war lord of<persName ref="PRS1522Ahmadb"/>, <persName ref="PRS1076Abbasb"/> who was later defeated and killed by 
-                     <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew"/>. Then after, <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew"/> appointed 
-                     <persName  ref="PRS3984Fanuel"/>, one of his principal commanders as governor of  Dawāro and the region depend on it. 
-                     The chronicle of <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew"/>describes Dawāro a blessed land that flows milk and honey 
+                     <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4428Galawdew"/>. Then after, <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4428Galawdew"/> appointed 
+                     <persName ref="PRS3984Fanuel"/>, one of his principal commanders as governor of  Dawāro and the region depend on it. 
+                     The chronicle of <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4428Galawdew"/>describes Dawāro a blessed land that flows milk and honey 
                      which represents it was the most fertile and suitable land for agricultural activities in medieval time. Since the half of 16th century, it was devastated and overrun by the<persName ref="ETH1973Oromo"/>
                      and it became the major settlement of them.
                   </ab>
@@ -141,13 +144,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                  active="LOC2582Dawaro"
-                  passive="LOC3061Fataga"
-               />
+                         active="LOC2582Dawaro"
+                         passive="LOC3061Fataga"/>
                <relation name="syriaca:has-relation-to-place"
-                  active="LOC2582Dawaro"
-                  passive="LOC5693Serka"
-               />
+                         active="LOC2582Dawaro"
+                         passive="LOC5693Serka"/>
             </listRelation>
             
             
@@ -162,6 +163,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               

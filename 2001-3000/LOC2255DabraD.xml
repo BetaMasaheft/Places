@@ -60,46 +60,46 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>  
             <place type="mountain" sameAs="Q595895">
                <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ዳሞ፡</placeName>
-               <placeName  corresp="#n1" type="normalized">Dabra Dāmmo</placeName>
+               <placeName corresp="#n1" type="normalized">Dabra Dāmmo</placeName>
                
         
-            <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
          
-            <listBibl type="editions"> 
-               <bibl>
-                  <ptr target="bm:Solomon2016Galawdewos"/>
+               <listBibl type="editions"> 
+                  <bibl>
+                     <ptr target="bm:Solomon2016Galawdewos"/>
                   
-               </bibl>
+                  </bibl>
            
-               <bibl>
-                  <ptr target="bm:Conzelman1895Galawdewos"/>
-               </bibl>
+                  <bibl>
+                     <ptr target="bm:Conzelman1895Galawdewos"/>
+                  </bibl>
                
-            </listBibl>
-            <listBibl type="secondary">
-               <bibl>
-                  <ptr target="bm:TsegayRed2005DabraDamo"/>
+               </listBibl>
+               <listBibl type="secondary">
+                  <bibl>
+                     <ptr target="bm:TsegayRed2005DabraDamo"/>
                   
-               </bibl>
+                  </bibl>
                
                
-               <bibl>
-                  <ptr target="bm:Solomon2015Geography"/>
-                  <biblScope unit="page">109-118</biblScope>
-               </bibl>
-            </listBibl>
-            <note>
+                  <bibl>
+                     <ptr target="bm:Solomon2015Geography"/>
+                     <citedRange>109-118</citedRange>
+                  </bibl>
+               </listBibl>
+               <note>
                
-               <ab type="history">Dabra Dāmmo is the name of a flat-topped mountain, or amba, in <placeName ref="LOC5932Tegray"/> . 
+                  <ab type="history">Dabra Dāmmo is the name of a flat-topped mountain, or amba, in <placeName ref="LOC5932Tegray"/> . 
                   This mountain is a steeply rising plateau of trapezoidal shape, about 1000 by 400 m in dimension.
                   It is north west of <placeName ref="LOC1212Addigr"/>, in the  central part of <placeName ref="LOC5932Tegray"/>region, close to the border with
                   <placeName ref="LOC2991Eritre"/>
                   
                   </ab>
                
-            </note>
+               </note>
             
-         </place>
+            </place>
             <listRelation>
                <relation name="gn:locatedIn" active="LOC2255DabraD" passive="LOC6569Tegray"/>
             </listRelation>
@@ -108,4 +108,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-            

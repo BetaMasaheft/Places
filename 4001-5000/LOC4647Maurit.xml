@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="island" sameAs="gn:934293">
+            <place type="island" sameAs="Q2656389">
                <placeName>Mauritius</placeName>
             </place>
          </listPlace>

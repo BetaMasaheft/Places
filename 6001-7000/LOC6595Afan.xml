@@ -13,7 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>ʾAfān</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
-            <editor key="ES"></editor>
+            <editor key="ES"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -31,7 +31,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2017-01-23</date>
          </publicationStmt>
          <sourceDesc>
-            <p></p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -54,7 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <placeName xml:id="n1" xml:lang="gez">አፋን </placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAfān</placeName>
-               <desc><date>4th cent. AD</date></desc>
+               <desc>
+                  <date>4th cent. AD</date>
+               </desc>
                
             </place>
          </listPlace>

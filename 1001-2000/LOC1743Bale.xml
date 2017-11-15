@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
                <listBibl type="editions"> 
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
@@ -112,12 +112,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="history">The medieval state of Bāle was bordered by the medieval Muslim states of <placeName ref="LOC2587Dawro"/> 
                      and <placeName ref="LOC5582Sarka"/> in the north, <placeName ref="LOC3720Hadiyy"/> in the west , <placeName ref="LOC1094Adal"/> and
                      <placeName ref="LOC2587Dawro"/> in the east and huge grazing ground of the <persName ref="ETH1973Oromo"/> pastoralist in the south.
-                     It came to existence as a muslim sate in the 11th and 13th centuries. The history of the Muslim state of Bāle linked to the history of  
+                     It came to existence as a Muslim state in the 11th and 13th centuries. The history of the Muslim state of Bāle linked to the history of  
                      <persName ref="PRS5438husayn"/>, the great early 13th century standard bearer of Islam in Bāle. The Muslim states of Bāle was famous for its cotton cloth weaving industry, 
                      and its foreign traders, including Arabs and Persians. Like other Muslim states of the southern Ethiopia, Bāle was conquered by <persName ref="PRS1854Amdase"/>
                      in the fourteenth century and became part of the Christian kingdom of Ethiopia. Of all Muslim states of southern Ethiopia,
                      it was Bāle that seems to have shaped the course of the early  histroy  <persName ref="ETH1973Oromo"/>.
-                     Historical Bāle was the Original home of primeval <persName ref="ETH1973Oromo"/>
+                     Historical Bāle was the original home of primeval <persName ref="ETH1973Oromo"/>
                      groups that were engaged in a mixed economy.
                      
                      
@@ -126,12 +126,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
                <listRelation>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC1743Bale"
-                     passive="LOC2587Dawro"
-                          />
+                         active="LOC1743Bale"
+                         passive="LOC2587Dawro"/>
                   <relation name="syriaca:has-relation-to-place"
-                     active="LOC1743Bale"
-                     passive="LOC5582Sarka"/>
+                         active="LOC1743Bale"
+                         passive="LOC5582Sarka"/>
                </listRelation>
                   
                      
@@ -144,6 +143,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-               

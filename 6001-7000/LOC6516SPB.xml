@@ -40,18 +40,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italiano</language>
             <language ident="gez">Gǝʿǝz</language>
-         <language ident="ru">Russian</language>
+            <language ident="ru">Russian</language>
          </langUsage>
                </profileDesc>
       <revisionDesc>
-<change when="2016-10-26" who="FP">inserted reference to GeoNames record</change>
+         <change when="2016-10-26" who="FP">inserted reference to GeoNames record</change>
          <change who="ES" when="2016-05-25">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:498817">
+            <place type="city" sameAs="Q656">
                <placeName xml:lang="en" corresp="#n1">St Petersburg</placeName>
                <placeName xml:lang="ru" xml:id="n1">Санкт Петербург</placeName>
                
@@ -61,8 +61,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="en" corresp="#n3">Petrograd</placeName>
                <placeName xml:lang="ru" xml:id="n3" type="alt">Петроград</placeName>
                
-               <country ref="gn:2017370"/>
-               <region ref="gn:536203"/>
+               <country ref="Q159"/>
+               <region ref="Q656"/>
             </place>
          </listPlace>
       </body>

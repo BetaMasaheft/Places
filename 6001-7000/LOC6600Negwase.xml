@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2017-01-24</date>
          </publicationStmt>
          <sourceDesc>
-            <p></p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="town">
                <placeName corresp="#n1" type="normalized">Nǝgʷase </placeName>
                <placeName xml:id="n1">ንጐሴ</placeName>              
-<note>a Nobā town attested in inscriptions or a common noun ('capital city')</note>
+               <note>a Nobā town attested in inscriptions or a common noun ('capital city')</note>
             </place>
          </listPlace>
       </body>

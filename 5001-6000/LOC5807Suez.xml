@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="gulf" sameAs="gn:235614">
+            <place type="gulf" sameAs="Q168277">
                <placeName>Suez</placeName>
             </place>
          </listPlace>

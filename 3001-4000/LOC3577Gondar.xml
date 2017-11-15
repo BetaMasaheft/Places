@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3577Gondar">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC3577Gondar">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,7 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-<change when="2016-11-18" who="FP">added link to GeoNames entity</change>
+         <change when="2016-11-18" who="FP">added link to GeoNames entity</change>
          <change when="2016-09-26" who="FP">added info to record regarding history and
             relations</change>
          <change when="2016-09-23" who="FP">corrected xml:lang, some transcription and added info to
@@ -57,11 +60,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="gn:336014">
+            <place type="town" sameAs="Q218861">
                <placeName xml:id="n1" xml:lang="am">ጎንደር፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Gondar</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ጐንደር፡</placeName>
-               <placeName corresp="#n2" xml:lang="am" type="normalized">Gwandar</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Gʷandar</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -83,42 +86,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      developed as a major centre only after <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
                         <date>1636-1637</date>.</desc>
-                  <ab type="history">The town of Gondar is located in today's <placeName
-                        ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
+                  <ab type="history">The town of Gondar is located in today's <placeName ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
                         <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
                         <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State. Gondar
                      started to flourish after <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
-                        <date>1636-'37</date> to control the collection of customs on the <placeName
-                           ref="gn:350155">Red Sea</placeName> - <placeName ref="LOC5888Tana">
+                        <date>1636-'37</date> to control the collection of customs on the <placeName ref="Q23406">Red Sea</placeName> - <placeName ref="LOC5888Tana">
                         Ṭānā</placeName> - <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade
                      routes. Following its foundation and for approx. 130 years (from
                         <date>1630s</date> to <date>1760s</date>), Gondar was the political,
-                     religious, cultural and intellectual capital of the <placeName
-                        ref="LOC6554GondarineK">Gondarine Kingdom</placeName>. Its founder <persName
-                        ref="PRS4015Fasilada">Fāsiladas</persName> built the first nucleus of the
+                     religious, cultural and intellectual capital of the <placeName ref="LOC6554GondarineK">Gondarine Kingdom</placeName>. Its founder <persName ref="PRS4015Fasilada">Fāsiladas</persName> built the first nucleus of the
                      town including his castle, some churches and his pleasure pool. After him, his
                      son <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS10375Yohanne">Yoḥānnǝs I</persName> and grandson <roleName
-                        type="title">ʾaṣe</roleName>
+                     <persName ref="PRS10375Yohanne">Yoḥānnǝs I</persName> and grandson <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> chose to remain in Gondar and
                      built their own castles and churches. So by the late <date>17th century</date>,
                      Gondar had become a permanent and sizeable settlement where Ethiopian rulers
                      resided when not campaigning and where the highest commerical, political and
                      religious classes gathered around the throne. In the <date>17th century</date>
-                     Gondar also became the major commercial centre of northern <placeName
-                        ref="LOC3010Ethiop">Ethiopia</placeName>. During the <date>18th
+                     Gondar also became the major commercial centre of northern <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. During the <date>18th
                         century</date>, the royal compound was completed with the construction of
-                     castles by <persName ref="PRS3430DawitII">Dāwit III</persName>, <persName
-                        ref="PRS2377Bakaffa">Bakāffā</persName> and <persName ref="PRS5617IyasuII"
-                        >ʾIyāsu II</persName>, the church of <placeName ref="LOC1582ASSaSa">ʾAṭṭāṭāmi
+                     castles by <persName ref="PRS3430DawitII">Dāwit III</persName>, <persName ref="PRS2377Bakaffa">Bakāffā</persName> and <persName ref="PRS5617IyasuII">ʾIyāsu II</persName>, the church of <placeName ref="LOC1582ASSaSa">ʾAṭṭāṭāmi
                         Mikāʾel</placeName> by <persName ref="PRS3430DawitII">Dāwit III</persName>
                      and various subsidiary buildings (the whole surrounded by a double wall with
                      twelve gates and reinforcing towers). However, by the late <date>18th
                         century</date>, no more castles were built and, from the <date>19th
                         century</date>, Gondar gradually lost its political power and shrank in size
-                     while the centre of the power moved to <placeName ref="LOC5597Sawa"
-                        >Šawā</placeName>. <persName ref="PRS9430Tewodros">Tewodros II</persName>
+                     while the centre of the power moved to <placeName ref="LOC5597Sawa">Šawā</placeName>. <persName ref="PRS9430Tewodros">Tewodros II</persName>
                      set his capital in <placeName ref="LOC2385DabraT">Dabra Tābor</placeName> and,
                      in <date>1866</date> attacked, burnt and looted Gondar. Finally, in
                         <date>1888</date> and <date>1889</date>, the Mahdists attacked and burnt
@@ -129,8 +123,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         Orientale Italiana</placeName>), it was restructured and rebuilt along
                      modernist lines and its population increased significantly. After the defeat of
                      the Italians in <date>1941</date>, Gondar became the capital of the Province of
-                        <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> and <placeName
-                        ref="LOC5671Semen">Sǝmen</placeName>, flourished and grew in population
+                        <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> and <placeName ref="LOC5671Semen">Sǝmen</placeName>, flourished and grew in population
                      becoming a major commercial and cultural centre.</ab>
                   <ab type="description">Gondar has enjoyed a strategic position: it is 35 km north
                      of the lake <placeName ref="LOC5888Tana"> Ṭānā</placeName> close to the point
@@ -149,47 +142,57 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC5888Tana">
                   <desc>Gondar is in a strategic location 35 km north of the Lake Ṭānā.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC4051Kemant">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmānt territory.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC5148Qaha">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC5148Qaha">
                   <desc>The river Qāhā marked the border of the initial nucleus of the town of
                      Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC1452Angara">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC1452Angara">
                   <desc>The Small ʾAngarab river marked the border of the initial nucleus of the
                      town of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC4775Menzer">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC4775Menzer">
                   <desc>Area 30 km south of Gondar that marked the souther border of Gondar at its
                      greatest extent in the 17th-18th century.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC1058AbunBe">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC1058AbunBe">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC6535EccBet">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC6535EccBet">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC6534Addaba">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC6534Addaba">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3577Gondar"
-                  passive="LOC2999EslamB">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3577Gondar"
+                         passive="LOC2999EslamB">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC4506Manbar"
-                  passive="LOC3577Gondar">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC4506Manbar"
+                         passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="LOC3407GemjaB"
-                  passive="LOC3577Gondar">
+               <relation name="syriaca:has-relation-to-place"
+                         active="LOC3407GemjaB"
+                         passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
                <relation name="gn:locatedIn" active="LOC3091FitAbb" passive="LOC3577Gondar">
@@ -210,7 +213,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="LOC3288Gannat" passive="LOC3577Gondar">
                   <desc>This is a hill in Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC6541DabraSahaySell" passive="LOC3577Gondar">
+               <relation name="gn:locatedIn"
+                         active="LOC6541DabraSahaySell"
+                         passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
                <relation name="gn:locatedIn" active="INS0330DDQ" passive="LOC3577Gondar">
@@ -219,7 +224,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="LOC6540Entone" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC6539Gabrǝel" passive="LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC6539Gabreel" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
                <relation name="gn:locatedIn" active="LOC1059AbunMa" passive="LOC3577Gondar">
@@ -244,13 +249,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="LOC2806Egziab" passive="#LOC3577Gondar">
                   <desc>This is a church built by Yoḥānnǝs IV in Gondar</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
-                  passive="LOC2385DabraT">
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC3577Gondar"
+                         passive="LOC2385DabraT">
                   <desc>In the second half of the 18th century, Dabra Tābor replaced Gondar as the
                      capital of the Ethiopian empire.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC3577Gondar"
-                  passive="LOC6552Amhara">
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC3577Gondar"
+                         passive="LOC6552Amhara">
                   <desc>During the Italian occupation, Gondar became the capital of the Governo dell'Amhara.</desc>
                </relation>
             </listRelation>

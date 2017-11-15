@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC5830Switze">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC5830Switze">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -53,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:2658434">
+            <place type="country" sameAs="Q39">
                <placeName xml:id="n1" xml:lang="de">Schweizerische Eidgenossenschaft</placeName>
                <placeName corresp="#n1" xml:lang="fr">Confédération suisse</placeName>
                <placeName corresp="#n1" xml:lang="it">Confederazione Svizzera</placeName>

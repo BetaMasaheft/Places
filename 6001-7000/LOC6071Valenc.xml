@@ -54,10 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="gn:2509954">
+            <place type="city" sameAs="Q8818">
                <placeName xml:id="n1" xml:lang="es">Valencia</placeName>
-               <country ref="gn:2510769"/>
-               <region ref="gn:2593113"/>
+               <country ref="Q29"/>
+               <region ref="Q8818"/>
             </place>
          </listPlace>
       </body>

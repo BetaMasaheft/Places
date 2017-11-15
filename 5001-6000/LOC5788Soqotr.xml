@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="island" sameAs="gn:70302">
+            <place type="island" sameAs="Q82859">
                <placeName>Soqoṭra</placeName>
                <placeName type="alt">Suquṭra; Socotra</placeName>
                <placeName type="alt">Suqaṭrāʾ; Usquṭrā; Suqūṭarāʾ</placeName>

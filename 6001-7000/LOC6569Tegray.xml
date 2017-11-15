@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6569Tegray" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="LOC6569Tegray"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -51,18 +52,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="area province">
                     <placeName xml:id="n1" xml:lang="ti">ትግራይ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy <note
-                            source="#Cosma">A variant of the term Tǝgrāy first appears in a <date
-                                notBefore="0900" notAfter="0999">10th-century</date> gloss to
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy <note source="#Cosma">A variant of the term Tǝgrāy first appears in a <date notBefore="0900" notAfter="0999">10th-century</date> gloss to
                                 <persName ref="PRS3204CosmasI">Cosmas
-                            Indicopleustes</persName>.</note></placeName>
+                            Indicopleustes</persName>.</note>
+               </placeName>
                     <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡</placeName>
                     <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre</placeName>
                     <placeName xml:id="n3" xml:lang="ti" type="alt">ተከዜ፡ ምላሽ፡</placeName>
                     <placeName corresp="#n3" xml:lang="ti" type="normalized">Takkaze
                         Mǝllaš</placeName>
-                    <placeName corresp="#n3" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz"
-                            >Takkaze</placeName></placeName>
+                    <placeName corresp="#n3" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz">Takkaze</placeName>
+               </placeName>
                     <state type="existence" notAfter="1991"/>
 
                     <country ref="LOC3010Ethiop"/>
@@ -88,40 +88,31 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             Tǝgrāy was marked by a Sabaic-influenced kingdom, which had merged with
                             a local culture. In later Aksumite times migration again linked both
                             sides of the Red Sea, with Aksumite settlements also on the Arabian
-                            side. A variant of the term Tǝgrāy first appears in a <date
-                                notBefore="0900" notAfter="0999">10th-century</date> gloss to
+                            side. A variant of the term Tǝgrāy first appears in a <date notBefore="0900" notAfter="0999">10th-century</date> gloss to
                                 <persName ref="PRS3204CosmasI">Cosmas Indicopleustes</persName>,
                             although its origin and meaning are unclear. Probalby three main phases
                             in the development of the toponym "Tǝgrāy" (toponym probably of ethnic
                             origin) can be identified. 1) HISTORICAL TƎGRĀY: Historical Tǝgrāy was
-                            the most important northern province of <placeName ref="LOC3010Ethiop"
-                                >Ethiopia</placeName> due to its symbolic, economic and strategic
+                            the most important northern province of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> due to its symbolic, economic and strategic
                             power. It encompassed <placeName ref="LOC1264Adwa">ʿAdwā</placeName>,
-                                <placeName ref="LOC1310Aksum">ʾAksum</placeName> and <placeName
-                                ref="LOC6384Yeha">Yǝḥa</placeName>, but it also extended and
+                                <placeName ref="LOC1310Aksum">ʾAksum</placeName> and <placeName ref="LOC6384Yeha">Yǝḥa</placeName>, but it also extended and
                             controlled adiacent territories, periodically including other areas
                             beyond its central core. Territories that were often and for long
-                            periods of time subject to Tǝgrāy's control include <placeName
-                                ref="LOC3826Hawzen">Ḥawzen</placeName> and <placeName
-                                ref="LOC2973Enticc">Ǝnṭiḉḉo</placeName> and sometimes also
-                                <placeName ref="LOC5749Sire">Šire</placeName> and <placeName
-                                ref="LOC5882Tamben">Tamben</placeName>. Tǝgrāy was densely populated
+                            periods of time subject to Tǝgrāy's control include <placeName ref="LOC3826Hawzen">Ḥawzen</placeName> and <placeName ref="LOC2973Enticc">Ǝnṭiḉḉo</placeName> and sometimes also
+                                <placeName ref="LOC5749Sire">Šire</placeName> and <placeName ref="LOC5882Tamben">Tamben</placeName>. Tǝgrāy was densely populated
                             since ancient times and the source of migration movements towards
                             other areas. The capital of historical Tǝgrāy changed over time:
                                 <placeName ref="LOC3826Hawzen">Ḥawzen</placeName> was capital for
-                            periods of time in both the <date notBefore="1600" notAfter="1699"
-                                >17th</date> and the <date notBefore="1800" notAfter="1899">19th
+                            periods of time in both the <date notBefore="1600" notAfter="1699">17th</date> and the <date notBefore="1800" notAfter="1899">19th
                                 century</date>; <placeName ref="LOC1264Adwa">ʿAdwā</placeName>
                             became capital in the <date notBefore="1700" notAfter="1799">18th
-                                century</date> and competed for this role with <placeName
-                                ref="LOC4545Maqala">Maqala</placeName> in the last decades of this
+                                century</date> and competed for this role with <placeName ref="LOC4545Maqala">Maqala</placeName> in the last decades of this
                             century. Tǝgrāy owed part of its importantce to the sacred town of
                                 <placeName ref="LOC1310Aksum">ʾAksum</placeName> that was part of
                             its territory, althugh enjoyed its own self-government. During the
                             Zamana masāfǝnt, Tǝgrāy was one of the most important self-governed
                             provinces. 2) TƎGRĀY PROVINCE: <persName ref="PRS10378Yohanne">Yoḥannǝs
-                                IV</persName> (<date when="1871">1871</date>-<date when="1889"
-                                >1889</date>) and his successors unified historical Tǝgrāy and other
+                                IV</persName> (<date when="1871">1871</date>-<date when="1889">1889</date>) and his successors unified historical Tǝgrāy and other
                             northen territories, so that in the 20th century, historical Tǝgrāy
                             became a province of its own within a larger administrative province
                             also called Tǝgrāy/Tǝgre. After <persName ref="PRS10378Yohanne">Yoḥannǝs
@@ -129,23 +120,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             pressure and challenges. Much of Tǝgrāy was briefly occupied by the
                             Italians in the foremath of the <date when="1896">1896</date> Battle of
                                 <placeName ref="LOC1264Adwa">ʿAdwā</placeName> and it was one of the
-                            major battle grounds during the Italian War (<date when="1935"
-                                >1935</date>–<date when="1936">1936</date>). During the Italian
+                            major battle grounds during the Italian War (<date when="1935">1935</date>–<date when="1936">1936</date>). During the Italian
                             occupation, Tǝgrāy was incorporated into the Eritrean Colony and after
-                                <date when="1941">1941</date> was again reunited with <placeName
-                                ref="LOC3010Ethiop">Ethiopia</placeName>, although it was
+                                <date when="1941">1941</date> was again reunited with <placeName ref="LOC3010Ethiop">Ethiopia</placeName>, although it was
                             increasingly marginalized and victim of centralization, political
                             suppression, forced resettlement and famines. In 1946, Tǝgre became one
-                            of 12 ṭaqlāy gǝzāts with capital <placeName ref="LOC4545Maqala"
-                                >Maqala</placeName> and the governors of this province maintained
+                            of 12 ṭaqlāy gǝzāts with capital <placeName ref="LOC4545Maqala">Maqala</placeName> and the governors of this province maintained
                             strong political ties with their provinces also in the late 1960s. After
                             the Revolution of 1974, Tǝgre changed name to Tǝgrāy and
                             administratively became a kǝfla hāgar. With the promulgation of the 1987
                             Constitution, Tǝgrāy became one of five "autonomous regions" (yarās gaz
                             ʾakkābābi) Tǝgrāy was the cradle of resistance movements that took power
                             in <date when="1991">1991</date>. 3) TƎGRĀY KƎLLƎL: Tǝgrāy went through
-                            several administrative changes through its history, until in <date
-                                when="1991">1991</date> it changed its administrative status
+                            several administrative changes through its history, until in <date when="1991">1991</date> it changed its administrative status
                             becoming one of <placeName ref="LOC3010Ethiop">Ethiopia</placeName>'s
                             kǝllǝl and came to incorporate territories that had previously not been
                             part of the historical province (as well as losing others). See

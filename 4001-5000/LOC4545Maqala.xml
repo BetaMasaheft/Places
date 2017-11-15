@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4545Maqala">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="place"
+     xml:lang="en"
+     xml:id="LOC4545Maqala">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -71,34 +74,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <date type="foundation" notBefore="1800" notAfter="1850" precision="low">early
+                  <date type="foundation"
+                        notBefore="1800"
+                        notAfter="1850"
+                        precision="low">early
                      19th century</date>
-                  <ab type="history">Maala probably evolved from a <date notBefore="1200"
-                        notAfter="1299">13th</date>-century hamlet called <placeName
-                        ref="LOC2922EndaMa">Ǝndā Masqal</placeName> (later <placeName
-                        ref="LOC2908EndaMa">Ǝndā Madḫane ʿAlam</placeName>). It became a town by the
+                  <ab type="history">Maala probably evolved from a <date notBefore="1200" notAfter="1299">13th</date>-century hamlet called <placeName ref="LOC2922EndaMa">Ǝndā Masqal</placeName> (later <placeName ref="LOC2908EndaMa">Ǝndā Madḫane ʿAlam</placeName>). It became a town by the
                         <date notBefore="1800" notAfter="1850">early 19th</date> century. Maala
                      grew into a regional centre under <persName ref="PRS10378Yohanne">Yoḥannǝs
                         IV</persName> who chose it for strategic reasons, both commercial (it was
                      located along important trade routes) and political (it was located on the
-                     route to Šawā). Maala became an important market town and, in the <date
-                        notBefore="1880" notAfter="1889">1880s</date>, the emperor's capital city.
+                     route to Šawā). Maala became an important market town and, in the <date notBefore="1880" notAfter="1889">1880s</date>, the emperor's capital city.
                      However, with the succession of <persName ref="PRS7006Menilek">Mǝnilǝk
                         II</persName>, the political and commercial balance shifted to southern
-                        <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in favour of <placeName
-                        ref="LOC5597Sawa">Šawā</placeName> and <placeName ref="LOC1216AddisA">ʾAddis
+                        <placeName ref="LOC3010Ethiop">Ethiopia</placeName> in favour of <placeName ref="LOC5597Sawa">Šawā</placeName> and <placeName ref="LOC1216AddisA">ʾAddis
                         ʾAbabā</placeName>. In <date when="1895">1895</date>, Maala was occcupied
-                     by the Italians and became part of the Colonia Eritrea, but <persName
-                        ref="PRS7006Menilek">Mǝnilǝk</persName> reconquered it in <date>Januar
-                        1896</date>. Maala urbanized progressively during the <date
-                        notBefore="1900" notAfter="1999">20th</date> century and three particularly
-                     important moments can be identified. Under <roleName type="title"
-                        >daǧǧāzmāč</roleName>
+                     by the Italians and became part of the Colonia Eritrea, but <persName ref="PRS7006Menilek">Mǝnilǝk</persName> reconquered it in <date>Januar
+                        1896</date>. Maala urbanized progressively during the <date notBefore="1900" notAfter="1999">20th</date> century and three particularly
+                     important moments can be identified. Under <roleName type="title">daǧǧāzmāč</roleName>
                      <persName ref="PRS1285AbrehaA">ʾAbrǝha ʾArʾayā Dǝmṣu</persName>, new buildings
                      were built, a new Saturday Market was established and variousoccupational
-                     groups were attracked to the town. In the <date notBefore="1920"
-                        notAfter="1929">1920s</date> and <date notBefore="1930" notAfter="1939"
-                        >1930s</date>, the town witnessed an increase in trade activity and
+                     groups were attracked to the town. In the <date notBefore="1920" notAfter="1929">1920s</date> and <date notBefore="1930" notAfter="1939">1930s</date>, the town witnessed an increase in trade activity and
                      modernization of the infrastructure, also thanks to the Italian occupation. In
                      spite of the damages caused by the British air bombardments in
                      <date>September-October 1943</date>, the third wave of urbanization took place between <date when="1942">1942</date>
@@ -111,13 +107,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC4545Maqala"
-                  passive="#LOC2922EndaMa">
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC4545Maqala"
+                         passive="#LOC2922EndaMa">
                   <desc>Maala probably evolved from a 13th-century hamlet called Ǝndā
                      Masqal.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place" active="#LOC4545Maqala"
-                  passive="#LOC2908EndaMa">
+               <relation name="syriaca:has-relation-to-place"
+                         active="#LOC4545Maqala"
+                         passive="#LOC2908EndaMa">
                   <desc>Maala probably evolved from a 13th-century hamlet called Ǝndā Masqal, later
                      Ǝndā Madḫane ʿAlam.</desc>
                </relation>

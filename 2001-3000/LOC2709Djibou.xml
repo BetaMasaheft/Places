@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Djibouti</title>
-<!--           record completed through GeoNames, however this may be a record for which more info may be required -->
+            <!--           record completed through GeoNames, however this may be a record for which more info may be required -->
             <author/>
             <editor key="FP"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:223816">
+            <place type="country" sameAs="Q977">
                <placeName xml:id="n1" xml:lang="ar" type="normalized">Djibouti</placeName>
                <placeName xml:id="n2" xml:lang="fr" type="alt">République de Djibouti</placeName>
                <placeName corresp="#n2" xml:lang="so">Ǧumhūriya Ǧībūtī</placeName>

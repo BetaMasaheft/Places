@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="mountain" sameAs="gn:281573">
+            <place type="mountain" sameAs="Q22937900">
                <placeName>Mount of Olives</placeName>
                <region>Jerusalem</region>
             </place>

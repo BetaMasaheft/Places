@@ -82,9 +82,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      the Metropolitan (<roleName type="title">ʾabun</roleName>) and a place of
                      asylum. Its location changed over the centuries: it was first located near
                         <placeName ref="LOC6540Entone">ʾAbbā ʾƎnṭonǝs</placeName> church; then, in
-                     the second half of the <date>18th century</date>, it was moved near <placeName ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church; finally, during the
+                     the second half of the <date>18th century</date>, it was moved near <placeName ref="LOC6539Gabreel">Gābrǝʾel</placeName> church; finally, during the
                      Italian occupation, it was briefly moved near <placeName ref="LOC6541DabraSahaySell">Dabra Ḍaḥay Śǝllāse</placeName> before the site
-                     near <placeName ref="LOC6539Gabrǝel">Gābrǝʾel</placeName> church was restored
+                     near <placeName ref="LOC6539Gabreel">Gābrǝʾel</placeName> church was restored
                      following the Italians' expulsion in <date>1941</date>.</ab>
                </note>
             </place>
@@ -94,7 +94,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          passive="LOC6540Entone"/>
                <relation name="syriaca:has-relation-to-place"
                          active="LOC1058AbunBe"
-                         passive="LOC6539Gabrǝel"/>
+                         passive="LOC6539Gabreel"/>
                <relation name="syriaca:has-relation-to-place"
                          active="LOC1058AbunBe"
                          passive="LOC6541DabraSahaySell"/>

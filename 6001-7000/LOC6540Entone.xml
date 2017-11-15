@@ -77,7 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <ab type="description">ʾAbbā ʾƎnṭonǝs is a church in the north-western part
                             of <placeName ref="LOC3577Gondar">Gondar</placeName> close to which
                                 <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName> was originally
-                            located before being moved near <placeName ref="LOC6539Gabrǝel">Gabrǝʾel</placeName> church during the reign of <roleName type="title">ʾaṣe</roleName>
+                            located before being moved near <placeName ref="LOC6539Gabreel">Gabrǝʾel</placeName> church during the reign of <roleName type="title">ʾaṣe</roleName>
                             <persName ref="PRS9153TaklaHa">Takla Hāymānot</persName>.</ab>
                     </note>
                 </place>

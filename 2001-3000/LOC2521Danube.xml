@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="river" sameAs="gn:791630">
+            <place type="river" sameAs="Q1653">
                <placeName>Danube</placeName>
             </place>
          </listPlace>

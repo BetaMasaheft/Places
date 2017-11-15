@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
@@ -74,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
            
                <listBibl type="editions"> 
                   <bibl>
@@ -116,10 +115,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <citedRange unit="page">76, 78, 80, 86-89, 91,95, 101, 106-108, 117, 121, 122, 128-30, 156, 168, 179, 240</citedRange></bibl>
+                     <citedRange unit="page">76, 78, 80, 86-89, 91,95, 101, 106-108, 117, 121, 122, 128-30, 156, 168, 179, 240</citedRange>
+                  </bibl>
                   <bibl>
                      <ptr target="bm:Braukamper2002Islam"/>
-                     <citedRange unit="page">24-29</citedRange></bibl>
+                     <citedRange unit="page">24-29</citedRange>
+                  </bibl>
                   
                   
                  
@@ -128,7 +129,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
                   
-                  <ab type="history">It was a historical region and sultanate in central<placeName ref="gn:337996"/>, flourished around <date>1285</date>. 
+                  <ab type="history">It was a historical region and sultanate in central<placeName ref="Q115"/>, flourished around <date>1285</date>. 
                      It is an  integral part of the Rift Valley, the area of
                      ʾIfāt served for millenia as a point of contact between the pastoral or nomadic economic formations of the eastern lowlands and ancient agricultural societies of the Ethiopian highlands.
                      Islam must have been introduced into the region in early times. The growth of the power of ʾIfāt came to a halt in the 14th century. The strategic importance of ʾIfāt placed it 
@@ -148,12 +149,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                  active="LOC3921Ifat"
-                  passive="LOC5597Sawa"
-               />
+                         active="LOC3921Ifat"
+                         passive="LOC5597Sawa"/>
                <relation name="syriaca:has-relation-to-place"
-                  active="LOC3921Ifat"
-                  passive="LOC1743Bale"/>
+                         active="LOC3921Ifat"
+                         passive="LOC1743Bale"/>
             </listRelation>
      
             
@@ -167,20 +167,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-            
-            
-            
-            
-            
-            
-            
-         
-
-               
-               
-               
-               
- 

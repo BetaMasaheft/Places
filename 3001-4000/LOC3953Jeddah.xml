@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city port" sameAs="gn:105343">
+            <place type="city port" sameAs="Q374365">
                <placeName>Jeddah</placeName>
                <placeName type="alt">Ǧidda</placeName>
             </place>

@@ -1,8 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6583WestTegray" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="LOC6583WestTegray"
+     type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -62,14 +66,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
-                        <ab type="desc">The Western Tǝgrāy Zone is a subdivision of the <placeName
-                                ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
+                        <ab type="description">The Western Tǝgrāy Zone is a subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC6538Humara">Humarā</placeName>.</ab>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC6538Humara"
-                        passive="#LOC6583WestTegray">
+                    <relation name="gn:locatedIn"
+                         active="LOC6538Humara"
+                         passive="#LOC6583WestTegray">
                         <desc>Humarā is the capital of the Western Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

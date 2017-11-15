@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2016-11-06" who="FP"></change>
+         <change when="2016-11-06" who="FP"/>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="gn:192950">
+            <place type="country" sameAs="Q114">
                <placeName xml:id="n1" xml:lang="sw">Jamhuri ya Kenya</placeName>
                <placeName corresp="#n1" xml:lang="en">Republic of Kenya</placeName>
                <placeName xml:id="n2" xml:lang="sw" type="alt">Kenya</placeName>

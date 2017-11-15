@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Faṣagār</placeName>
                
                <state type="existence" ref="Paks2"/>
-               <country ref="LOC3010Ethiop"></country>
+               <country ref="LOC3010Ethiop"/>
                <location> </location>
                <listBibl type="editions"> 
                   <bibl>
@@ -90,7 +90,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Derat2005Fatagar"/>
-               </bibl>
+                  </bibl>
                   <bibl>
                      <ptr target="bm:Solomon2015Geography"/>
                      <citedRange unit="page">109-118</citedRange>
@@ -102,18 +102,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Braukamper2002Islam"/>
-                     <citedRange unit="page">39-40</citedRange></bibl>
+                     <citedRange unit="page">39-40</citedRange>
+                  </bibl>
                   
                   
                   
                </listBibl>
-            <note>
-               <ab type="history">It was a large historical region (possibly once a muslim sultanate), was located in the south-east of 
+               <note>
+                  <ab type="history">It was a large historical region (possibly once a Muslim sultanate), was located in the south-east of 
                   <placeName ref="LOC5597Sawa"/> on the northern shore of  the <placeName ref="LOC1617Awas"/> river. 
                   In the 14th-15th centuries, it was progressively integrated into the Christian empire. The region held a strategic position between the Christian empire and the southern Muslim sultanates.
                   In the beginning of the sixteenth century, Faṭagār came back under the Muslim control, under which it remained even after the death of <persName ref="PRS1522Ahmadb"/>. 
-                  During his attempt to reconquer the region  <roleName type="title">ʾaṣe</roleName><persName ref="PRS4428Galawdew"/> was killed in <date>1559</date>.</ab>
-            </note>
+                  During his attempt to reconquer the region  <roleName type="title">ʾaṣe</roleName>
+                     <persName ref="PRS4428Galawdew"/> was killed in <date>1559</date>.</ab>
+               </note>
                
 
                

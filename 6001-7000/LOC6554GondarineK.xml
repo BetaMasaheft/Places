@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
 ?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" type="place" xml:id="LOC6554GondarineK">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     type="place"
+     xml:id="LOC6554GondarineK">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -63,9 +64,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <date>1706</date>), transition and insecurity (<date>1706</date> to
                                 <date>1720s</date>) and revival (<date>1720s</date> to
                                 <date>1760s</date>). The Gondarine Kingdom's foundation and early
-                            history is closely linked to <placeName ref="LOC3577Gondar"
-                                >Gondar</placeName>'s foundation by <roleName type="title"
-                                >ʾaṣe</roleName>
+                            history is closely linked to <placeName ref="LOC3577Gondar">Gondar</placeName>'s foundation by <roleName type="title">ʾaṣe</roleName>
                             <persName ref="PRS4015Fasilada">Fāsiladas</persName> and its flourishing
                             under <persName ref="PRS4015Fasilada">Fāsiladas</persName> himself and
                             his successors: his son <roleName type="title">ʾaṣe</roleName>
@@ -79,8 +78,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <placeName ref="LOC1022Abbay">Blue Nile</placeName> in
                                 <date>1704</date> showed how much the territories of the kingdom had
                             reduced to include only the lands within and north of the great bend of
-                            the <placeName ref="LOC1022Abbay">Blue Nile</placeName> due to <persName
-                                ref="ETH1973Oromo">Oromo</persName>'s expansion. Increasing internal
+                            the <placeName ref="LOC1022Abbay">Blue Nile</placeName> due to <persName ref="ETH1973Oromo">Oromo</persName>'s expansion. Increasing internal
                             and theological conflicts within the Ethiopian Orthodox Church
                             negatively affected the royal court as it became apparent after the
                             assassination of <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> in
@@ -90,8 +88,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <persName ref="PRS2377Bakaffa">Bakāffā</persName>'s consort
                                 <persName ref="PRS2682BerhanM">Mǝntǝwwāb</persName>. From the
                                 <date>1760s</date>, the court gradually lost control due to the
-                            death of some key supporters of <persName ref="PRS2682BerhanM"
-                                >Mǝntǝwwāb</persName>, her ageing and the increasing power of
+                            death of some key supporters of <persName ref="PRS2682BerhanM">Mǝntǝwwāb</persName>, her ageing and the increasing power of
                             regional nobles. During the <date>17th century</date>, the Gondarine
                             Kingdom pursued relationships with Yemen, Turkey and India while they
                             turned away from the West except for commercial relationships with the
@@ -108,8 +105,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <placeName ref="LOC1022Abbay">Blue Nile</placeName>, the highlands
                             north and east of the lake <placeName ref="LOC5888Tana">Ṭānā</placeName>
                             and central <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>, including
-                                <placeName ref="LOC1264Adwa">ʿAdwā</placeName> and <placeName
-                                ref="LOC1310Aksum">ʾAksum</placeName>. However, in the early
+                                <placeName ref="LOC1264Adwa">ʿAdwā</placeName> and <placeName ref="LOC1310Aksum">ʾAksum</placeName>. However, in the early
                                 <date>18th century</date>, the territories of the kingdom had
                             already reduced to include only the lands within and north of the great
                             bend of the <placeName ref="LOC1022Abbay">Blue Nile</placeName> due to
@@ -117,29 +113,35 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place" active="#LOC6554GondarineK"
-                        passive="LOC3577Gondar">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#LOC6554GondarineK"
+                         passive="LOC3577Gondar">
                         <desc>Gondar was the capital of the Gondarine Kingdom.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#LOC6554GondarineK"
-                        passive="LOC1022Abbay">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#LOC6554GondarineK"
+                         passive="LOC1022Abbay">
                         <desc>The great bend of the Blue Nile defined the territories of the
                             kingdom.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#LOC6554GondarineK"
-                        passive="LOC5888Tana">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#LOC6554GondarineK"
+                         passive="LOC5888Tana">
                         <desc>The highlands north and east of the lake Ṭānā were part of the kingdom
                             in the first half of its history.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place" active="#LOC6554GondarineK"
-                        passive="LOC6569Tegray">
+                    <relation name="syriaca:has-relation-to-place"
+                         active="#LOC6554GondarineK"
+                         passive="LOC6569Tegray">
                         <desc>Central Tǝgrāy was part of the kingdom in the first half of its
                             history.</desc>
                     </relation>
                     <relation name="gn:locatedIn" active="LOC1264Adwa">
                         <desc>ʿAdwā was part of the kingdom.</desc>
                     </relation>
-                    <relation name="gn:locatedIn" active="LOC1310Aksum" passive="#LOC6554GondarineK">
+                    <relation name="gn:locatedIn"
+                         active="LOC1310Aksum"
+                         passive="#LOC6554GondarineK">
                         <desc>ʾAksum was part of the kingdom.</desc>
                     </relation>
                 </listRelation>
