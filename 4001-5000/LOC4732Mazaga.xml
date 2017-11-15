@@ -88,7 +88,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <listBibl type="secondary">
                   <bibl>
-                     <ptr target="bm:Luisini2007Mazaga"/>
+                     <ptr target="bm:Lusini2007Mazaga"/>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Solomon2015Geography"/>
