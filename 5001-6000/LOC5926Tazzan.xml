@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="mountain ambā">
+            <place type="mountain amba">
                <placeName>Tazzan</placeName>
             </place>
          </listPlace>
