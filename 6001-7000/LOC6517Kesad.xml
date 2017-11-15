@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="district ṭabiya">
+            <place type="district tabiya">
 
                
                <placeName xml:id="n1" xml:lang="gez">ክሳድ፡ ማዐተብ፡</placeName>
@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <settlement>
-                  <placeName ref="LOC3640GuloMa" type="waradā"/> 
+                  <placeName ref="LOC3640GuloMa" type="warada"/> 
                </settlement> 
                
             </place>

@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="qušat">
+            <place type="qushat">
                <placeName xml:id="n1">ʾAsir Matirā</placeName>
             </place>
          </listPlace>

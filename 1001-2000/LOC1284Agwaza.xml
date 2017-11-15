@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="qušat">
+            <place type="qushat">
                <placeName>Agwäza</placeName>
             </place>
          </listPlace>
