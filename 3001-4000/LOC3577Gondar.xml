@@ -224,7 +224,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="LOC6540Entone" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC6539Gabrǝel" passive="LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC6539Gabreel" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
                <relation name="gn:locatedIn" active="LOC1059AbunMa" passive="LOC3577Gondar">

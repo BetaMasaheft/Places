@@ -87,9 +87,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="LOC6539Gabrǝel" passive="LOC3288Gannat"/>
+                    <relation name="gn:nearBy" active="LOC6539Gabreel" passive="LOC3288Gannat"/>
                     <relation name="syriaca:has-relation-to-place"
-                         active="LOC6539Gabrǝel"
+                        active="LOC6539Gabreel"
                          passive="LOC1058AbunBe"/>
                 </listRelation>
             </listPlace>
