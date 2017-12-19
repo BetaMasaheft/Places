@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="LOC6855Qoraab"
-     xml:lang="en"
-     type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6894Anqareb" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qorāʾab</title>
+                <title>ʾAnqārǝb</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,24 +41,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2017-07-10">Created entity</change>
+            <change who="SG" when="2017-12-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="region">
-                    <placeName xml:lang="gez" xml:id="n1">ቆራአብ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Qorāʾab</placeName>
-                    <placeName xml:lang="gez" xml:id="n2">ቈራብ</placeName>
-                    <placeName xml:lang="gez" corresp="#n2" type="normalized">Qʷarāb</placeName>
-                    
+                <place type="area">
+                    <placeName xml:lang="gez" xml:id="n1"></placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAnqārǝb
+                        
+                    </placeName>
                     <state type="existence" ref="Paks2"/>
                     
                     
+                    
                 </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="#LOC6894Anqareb" passive="LOC6892Abaderay"/>
+                </listRelation>
             </listPlace>
-         <!---->
+            <!---->
         </body>
     </text>
 </TEI>
+
+
+
+
+
+
+
+                    
