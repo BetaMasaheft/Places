@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däfäśa</title>
+            <title>Dafāsā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,10 +52,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Däfäśa</placeName>
+            <place type="district ">
+               <placeName xml:lang="gez" xml:id="n1">ደፋሳ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dafāsā
+               </placeName>
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="#LOC2418DafaSa" passive="LOC1427Amhara"/>
+            </listRelation>
+            
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+
+
+            
+            
