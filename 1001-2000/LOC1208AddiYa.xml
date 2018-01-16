@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddi Yaʿǝqob</title>
+            <title>ʿAddi Yāʿqob</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="settlement">
-               <placeName>ʿAddi Yaʿǝqob</placeName>
+               <placeName>ʿAddi Yāʿqob</placeName>
             </place>
          </listPlace>
       </body>

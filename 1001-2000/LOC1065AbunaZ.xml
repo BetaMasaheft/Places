@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abunä Zärʾa Buruk</title>
+            <title>Abunä Zarʾa Buruk</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -53,8 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Abunä Zärʾa Buruk</placeName>
-               <placeName type="alt">Abunä Zärʾabruk</placeName>
+               <placeName>Abunä Zarʾa Buruk</placeName>
+               <placeName type="alt">Abunä Zarʾabruk</placeName>
                <region>Gärʿalta</region>
             </place>
          </listPlace>
