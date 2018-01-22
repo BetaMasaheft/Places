@@ -236,27 +236,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="LOC6542QannBet" passive="LOC3577Gondar">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC1582ASSaSa" passive="#LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC1582ASSaSa" passive="LOC3577Gondar">
                   <desc>This is a church located in Gondar</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC1676Baata" passive="#LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC1676Baata" passive="LOC3577Gondar">
                   <desc>This is a church located in Gondar</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC6551RasB" passive="#LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC6551RasB" passive="LOC3577Gondar">
                   <desc>This is a castle serving as headquarters of noblemen located in
                      Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC2806Egziab" passive="#LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC2806Egziab" passive="LOC3577Gondar">
                   <desc>This is a church built by Yoḥānnǝs IV in Gondar</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC2385DabraT">
                   <desc>In the second half of the 18th century, Dabra Tābor replaced Gondar as the
                      capital of the Ethiopian empire.</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC3577Gondar"
+                         active="LOC3577Gondar"
                          passive="LOC6552Amhara">
                   <desc>During the Italian occupation, Gondar became the capital of the Governo dell'Amhara.</desc>
                </relation>
