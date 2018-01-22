@@ -108,13 +108,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <note>
                      
                      <ab type="history">It was a historic province in northern <placeName ref="LOC3010Ethiop"/> and until 1970s a waradā, 
-                        south of<placeName ref="LOC5882Tamben"/> and of 
+                        south of <placeName ref="LOC5882Tamben"/> and of 
                         <placeName ref="LOC5467Sahart"/>, west of <placeName ref="LOC6148Wajjar"/>, at the southern borders of central <placeName ref="LOC5932Tegray"/>. 
                         It was governed under its won governors, the Šum Salawā. The people of Salawā were a strong supporters of the Christian kings during the turbulent sixteenth century: 
                         <persName ref="PRS6229LebnaDe"/> fighting at Salawā in <date>1539</date>, during his war against <persName ref="PRS1522Ahmadb"/>. 
                         In the 17th century, Salawā was one of a number of areas placed under the rule of <roleName type="title">daǧǧāzmāč</roleName> 
                         <persName ref="PRS10434Yolyos"/>. In the 18th century, Salawā was one of the several localities whose rulers  
-                        <persName ref="PRS5616IyasuI"/>interrogated in <date>1698</date> about taxes levied in <placeName ref="LOC5932Tegray"/>, 
+                        <persName ref="PRS5616IyasuI"/> interrogated in <date>1698</date> about taxes levied in <placeName ref="LOC5932Tegray"/>, 
                         while <persName ref="PRS5617IyasuII"/> is reported to have visited the district in <date>1749</date>. In 1930s,  it was a sub-district of 
                         <placeName ref="LOC5882Tamben"/> province. In Salawā there are several rock-hewn churches. 
                         Not all have been documented, such as one <placeName ref="PRS4552Gawi"/>.

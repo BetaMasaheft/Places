@@ -86,11 +86,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                </listBibl>
                     <note>
                         
-                        <ab type="history">The chronicle of King<persName ref="PRS4428Galawdew"/>locates ʾAraftā somewhere in<placeName ref="LOC6569Tegray"/>. 
-                            According to this chronicle, it was a place where the Christians army became victorious over the Muslims forces with the support of the<placeName ref="LOC5111Portug"/>
+                        <ab type="history">The chronicle of King <persName ref="PRS4428Galawdew"/> locates ʾAraftā somewhere in <placeName ref="LOC6569Tegray"/>. 
+                            According to this chronicle, it was a place where the Christians army became victorious over the Muslims forces with the support of the <placeName ref="LOC5111Portug"/>
                             soldiers in<date>1542</date>. On the other hand, <persName ref="PRS3047Castanho"/>'s account reports the Portuguese army defeated the forces of 
-                            <persName ref="PRS1500Ahmad"/>in the same year, as indicated in the chronicle, at a place called <placeName ref="LOC1400AmbaSa"/> which is today in the region of 
-                            <placeName ref="LOC1263Adwa"/>. <placeName ref="LOC1400AmbaSa"/> has 70 districts. Therefore, ʾAraftā would probably be a locality in one of the districts of<placeName ref="LOC1400AmbaSa"/>. </ab> 
+                            <persName ref="PRS1500Ahmad"/> in the same year, as indicated in the chronicle, at a place called <placeName ref="LOC1400AmbaSa"/> which is today in the region of 
+                            <placeName ref="LOC1263Adwa"/>. <placeName ref="LOC1400AmbaSa"/> has 70 districts. Therefore, ʾAraftā would probably be a locality in one of the districts of <placeName ref="LOC1400AmbaSa"/>. </ab> 
                
                         
                         
