@@ -51,12 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     </teiHeader>
     <text>
         <body>
-            <listBibl type="relations">
-                <bibl/>
-                <relation name="saws:hasPart"
+            <listRelation>
+            <relation name="saws:hasPart"
                       active="LOC6688Hasya"
                       passive="LOC6687LalayHasya LOC6686TahtayHasya"/>
-            </listBibl>
+         </listRelation>
             <listPlace>
                 <place type="region">
                     <placeName>Ḥasyā</placeName>
