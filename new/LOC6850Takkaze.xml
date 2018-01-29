@@ -65,6 +65,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="LOC6850Takkaze" passive="LOC6569Tegray"/>
+                   
+               
                 </listRelation>
                 
             </listPlace>

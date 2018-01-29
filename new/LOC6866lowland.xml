@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                     <state type="existence" ref="Paks2"/>
                     <country ref="LOC3010Ethiop"/>
-                    <location> </location>
+                
                     <listBibl type="editions"> 
                         <bibl>
                             <ptr target="bm:Solomon2016Galawdewos"/>
