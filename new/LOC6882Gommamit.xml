@@ -62,8 +62,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn"
-                         active="#LOC6882Gommamit"
+                         active="LOC6882Gommamit"
                          passive="LOC3549Gojjam"/>
+                    <relation name="lawd:hasAttestation" active="LOC6882Gommamit" passive="LIT3951ChronSusenyos"/>
                 </listRelation>
             </listPlace>
             <!---->

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Wasan Amba</title>
+                <title>Wasan ʾAmbā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -66,8 +66,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </place>
                     <listRelation>
                         <relation name="gn:locatedIn"
-                         active="#LOC6894Anqareb"
+                            active="LOC6896WasanAmba"
                          passive="LOC6892Abaderay"/>
+                        <relation name="lawd:hasAttestation" active="LOC6896WasanAmba" passive="LIT3951ChronSusenyos"/>
                     </listRelation>
             </listPlace>
             <!---->

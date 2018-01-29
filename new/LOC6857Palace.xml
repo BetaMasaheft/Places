@@ -59,7 +59,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <state type="existence" ref="Paks2"/>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC6844Arafta" passive="LOC6569Tegray"/>
+                    <relation name="lawd:hasAttestation" active="LOC6857Palace" passive="LIT3122Galaw"/>
+                   
                 </listRelation>
             </listPlace>
             

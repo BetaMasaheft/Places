@@ -59,6 +59,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                     
                 </place>
+                <listRelation>
+                    
+                    <relation name="lawd:hasAttestation" active="LOC6853Agam" passive="LIT3122Galaw"/>
+                </listRelation>
+                
+                
             </listPlace>
          <!---->
         </body>
