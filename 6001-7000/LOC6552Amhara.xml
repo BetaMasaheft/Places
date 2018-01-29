@@ -70,7 +70,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <listRelation>
                     <relation name="syriaca:has-relation-to-place"
                          active="LOC3577Gondar"
-                         passive="#LOC6552Amhara">
+                         passive="LOC6552Amhara">
                         <desc>Gondar was the capital of the Governo dell'Amhara during the Italian occupation.</desc>
                     </relation>
                 </listRelation>

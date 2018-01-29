@@ -80,7 +80,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="gn:locatedIn"
                          active="LOC1212Addigr"
-                         passive="#LOC6653EastTegray">
+                         passive="LOC6653EastTegray">
                         <desc>ʿAddigrāt is the capital of the Eastern Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

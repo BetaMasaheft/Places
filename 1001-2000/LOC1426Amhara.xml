@@ -87,40 +87,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listRelation>
                <relation name="gn:locatedIn"
                          active="LOC6544NorthGondar"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The North Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
                <relation name="gn:locatedIn"
                          active="LOC6574NorthSawa"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The North Šawā Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
                <relation name="gn:locatedIn"
                          active="LOC6573NorthWallo"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The North Wallo Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
                <relation name="gn:locatedIn"
                          active="LOC6575SouthGondar"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The South Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
                <relation name="gn:locatedIn"
                          active="LOC6572SouthWallo"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The South Wallo Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
                <relation name="gn:locatedIn"
                          active="LOC6576WestGogg"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The West Goǧǧām Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
                <relation name="gn:locatedIn"
                          active="LOC6577WestGondar"
-                         passive="#LOC1426Amhara">
+                         passive="LOC1426Amhara">
                   <desc>The West Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
                </relation>
-               <relation name="gn:locatedIn" active="LOC1721BaherD" passive="#LOC1426Amhara">
+               <relation name="gn:locatedIn" active="LOC1721BaherD" passive="LOC1426Amhara">
                   <desc>Bāḥǝr Dār is the capital of the ʾAmharā kǝllǝl.</desc>
                </relation>
             </listRelation>

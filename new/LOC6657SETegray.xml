@@ -77,7 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="gn:locatedIn"
                          active="LOC4545Maqala"
-                         passive="#LOC6657SETegray">
+                         passive="LOC6657SETegray">
                         <desc>Maqala is the capital of the South-Eastern Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

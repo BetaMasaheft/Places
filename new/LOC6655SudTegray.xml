@@ -77,7 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="gn:locatedIn"
                          active="LOC4667MayCaw"
-                         passive="#LOC6655SudTegray">
+                         passive="LOC6655SudTegray">
                         <desc>Māy Ḉaw is the capital of the Southern Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

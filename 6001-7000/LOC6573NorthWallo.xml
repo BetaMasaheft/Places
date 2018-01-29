@@ -75,13 +75,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <listRelation>
                     <relation name="gn:locatedIn"
                          active="LOC4259Lasta"
-                         passive="#LOC6573NorthWallo">
+                         passive="LOC6573NorthWallo">
                         <desc>The territory of the historical province (now ʾawrāǧǧā) of Lāstā is
                             located within the Samen Wallo zone.</desc>
                     </relation>
                     <relation name="gn:locatedIn"
                          active="LOC6135Wag"
-                         passive="#LOC6573NorthWallo">
+                         passive="LOC6573NorthWallo">
                         <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
                             located within the Samen Wallo zone.</desc>
                     </relation>

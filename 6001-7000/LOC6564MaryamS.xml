@@ -74,7 +74,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="gn:nearBy" active="#LOC6564MaryamS" passive="LOC1311AksumS">
+                    <relation name="gn:nearBy" active="LOC6564MaryamS" passive="LOC1311AksumS">
                         <desc>The new church of Māryām Ṣǝyon was built next to the old church of ʾAksum Ṣǝyon.</desc>
                     </relation>
                 </listRelation>

@@ -80,7 +80,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="gn:locatedIn"
                          active="LOC2937EndaSe"
-                         passive="#LOC6656NWTegray">
+                         passive="LOC6656NWTegray">
                         <desc>Ǝndā Śǝllāse is the capital of the North-Western Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>

@@ -108,14 +108,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC4545Maqala"
-                         passive="#LOC2922EndaMa">
+                         active="LOC4545Maqala"
+                         passive="LOC2922EndaMa">
                   <desc>Maala probably evolved from a 13th-century hamlet called Ǝndā
                      Masqal.</desc>
                </relation>
                <relation name="syriaca:has-relation-to-place"
-                         active="#LOC4545Maqala"
-                         passive="#LOC2908EndaMa">
+                         active="LOC4545Maqala"
+                         passive="LOC2908EndaMa">
                   <desc>Maala probably evolved from a 13th-century hamlet called Ǝndā Masqal, later
                      Ǝndā Madḫane ʿAlam.</desc>
                </relation>

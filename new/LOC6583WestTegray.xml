@@ -73,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="gn:locatedIn"
                          active="LOC6538Humara"
-                         passive="#LOC6583WestTegray">
+                         passive="LOC6583WestTegray">
                         <desc>Humarā is the capital of the Western Tǝgrāy Zone.</desc>
                     </relation>
                 </listRelation>
