@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Šäḥa</title>
+            <title>Šaḥā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,14 +47,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-01-31">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="river">
-               <placeName>Šäḥa</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ስኋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Sǝḫʷā</placeName>
+                  
+                  
+               <placeName xml:lang="gez" xml:id="n2">ሸሓ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Šaḥā</placeName>
+               <placeName xml:lang="gez" xml:id="n3">ሱኋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Suḫʷā</placeName>
+               
+               <placeName xml:lang="gez" xml:id="n4">ሱሓ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n4" type="normalized">Suḥā
+               </placeName>
+               
+               
+              
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC5462Saha" passive="LOC3549Gojjam"/>
+               <relation name="lawd:hasAttestation" active="LOC5462Saha" passive="LIT3951ChronSusenyos"/>
+            </listRelation>
+            
          </listPlace>
       </body>
    </text>
