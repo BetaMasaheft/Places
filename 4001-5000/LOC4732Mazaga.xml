@@ -103,7 +103,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
                   
-                  <ab type="history">It was a historical region located on the Sudanese border, in the north of the province of <placeName ref="LOC6186Walqay"/>, 
+                  <ab type="history">It was a historical region located on the Sudanese border, 
+                     in the north of the province of <placeName ref="LOC6186Walqay"/>, 
                      limited at great extent by the <placeName ref="LOC5697Setit"/> and <placeName ref="LOC5864Takkaz"/> 
                      river, in what is today <placeName ref="LOC2991Eritre"/>. It was a region with hot and dry climate, a fortunate circumstance during 16th century for King 
                      <persName ref="PRS4428Galawdew"/> as while <placeName ref="Q2359535"/> fighting there suffered because of the harsh climatic condition. Prior to  the sixteenth century,

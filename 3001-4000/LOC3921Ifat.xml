@@ -131,8 +131,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   
                   <ab type="history">It was a historical region and sultanate in central <placeName ref="Q115"/>, flourished around <date>1285</date>. 
                      It is an  integral part of the Rift Valley, the area of
-                     ʾIfāt served for millenia as a point of contact between the pastoral or nomadic economic formations of the eastern lowlands and ancient agricultural societies of the Ethiopian highlands.
-                     Islam must have been introduced into the region in early times. The growth of the power of ʾIfāt came to a halt in the 14th century. The strategic importance of ʾIfāt placed it 
+                     ʾIfāt served for millenia as a point of contact between the pastoral or 
+                     nomadic economic formations of the eastern lowlands and ancient agricultural societies of the Ethiopian highlands.
+                     Islam must have been introduced into the region in early times. The growth of the power of ʾIfāt came to a halt in the 14th century. 
+                     The strategic importance of ʾIfāt placed it 
                      against the Christian state consolidated by the rulers of Solomonic dynasty, whose ambition was to control the caravan trade to the <placeName ref="LOC5339RedSea"/>
                      <placeName ref="Q1239"/>. The area of ʾIfāt was reduced to a battle ground in the course of <persName ref="PRS1522Ahmadb"/> 
                      and subsequent <persName ref="ETH1973Oromo"/> migrations. In the 16th and 18th century ʾIfāt remained a small region
