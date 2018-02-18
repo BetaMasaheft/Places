@@ -92,8 +92,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                   <ab type="history">Dabra Dāmmo is the name of a flat-topped mountain, or amba, in <placeName ref="LOC5932Tegray"/> . 
                   This mountain is a steeply rising plateau of trapezoidal shape, about 1000 by 400 m in dimension.
-                  It is north west of <placeName ref="LOC1212Addigr"/>, in the  central part of <placeName ref="LOC5932Tegray"/> region, close to the border with
-                  <placeName ref="LOC2991Eritre"/>
+                  It is north west of <placeName ref="LOC1212Addigr"/>, in the  central part of <placeName ref="LOC5932Tegray"/>
+                     region, close to the border with
+                  <placeName ref="LOC2991Eritre"/>.
                   
                   </ab>
                

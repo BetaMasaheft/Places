@@ -61,8 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Faṭagār</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ፈጸጋር፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Faṣagār</placeName>
-               
-               <state type="existence" ref="Paks2"/>
+           <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop"/>
                <location> </location>
                <listBibl type="editions"> 
@@ -79,15 +78,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Perruchon1893Zarayaeqob"/> 
                   </bibl>
-                  
-                  
-                  
-               </listBibl>
-              
-                  
-               
-               
-               <listBibl type="secondary">
+                  </listBibl>
+             <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Derat2005Fatagar"/>
                   </bibl>
@@ -105,9 +97,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <citedRange unit="page">39-40</citedRange>
                   </bibl>
                   
-                  
-                  
-               </listBibl>
+       </listBibl>
                <note>
                   <ab type="history">It was a large historical region (possibly once a Muslim sultanate), was located in the south-east of 
                   <placeName ref="LOC5597Sawa"/> on the northern shore of  the <placeName ref="LOC1617Awas"/> river. 
@@ -116,11 +106,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   During his attempt to reconquer the region  <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4428Galawdew"/> was killed in <date>1559</date>.</ab>
                </note>
-               
-
-               
-             
-            </place>
+      </place>
          </listPlace>
       </body>
    </text>
