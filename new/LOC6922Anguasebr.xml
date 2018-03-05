@@ -49,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                
-                    <placeName xml:lang="gez" xml:id="n1">ʾAngʷāsǝbr</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">አንጓስብር፡ 
+                    <placeName xml:lang="gez" xml:id="n1">አንጓስብር፡ </placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAngʷāsǝbr
                             
                         </placeName>
                         <state type="existence" ref="Paks2"/>

@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6919Edawre" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6923Tul" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾEdāwre</title>
+                <title>Ṭul</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,31 +41,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-03-01">Created entity</change>
-            <change who="SG" when="2018-03-05">addition</change>
+            <change who="SG" when="2018-03-05">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="area">
-                    <placeName xml:lang="gez" xml:id="n1">ኤዳውሬ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾEdāwre
+                <place type="river">
+                    <placeName xml:lang="gez" xml:id="n1">ጡል፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṭul 
                         
                     </placeName>
-                    <placeName xml:lang="gez" xml:id="n2">የዳውሬ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n2" type="normalized">Yadāwre
-                        
-                    </placeName>
-                    
                     <state type="existence" ref="Paks2"/>
                     
                     
                     
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC6919Edawre" passive="LOC3549Gojjam"/>
-                    <relation name="lawd:hasAttestation" active="LOC6919Edawre" passive="LIT3951ChronSusenyos"/>
+                    <relation name="gn:locatedIn" active="LOC6923Tul" passive="LOC3549Gojjam"/>
+                    <relation name="lawd:hasAttestation" active="LOC6923Tul" passive="LIT3951ChronSusenyos"/>
                 </listRelation>
                 
             </listPlace>
@@ -79,4 +73,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-                   
