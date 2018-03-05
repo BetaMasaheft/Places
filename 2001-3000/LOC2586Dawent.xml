@@ -10,7 +10,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dawǝnt</title>
+            <title>Dāwǝnt
+            </title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,14 +48,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-03-05">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Dawǝnt</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ዳውንት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dāwǝnt
+                  
+               </placeName>
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            
+              
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC2586Dawent" passive="LOC1427Amhara"/>
+             
+               <relation name="lawd:hasAttestation" active="LOC2586Dawent" passive="LIT3951ChronSusenyos"/>
+            </listRelation>
+            
          </listPlace>
       </body>
    </text>
