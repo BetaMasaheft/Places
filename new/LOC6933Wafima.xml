@@ -1,12 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6932Sengana" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6933Wafima" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ṣǝnǧanā</title>
-                
+                <title>Wafimā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,16 +41,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-03-09">Created entity</change>
+            <change who="SG" when="2018-03-13">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="area">
-                
-                    <placeName xml:lang="gez" xml:id="n1">ጽንጀና፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṣǝnǧanā
+                  
+                    <placeName xml:lang="gez" xml:id="n1">ወፊማ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Wafimā
                             
                         </placeName>
                         <state type="existence" ref="Paks2"/>
@@ -60,8 +59,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         
                     </place>
                     <listRelation>
-                        <relation name="gn:locatedIn" active="LOC6932Sengana" passive="LOC1713Bagemd"/>
-                        <relation name="lawd:hasAttestation" active="LOC6932Sengana" passive="LIT3951ChronSusenyos"/>
+                        <relation name="gn:locatedIn" active="LOC6933Wafima" passive="LOC1878BetaAm"/>
+                        <relation name="lawd:hasAttestation" active="LOC6933Wafima" passive="LIT3951ChronSusenyos"/>
                     </listRelation>
                     
             </listPlace>
@@ -75,4 +74,5 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 
-                  
+
+                    
