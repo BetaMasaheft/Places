@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="tabiya">
-                    <placeName>ʾAmbasata Foqadā</placeName>
+                    <placeName xml:id="t1" type="normalized">ʾAmbasata Foqadā</placeName>
                 </place>
             </listPlace><!---->
         </body>
