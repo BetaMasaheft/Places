@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="warada">
-               <placeName>Gāntā ʾAfašum</placeName>
+               <placeName type="normalized" xml:id="p1">Gāntā ʾAfašum</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
             </place>
