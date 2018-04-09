@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="tabiya">
-               <placeName xml:id="t1" type="normalized">Hāgara Salām</placeName>
+               <placeName xml:id="n1" type="normalized">Hāgara Salām</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
             </place>
