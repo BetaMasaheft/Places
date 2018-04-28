@@ -49,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ዱልሽት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Dulšǝt
-                    </placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Dulšǝt</placeName>
+                  
                     
                     
                     
