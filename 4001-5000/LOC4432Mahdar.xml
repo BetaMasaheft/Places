@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Maḫdärä Maryam</title>
+            <title>Maḫdara Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,15 +46,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-04-30">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Maḫdärä Maryam</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ማኅደረ፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Maḫdara Māryām 
+                  
+                  
+               </placeName>
+              
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+         <listRelation>
+            
+            <relation name="lawd:hasAttestation" active="LOC6982Doqmawaha" passive="LIT3951ChronSusenyos"/>
+         </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
