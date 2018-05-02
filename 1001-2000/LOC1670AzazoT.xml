@@ -80,8 +80,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
                   <date type="foundation" cert="low">17th-18th century</date>
-                  <desc type="foundation">Local priests believe that it was built by <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> in the <date>17th
+                  <desc type="foundation">Local priests believe that it was built by 
+                     <persName ref="PRS4015Fasilada"><roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> in the <date>17th
                         century</date>, while, according to <persName ref="PRS2916Bruce">James
                            Bruce</persName>, it was built by <persName ref="PRS5617IyasuII">ʾIyāsu
                         II</persName>, meaning it was built only in the <date>18th century</date>.</desc>

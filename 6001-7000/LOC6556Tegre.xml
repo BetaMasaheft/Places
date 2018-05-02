@@ -11,7 +11,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Tǝgre</title>
-                <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -40,30 +39,16 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2016-10-04">CREATED: place</change>
+            <change who="DR" when="2018-05-02">Added xml:id and language to placeName</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="province">
-                    <placeName>ትግሬ፡</placeName>
-                    <placeName>Tǝgre</placeName>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
+                    <placeName xml:id="n1" xml:lang="gez">ትግሬ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Tǝgre</placeName>
                 </place>
-                <listRelation>
-                    <relation>
-                        <desc/>
-                    </relation>
-                </listRelation>
             </listPlace>
         </body>
     </text>
