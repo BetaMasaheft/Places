@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ganata Giyorgis</title>
+                <title>Gannata Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2018-02-06">Created entity</change>
+            <change when="2018-05-03" who="ES">corrected transcription added comment</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,7 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="monastery">
                     <placeName xml:lang="gez" xml:id="n1">ገነተ፡ ጊዮርጊስ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Ganata Giyorgis
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Gannata Giyorgis
+                        
+                        <!-- probably the same as LOC3290Gannat - and probably church not monastery -->
                         
                     </placeName>
                     <state type="existence" ref="Paks2"/>
