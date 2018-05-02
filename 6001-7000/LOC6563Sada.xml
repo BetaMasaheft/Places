@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="t1">Ṣadā (?)</title>
+            <title xml:id="t1">Ṣadā</title>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
@@ -40,18 +40,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-12-16">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="SG" when="2018-05-02">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="village">
-               <placeName xml:id="n1">Ṣadā (?)</placeName>
-               <region>Gondar</region>
+            <place type="area">
+               <placeName xml:lang="gez" xml:id="n1">ጸዳ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṣadā
+                  
+                  
+               </placeName>
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
             <!--same as LOC5417Sadda?-->
             <!--BNFet112-->
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC6982Doqmawaha" passive="LOC1713Bagemd"/>
+               <relation name="lawd:hasAttestation" active="LOC6982Doqmawaha" passive="LIT3951ChronSusenyos"/>
+            </listRelation>
+            
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+
+            
