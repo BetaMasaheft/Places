@@ -46,14 +46,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2018-05-04">updated place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Kǝbrä Mängǝśt</placeName>
-               <placeName type="alt">Adola</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ክብረ፡ መንግሥት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Kǝbra Mangǝśt</placeName>
+               <placeName type="alt" xml:lang="am" xml:id="n2">አዶላ፡</placeName>
+               <placeName xml:lang="am" corresp="#n2" type="normalized">ʾAdola</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
+               <settlement ref="LOC1963Booran" type="zone" notBefore="1991"/>
+               <settlement ref="LOC1258Adola" type="warada" notBefore="1991"/> 
+                <location>
+                  <geo>5.530000 39.000000</geo>                  
+               </location>
             </place>
          </listPlace>
       </body>
