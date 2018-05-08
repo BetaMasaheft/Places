@@ -13,6 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Angoläla Kidanä Mǝḥrät</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,9 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="JG" when="2018-05-08">Added region country, edited typos, </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -53,7 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church">
                <placeName>Angoläla Kidanä Mǝḥrät</placeName>
-            </place>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5597Sawa"/>
+            </place> 
          </listPlace>
       </body>
    </text>
