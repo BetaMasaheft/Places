@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="town">
                <placeName>Angoläla</placeName>
                <placeName type="alt">Angwäläla</placeName>
+                 <placeName type="alt">Angolala</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
                <location>
