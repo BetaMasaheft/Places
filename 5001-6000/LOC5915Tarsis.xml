@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC6006Tômala">
+     xml:id="LOC5915Tarsis">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tômala</title>
+            <title>Taršîš</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Tômala</placeName>
+            <place type="region">
+               <placeName>Taršîš</placeName>
             </place>
          </listPlace>
       </body>

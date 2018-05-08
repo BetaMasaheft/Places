@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC1226Afɖera">
+     xml:id="LOC5996Togdee">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Afɖera</title>
+            <title>Togɖeer</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
+         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
@@ -51,10 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="mountain">
-               <placeName>Afɖera</placeName>
-               <placeName type="alt">Afɖera Tärara</placeName>
-               <placeName type="alt">Afrera</placeName>
+            <place type="region">
+               <placeName>Togɖeer</placeName>
             </place>
          </listPlace>
       </body>

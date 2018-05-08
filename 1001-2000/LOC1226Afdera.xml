@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC3725Haɖɖag">
+     xml:id="LOC1226Afdera">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥaɖɖagaala</title>
+            <title>Afɖera</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,8 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Ḥaɖɖagaala</placeName>
+            <place type="mountain">
+               <placeName>Afɖera</placeName>
+               <placeName type="alt">Afɖera Tärara</placeName>
+               <placeName type="alt">Afrera</placeName>
             </place>
          </listPlace>
       </body>

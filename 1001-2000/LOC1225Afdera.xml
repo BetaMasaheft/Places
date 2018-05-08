@@ -6,7 +6,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC1227Afɖera">
+     xml:id="LOC1225Afdera">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -51,9 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place>
+            <place type="lake">
                <placeName>Afɖera</placeName>
-               <placeName type="alt">Afrera</placeName>
+               <placeName type="alt">Egogi Bad</placeName>
+               <placeName type="alt">Giulietti</placeName>
+               <!--<coord>Afxeera</coord>-->
             </place>
          </listPlace>
       </body>

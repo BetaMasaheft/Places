@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC2189Coloë">
+     xml:id="LOC1912Bidu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Coloë</title>
+            <title>Biɖu</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="archaeologicalSite">
-               <placeName>Coloë</placeName>
+            <place type="sultanate">
+               <placeName>Biɖu</placeName>
             </place>
          </listPlace>
       </body>
