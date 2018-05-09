@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     
                     <placeName xml:lang="gez" xml:id="n1">ዣራ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Zārrā
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Žārrā
                         </placeName>
                         
                         
