@@ -13,6 +13,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Ankobär</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -29,8 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -42,9 +42,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="JG" when="2018-05-10">Added region country, edited typos, location, note</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -53,6 +53,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town">
                <placeName>Ankobär</placeName>
+               <placeName xml:id="n1" xml:lang="gez">አንኮበር፡ </placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5597Sawa"/>
+               
+               <location>
+                  <geo>9.597046 39.736914999999954</geo>
+               </location>
+               <note>According to local traditions, Ankobär served as a temporary capital for several Solomonic rulers.
+                  It later also served as seat of power for several Šawān rulers.
+                  There are five churches associated to the site.</note>
             </place>
          </listPlace>
       </body>
