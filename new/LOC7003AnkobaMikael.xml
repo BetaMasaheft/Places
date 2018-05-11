@@ -51,8 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Ankobar Mikāʾel</placeName>
                     <region ref="LOC5597Sawa"/>
                     <country ref="LOC3010Ethiop"/>
-                    <settlement type="town" ref="LOC1464Ankoba"/>
-                    
+                    <settlement type="town" ref="LOC1464Ankoba"/>            
                 </place>
             </listPlace>
         </body>
