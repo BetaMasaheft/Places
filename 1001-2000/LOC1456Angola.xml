@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Angoläla Kidanä Mǝḥrät</title>
+            <title>Angolalā Kidāna Mǝḥrat</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
