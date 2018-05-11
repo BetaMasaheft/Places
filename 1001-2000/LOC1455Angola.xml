@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Angoläla</title>
+            <title>Angolalā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-05-11">Changed transliteration to project standard</change>
          <change who="JG" when="2018-05-08">Added region, country, coordinates, and edited typos</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
@@ -53,7 +54,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Angoläla</placeName>
+               <placeName>Angolalā</placeName>
+               <placeName type="alt">Angoläla</placeName>
                <placeName type="alt">Angwäläla</placeName>
                  <placeName type="alt">Angolala</placeName>
                <country ref="LOC3010Ethiop"/>
