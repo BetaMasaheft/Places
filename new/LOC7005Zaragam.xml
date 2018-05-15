@@ -48,9 +48,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName>Zaragam</placeName>
+                    
+                    
+                    <placeName xml:lang="gez" xml:id="n1">ዘረገም፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Zaragam
+                    </placeName>
+                    
+                    
+                    
+                    
+                    
+                    <state type="existence" ref="Paks2"/>
+                    
+                    
+                    
                 </place>
-            </listPlace><!---->
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC7005Zaragam" passive="LOC3549Gojjam"/>
+                    <relation name="lawd:hasAttestation" active="LOC7005Zaragam" passive="LIT3951ChronSusenyos"/>
+                </listRelation>
+                
+            </listPlace>
+            
         </body>
     </text>
 </TEI>
+
+
+
+                
+                
