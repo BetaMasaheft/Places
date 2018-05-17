@@ -52,9 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="mountain">
-               <placeName>Sinai</placeName>
-               <placeName type="alt">Ǧabal Mūsā</placeName>
-               <placeName type="alt">Ṭūr Sīnāʾ</placeName>
+               <placeName type="main" xml:lang="en" xml:id="n1">Sinai</placeName>
+               <placeName xml:lang="ar" xml:id="n2" type="normalized">Ǧabal Mūsā</placeName>
+               <placeName xml:lang="ar" xml:id="n3" type="alt">Ṭūr Sīnāʾ</placeName>
+               <placeName xml:lang="gez" xml:id="n4">ቃዴስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n4" type="normalized">Qādes</placeName>
+               <placeName xml:lang="gez" xml:id="n5">ቃዲስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n5" type="normalized">Qādis</placeName>
             </place>
          </listPlace>
       </body>
