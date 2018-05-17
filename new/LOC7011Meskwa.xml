@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mǝskwāʿa Mǝḥyāka Malāʾǝkt</title>
+                <title>Mǝskʷāʿa Mǝḥyāka Malāʾǝkt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="gorge">
                     <placeName xml:lang="gez" xml:id="n1">ምስኳዐ፡ ምሕያከ፡ መላእክት፡</placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Mǝskwāʿa Mǝḥyāka Malāʾǝkt</placeName>
+                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Mǝskʷāʿa Mǝḥyāka Malāʾǝkt</placeName>
                 </place>
                 
                 <listRelation>
@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         active="LOC7011Meskwa"
                         passive="LIT2474tomara"/>
                     
-                    <relation name="lexicalEntry" active="LOC7011Meskwa" passive="L65ae0746b7f9428da90682226ae6cc75"></relation>
+                    <!--<relation name="lexicalEntry" active="LOC7011Meskwa" passive="L65ae0746b7f9428da90682226ae6cc75"></relation>-->
                 </listRelation>
             </listPlace><!---->
         </body>
