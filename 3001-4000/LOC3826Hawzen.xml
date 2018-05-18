@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town administrativeUnit" sameAs="Q3128790"><!-- Q3128788-->
-               <placeName xml:id="n1" xml:lang="gez" source="#Lusini">ሐውዜን፡</placeName>
+               <placeName xml:id="n1" xml:lang="gez" source="#bm:Lusini2005EAEHawzen">ሐውዜን፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥawzen</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt" source="#Lusini">ሐውዜና፡ <note>This
                      place name is mentioned in two land-granting documents of the <ref type="work" corresp="LIT1913Mashaf">Liber Axumae</ref>
@@ -88,8 +88,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      long periods of time subject to historical <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>'s control.</ab>
                     <ab type="tabot">Still preserved in the modern town of Ḥawzen
                      is a three-aisled rock-hewn church possibly dating to the 10th-13th century
-                     with a sanctuary containing a tābot dedicated to <roleName type="title">ʾAbuna</roleName>
-                       <persName ref="PRS9162TaklaHa" type="tabot">Takla Hāymānot</persName>.</ab>
+                     with a sanctuary containing a tābot dedicated to 
+                       <persName ref="PRS9162TaklaHa" type="tabot"><roleName type="title">ʾAbuna</roleName> Takla Hāymānot</persName>.</ab>
                </note>
             </place>
          </listPlace>
