@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town administrativeUnit" sameAs="Q3128790"><!-- Q3128788-->
-               <placeName xml:id="n1" xml:lang="gez" source="#bm:Lusini2005EAEHawzen">ሐውዜን፡</placeName>
+               <placeName xml:id="n1" xml:lang="gez" source="#Lusini">ሐውዜን፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḥawzen</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt" source="#Lusini">ሐውዜና፡ <note>This
                      place name is mentioned in two land-granting documents of the <ref type="work" corresp="LIT1913Mashaf">Liber Axumae</ref>
