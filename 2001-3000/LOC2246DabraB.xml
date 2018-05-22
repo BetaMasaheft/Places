@@ -53,6 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town">
                <placeName>Däbrä Bǝrhan</placeName>
+               <location>
+                  <geo>9.671274 39.531809</geo>
+               </location>
             </place>
          </listPlace>
       </body>
