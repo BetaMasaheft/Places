@@ -101,14 +101,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
               
-                  <ab type="history">Bur was a large historical region, across the present Ethio-Eritrean border. It was divided in to the upper Bur and lower Bur.
+                  <ab type="history">Bur was a large historical region, across the present Ethio-Eritrean border. It was divided into upper Bur and lower Bur.
                      Its territory covers parts of <placeName ref="LOC1236Agama"/>, the entire <placeName ref="LOC1298Akkala"/> 
                      and lands further to the east, including perhaps <placeName ref="LOC2023Buri"/>. 
-                     In the first half of the 15th century <placeName ref="LOC2019Bur"/>
-                     seems to have been ruled by a <roleName type="title">śǝyyum (šum)</roleName>whom <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS10626ZaraY"/>
-                     put under the supermacy of the <roleName type="title">baḥǝra nagāš</roleName> a long with the governor of <placeName ref="LOC5749Sire"/>, <placeName ref="LOC3764Hamase"/> and 
-                        <placeName ref="LOC5575Saraye"/>
+                     In the first half of the 15th century, <placeName ref="LOC2019Bur"/>
+                     seems to have been ruled by a <roleName type="office">śǝyyum (šum)</roleName>, whom 
+                     <persName ref="PRS10626ZaraY"><roleName type="office">ʾaṣe</roleName></persName> <persName ref="PRS10626ZaraY"/>
+                     put under the supermacy of the <roleName type="office">baḥǝra nagāš</roleName> along with the governor of <placeName ref="LOC5749Sire"/>, <placeName ref="LOC3764Hamase"/> and 
+                        <placeName ref="LOC5575Saraye"/>.
                     
                         
                         

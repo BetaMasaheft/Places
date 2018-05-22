@@ -79,8 +79,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <date type="foundation" cert="low" atLeast="1850" atMost="1900">End of the 19th
                      Century</date>
                   <ab type="description">This shrine is located inside the walls of <placeName ref="LOC3786Harar">Hārar</placeName> and is the tomb of <persName ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated
-                     saint in this town. It is also the tomb of <roleName type="title"> amīr </roleName>
-                     <persName ref="PRS1216Abdulla">ʿAbdullāhi b. Muḥammad</persName>.
+                     saint in this town. It is also the tomb of 
+                     <persName ref="PRS1216Abdulla"><roleName type="title">ʾamīr</roleName> ʿAbdullāhi b. Muḥammad</persName>.
                   </ab>
                </note>
             </place>
