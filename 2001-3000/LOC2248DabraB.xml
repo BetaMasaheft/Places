@@ -65,8 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <settlement type="zone" ref="LOC6544NorthGondar"/>
                <settlement type="town" ref="LOC3577Gondar"/>
                <location>
-                  <geo>12.6000 37.4666</geo>
-                  <!--                  general geo coord for Gondar, not specific to this church-->
+                  <geo>12.616667 37.483333</geo>
                </location>
                <listBibl type="secondary">
                   <bibl>
