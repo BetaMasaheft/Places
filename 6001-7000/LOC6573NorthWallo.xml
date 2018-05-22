@@ -42,6 +42,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <revisionDesc>
             <change when="2016-12-08" who="FP">record completed</change>
             <change who="FP" when="2016-12-08">CREATED: place</change>
+            <change who="DR" when="2018-05-22">moved relation from LOC1426Amhara</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -71,20 +72,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                                 <placeName ref="LOC4259Lasta">Lāstā</placeName> and <placeName ref="LOC6135Wag">Wāg</placeName>.</ab>
                     </note>
                 </place>
-                <listRelation>
+      
+            <listRelation>
                     <relation name="gn:locatedIn"
-                         active="LOC4259Lasta"
-                         passive="LOC6573NorthWallo">
-                        <desc>The territory of the historical province (now ʾawrāǧǧā) of Lāstā is
-                            located within the Samen Wallo zone.</desc>
-                    </relation>
-                    <relation name="gn:locatedIn"
-                         active="LOC6135Wag"
-                         passive="LOC6573NorthWallo">
-                        <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
-                            located within the Samen Wallo zone.</desc>
-                    </relation>
-                </listRelation>
+                        active="LOC6573NorthWallo"
+                        passive="LOC1426Amhara">
+                        <desc>The North Wallo Zone is located in the ʾAmharā kǝllǝl.</desc>
+                    </relation></listRelation>
             </listPlace>
         </body>
     </text>

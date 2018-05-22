@@ -40,6 +40,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2017-01-13">CREATED: place</change>
+            <change who="DR" when="2018-05-22">moved relation from LOC1426Amhara</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -60,8 +61,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
                 </place>
                 <listRelation>
-                    <relation>
-                        <desc/>
+                    <relation name="gn:locatedIn"
+                        active="LOC6574NorthSawa"
+                        passive="LOC1426Amhara">
+                        <desc>The North Šawā Zone is located in the ʾAmharā kǝllǝl.</desc>
                     </relation>
                 </listRelation>
             </listPlace>

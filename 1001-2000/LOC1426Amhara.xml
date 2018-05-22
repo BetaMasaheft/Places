@@ -62,7 +62,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n2" xml:lang="am" type="normalized">ʾAmharā</placeName>
                <placeName xml:id="n3" xml:lang="en" type="alt">Amhara Regional State</placeName>
                <country ref="LOC3010Ethiop"/>
-
                <location>
                   <geo>11.5000 38.5000</geo>
                </location>
@@ -80,45 +79,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      constituted following the promulgation of the Constitution of the Federal
                      Republic of <placeName ref="LOC3010Ethiop">Ethiopia</placeName> on the
                         <date>8th December 1994</date> The state is divided into the following
-                     zones: <placeName ref="LOC6544NorthGondar">North Gondar</placeName>, <placeName ref="LOC6574NorthSawa">North Šawā</placeName>, <placeName ref="LOC6573NorthWallo">North Wallo</placeName>, <placeName ref="LOC6575SouthGondar">South Gondar</placeName>, <placeName ref="LOC6572SouthWallo">South Wallo</placeName>, <placeName ref="LOC6576WestGogg">West Goǧǧām</placeName>, and <placeName ref="LOC6577WestGondar">West Gondar</placeName>. Its capital is <placeName ref="LOC1721BaherD">Bāḥǝr Dār</placeName>. </ab>
+                     zones: <placeName ref="LOC6544NorthGondar">North Gondar</placeName>, <placeName ref="LOC6574NorthSawa">North Šawā</placeName>, 
+                     <placeName ref="LOC6573NorthWallo">North Wallo</placeName>, <placeName ref="LOC6575SouthGondar">South Gondar</placeName>, 
+                     <placeName ref="LOC6572SouthWallo">South Wallo</placeName>, <placeName ref="LOC6576WestGogg">West Goǧǧām</placeName>, and 
+                     <placeName ref="LOC6577WestGondar">West Gondar</placeName>. Its capital is <placeName ref="LOC1721BaherD">Bāḥǝr Dār</placeName>. </ab>
                </note>
             </place>
             <listRelation>
-               <relation name="gn:locatedIn"
-                         active="LOC6544NorthGondar"
-                         passive="LOC1426Amhara">
-                  <desc>The North Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6574NorthSawa"
-                         passive="LOC1426Amhara">
-                  <desc>The North Šawā Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6573NorthWallo"
-                         passive="LOC1426Amhara">
-                  <desc>The North Wallo Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6575SouthGondar"
-                         passive="LOC1426Amhara">
-                  <desc>The South Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6572SouthWallo"
-                         passive="LOC1426Amhara">
-                  <desc>The South Wallo Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6576WestGogg"
-                         passive="LOC1426Amhara">
-                  <desc>The West Goǧǧām Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6577WestGondar"
-                         passive="LOC1426Amhara">
-                  <desc>The West Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
-               </relation>
+            
                <relation name="gn:locatedIn" active="LOC1721BaherD" passive="LOC1426Amhara">
                   <desc>Bāḥǝr Dār is the capital of the ʾAmharā kǝllǝl.</desc>
                </relation>

@@ -42,6 +42,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <revisionDesc>
             <change when="2016-12-10" who="FP">record completed</change>
             <change who="FP" when="2016-10-17">CREATED: place</change>
+            <change who="DR" when="2018-05-22">moved relation from LOC1426Amhara</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -73,6 +74,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                          active="LOC6572SouthWallo"
                          passive="LOC6185Wallo">
                         <desc>The territory of the South Wallo Zone corresponds approximately to that of historical Wallo.</desc>
+                    </relation>
+                    <relation name="gn:locatedIn"
+                        active="LOC6572SouthWallo"
+                        passive="LOC1426Amhara">
+                        <desc>The South Wallo Zone is located in the ʾAmharā kǝllǝl.</desc>
                     </relation>
                 </listRelation>
             </listPlace>

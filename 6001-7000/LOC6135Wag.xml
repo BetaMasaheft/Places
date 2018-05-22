@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-05-22">moved relation from LOC6573NorthWallo</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,6 +55,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="region">
                <placeName>Wag</placeName>
             </place>
+            <listRelation>
+            <relation name="gn:locatedIn"
+               active="LOC6135Wag"
+               passive="LOC6573NorthWallo">
+               <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
+                  located within the Samen Wallo zone.</desc>
+            </relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>

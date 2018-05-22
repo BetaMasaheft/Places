@@ -11,7 +11,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>West Goǧǧām Zone</title>
-                <editor/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -40,6 +39,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2017-01-13">CREATED: place</change>
+            <change who="DR" when="2018-05-22">moved relation from LOC1426Amhara</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -51,17 +51,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <country> </country>
                     <region/>
                     <settlement/>
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
                 </place>
                 <listRelation>
-                    <relation>
-                        <desc/>
+                    <relation name="gn:locatedIn"
+                        active="LOC6576WestGogg"
+                        passive="LOC1426Amhara">
+                        <desc>The West Goǧǧām Zone is located in the ʾAmharā kǝllǝl.</desc>
                     </relation>
                 </listRelation>
             </listPlace>

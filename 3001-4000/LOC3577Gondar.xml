@@ -82,23 +82,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <date>14th century</date> to designate a regiment of soldiers and it was
                      subsequently used to designate a small market town inhabited by Muslim traders
                      and <persName ref="ETH1274Betaes">Beta ʾƎsrāʾel</persName> craftsmen, it
-                     developed as a major centre only after <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
+                     developed as a major centre only after 
+                     <persName ref="PRS4015Fasilada"><roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> chose it as his camp in
                         <date>1636-1637</date>.</desc>
                   <ab type="history">The town of Gondar is located in today's <placeName ref="LOC6544NorthGondar">North Gondar</placeName> Zone (historically
                         <placeName ref="LOC1713Bagemd">Bagemdǝr</placeName> province) in the
                         <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State. Gondar
-                     started to flourish after <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS4015Fasilada">Fāsiladas</persName> chose it as his camp in
+                     started to flourish after 
+                     <persName ref="PRS4015Fasilada"><roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> chose it as his camp in
                         <date>1636-'37</date> to control the collection of customs on the <placeName ref="Q23406">Red Sea</placeName> - <placeName ref="LOC5888Tana">
                         Ṭānā</placeName> - <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade
                      routes. Following its foundation and for approx. 130 years (from
                         <date>1630s</date> to <date>1760s</date>), Gondar was the political,
                      religious, cultural and intellectual capital of the <placeName ref="LOC6554GondarineK">Gondarine Kingdom</placeName>. Its founder <persName ref="PRS4015Fasilada">Fāsiladas</persName> built the first nucleus of the
                      town including his castle, some churches and his pleasure pool. After him, his
-                     son <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS10375Yohanne">Yoḥānnǝs I</persName> and grandson <roleName type="title">ʾaṣe</roleName>
-                     <persName ref="PRS5616IyasuI">ʾIyāsu I</persName> chose to remain in Gondar and
+                     son 
+                     <persName ref="PRS10375Yohanne"><roleName type="title">ʾaṣe</roleName> Yoḥānnǝs I</persName> and grandson 
+                     <persName ref="PRS5616IyasuI"><roleName type="title">ʾaṣe</roleName> ʾIyāsu I</persName> chose to remain in Gondar and
                      built their own castles and churches. So by the late <date>17th century</date>,
                      Gondar had become a permanent and sizeable settlement where Ethiopian rulers
                      resided when not campaigning and where the highest commerical, political and
