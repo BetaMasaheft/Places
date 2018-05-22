@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="ṭabiyā">
+            <place type="tabiya">
                <placeName xml:id="n1">ʾAraʾ</placeName>
             </place>
          </listPlace>
