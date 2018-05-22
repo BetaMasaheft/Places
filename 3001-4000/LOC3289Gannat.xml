@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gännätä Giyorgis</title>
+            <title>Gannata Giyorgis</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-05-10">Added region country, edited typos, location, note</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Gännätä Giyorgis</placeName>
-               <region>Fǝčče</region>
+               <placeName xml:id="n1" xml:lang="gez">ገነተ፡ ጊዮርጊስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Gannata Giyorgis</placeName>
+               <region ref="LOC5597Sawa"/>
+               <settlement type="town" ref="LOC3068Fecce"/>
+               <note>The main church in the town of Fǝčče. 
+                  The building was founded in 1821 by <persName ref="PRS8602Sayfusa"/> and features wall paintings from the
+                  19th and 20th centuries.</note>
             </place>
          </listPlace>
       </body>

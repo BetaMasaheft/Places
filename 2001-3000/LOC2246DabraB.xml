@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Bǝrhan</title>
+            <title>Dabra Bǝrhān</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Däbrä Bǝrhan</placeName>
+               <placeName>Dabra Bǝrhān</placeName>
                <location>
                   <geo>9.671274 39.531809</geo>
                </location>
