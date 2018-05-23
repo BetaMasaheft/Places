@@ -57,8 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Waynā Dagā</placeName>
                
                <placeName xml:lang="gez" xml:id="n2">ወይና፡ ደግዐ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1
-                  2" type="normalized">Waynā Dagʿa</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Waynā Dagʿa</placeName>
                
                <state type="existence" ref="Paks2"/>
                
