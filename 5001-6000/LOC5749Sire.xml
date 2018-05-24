@@ -46,17 +46,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-05-09">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Šire</placeName>
-               <placeName type="alt">Sire</placeName>
-               <placeName type="alt">Šǝre</placeName>
-            </place>
+         
+                  
+                  <placeName xml:lang="gez" xml:id="n1">ሺሬ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Šire</placeName>
+                  <placeName xml:lang="gez" xml:id="n2">ሲሬ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Sire</placeName>
+                  
+               <placeName xml:lang="gez" xml:id="n3">ሽሬ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Šǝre</placeName>
+               
+               
+                  
+                  
+                  
+               </place>
+               <listRelation>
+                  <relation name="gn:locatedIn" active="LOC5749Sire" passive="LOC6569Tegray"/>
+                  <relation name="lawd:hasAttestation" active="LOC5749Sire" passive="LIT3951ChronSusenyos"/>
+               </listRelation>
+               
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+               
