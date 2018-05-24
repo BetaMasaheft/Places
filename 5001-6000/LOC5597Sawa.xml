@@ -73,17 +73,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <listBibl type="editions"> 
                      <bibl>
                         <ptr target="bm:Solomon2016Galawdewos"/>
-                        
                      </bibl>
                      <bibl>
                         <ptr target="bm:Conzelman1895Galawdewos"/>
                      </bibl>
-                     
-                     
-                     
-                     
-                     
-                     
                   </listBibl>
                   
                   
@@ -99,7 +92,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <bibl>
                         <ptr target="bm:Nosnitsin2010Sawa"/>
                      </bibl>
-                     
                      <bibl>
                         <ptr target="bm:Solomon2015Geography"/>
                         <citedRange unit="page">109-118</citedRange>
@@ -123,9 +115,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      
                      <ab type="history">Šawā was the name of several polities on the territory of <placeName ref="LOC3010Ethiop"/>. 
                         In Ethiopian Christian sources, Šawā appears 
-                        only in the 14th century and early reference to Šawā are two fold. 
+                        only in the 14th century and early references to Šawā are twofold. 
                         In the early time,  it was the name of a medieval Islamic sultanate; later the name of the province of the 
-                        Christian empire. In the medieval Christian sources, Šawā  is represented as area situated to the south of the chain of the districts consitituting the historical Amharā including 
+                        Christian empire. In the medieval Christian sources, Šawā  is represented as an area situated to the south of the chain of the districts consitituting the historical Amharā including 
                         <placeName ref="LOC1458Angot"/>,<placeName ref="LOC3367Gayent"/>, <placeName ref="LOC3440Gesse"/>
                         as well as <placeName ref="LOC6167Walaqa"/> and <placeName ref="LOC4578Marhab"/>, came under the firm control of the Chrisitian monarchs in the 14th century, 
                         following the victories 
@@ -134,9 +126,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         the south and southeast, the chain of the Muslim Sultanates of which <placeName ref="LOC3921Ifat"/> was the strongest. 
                         The presence of numerous rock-cut and cave churches 
                         is a conspicuous feature of Šawā's early Solomonic period, clearly showing the regions's importance and cultural and political affiliation.
-                        In the late 15th century -16 th century several locations in Šawā appear to have been important sites of 
-                        the royal moving capitals. After ǧihad the importance of  Šawā was re-established for a while.
-                        In the 17th century Šawā was de facto separated from Gondarine kingdom. 
+                        In the late 15th century -16th century several locations in Šawā appear to have been important sites of 
+                        the royal moving capitals. After ǧihād, <!--maybe the use of this term here should be explained for persons not familiar with Ethiopian history? DR 2018-05-24 --> the importance of  Šawā was re-established for a while.
+                        In the 17th century, Šawā was de facto separated from the Gondarine kingdom. 
                         Thus, in the 18th-19th century, the name Šawā was applied to the kingdom of Šawā, which later became again the name of the administrative unit within the unified Empire. 
                         
                      </ab>
