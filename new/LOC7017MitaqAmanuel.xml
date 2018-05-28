@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7001BalciAmanuel" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7017MitaqAmanuel" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Balči ʾAmanuʾel</title>
+                <title>Mitāq ʾAmanuʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,17 +41,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="JG" when="2018-05-10">Created entity</change>
+            <change who="JG" when="2018-05-28">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church">
-                    <placeName>Balči ʾAmanuʾel</placeName>
+                <place type="church" subtype="institution">
+                    <placeName>Mitāq ʾAmanuʾel</placeName>
                     <region ref="LOC5597Sawa"/>
                     <country ref="LOC3010Ethiop"/>
-                    <note>A church decorated with ninteenth-century wall paintings.</note>
+                    <note>A modern church with a collection of manuscripts documented by EMML, pr. nos. 2173-2213.</note>
+     
                 </place>
             </listPlace>
         </body>
