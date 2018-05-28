@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7011Meskwa" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7015MaryamHergwed" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mǝskʷāʿa Mǝḥyāka Malāʾǝkt</title>
+                <title>Māryām Hǝrgwǝd</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,25 +41,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2018-05-17">Created entity</change>
+            <change who="ES" when="2018-05-22">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="gorge">
-                    <placeName xml:lang="gez" xml:id="n1">ምስኳዐ፡ ምሕያከ፡ መላእክት፡</placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Mǝskʷāʿa Mǝḥyāka Malāʾǝkt</placeName>
+                <place type="church">
+                    <placeName>Māryām Hǝrgwǝd</placeName>
                 </place>
-                
-                <listRelation>
-                    <relation name="lawd:hasAttestation"
-                        active="LOC7011Meskwa"
-                        passive="LIT2474tomara"/>
-                    
-                    <relation name="bm:hasLexiconEntry" active="LOC7011Meskwa" passive="http://betamasaheft.eu/Dillmann/lemma/L65ae0746b7f9428da90682226ae6cc75"></relation>
-                    
-                </listRelation>
             </listPlace><!---->
         </body>
     </text>
