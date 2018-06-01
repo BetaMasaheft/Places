@@ -48,6 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-08-30">Complete record</change>
+         <change who="SG" when="2018-06-01">addition to relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -117,6 +118,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="syriaca:has-relation-to-place"
                          active="LOC2614Debarw"
                          passive="LOC4631Massaw"/>
+               <relation name="lawd:hasAttestation" active="ETH2297Zigat" passive="LIT3951ChronSusenyos"/>
             </listRelation>
             
             
