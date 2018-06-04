@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gumära</title>
+            <title>Gumārā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,16 +46,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-06-04">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="river">
-               <placeName>Gumära</placeName>
-               <placeName type="alt">Gwǝmära</placeName>
-            </place>
+          
+                  
+               <placeName xml:lang="gez" xml:id="n1">ጉማራ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Gumārā</placeName>
+                  <placeName xml:lang="gez" xml:id="n2">ጕመራ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Gwǝmarā</placeName>
+                  
+                  
+                  
+                  
+                  
+               </place>
+               <listRelation>
+                  <relation name="gn:locatedIn" active="LOC3645Gumara" passive="LOC3645Gumara"/>
+                  <relation name="lawd:hasAttestation" active="LOC3645Gumara" passive="LIT3951ChronSusenyos"/>
+               </listRelation>
+               
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+               
