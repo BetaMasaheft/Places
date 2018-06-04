@@ -65,7 +65,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <state type="existence" notAfter="1991"/>
 
                     <country ref="LOC3010Ethiop"/>
-                    <location/>
+                   
                        
                     
                     <listBibl type="secondary">

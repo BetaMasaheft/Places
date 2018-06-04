@@ -58,9 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n2" xml:lang="am" type="normalized">Samen Gʷandar</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region ref="LOC1426Amhara" type="RegionalState"/>
-                    <note>
-                        <ab type="description"/>
-                    </note>
+
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn"

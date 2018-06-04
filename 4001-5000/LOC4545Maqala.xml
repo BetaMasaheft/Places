@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <state type="existence" ref="ZaMa MoPe"/>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <settlement/>
+              
                <location>
                   <geo>13.4833 39.4666</geo>
                   <height>2254</height>
@@ -102,7 +102,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      urbanization process but, after <date when="1991">1991</date>, it has resumed at a great pace. Maala
                      is today the capital of <placeName ref="LOC5932Tegray">Tǝgrāy National Regional
                         State</placeName>. </ab>
-                  <ab type="desc"/>
                </note>
             </place>
             <listRelation>

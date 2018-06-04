@@ -58,7 +58,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
                <region notAfter="1974" type="Province"/>
-               <settlement type="zone"/>
                <location>
                   <geo cert="low">8.431601 35.688606</geo>
                </location>

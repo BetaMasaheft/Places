@@ -51,10 +51,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName corresp="#n1" xml:lang="en">Italian East Africa</placeName>
                     <country ref="LOC3010Ethiop"/>
                     
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
                     
                     <listBibl type="secondary">
                         <bibl>
@@ -64,17 +60,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             <ptr target="bm:MantelNiecko2003EnAeAdministrative"/>
                         </bibl>
                    </listBibl>
-                   <note>
-                        <date type="foundation" when=""/>
-                        <ab type="history"/>
-                    </note>
+            
                     
                 </place>
-                <listRelation>
-                    <relation>
-                        <desc/>
-                    </relation>
-                </listRelation>
             </listPlace>
         </body>
     </text>

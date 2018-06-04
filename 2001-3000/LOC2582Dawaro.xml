@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop"/>
-               <location/>
+              
                
                <listBibl type="editions"> 
                   <bibl>

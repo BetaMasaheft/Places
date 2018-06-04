@@ -49,7 +49,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="kingdom">
                     <placeName xml:id="n1" xml:lang="eg">Gondarine Kingdom</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <location/>
+                   
                     <!--                   a polygone needs to be created to define the borders of the kingdom -->
                     <listBibl type="secondary">
                         <bibl>

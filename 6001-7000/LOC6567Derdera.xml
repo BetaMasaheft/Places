@@ -47,23 +47,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="area">
                     <placeName>Dǝrdǝrā</placeName>
-                    <placeName type="alt"/>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
-                </place>
-                <listRelation>
-                    <relation>
-                        <desc/>
-                    </relation>
-                </listRelation>
+                       </place>
             </listPlace>
         </body>
     </text>

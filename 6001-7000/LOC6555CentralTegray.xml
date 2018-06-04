@@ -11,7 +11,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Māʿǝkalāy Tǝgrāy</title>
-                <editor/>
+                <editor key="FP"/>
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -48,22 +48,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <place type="zone">
                     <placeName>Māʿǝkalāy Tǝgrāy</placeName>
                     <placeName>Central Tǝgray</placeName>
-                    <country> </country>
-                    <region/>
-                    <settlement/>
-                    <location>
-                        <geo/>
-                        <height/>
-                    </location>
-                    <listBibl>
-                        <bibl/>
-                    </listBibl>
+                 
                 </place>
-                <listRelation>
-                    <relation>
-                        <desc/>
-                    </relation>
-                </listRelation>
             </listPlace>
         </body>
     </text>
