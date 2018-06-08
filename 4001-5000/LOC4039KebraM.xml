@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Kǝbrä Mängǝśt</title>
+            <title>Kǝbra Mangǝśt</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" xml:id="n1">ክብረ፡ መንግሥት፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Kǝbra Mangǝśt</placeName>
                <placeName type="alt" xml:lang="am" xml:id="n2">አዶላ፡</placeName>
-               <placeName xml:lang="am" corresp="#n2" type="normalized">ʾAdola</placeName>
+               <placeName xml:lang="am" corresp="#n2" type="normalized">ʾAdolā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
                <settlement ref="LOC1963Booran" type="zone" notBefore="1991"/>
