@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ማሽሉት</title>
+                <title>Māšlut</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,9 +48,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName>ማሽሉት</placeName>
-                </place>
-            </listPlace><!---->
+                 
+                        
+                        <placeName xml:lang="gez" xml:id="n1">ማሽሉት፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Māšlut</placeName>
+                            
+                            
+                     
+                        
+                        <state type="existence" ref="Paks2"/>
+                        
+                        
+                        
+                    </place>
+                    <listRelation>
+                        
+                    </listRelation>
+            </listPlace>
+            
         </body>
     </text>
 </TEI>
+
+
+                    
