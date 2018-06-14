@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7003AnkobaMikael" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7035Goraba" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAnkobar Mikāʾel</title>
+                <title>Gorabā</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="JG"/>
+                <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -41,19 +41,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="JG" when="2018-05-11">Created entity</change>
+            <change who="SG" when="2018-06-14">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Ankobar Mikāʾel</placeName>
-                    <region ref="LOC5597Sawa"/>
-                    <country ref="LOC3010Ethiop"/>
-                    <settlement type="town" ref="LOC1464Ankoba"/>            
+                <place type="area">
+                    <placeName xml:lang="gez" xml:id="n1">ጎረባ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Gorabā
+                        
+                        
+                    </placeName>
+                    
+                    <state type="existence" ref="Paks2"/>
+                    
+                    
+                    
                 </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC7035Goraba" passive="LOC1713Bagemd"/>
+                    
+                    <relation name="lawd:hasAttestation" active="LOC7035Goraba" passive="LIT3951ChronSusenyos"/>
+                </listRelation>
             </listPlace>
+            
         </body>
     </text>
 </TEI>
+
+
+
+
+
+                    
