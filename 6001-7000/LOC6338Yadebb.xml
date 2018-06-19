@@ -52,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Yädǝbba Maryam</placeName>
-               <placeName type="alt">Yädibba Maryam</placeName>
+               <placeName>Yadǝbba Māryām</placeName>
+               <placeName type="alt">Yadibba Maryam</placeName>
             </place>
          </listPlace>
       </body>
