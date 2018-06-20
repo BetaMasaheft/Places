@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Sallā Dengāy Marqos</placeName>
                <region ref="LOC5597Sawa"/>
                <country ref="LOC3010Ethiop"/>
+               <district ref="LOC4842MojaWa"/>
                <note>A church with a collection of manuscripts documented by EMML, project nos. 4435-4469.</note>
             </place>
          </listPlace>
