@@ -47,20 +47,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2018-07-02" who="DR">Corrected transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1" xml:lang="gez">አጻጻሜ፡ ቅዱስ፡ ሚካኤል፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAṣṣāṣāme Qǝddus
+               <placeName xml:id="n1" xml:lang="am">አጻጻሜ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAṣṣāṣāme Qǝddus
                   Mikāʾel</placeName>
-               <placeName xml:id="n2" type="alt" xml:lang="gez">አጣጣሚ፡ ሚካኤል፡ ጎንደር፡ ቅዱስ፡
+               <placeName xml:id="n2" type="alt" xml:lang="am">አጣጣሚ፡ ሚካኤል፡ ጎንደር፡ ቅዱስ፡
                   ሚካኤል፡</placeName>
-               <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾAṭṭāṭāmi Mikāʾel Gondar
+               <placeName corresp="#n2" xml:lang="am" type="normalized">ʾAṭṭāṭāmi Mikāʾel Gondar
                   Qǝddus Mikāʾel</placeName>
-               <!--               translitteration and lang assigned to be checked-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

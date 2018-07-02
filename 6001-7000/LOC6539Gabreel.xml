@@ -53,7 +53,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="church">
                     <placeName xml:id="n1" xml:lang="gez">ገብርኤል፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Gabrǝʾel</placeName>
-                    <!--                    translitteration in fidel by FP and xml:lang assigned as gez to be checked-->
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

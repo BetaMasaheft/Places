@@ -56,7 +56,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="gez">እግዚአብሔር፡ አብ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎgziʾabǝḥer
                   ʾAb</placeName>
-               <!--               translitteration and lang assigned to be checked-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

@@ -49,9 +49,8 @@
         <body>
             <listPlace>
                 <place type="quarter">
-                    <placeName xml:id="n1" xml:lang="am">እጨገ፡ ቤት፡</placeName>
+                    <placeName xml:id="n1" xml:lang="am">እጨጌ፡ ቤት፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">ʾƎč̣č̣age Bet</placeName>
-                    <!--                    transcription in fidel by FP and xml:lang assigned as Amharic need checking-->
                     <placeName corresp="#n1" xml:lang="en">House of the <roleName type="title">ʾǝč̣č̣age</roleName>
                </placeName>
                     <country ref="LOC3010Ethiop"/>

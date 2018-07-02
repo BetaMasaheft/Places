@@ -48,15 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2018-07-02" who="DR">Corrected transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="area">
-               <placeName xml:id="n1" xml:lang="gez">አቡን፡ መስክ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAbun Mask</placeName>
-               <!--              translitteration in fidel by FP and xml:lang assigned as gez to be checked -->
+               <placeName xml:id="n1" xml:lang="am">አቡን፡ መስክ፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAbun Mask</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

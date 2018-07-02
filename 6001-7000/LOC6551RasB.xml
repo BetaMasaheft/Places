@@ -69,7 +69,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <date type="foundation">mid-18th century</date>
-                        <ab type="description">This is a miniature caslte built in the
+                        <ab type="description">This is a miniature castle built in the
                                 <date>mid-18th century</date> in <placeName ref="LOC3577Gondar">Gondar</placeName> to serve as the headquarters of the noblemen
                             that effectively governed the kingdom in the second half of the
                                 <date>18th century</date>. During the Italian occupation, it served

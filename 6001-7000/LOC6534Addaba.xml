@@ -53,7 +53,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="quarter">
                     <placeName xml:id="n1" xml:lang="am">አደባባይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAddabābāy</placeName>
-                    <!--                    transcription in fidel and xml:lang assigned as Amharic need checking-->
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -69,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                     </listBibl>
                     <note>
-                        <ab type="description">ʾĀddabābāy is a public square to the south of the
+                        <ab type="description">ʾAddabābāy is a public square to the south of the
                             royal compound in <placeName ref="LOC3577Gondar">Gondar</placeName>,
                             used for assemblies and for the Monday market.</ab>
                     </note>

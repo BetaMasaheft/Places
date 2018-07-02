@@ -62,8 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n2" xml:lang="en"> Cry of <placeName ref="LOC6569Tegray">Tǝgrāy</placeName>
                </placeName>
                <placeName xml:id="n3" xml:lang="am" type="alt">አጨናክር፡</placeName>
-               <placeName corresp="#n3" xml:lang="am" type="normalized">ʾĀč̣anākǝr</placeName>
-               <!--               translitterations in fidel by FP and xml:lang assigned as gez need checking-->
+               <placeName corresp="#n3" xml:lang="am" type="normalized">ʾAč̣anākǝr</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>

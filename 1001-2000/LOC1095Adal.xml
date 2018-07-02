@@ -64,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="ar" xml:id="n2" type="alt">አደል፡</placeName>
                <placeName xml:lang="ar" corresp="#n2" type="normalized">ʾAdal</placeName>
            
-                  <placeName xml:lang="am" xml:id="n4" type="alt">በር፡ ሰዓደዲን</placeName>
+                  <placeName xml:lang="am" xml:id="n4" type="alt">ባር፡ ሳዕደዲን</placeName>
                   <placeName xml:lang="am" corresp="#n4" type="normalized">Barr Saʿdaddīn</placeName>
                   
                   
@@ -116,8 +116,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </listBibl>
                   <note>
                      
-                     <ab type="history">The name ʾAdal first appeared in the historical record at the end of the 13th century. It was first under the authonomy 
-                        of the Muslim sultanate of <placeName ref="LOC3921Ifat"/>. However, in the decades after 1288 ʾAdal must have regained its sovereignity which continued to 1415. 
+                     <ab type="history">The name ʾAdal first appeared in the historical record at the end of the 13th century. It was first under the authority
+                        of the Muslim sultanate of <placeName ref="LOC3921Ifat"/>. However, in the decades after 1288 ʾAdal must have regained its sovereignty which continued to 1415. 
                         Soon after <date>1415</date>, however,  ʾAdal must again have become subordinate to <placeName ref="LOC3921Ifat"/>.
                      </ab>
                   </note>

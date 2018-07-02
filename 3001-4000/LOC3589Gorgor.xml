@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="am">ጎርጎራ፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Gorgorā</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ጐርጎራ፡</placeName>
-               <placeName corresp="#n2" xml:lang="am" type="normalized">Gwargorā</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Gʷargorā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -107,7 +107,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <ab type="description">Gorgorā is a peninsula on the north of the Lake<placeName ref="LOC5888Tana">Ṭānā</placeName>. It is <width>12 km</width> wide in its
                      southern part and stands on a strategical location, an elevated rocky
                      promontory overlooking the lake and next to a series of islands suitable for
-                     providing shelter. The peninsula is located in today's <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State while once formed
+                     providing shelter. The peninsula is located in today's <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State while it once formed
                      part of <placeName ref="LOC2481Dambey">Dambǝyā</placeName>.
                      Gorgorā gained its prominence under the Jesuits as a missionary residence and a
                      major Catholic church thanks to a land grant offered by <roleName type="title">ʾaṣe</roleName>
@@ -115,7 +115,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <date>1611</date>, <persName ref="PRS9038Susenyos">Susǝnyos</persName>
                      established a <placeName>katamā</placeName> in Gorgorā and in <date>1621</date>
                      he asked the Jesuits to build a royal palace to the south-west, in an area that
-                     became known as <placeName>New Gorgorā</placeName>. After the restauration of
+                     became known as <placeName>New Gorgorā</placeName>. After the restoration of
                      Orthodoxy, <placeName>New Gorgorā</placeName> was the first residence to be
                      abandoned by the missionaries and, in <date>1665</date>, <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> ordered the burning of the
@@ -139,7 +139,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <desc>The Dabra Sinā church is located in the Gorgorā peninsula.</desc>
                </relation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC6436Zanda">
-                  <desc>Gorgora is not far from Žandā where the patriarchal house was located in
+                  <desc>Gorgorā is not far from Žandā where the patriarchal house was located in
                      1684.</desc>
                </relation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1721BaherD"/>

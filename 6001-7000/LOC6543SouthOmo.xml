@@ -53,7 +53,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="am">ደቡብ፡ ኦሞ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">Dabub ʾOmo</placeName>
                     <placeName corresp="#n1" xml:lang="en">South Omo</placeName>
-                    <!--                    translitteration in fidel by FP and xml:lang assigned as Amharic to be checked-->
                     <country ref="LOC3010Ethiop"/>
                     <region ref="LOC6880Southernnation"/>
                 </place>

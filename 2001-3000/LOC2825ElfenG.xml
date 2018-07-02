@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2018-07-02" who="DR">Corrected transliteration</change>
          <change when="2016-09-22" who="FP">made corrections to place name structure and info
             required as per Eugenia's email dated 24/08/2016</change>
          <change when="2016-08-19" who="FP">corrections</change>
@@ -54,11 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1" xml:lang="gez">እልፍኝ፡ ጊዮርጊስ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎlfǝñ Giyorgis</placeName>
-               <placeName xml:id="n2" xml:lang="gez" type="alt">ማካበቢያ፡ ጊዮርጊስ፡</placeName>
-               <placeName corresp="#n2" xml:lang="gez" type="normalized">Mākkābabiyā Giyorgis</placeName>
-               <!--               translitteration in fidel by FP and xml:lang assigned as gez to be checked-->
+               <placeName xml:id="n1" xml:lang="am">እልፍኝ፡ ጊዮርጊስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾƎlfǝññ Giyorgis</placeName>
+               <placeName xml:id="n2" xml:lang="am" type="alt">ማካበቢያ፡ ጊዮርጊስ፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Mākkābabiyā Giyorgis</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
@@ -74,7 +74,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="description">ʾƎlfǝñ Giyorgis is one of two churches (the other is
+                  <ab type="description">ʾƎlfǝññ Giyorgis is one of two churches (the other is
                         <placeName ref="LOC3407GemjaB">Gǝmǧā Bet Māryām</placeName>) founded by
                         <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName> close to his stone castle
