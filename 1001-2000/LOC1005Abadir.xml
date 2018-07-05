@@ -47,15 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change when="2016-08-02" who="FP">updated with coord, bibl and description</change>
+         <change who="DR" when="2018-07-05">Added Arabic name and corrected transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="shrine">
-               <placeName xml:id="n1" xml:lang="ar"/>
-               <placeName corresp="#n1" xml:lang="ar" type="normalized">Abādir ʿUmar ar-Riḍā</placeName>
-               <!--              traslitteration of the name in Arabic not inserted -->
+               <placeName xml:id="n1" xml:lang="ar">أبادر عمر الرضى</placeName>
+               <placeName corresp="#n1" xml:lang="ar" type="normalized">ʾAbādir ʿUmar ar-Riḍā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC6545Harari"/>
                <region notAfter="1974" type="Province" ref="LOC3787Hararg"/>

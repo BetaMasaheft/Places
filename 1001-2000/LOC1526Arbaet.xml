@@ -73,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </listBibl>
                <note>
                   <ab type="description">ʾArbāʿtu ʾƎnsǝsā is one of four local churches that
-                     predate <placeName ref="LOC3577Gondar">Gondar</placeName> foundation in the
+                     predate <placeName ref="LOC3577Gondar">Gondar</placeName>'s foundation in the
                         <date>17th century</date> by <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4015Fasilada">Fāsiladas</persName>.</ab>
                </note>
