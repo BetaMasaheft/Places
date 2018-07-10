@@ -46,15 +46,35 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-07-10">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Funǧ</placeName>
-            </place>
-         </listPlace>
+          
+                  <placeName xml:lang="gez" xml:id="n1">ፉንጅ፡</placeName>
+                  <placeName xml:lang="gez" corresp="#n1" type="normalized">Funǧ
+                     
+                     
+                  </placeName>
+                  
+                  <state type="existence" ref="Paks2"/>
+                  
+                  
+                  
+               </place>
+                </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+
+               
