@@ -46,14 +46,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="PL" when="2018-07-19">Updated entity with Greek name and reference to the source</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Sämidi</placeName>
-               <placeName type="alt">Samidi</placeName>
+               <placeName>Samidi</placeName>
+               <placeName xml:lang="grc" xml:id="n2">ΣΑΜΙΔΙ</placeName>
+               <state type="existence" ref="Aks"/>
+               <location type="relative">
+                  <desc>North of <placeName ref="LOC1261Adulis"/> in the map oriented with the South upwards, which is drawn on <ref type="mss" target="https://digi.vatlib.it/view/MSS_Vat.gr.699"> folio 15v of the  Vat. gr. 699</ref>, the same drawing where the <foreign xml:lang="la">Monumentum Adulitanum</foreign> is depicted, after <persName ref="PRS3204CosmasI">Cosmas Indicopleutes</persName> has made his transcription of the famous inscription (<ref corresp="RIE276" type="mss"/>).</desc>
+               </location>
+               <listBibl type="secondary">
+                  <bibl xml:id="EAeIIGabaz"><ptr target="bm:MunroHay2005Gabaz"/></bibl>
+                  <bibl><ptr target="bm:Huntingford1987Historicalgeo"/><citedRange unit="page">44</citedRange></bibl>
+               </listBibl>
             </place>
          </listPlace>
       </body>
