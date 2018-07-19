@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Säḥart</title>
+            <title>Saḥart</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,17 +46,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-07-19">additions</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="province">
-               <placeName>Säḥart</placeName>
-               <placeName type="alt">Sart; Säḥarti</placeName>
-               <placeName type="alt">Sarte</placeName>
-            </place>
+           
+                  
+               <placeName xml:lang="gez" xml:id="n1">ሰሐርት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Saḥart</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ሰሐርቲ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Saḥarti</placeName>
+               <placeName xml:lang="gez" xml:id="n3" type="alt">ሳርቴ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Sārte</placeName>
+               
+               <placeName xml:lang="gez" xml:id="n4" type="alt">ሳርት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n4" type="normalized">Sārt</placeName>
+               
+               
+                  
+                  
+                  
+                  
+               </place>
+               <listRelation>
+                  <relation name="gn:locatedIn" active="LOC5467Sahart" passive="LOC6569Tegray"/>
+                 
+               </listRelation>
+               
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+               
