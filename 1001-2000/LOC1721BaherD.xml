@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2018-07-19">Changed transliteration to project standard.</change>
+         <change who="PL" when="2018-07-19">Changed transliteration to project standard added note.</change>
          <change who="PL" when="2016-04-27">Harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-04-27">Harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
@@ -54,6 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town">
                <placeName>Bāḥǝr Dār</placeName>
+               <note>Is a town on the southern shores of Lake Ṭānā.</note>
             </place>
          </listPlace>
       </body>
