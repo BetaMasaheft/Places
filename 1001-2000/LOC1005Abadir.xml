@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n1" xml:lang="ar" type="normalized">ʾAbādir ʿUmar ar-Riḍā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC6545Harari"/>
-               <region notAfter="1974" type="Province" ref="LOC3787Hararg"/>
+               <region notAfter="1974" type="province" ref="LOC3787Hararg"/>
                
                <settlement type="city" ref="LOC3786Harar"/>       
                <location>

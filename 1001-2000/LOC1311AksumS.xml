@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabaza Ṣǝyon</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
+               <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
                <!--               need to verify ʾAksum belonging to Tǝgre rather than Bagemdǝr province before 1974 reforms-->
                <settlement type="zone" ref="LOC6555CentralTegray"/>
                <settlement type="town" ref="LOC1310Aksum"/>

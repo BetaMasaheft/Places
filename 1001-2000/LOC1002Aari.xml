@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <!--               translitteration and xml:lang not inserted because not known for sure.-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC6530Oromiyaa"/>
-               <region notAfter="1974" type="Province"/>
+               <region notAfter="1974" type="province"/>
                <settlement type="zone" ref="LOC6543SouthOmo"/>
                <location>
                   <geo cert="medium">6.227592 36.797590</geo>

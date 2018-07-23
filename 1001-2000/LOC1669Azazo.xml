@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <!--               xml:lang assigned as Amharic to be checked-->
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
-               <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+               <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
                <settlement type="zone" ref="LOC6544NorthGondar"/>
                <location>
                   <geo>12.5500 37.4333</geo>

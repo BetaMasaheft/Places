@@ -65,7 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <state type="existence" ref="Aks Gon MoPe Paks1 Paks2 ZaMa"/>
                <country ref="LOC3010Ethiop"/>
                <region type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
-               <region notAfter="1991" ref="LOC6569Tegray" type="Province"/>
+               <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
                <region type="area" ref="LOC3307Garalt"/>
                <!--               check type of LOC3307Garalt-->
                <settlement type="zone" ref="LOC6583WestTegray" notBefore="1991"/>
