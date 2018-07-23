@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wǝrra Kidanä Mǝḥrät</title>
+            <title>Wǝrrā Kidāne Mǝḥrat</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-07-23">Added region, country, and note, edited transliteration</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,10 +54,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Wǝrra Kidanä Mǝḥrät</placeName>
-               <placeName type="alt">ʿUra Kidanä Mǝḥrät</placeName>
+               <region ref="LOC6576WestGogg"/>
+               <country ref="LOC3010Ethiop"/>
+               <placeName>Wǝrrā Kidāne Mǝḥrat</placeName>
+               <placeName type="alt">ʿUra Kidanā Mǝḥrat</placeName>
+               <note>A circular-plan church on the Zage peninsula that is decorated with eighteenth- and ninteenth-century wall paintings.</note>
             </place>
          </listPlace>
+         <listRelation>
+            <relation name="gn:locatedIn"
+               active="LOC1587AswaMa"
+               passive="LOC6411Zage">
+            </relation>
+         </listRelation>
       </body>
    </text>
 </TEI>
