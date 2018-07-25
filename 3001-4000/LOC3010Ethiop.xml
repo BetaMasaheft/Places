@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="country">
-               <placeName>Ethiopia</placeName>
+               <placeName corresp="#n1" xml:lang="en">Ethiopia</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ኢትዮጵያ</placeName>
                <listBibl type="secondary">
                   <bibl><ptr target="bm:Shiferaw2018Nationalism"/></bibl>
                </listBibl>

@@ -52,11 +52,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="region" sameAs="pleaides:40018">
-               <placeName>ʿAgamä</placeName>
-               <placeName type="alt">ʿAgäme</placeName>
+               <placeName corresp="#n1">ʿAgāma</placeName>
+               <placeName type="alt" corresp="#n1">ʿAgame</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ዓጋመ</placeName>
+               <location type="relative">
+                  <desc>East of <placeName ref="LOC1310Aksum"></placeName></desc>
+               </location>
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Tsegay2003Agame"/>
+                  </bibl>                                    
+                  <bibl>
+                     <ptr target="bm:Huntingford1987Historicalgeo"/>
+                     <citedRange unit="page">44</citedRange>
                   </bibl>                                    
                </listBibl>
             </place>

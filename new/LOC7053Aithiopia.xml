@@ -47,13 +47,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="area zone" sameAs="pleiades:39274">
+                <place type="area zone">
                     <placeName xml:id="n1" xml:lang="grc">Αἰθιοπίας</placeName>
                     <placeName corresp="#n1" xml:lang="en">Aethiopia</placeName>
                     <location type="relative" source="LIT5019MonumentumAdulitanum2">
                             <desc>To the west of the kingdom of the king of the inscription <ref type="mss" corresp="RIE277"/>.</desc>
                         </location>
                 </place>
+                <listRelation>
+                    <relation name="skos:closeMatch" active="LOC7053Aithiopia" passive="pleiades:39274">
+                        <desc></desc>
+                    </relation>
+                    <head></head>
+                </listRelation>
             </listPlace><!---->
         </body>
     </text>
