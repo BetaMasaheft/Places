@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Borā </title>
+            <title>Borā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="region">
             
-                  <placeName xml:lang="gez" xml:id="n1"></placeName>
+               <placeName xml:lang="gez" xml:id="n1">ቦራ፡</placeName>
                   <placeName xml:lang="gez" corresp="#n1" type="normalized">Borā 
                      
                      

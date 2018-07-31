@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḥadaša</title>
+            <title>Ḥadāšā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,15 +46,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-07-31">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Ḥadaša</placeName>
+            <place type="area">
+               <placeName xml:lang="gez" xml:id="n1">ሐዳሻ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ḥadāšā</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ሓዳሻ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Ḥādāšā</placeName>
+               
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC6953Zara" passive="LOC1713Bagemd"/>
+               
+            </listRelation>
+            
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+
+          
