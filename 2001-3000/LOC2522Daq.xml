@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däq</title>
+            <title>Daq</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,15 +46,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-08-01">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="island">
-               <placeName>Däq</placeName>
-            </place>
+               
+               <placeName xml:lang="gez" xml:id="n1">ደቅ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Daq
+                     
+                     
+                  </placeName>
+                  
+                  <state type="existence" ref="Paks2"/>
+                  
+                  
+                  
+               </place>
+               <listRelation>
+                  <relation name="gn:locatedIn" active="LOC2522Daq" passive="LOC5888Tana"/>
+                  
+                  
+               </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
