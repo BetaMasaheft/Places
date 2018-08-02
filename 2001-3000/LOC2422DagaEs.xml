@@ -14,6 +14,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--            empty record as a new institution record was created-->
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -43,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-08-02">Added note</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -54,6 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="monastery">
                <placeName>Dāgā ʾƎsṭifānos</placeName>
+               <note>A monastery on the island of Dāgā at the centre of Lake Ṭānā.</note>
             </place>
          </listPlace>
       </body>
