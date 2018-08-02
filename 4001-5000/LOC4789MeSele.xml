@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mǝṣǝle Fasilädäs</title>
+            <title>Mǝṣǝle Fāsiladas</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-08-02">Added note, edited transliteration.</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Mǝṣǝle Fasilädäs</placeName>
+               <placeName>Mǝṣǝle Fāsiladas</placeName>
                <placeName type="alt">Mǝṣlä Fasilädäs</placeName>
                <placeName type="alt">Mǝṣle</placeName>
             </place>
