@@ -46,7 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="zone">
-        
+                    <placeName>South Gondar Zone</placeName>
                 </place>
                 <listRelation>
                     

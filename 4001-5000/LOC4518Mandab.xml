@@ -56,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="monastery"> </place>
+            <place type="monastery"> 
+               <placeName>Mandābbā Madḫāne ʿĀlam</placeName></place>
          </listPlace>
       </body>
    </text>

@@ -46,6 +46,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <body>
             <listPlace>
                 <place type="zone">
+                    <placeName>North Šawā Zone</placeName>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn"

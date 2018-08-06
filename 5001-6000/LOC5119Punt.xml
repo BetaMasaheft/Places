@@ -54,6 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="region">
                <placeName>Punt</placeName>
             </place>
+            <listRelation>
+               <relation name="skos:closeMatch" active="LOC5119Punt" passive="pleiades:334481"/>
+               <relation name="skos:closeMatch" active="LOC5119Punt" passive="pleiades:39290"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

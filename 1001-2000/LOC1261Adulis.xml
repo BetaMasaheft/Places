@@ -54,6 +54,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <text>
       <body>
+         <listRelation>
+            <relation name="skos:exactMatch" active="LOC1261Adulis" passive="http://pleiades.stoa.org/places/39271"/>
+         </listRelation>
          <listPlace>
             <place type="city port" sameAs="Q378940">
                <placeName xml:id="n1" xml:lang="gez" source="#FattovichMunro">አዱሊስ፡</placeName>
