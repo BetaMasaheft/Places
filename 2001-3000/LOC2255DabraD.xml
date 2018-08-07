@@ -52,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-09-15">Complete record</change>
+         <change when="2018-08-07" who="ES">link to the monastery added, location added</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -63,6 +64,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
         
                <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement from="2011-11-23"
+                  to="2012-11-25"
+                  type="warada"
+                  ref="LOC3640GuloMa"/>
+               <settlement from="2011-11-23" to="2012-11-25" type="tabiya" ref="LOC4731Mazaba"></settlement>
+               <settlement from="2011-11-23"
+                  to="2012-11-25"
+                  type="qushat"
+                  ref="LOC7055DD"/>
+               <location>
+                  <geo>14.374333 39.292167</geo>
+                  <height unit="m">2261.0</height>
+               </location>
          
                <listBibl type="editions"> 
                   <bibl>
@@ -93,7 +110,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   This mountain is a steeply rising plateau of trapezoidal shape, about 1000 by 400 m in dimension.
                   It is north west of <placeName ref="LOC1212Addigr"/>, in the  central part of <placeName ref="LOC5932Tegray"/>
                      region, close to the border with
-                  <placeName ref="LOC2991Eritre"/>.
+                     <placeName ref="LOC2991Eritre"/>. It is the site of the monastery of <placeName ref="INS0105DD"/>.
                   
                   </ab>
                
