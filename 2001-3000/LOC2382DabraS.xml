@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Sina Maryam</title>
+            <title>Dabra Sinā Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -52,7 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Däbrä Sina Maryam</placeName>
+               <placeName>Dabra Sinā Māryām</placeName>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <region ref="LOC1426Amhara"/>
+               <country ref="LOC3010Ethiop"/>
+               <note>A church decorated with seventeenth-century wall paintings situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgora</placeName>.</note>
             </place>
          </listPlace>
       </body>
