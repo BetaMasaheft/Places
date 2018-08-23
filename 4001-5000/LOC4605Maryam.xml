@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Maryam Gǝmb</title>
+            <title>Māryām  Gǝmb</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -25,7 +26,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -42,9 +42,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-08-23">Added region country, edited typos, location, note</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -52,7 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Maryam Gǝmb</placeName>
+               <placeName>Māryām  Gǝmb</placeName>
+               <settlement type="zone" ref="LOC6544NorthGondar"/>
+               <region ref="LOC1426Amhara"/>
+               <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>12.196966 37.210473</geo>
+               </location>
+               <note>A church, now in ruins, built by the Jesuits and situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgora</placeName>.</note>
             </place>
          </listPlace>
       </body>
