@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wäldǝya</title>
+            <title>Waldǝyā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,10 +52,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Wäldǝya</placeName>
-               <placeName type="alt">Wäldiya</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ወልድያ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Waldǝyā
+               </placeName>
+                  <placeName xml:lang="gez" xml:id="n2">ወልዲያ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Waldiyā
+                     
+                     
+                  
+               </placeName>
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC6172Waldey" passive="LOC6185Wallo"/>
+               
+               
+            </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+             

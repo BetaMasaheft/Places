@@ -46,18 +46,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-08-27">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Dabra Bǝrhān</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ብርሃን፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Bǝrhān
+                  
+                  
+               </placeName>
                <location>
                   <geo>9.671274 39.531809</geo>
                </location>
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC2246DabraB" passive="LOC5597Sawa"/>
+               
+               
+            </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+
+
+               

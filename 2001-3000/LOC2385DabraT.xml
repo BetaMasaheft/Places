@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Tabor</title>
+            <title>Dabra Tābor</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,9 +52,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Däbrä Tabor</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ታቦር፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Tābor
+               </placeName>
+                  
+                  
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC2385DabraT" passive="LOC1713Bagemd"/>
+               
+               
+            </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+               

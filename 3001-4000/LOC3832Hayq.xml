@@ -52,9 +52,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="lake">
-               <placeName>Ḥayq</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ሐይቅ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ḥayq
+                  
+                  
+               </placeName>
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC3832Hayq" passive="LOC6185Wallo"/>
+               
+               
+            </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+               
