@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wǝqro Mäsqäl</title>
+            <title>Wǝqro Masqal</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-08-28">Added region country, edited typos, location, note</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,9 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Wǝqro Mäsqäl</placeName>
-               <placeName type="alt">Wǝqre Mäsqälä Krǝstos</placeName>
-               <placeName type="alt">Ǝndä Mäsqäl</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ውቅሮ፡ መስከል፡</placeName>
+               <placeName>Wǝqro Masqal</placeName>
+               <placeName type="alt">Wǝqro Masqal Krǝstos</placeName>
+               <placeName type="alt">Ǝnda Masqal</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC6573NorthWallo"/>
+               <note>A monolithic church located in Wag with features that recall the churches in Lālibelā. Several parts of the church are covered in gesso and feature paintings dating from the seventeenth to the late twentieth centuries.</note>
             </place>
          </listPlace>
       </body>
