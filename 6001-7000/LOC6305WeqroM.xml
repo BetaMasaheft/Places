@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">Ǝnda Masqal</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC6573NorthWallo"/>
-               <note>A monolithic church located in Wag with features that recall the churches in Lālibelā. Several parts of the church are covered in gesso and feature paintings dating from the seventeenth to the late twentieth centuries.</note>
+               <note>A monolithic church located in Wag with features that recall the churches in Lālibelā. Several parts of the church are covered in gesso and feature paintings dating from the seventeenth to the late ninteenth centuries.</note>
             </place>
          </listPlace>
       </body>
