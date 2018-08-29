@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <location>
                   <geo>12.242543 37.301855</geo> 
                </location>
-               <note>A church decorated with seventeenth-century wall paintings situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgora</placeName>.</note>
+               <note>A church decorated with seventeenth-century wall paintings situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgorā</placeName>.</note>
             </place>
          </listPlace>
       </body>

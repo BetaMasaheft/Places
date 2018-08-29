@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church">
                <placeName>Māḥǝl Zāge Giyorgis</placeName>
-               <note>A church on the Zage peninsula.</note>
+               <note>A church on the Zāge peninsula.</note>
             </place>
          </listPlace>
       </body>

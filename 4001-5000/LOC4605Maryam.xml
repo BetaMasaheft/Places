@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <location>
                   <geo>12.196966 37.210473</geo>
                </location>
-               <note>A church, now in ruins, built by the Jesuits and situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgora</placeName>.</note>
+               <note>A church, now in ruins, built by the Jesuits and situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgorā</placeName>.</note>
             </place>
          </listPlace>
       </body>

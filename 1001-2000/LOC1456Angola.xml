@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Angolalā Kidāna Mǝḥrat</title>
+            <title>ʾAngolalā Kidāna Mǝḥrat</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Angolalā Kidāna Mǝḥrat</placeName>
+               <placeName>ʾAngolalā Kidāna Mǝḥrat</placeName>
                <placeName type="alt">Angoläla Kidanä Mǝḥrät</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>

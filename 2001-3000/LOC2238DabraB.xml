@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Bäggǝʿ</title>
+            <title>Dabra Baggǝʿ</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Däbrä Bäggǝʿ</placeName>
+               <placeName>Dabra Baggǝʿ</placeName>
                <region ref="LOC5597Sawa"/>
                <country ref="LOC3010Ethiop"/>
                <note>

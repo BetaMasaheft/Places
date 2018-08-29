@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Ankobar</placeName>
+               <placeName>ʾAnkobar</placeName>
                <placeName type="alt">Ankobär</placeName>
                <placeName xml:id="n1" xml:lang="gez">አንኮበር፡ </placeName>
                
@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <location>
                   <geo>9.597046 39.736914999999954</geo>
                </location>
-               <note>According to local traditions, Ankobar served as a temporary capital for several Solomonic rulers.
+               <note>According to local traditions, ʾAnkobar served as a temporary capital for several Solomonic rulers.
                   It later also served as seat of power for several Šawān rulers.
                   There are five churches associated to the site.</note>
             </place>

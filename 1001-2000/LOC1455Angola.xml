@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Angolalā</title>
+            <title>ʾAngolalā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Angolalā</placeName>
+               <placeName>ʾAngolalā</placeName>
                <placeName type="alt">Angoläla</placeName>
                <placeName type="alt">Angwäläla</placeName>
                  <placeName type="alt">Angolala</placeName>
