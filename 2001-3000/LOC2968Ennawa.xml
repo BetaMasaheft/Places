@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝnnäwari</title>
+            <title>ʾƎnnawāri</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,10 +52,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="mountain">
-               <placeName>Ǝnnäwari</placeName>
-               <!--<coord>fort</coord>-->
-            </place>
+             
+                  
+                  <placeName xml:lang="gez" xml:id="n1">እነዋሪ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾƎnnawāri
+                     
+                     
+                  </placeName>
+                  
+                  <state type="existence" ref="Paks2"/>
+                  
+                  
+                  
+               </place>
+               <listRelation>
+                  <relation name="gn:locatedIn" active="LOC2968Ennawa" passive="LOC5597Sawa"/>
+                  
+                  
+               </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+               
