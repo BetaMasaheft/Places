@@ -47,13 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-01-31">addition</change>
+         <change who="SG" when="2018-08-30">correction</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
         
-               <place type="river">
+               <place type="area">
                   <placeName xml:lang="gez" xml:id="n1">አሞናት፡</placeName>
                   <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAmonāt
                      
