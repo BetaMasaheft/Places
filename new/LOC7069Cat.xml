@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7064Zamma" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7069Cat" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Žammā</title>
+                <title>Čat</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,31 +41,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2018-08-30">Created entity</change>
+            <change who="SG" when="2018-09-05">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="area">
-                 
-                        <placeName xml:lang="gez" xml:id="n1">ዠማ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Žammā
+                
+                    <placeName xml:lang="gez" xml:id="n1">ቸት፡</placeName>
+                        <placeName xml:lang="gez" corresp="#n1" type="normalized">Čat
+                            
+                            
                         </placeName>
+                        
                         <state type="existence" ref="Paks2"/>
                         
                         
                         
                     </place>
                     <listRelation>
-                        <relation name="gn:locatedIn" active="LOC7064Zamma" passive="LOC6568Amhara"/>
+                        <relation name="gn:locatedIn" active="LOC7069Cat" passive="LOC3549Gojjam"/>
+                        
                         
                     </listRelation>
-                    
             </listPlace>
+            
         </body>
     </text>
 </TEI>
+
+
+
 
 
                    
