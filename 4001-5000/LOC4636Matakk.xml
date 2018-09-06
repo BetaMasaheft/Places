@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mätäkkäl</title>
+            <title>Matakkal</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,17 +46,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-09-06">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Mätäkkäl</placeName>
-               <placeName type="alt">Mätäkkǝl</placeName>
-               <placeName type="alt">Mäḉäkkǝl</placeName>
+               <placeName xml:lang="gez" xml:id="n1">መተከል፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Matakkal
+               </placeName>
+               <placeName xml:lang="gez" xml:id="n2">መተክል፡</placeName>
+                  <placeName xml:lang="gez" corresp="#n2" type="normalized">Matakkǝl </placeName>
+                     <placeName xml:lang="gez" xml:id="n3">መቸከል፡</placeName>
+                     <placeName xml:lang="gez" corresp="#n3" type="normalized">Maḉakkal
+                        
+                        
+                     
+               </placeName>
+             
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+        
+               <relation name="lawd:hasAttestation" active="LOC4636Matakk" passive="LIT3951ChronSusenyos"/>
+            </listRelation>
+            
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+              
