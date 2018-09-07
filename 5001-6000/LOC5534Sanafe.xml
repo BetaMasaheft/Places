@@ -46,13 +46,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-09-07">Updated name, added wikidata</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Sänʿafe</placeName>
+            <place type="region" sameAs="Q1024653">
+               <placeName xml:lang="gez" xml:id="n1">ሰንዓፌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Sanʿāfe</placeName>
+               <placeName xml:id="n2" xml:lang="en">Senafe</placeName>
             </place>
          </listPlace>
       </body>
