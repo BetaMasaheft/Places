@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Täbito</title>
+            <title>Tabito</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -26,33 +26,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </licence>
             </availability>
             
-            <date>2016-03-21</date>
+            <date>2017-01-24</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p/>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italiano</language>
+            
             <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         
+         <change when="2017-01-24" who="ES">created record</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Täbito</placeName>
+               <placeName corresp="#n1" type="normalized">Tabito</placeName>
+               <placeName xml:id="n1">ተቢቶ</placeName>              
+               <note>a Kāsu town attested in inscriptions </note>
             </place>
          </listPlace>
       </body>
