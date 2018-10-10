@@ -13,6 +13,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <title>Maḫdara Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
+            <editor key="SG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,11 +44,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="JG" when="2018-10-10">Added region country, note, and missing editor</change>
          <change who="SG" when="2018-04-30">additions</change>
+         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>
+         
       </revisionDesc>
    </teiHeader>
    <text>
@@ -54,22 +57,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="monastery">
                <placeName xml:lang="gez" xml:id="n1">ማኅደረ፡ ማርያም፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Maḫdara Māryām 
-                  
-                  
-               </placeName>
-              
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Maḫdara Māryām</placeName>
                <state type="existence" ref="Paks2"/>
-               
-               
-               
+               <region ref="LOC6575SouthGondar"/>
+               <country ref="LOC3010Ethiop"/>
+               <note>The church was a sixteenth-century royal foundation of Queen <persName ref="PRS6829Maryams"/>. Her daughters, including <persName ref="PRS9831Walatta"/>, were buried here. The church was damaged on two occasions. 
+                  First, during the reign of Susǝnyos. And again by Tewodros II. Emperor <persName ref="PRS10378Yohanne"/> had the church decorated with mural painitngs, which also depict him with his troops and followers</note>
             </place>
          <listRelation>
-            
             <relation name="lawd:hasAttestation" active="LOC6982Doqmawaha" passive="LIT3951ChronSusenyos"/>
          </listRelation>
          </listPlace>
-         
       </body>
    </text>
 </TEI>
