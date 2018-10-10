@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mädḫane ʿAläm</title>
+            <title>Madḫāne ʿĀlam</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-10-10">Edited transliteration</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,8 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Mädḫane ʿAläm</placeName>
-               <region>Ḉäḉäho s. Ḉäḉäho Mädḫane ʿAläm</region>
+               <placeName>Madḫāne ʿĀlam</placeName>
+               <region>č̣ač̣aho s. č̣ač̣aho Madḫāne ʿĀlam</region>
             </place>
          </listPlace>
       </body>

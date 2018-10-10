@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ḉäḉäho Mädḫane ʿAläm</title>
+            <title>Č̣ač̣aho Madḫāne ʿĀlam</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-10-10">Added region country, edited transliteration, added note</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,7 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ḉäḉäho Mädḫane ʿAläm</placeName>
+               <placeName>Č̣ač̣aho Madḫāne ʿĀlam</placeName>
+               <region ref="LOC6575SouthGondar"/>
+               <country ref="LOC3010Ethiop"/>
+               <note>A church near the road and shortly after Dabra Zeyt in the direction of Gondar</note>
             </place>
          </listPlace>
       </body>
