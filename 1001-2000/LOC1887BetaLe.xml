@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Betä Lǝḥem Maryam</title>
+            <title>Beta Lǝḥem Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,9 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="JG" when="2018-10-10">Added region country, note, and missing editor</change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet</change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -52,10 +53,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Betä Lǝḥem Maryam</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ቤተ፡ ልሔም፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Beta Lǝḥem Māryām</placeName>
                <placeName type="alt">Betlǝḥem</placeName>
                <placeName type="alt">Bethlehem</placeName>
                <region>Gayǝnt</region>
+               <region ref="LOC6575SouthGondar"/>
+               <country ref="LOC3010Ethiop"/>
+               <note>The church is situated 65Km south-east of the town of Dabra Tabor. The church possesses several well-known illustrated manuscripts,
+                  including a copy of a Dǝrsāna Māryām dated to the reign of Dawit II.</note>
             </place>
          </listPlace>
       </body>
