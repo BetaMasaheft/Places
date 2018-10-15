@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="archaeologicalSite">
-               <placeName>Däqänamo</placeName>
+               <placeName>Daqanāmo</placeName>
+               <location type="relative"><desc>Region of Adi Keyh.</desc></location>
             </place>
          </listPlace>
       </body>

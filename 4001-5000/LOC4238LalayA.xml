@@ -53,6 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="archaeologicalSite">
                <placeName>Laʿlay ʿAddi</placeName>
+               <location><geo cert="low">14.818659 39.405590</geo></location>
             </place>
          </listPlace>
       </body>
