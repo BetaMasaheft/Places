@@ -54,13 +54,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church">
                <placeName>Gundǝfru Śǝllase</placeName>
                <location type="relative"><desc>South of <placeName ref="LOC7078Atsbi"/>.</desc>
-                  <geo>13.826884 39.742853</geo></location>
+                  <geo cert="low">13.826884 39.742853</geo></location>
                <listBibl type="catalogue">
                   <bibl>
                      <ptr target="bm:RIE1"/>
                      <citedRange unit="page">63 and 314</citedRange>
                   </bibl>
-                  
                </listBibl>
             </place>
          </listPlace>
