@@ -58,6 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <geo>14.012097 39.409170</geo>
                </location>
                <location type="relative"><desc>4-5 km North West of  <placeName ref="LOC3826Hawzen"/></desc></location>
+               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:RIE1"/>
                      <citedRange unit="page">312</citedRange>
