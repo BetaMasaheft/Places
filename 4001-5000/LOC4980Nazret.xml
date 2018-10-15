@@ -55,6 +55,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName>Nazret</placeName>
                <placeName type="alt">ʿAddi Abunä Nazret</placeName>
                <placeName type="alt">Maryam Nazret; Nazrä Maryam</placeName>
+               <location type="relative">
+                  <desc>South of <placeName ref="LOC4545Maqala"/></desc>
+               </location>
             </place>
          </listPlace>
       </body>
