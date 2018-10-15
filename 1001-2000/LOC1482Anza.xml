@@ -53,6 +53,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="archaeologicalSite">
                <placeName>ʿAnza</placeName>
+               <placeName>Maryam ʿAnza</placeName>
+               <location>
+                  <geo>14.012097 39.409170</geo>
+               </location>
+               <location type="relative"><desc>4-5 km North West of  <placeName ref="LOC3826Hawzen"/></desc></location>
+                  <bibl>
+                     <ptr target="bm:RIE1"/>
+                     <citedRange unit="page">312</citedRange>
+                  </bibl>
+                  
+               </listBibl>
             </place>
          </listPlace>
       </body>
