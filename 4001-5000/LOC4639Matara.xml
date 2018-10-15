@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṭära</title>
+            <title>Maṭarā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="settlement">
                <placeName xml:id="n1" xml:lang="gez">መጠራ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Maṭarā</placeName>
+               <location><geo cert="low">14.697611 39.437946</geo></location>
             </place>
          </listPlace>
       </body>
