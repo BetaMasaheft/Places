@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town">
                <placeName corresp="#n1" type="normalized">Hagarayne </placeName>
-               <placeName xml:id="n1">ሀገረይኔ </placeName>              
+               <placeName xml:id="n1">ሀገረይኔ </placeName>   
+               <placeName xml:id="n2">al-Haǧarayn</placeName>
                <note>a place in South Arabia attested in inscriptions </note>
             </place>
          </listPlace>
