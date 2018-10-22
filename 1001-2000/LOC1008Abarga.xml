@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abärgälle</title>
+            <title>ʾAbargalle</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,16 +46,41 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-10-22">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Abärgälle</placeName>
-               <placeName type="alt">Abärgälla</placeName>
+               <placeName xml:lang="gez" xml:id="n1">አበርገሌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAbargalle</placeName>
+               
+               <placeName xml:lang="gez" xml:id="n2">አበርገላ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾAbargallā</placeName>
+               
+               
+               <placeName xml:lang="gez" xml:id="n3">አባርገሌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾAbārgalle</placeName>
+               
+               
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC1008Abarga" passive="LOC6569Tegray"/>
+               
+               
+            </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+               
