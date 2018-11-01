@@ -46,16 +46,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2018-11-01">addition</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Dobit</placeName>
-               <placeName type="alt">Däbet Dokit</placeName>
+            <place type="river">
+               <placeName xml:lang="gez" xml:id="n1">ዶቢት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dobit</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ደቤት፡ ዶኪት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabet Dokit</placeName>
+               
+               
+               
+               
+               
+               
+               
+               <state type="existence" ref="Paks2"/>
+               
+               
+               
             </place>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC2713Dobit" passive="LOC1713Bagemd"/>
+               
+               
+            </listRelation>
          </listPlace>
+         
       </body>
    </text>
 </TEI>
+
+
+
+               
