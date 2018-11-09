@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝmäkina Gännätä Maryam</title>
+            <title>Ǝmakinā Gannata Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-11-09">Added region country, note, and edited transliteration</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,7 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝmäkina Gännätä Maryam</placeName>
+               <placeName>Ǝmakinā Gannata Māryām</placeName>
+               <region ref="LOC6573NorthWallo"/>
+               <country ref="LOC3010Ethiop"/>
+               <note>The church is situated 16km east of Lālibalā. Hewn in the rock, it features 13th-century frescoes portraying holy men, biblical scenes, and a portrait of Emperor Yǝkunno ʾAmlāk. Its collection of manuscripts include a lavishly illustrated copy of the 
+               miracles of Mary dating to the 18th century and a Gospel book dating to the late fifteenth or early sixteenth century.</note>
             </place>
          </listPlace>
       </body>
