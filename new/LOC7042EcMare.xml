@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <settlement ref="LOC3640GuloMa" type="warada" from="2010-05-01" to="2010-05-01"/> 
-                    <settlement from="2010-05-01" to="2010-05-01" ref="LOC6984SowitLamlam " type="tabiya"/>
+                    <settlement from="2010-05-01" to="2010-05-01" ref="LOC6984SowitLamlam" type="tabiya"/>
                 </place>
             </listPlace><!---->
         </body>

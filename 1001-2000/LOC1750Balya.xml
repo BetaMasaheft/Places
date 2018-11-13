@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="region">
                <placeName xml:lang="gez" xml:id="n1">በልያ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1">Balǝyā</placeName>
-               <state type="existence " ref="Paks2"/>
+               <state type="existence" ref="Paks2"/>
              
             </place>
             <listRelation>
