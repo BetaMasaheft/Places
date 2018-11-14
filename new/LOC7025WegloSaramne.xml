@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                         
                         
-                    <placeName xml:lang="gez" xml:id="n1">ውግሎ፡ ሰራምኔ፡፡</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ውግሎ፡ ሰራምኔ፡</placeName>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Wǝglo Sarāmne</placeName>
                         
                         
