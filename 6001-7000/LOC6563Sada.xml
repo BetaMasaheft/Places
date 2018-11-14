@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--same as LOC5417Sadda?-->
             <!--BNFet112-->
             <listRelation>
-               <relation name="gn:locatedIn" active="LOC6982Doqmawaha" passive="LOC1713Bagemd"/>
-               <relation name="lawd:hasAttestation" active="LOC6982Doqmawaha" passive="LIT3951ChronSusenyos"/>
+               <relation name="gn:locatedIn" active="LOC6563Sada" passive="LOC2481Dambey"/>
+               <relation name="lawd:hasAttestation" active="LOC6563Sada" passive="LIT3951ChronSusenyos"/>
             </listRelation>
             
          </listPlace>
