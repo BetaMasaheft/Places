@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝšätän Maryam</title>
+            <title>Ǝšatan Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,9 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-11-19">Added region country, note, location, and edited transliteration</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -52,8 +53,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝšätän Maryam</placeName>
-               <placeName type="alt">Ašätän Maryam</placeName>
+               <placeName>Ǝšatan Māryām</placeName>
+               <placeName type="alt">Ašatan Māryām</placeName>
+               <region ref="LOC6573NorthWallo"/>
+               <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>12.016957 39.071967</geo>
+               </location>
+               <note>The hewn church is situated on a flat-topped mountain south-east of Lālibalā.</note>
             </place>
          </listPlace>
       </body>
