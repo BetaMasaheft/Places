@@ -53,17 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="area">
-               
                <placeName xml:lang="gez" xml:id="n1">ቤተ፡ ማርያም፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Beta Māryām
-                  
-                  
-               </placeName>
-               
-               <state type="existence" ref="Paks2"/>
-               
-               
-               
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Beta Māryām</placeName>     
+               <state type="existence" ref="Paks2"/> 
             </place>
             <listRelation>
                <relation name="gn:locatedIn" active="LOC1893BetaMa" passive="LOC6568Amhara"/>

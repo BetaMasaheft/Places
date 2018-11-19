@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Betä Maryam</title>
+            <title>Beta Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-11-09">Added region country, note, and edited transliteration</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,9 +53,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Betä Maryam</placeName>
-               <placeName type="alt">Lalibäla Maryam</placeName>
-               <region>Lalibäla</region>
+               <placeName xml:lang="gez" xml:id="n1">ቤተ፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Beta Māryām</placeName>
+               <placeName type="alt">Lālibalā Māryām</placeName>
+               <region>Lālibalā</region>
+               <region ref="LOC6573NorthWallo"/>
+               <country ref="LOC3010Ethiop"/>
+               <note>The church is situated in the town Lālibalā. Hewn in the rock, it features frescoes that have been tentatively dated between the 12th/13th centuries.
+                  These portray biblical scenes, such as the Annunciation, Holy Men, the Transfiguration and feature also a series of confronted animals and abstract motifs. Its collection of manuscripts include an illustrated 
+                  Gospel book dating to the late fifteenth or early sixteenth century and a lavishily illustarted Nagara Māryām.</note>
             </place>
          </listPlace>
       </body>
