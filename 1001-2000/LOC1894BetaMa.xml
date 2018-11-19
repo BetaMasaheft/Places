@@ -43,10 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="JG" when="2018-11-09">Added region country, note, and edited transliteration</change>
+         <change who="JG" when="2018-11-19">Added region country, note, location, and edited transliteration</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -58,6 +57,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region>Lālibalā</region>
                <region ref="LOC6573NorthWallo"/>
                <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>12.033815 39.043266</geo>
+               </location>
                <note>The church complex is part of the north-western cluster of churches in the town Lālibalā.</note>
             </place>
          </listPlace>
