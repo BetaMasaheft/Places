@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church">
                <placeName>Beta Gabrǝʾel-Rufāʾel</placeName>
                <placeName type="alt">Beta Qǝddus Gabrǝʾel-Rufāʾel</placeName>
-               <region>Lalibäla</region>
+               <region>Lālibalā</region>
                <region ref="LOC6573NorthWallo"/>
                <country ref="LOC3010Ethiop"/>
                <note>The church complex is situated in the south-eastern cluster of churches in the town Lālibalā. It is debated whether the structure originally functioned as a church.</note>
