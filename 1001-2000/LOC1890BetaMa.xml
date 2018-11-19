@@ -60,6 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region>Lālibalā</region>
                <region ref="LOC6573NorthWallo"/>
                <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>12.033657 39.043390</geo>
+               </location>
+               
                <note>The church is situated in the town Lālibalā. Hewn in the rock, it features frescoes that have been tentatively dated between the 12th/13th centuries.
                   These portray biblical scenes, such as the Annunciation, Holy Men, the Transfiguration and feature also a series of confronted animals and abstract motifs. Its collection of manuscripts include an illustrated 
                   Gospel book dating to the late fifteenth or early sixteenth century and a lavishily illustarted Nagara Māryām.</note>
