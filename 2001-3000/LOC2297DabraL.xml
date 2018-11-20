@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-11-19">Edited transliteration</change>
          <change who="FP" when="2017-07-21">removed wrong sameas</change>
          <change when="2017-01-13" who="FP">inserted reference to institution record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -57,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="monastery">
                <placeName>Dabra Libānos</placeName>
                <placeName type="alt">ʿAsbo</placeName>
-               <region>Šäwa</region>
+               <region>Šawā</region>
             </place>
          </listPlace>
       </body>
