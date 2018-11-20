@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Beta Abbā Libānos</title>
+            <title>Beta ʾAbbā Libānos</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -61,7 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <geo>12.031398 39.045206</geo>
                </location>
                
-               <note>The church is situated in the town Lālibalā and is part of the south-eastern clust of churches. Though hewn in the rock, it presents features that are indebted to Aksumite architecture.</note>
+               <note>The church is situated in the town Lālibalā and is part of the south-eastern cluster of churches.
+                  Though hewn in the rock, it presents features that are indebted to Aksumite architecture.
+                It is believed that it replicates in some manner the feature of the now-lost Cathedral of Mary of Zion in Aksum.</note>
             </place>
          </listPlace>
       </body>
