@@ -46,16 +46,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2018-11-26">Added name, wikidata and relation</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="monastery">
+            <place type="monastery" sameAs="Q3320189">
+               <placeName xml:id="n1" xml:lang="gez">ጼዴንያ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṣedenya</placeName>
                <placeName>Ṣaydnāyā</placeName>
                <placeName type="alt">Sardenai; Saidanaya</placeName>
-               <placeName type="alt">Ṣedenya</placeName>
+               
             </place>
+            <listRelation>
+               <relation name="skos:exactMatch" active="LOC5611Saydna" passive="http://syriaca.org/place/617"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
