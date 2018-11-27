@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bilbala Giyorgis</title>
+            <title>Bilbālā Giyorgis</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -42,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="JG" when="2018-11-27">Added region country, note, and edited transliteration</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,7 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Bilbala Giyorgis</placeName>
+               <placeName>Bilbālā Giyorgis</placeName>
+               <region ref="LOC6573NorthWallo"/>
+               <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>12.162252 38.992616</geo>
+               </location>
+               <note>This rock-hewn church is situated north west the town Lālibalā.</note>
             </place>
          </listPlace>
       </body>

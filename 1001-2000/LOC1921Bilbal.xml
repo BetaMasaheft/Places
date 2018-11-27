@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bilbala Qirqos</title>
+            <title>Bilbālā Qirqos</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,7 +52,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Bilbala Qirqos</placeName>
+               <placeName>Bilbālā Qirqos</placeName>
+               <region ref="LOC6573NorthWallo"/>
+               <country ref="LOC3010Ethiop"/>
             </place>
          </listPlace>
       </body>
