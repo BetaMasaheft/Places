@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <geo>12.031694 39.041120</geo>
                </location>
                
-               <note>The church is situated in the town Lālibalā. Hewn out of the rock it has a cross plan and is one of the several buildings traditionally associated to the patronage of King  Lālibalā.</note>
+               <note>The rock-hewn church is situated in the town Lālibalā. Hewn out of the rock it has a cross plan and is one of the several buildings traditionally associated to the patronage of King  Lālibalā.</note>
             </place>
          </listPlace>
       </body>
