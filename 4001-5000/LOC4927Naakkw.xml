@@ -10,9 +10,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Näʾakkwǝto Läʾab</title>
+            <title>Naʾakkʷǝto Laʾab</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
+            <editor key="JG"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
@@ -21,16 +22,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
             
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -42,9 +41,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="JG" when="2018-11-27">Added region country, note, coordinates, and edited transliteration</change>
+         <change who="PL" when="2016-04-28">Harmonized typology based on Eugenia indication in Issue 48.</change>
+         <change who="PL" when="2016-03-21">Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
@@ -52,7 +51,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Näʾakkwǝto Läʾab</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ነአኵቶ፡ ለአብ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Naʾakkʷǝto Laʾab</placeName>
+               <region ref="LOC6573NorthWallo"/>
+               <country ref="LOC3010Ethiop"/>
+               <location>
+                  <geo>112.001166 39.066264</geo>
+               </location>
+               <note>Situated south east of Lālibalā, this church is built in a cave and owns a small collection of manuscripts and some interesting examples of paraphernalia including crosses and icons. The building was 
+               restored in the early 20th century, so little remains of the earlier structure.</note>
             </place>
          </listPlace>
       </body>
