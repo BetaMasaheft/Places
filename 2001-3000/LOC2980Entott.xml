@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝnṭoṭṭo Maryam</placeName>
+               <placeName xml:id="n1">Ǝnṭoṭṭo Maryam</placeName>
+               <placeName xml:id="n2">Our Lady of Mount Qwesqwam Church</placeName>
             </place>
          </listPlace>
       </body>

@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="am" corresp="#n1" type="normalized">ʾAddis ʾAbabā</placeName>
                <placeName type="alt" xml:lang="om">Finfinnee</placeName>
                <country ref="LOC3010Ethiop"/>
-               <desc>The city has several districts, including <placeName ref="LOC1951Bole">Bole</placeName>, <placeName ref="LOC6347Yakka">Yakka</placeName>, <placeName ref="LOC7129Makakkelanna">Makakkelanna</placeName>,<placeName ref="LOC3635Gullal">Gullallee</placeName>,<placeName ref="LOC2977Entott">ʾƎnṭoṭṭo</placeName>, <placeName ref="LOC4114Kolfe">Kolfe</placeName><placeName ref="LOC1479Arada">ʾAradā</placeName>, <placeName ref="LOC7127TaklaHaymAddis">Takla Hāymānot</placeName></desc>
+               <desc>The city has several districts, including <placeName ref="LOC1951Bole">Bole</placeName>, <placeName ref="LOC6347Yakka">Yakka</placeName>, <placeName ref="LOC3400Gefars">Gǝfarsā</placeName>,<placeName ref="LOC7129Makakkelanna">Makakkelanna</placeName>,<placeName ref="LOC3635Gullal">Gullallee</placeName>,<placeName ref="LOC2977Entott">ʾƎnṭoṭṭo</placeName>, <placeName ref="LOC4114Kolfe">Kolfe</placeName><placeName ref="LOC1479Arada">ʾAradā</placeName>, <placeName ref="LOC7127TaklaHaymAddis">Takla Hāymānot</placeName></desc>
             </place>
          </listPlace>
       </body>
