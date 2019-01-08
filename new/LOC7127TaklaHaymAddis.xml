@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC1951Bole">
+     xml:id="LOC7127TaklaHaymAddis">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Bole</title>
+            <title>Takla Hāymānot</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,18 +42,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+
+         <change who="ES" when="2019-01-08">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="district">
-               <placeName>Bole</placeName>
+               <placeName>Takla Hāymānot</placeName>
                <settlement ref="LOC1216AddisA"/>
+               <desc>a district in Addis Ababa</desc>
             </place>
          </listPlace>
       </body>
