@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sallā Dengāy Marqos</title>
+            <title>Sallā Dǝngāy Marqos</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-01-09" who="ES">corrected transcription, added settlement</change>
          <change who="JG" when="2018-06-20">Changed transliteration to project standard, added short note.</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
@@ -52,10 +53,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church" subtype="institution">
-               <placeName>Sallā Dengāy Marqos</placeName>
-               <region ref="LOC5597Sawa"/>
+               <placeName xml:id="n1" type="normalized">Sallā Dǝngāy Marqos</placeName>
+               
                <country ref="LOC3010Ethiop"/>
+               <region ref="LOC5597Sawa"/>
                <district ref="LOC4842MojaWa"/>
+               <settlement ref="LOC5495SallaD"></settlement>
                <note>A church with a collection of manuscripts documented by EMML, project nos. 4435-4469.</note>
             </place>
          </listPlace>
