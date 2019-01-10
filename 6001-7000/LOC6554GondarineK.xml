@@ -58,7 +58,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
                     <note>
                         <date type="foundation">1630s</date>
-                        <ab type="history">The history of the so called Gondarine Kingdom can be
+                        <ab type="history">The history of the so-called Gondarine Kingdom can be
                             divided into three phases: foundation (from <date>1630s</date> to
                                 <date>1706</date>), transition and insecurity (<date>1706</date> to
                                 <date>1720s</date>) and revival (<date>1720s</date> to
@@ -94,7 +94,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                             Dutch. In the <date>18th century</date>, some rulers considered
                             entertaining new relationships with Europe but faced opposition by
                             popular opinion.</ab>
-                        <ab type="description">The so called Gondarine Kingdom is a kingdom founded
+                        <ab type="description">The so-called Gondarine Kingdom is a kingdom founded
                             in the 1630s with its capital in Gondar and which lasted until the
                             1760s. The construction of palaces and churches by the kingdom's founder
                                 <persName ref="PRS4015Fasilada">Fāsiladas</persName> and his

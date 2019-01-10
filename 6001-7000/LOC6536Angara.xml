@@ -73,7 +73,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </listBibl>
                     <note>
                         <ab type="description">There are two rivers known by the name ʾAngarab. This
-                            record refers to the so called Great ʾAngarab (cfr. <placeName ref="LOC1452Angara">Small ʾAngarab</placeName>), a tributary of the
+                            record refers to the so-called Great ʾAngarab (cfr. <placeName ref="LOC1452Angara">Small ʾAngarab</placeName>), a tributary of the
                                 <placeName ref="LOC1598Atbara">ʾAtbārā</placeName>. It rises north
                             of <placeName ref="LOC3577Gondar">Gondar</placeName>, near <placeName ref="LOC2580Dawa">Dāwā</placeName> in <placeName ref="LOC6144Wagara">Wagarā</placeName>. It flows west through <placeName ref="LOC1537Armace">ʾArmāč̣ǝho</placeName>, along the border between
                                 <placeName ref="LOC6144Wagara">Wagarā</placeName> and <placeName ref="LOC3577Gondar">Gondar</placeName>
