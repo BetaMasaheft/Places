@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sallā Dǝngāy Marqos</title>
+            <title>Sallā Dǝngāy Mārqos</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-01-10" who="DR">corrected transcription</change>
          <change when="2019-01-09" who="ES">corrected transcription, added settlement</change>
          <change who="JG" when="2018-06-20">Changed transliteration to project standard, added short note.</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -52,8 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church" subtype="institution">
-               <placeName xml:id="n1" type="normalized">Sallā Dǝngāy Marqos</placeName>
+            <place type="church" subtype="institution"> <!--shouldn't this be an institution record? 2019-01-10 DR-->
+               <placeName xml:id="n1" type="normalized">Sallā Dǝngāy Mārqos</placeName>
                
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
