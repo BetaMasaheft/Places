@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wärra Babbo</title>
+            <title>Warra Bābbo</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-01-11" who="ES">updated spelling</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -51,8 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Wärra Babbo</placeName>
+            <place type="warada">
+               <placeName xml:id="n1">ወረ፡ ባቦ፡ </placeName>
+               <placeName corresp="#n1" type="normalized">Warra Bābbo</placeName>
+               <placeName xml:id="n2">ወረባቦ፡ </placeName>
+               <placeName corresp="#n2" type="normalized">Warrabābbo</placeName>
+               <region ref="LOC1426Amhara"></region>
             </place>
          </listPlace>
       </body>
