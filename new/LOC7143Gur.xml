@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC2980Entott">
+     xml:id="LOC7143Gur">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝnṭoṭṭo Maryam</title>
+            <title>Gurage</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -29,8 +29,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A digitally born file</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -42,18 +41,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+
+         <change who="ES" when="2019-01-11">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="church">
-               <placeName xml:id="n1">Ǝnṭoṭṭo Maryam</placeName>
-               <placeName xml:id="n2">Our Lady of Mount Qwǝsqwam</placeName>
+            <place type="zone">
+               <placeName xml:id="n1">Gurage</placeName>
+               <country>ET</country>
+               <region>
+                  Southern Nations, Nationalities, and Peoples' Region
+               </region>
+
             </place>
          </listPlace>
       </body>
