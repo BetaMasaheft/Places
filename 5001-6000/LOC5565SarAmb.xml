@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Sar Amba</title>
+            <title>Śār ʾAmbā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-01-17" who="ES">corrected spelling, added region</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -51,8 +52,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Sar Amba</placeName>
+            <place type="settlement">
+               <placeName xml:id="n1" xml:lang="gez">ሣር፡ አምባ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Śār ʾAmbā</placeName>
+               <district ref="LOC7128Asagirt "></district>
+               <region ref="LOC5597Sawa"/>
             </place>
          </listPlace>
       </body>
