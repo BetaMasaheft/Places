@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Gihur Madḫāne ʿĀlam</title>
+                <title>Gǝhur Madḫāne ʿĀlam</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName xml:id="n1" xml:lang="en">Gihur Madḫāne ʿĀlam</placeName>
+                <place type="church"> 
+                    <placeName xml:id="n1" xml:lang="gez">Gǝhur Madḫāne ʿĀlam</placeName>
                     <region ref="LOC5597Sawa"/>
                     <country ref="LOC3010Ethiop"/>
                     <note>A modern church with a small collection of manuscripts documented by EMML, pr. nos. 4122-4129.</note>

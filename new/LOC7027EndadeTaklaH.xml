@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Ǝndādē Takla Hāymānot</placeName>
+                <place type="church">
+                    <placeName>ʾƎndādē Takla Hāymānot</placeName>
                     <region ref="LOC5597Sawa"/>
                     <country ref="LOC3010Ethiop"/>
                     <note>A church near Ankobar with a collection of manuscripts documented by EMML, pr. nos. 2781-2788.</note>

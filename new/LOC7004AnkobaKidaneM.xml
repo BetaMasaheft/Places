@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Astit Kidāna Mǝḥrat </title>
+                <title>ʾAstit Kidāna Mǝḥrat </title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,13 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Astit Kidāna Mǝḥrat</placeName>
-                    <placeName type="alt">Astit Kidanä Mǝḥrät</placeName>
-                    <placeName type="alt">Ankobar Astit Kidāna Mǝḥrat</placeName>
+                <place type="church">
+                    <placeName>ʾAstit Kidāna Mǝḥrat</placeName>
+                    
+                    <placeName type="alt">Ankobar ʾAstit Kidāna Mǝḥrat</placeName>
                     <region ref="LOC5597Sawa"/>
                     <country ref="LOC3010Ethiop"/>
                     <settlement type="town" ref="LOC1464Ankoba"/>
+                    
                 </place>
             </listPlace>
         </body>

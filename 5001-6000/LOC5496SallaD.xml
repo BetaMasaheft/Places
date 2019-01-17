@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="church" subtype="institution"> <!--shouldn't this be an institution record? 2019-01-10 DR-->
+            <place type="church"> 
                <placeName xml:id="n1" type="normalized">Sallā Dǝngāy Mārqos</placeName>
                
                <country ref="LOC3010Ethiop"/>

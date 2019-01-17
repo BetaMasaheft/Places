@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sinā Mikā'ēl</title>
+                <title>Sinā Mikāʾēl</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="JG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,8 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church" subtype="institution">
-                    <placeName>Sinā Mikā'ēl</placeName>
+                <place type="church">
+                    <placeName>Sinā Mikāʾēl</placeName>
                     <region ref="LOC5597Sawa"/>
                     <country ref="LOC3010Ethiop"/>
                     <note>A church in the district of Ankobar with a small collection of manuscripts documented by EMML, project nos. 4255, 4287, 4325.</note> 
