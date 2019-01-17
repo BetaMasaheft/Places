@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Däbrä Ṣǝyon</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ጽዮን፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Ṣǝyon</placeName>
                <region>Tulluu Guddoo</region>
             </place>
          </listPlace>
