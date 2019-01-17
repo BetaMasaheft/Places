@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church">
                <placeName>Beta ʾAmānuʾel</placeName>
-               <region>Lālibalā</region>
+               <settlement ref="LOC4243Laliba"/>
                <region ref="LOC6573NorthWallo"/>
                <country ref="LOC3010Ethiop"/>
                <location>

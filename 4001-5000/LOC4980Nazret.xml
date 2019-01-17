@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nazret</title>
+            <title>Nāzret Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2019-01-17" who="ES">corrected names</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -52,14 +53,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Nazret</placeName>
-               <placeName type="alt">ʿAddi Abunä Nazret</placeName>
-               <placeName type="alt">Maryam Nazret; Nazrä Maryam</placeName>
+               
+               <placeName xml:id="n1" xml:lang="gez">ናዝሬት፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Nāzret Māryām</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ናዝሬት፡ </placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Nāzret</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ዓዲ፡ አቡነ፡ ናዝሬት፡ </placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">ʿAddi ʾAbuna Nāzret</placeName>
+               <placeName xml:id="n4" xml:lang="gez">ናዝረ፡ ማርያም፡</placeName>
+               <placeName corresp="#n4" xml:lang="gez" type="normalized">Nāzra Māryām</placeName>
+               
                <location type="relative">
                   <desc>South of <placeName ref="LOC4545Maqala"/></desc>
                </location>
             </place>
          </listPlace>
+         <listRelation><relation name="skos:exactMatch" active="LOC4980Nazret" passive="INS0516NazretMaryam"></relation></listRelation>
       </body>
    </text>
 </TEI>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Moṭa Giyorgis</title>
+            <title>Moṭā Giyorgis</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,7 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Moṭa Giyorgis</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ሞጣ፡ ጊዮርጊስ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Moṭā Giyorgis</placeName>
+               <region ref="LOC7114EGz"/>
+               
             </place>
          </listPlace>
       </body>
