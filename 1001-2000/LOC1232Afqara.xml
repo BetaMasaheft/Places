@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>ʾAfqarā Śǝllāse</placeName>
+               <placeName xml:id="n1" xml:lang="gez" type="normalized">ʾAfqarā Śǝllāse</placeName>
             </place>
          </listPlace>
       </body>
