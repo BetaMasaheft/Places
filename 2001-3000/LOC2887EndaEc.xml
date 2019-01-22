@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝnda Ǝč̣č̣age Kidāna Mǝḥrat</placeName>
+               <placeName xml:id="n1">Ǝnda Ǝč̣č̣age Kidāna Mǝḥrat</placeName>
             </place>
          </listPlace>
       </body>
