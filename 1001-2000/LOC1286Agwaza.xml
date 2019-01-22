@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Agwäza Śǝllase</title>
+            <title>ʾAgwazā Śǝllāse</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,9 +52,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Agwäza Śǝllase</placeName>
+               
+               <placeName xml:id="n1" xml:lang="gez" >አጐዛ ሥላሴ</placeName>
+               <placeName corresp="#n1" xml:lang="gez"  type="normalized">ʾAgwazā Śǝllāse</placeName>
             </place>
          </listPlace>
       </body>
+      
    </text>
 </TEI>
