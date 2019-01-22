@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Addäbabay Täklä Haymanot</title>
+            <title>Addabābāy Takla Hāymānot</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Addäbabay Täklä Haymanot</placeName>
-               <region>Gondär</region>
+               <placeName>Addabābāy Takla Hāymānot</placeName>
+               <region>Gondar</region>
             </place>
          </listPlace>
       </body>
