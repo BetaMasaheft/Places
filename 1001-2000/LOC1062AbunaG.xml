@@ -54,6 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church">
                <placeName>Abunä Gärima ʿAddi Käwǝḥ</placeName>
                <placeName type="alt">Abba Gärima ʿAddi Akawǝḥ</placeName>
+               
             </place>
          </listPlace>
       </body>
