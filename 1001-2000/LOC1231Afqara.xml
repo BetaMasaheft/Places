@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Afqära Gäbrǝʾel</title>
+            <title>ʾAfqarā Gabrǝʾel</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Afqära Gäbrǝʾel</placeName>
+               <placeName>ʾAfqarā Gabrǝʾel</placeName>
             </place>
          </listPlace>
       </body>
