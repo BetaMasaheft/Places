@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Abunä Gärima ʿAddi Käwǝḥ</title>
+            <title>ʾAbuna Garimā ʿAddi Kawǝḥ</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,8 +52,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Abunä Gärima ʿAddi Käwǝḥ</placeName>
-               <placeName type="alt">Abba Gärima ʿAddi Akawǝḥ</placeName>
+               <placeName>ʾAbuna Garimā ʿAddi Kawǝḥ</placeName>
+               <placeName type="alt">ʾAbbā Garimā ʿAddi ʾAkāwǝḥ</placeName>
+               
             </place>
          </listPlace>
       </body>
