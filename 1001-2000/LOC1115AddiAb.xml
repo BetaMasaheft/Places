@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAddi Abun Taklā Haymanot</title>
+            <title>ʿAddi ʾAbun Takla Haymānot</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,13 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="MGO" when="2019-01-22">updated transcription during Paris Workshop</change>
+         <change when="2019-02-04" who="ES">corrected transliteration after MGO</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>ʿAddi Abun Tāklā Haymanot</placeName>
+               <placeName>ʿAddi ʾAbun Takla Haymānot</placeName>
             </place>
          </listPlace>
       </body>
