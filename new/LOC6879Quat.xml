@@ -59,13 +59,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <state type="existence" ref="Paks2"/>
                         <country ref="LOC3010Ethiop"/>
                         
-                        <listBibl type="editions"> 
+                        <listBibl type="secondary"> 
                             
                             <bibl>
                                 <ptr target="bm:Pereira1892Susenyos"/>
                             </bibl>
-                        </listBibl>
-                        <listBibl type="translation">
                             <bibl>
                                 <ptr target="bm:Pereira1900Susenyos"/>
                             </bibl>

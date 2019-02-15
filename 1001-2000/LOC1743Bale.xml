@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
                <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop"/>
-               <listBibl type="editions"> 
+               <listBibl type="secondary"> 
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
                      
@@ -77,17 +77,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
                   
-                  
-                  
-                  
-                  
-                  
-               </listBibl>
-               
-               
-               
-               
-               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Mohammed2003Bale"/>
                   </bibl>

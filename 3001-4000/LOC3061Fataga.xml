@@ -3,36 +3,34 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3061Fataga">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3061Fataga">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Faṭagār</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
-            <editor key="SG"/>    
-         
+            <editor key="SG"/>
+
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
-            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition,
+               Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+               Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                  <p> This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.
+                  </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
-            <p>A TEI file converted from the ETHIO-authority
-                                                  google spreadsheet</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -44,9 +42,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
+         <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
+            48.</change>
+         <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2017-07-18">Complete record</change>
          <change who="SG" when="2017-08-16">addition to bibliography</change>
@@ -60,13 +58,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Faṭagār</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ፈጸጋር፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Faṣagār</placeName>
-           <state type="existence" ref="Paks2"/>
+               <state type="existence" ref="Paks2"/>
                <country ref="LOC3010Ethiop"/>
-               <location> </location>
-               <listBibl type="editions"> 
+               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
-              
                   </bibl>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
@@ -75,10 +71,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Pankhurst2003Chronicle"/>
                   </bibl>
                   <bibl>
-                     <ptr target="bm:Perruchon1893Zarayaeqob"/> 
+                     <ptr target="bm:Perruchon1893Zarayaeqob"/>
                   </bibl>
-                  </listBibl>
-             <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Derat2005Fatagar"/>
                   </bibl>
@@ -88,26 +82,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Huntingford1987Historicalgeo"/>
-                     <citedRange unit="page">69,73, 79, 83, 86-88, 95, 101-103, 107, 112.
-                   ,117, 119, 121-23, 127, 128, 130, 246</citedRange>
+                     <citedRange unit="page">69,73, 79, 83, 86-88, 95, 101-103, 107, 112. ,117, 119,
+                        121-23, 127, 128, 130, 246</citedRange>
                   </bibl>
                   <bibl>
                      <ptr target="bm:Braukamper2002Islam"/>
                      <citedRange unit="page">39-40</citedRange>
                   </bibl>
-                  
-       </listBibl>
+
+               </listBibl>
                <note>
-                  <ab type="history">It was a large historical region (possibly once a Muslim sultanate), was located in the south-east of 
-                  <placeName ref="LOC5597Sawa"/> on the northern shore of  the <placeName ref="LOC1617Awas"/> river. 
-                  In the 14th-15th centuries, it was progressively integrated into the Christian empire. 
-                  The region held a strategic position between the Christian empire and the southern Muslim sultanates.
-                  In the beginning of the sixteenth century, Faṭagār came back under the Muslim control, 
-                  under which it remained even after the death of <persName ref="PRS1522Ahmadb"/>. 
-                  During his attempt to reconquer the region  <roleName type="title">ʾaṣe</roleName>
+                  <ab type="history">It was a large historical region (possibly once a Muslim
+                     sultanate), was located in the south-east of <placeName ref="LOC5597Sawa"/> on
+                     the northern shore of the <placeName ref="LOC1617Awas"/> river. In the
+                     14th-15th centuries, it was progressively integrated into the Christian empire.
+                     The region held a strategic position between the Christian empire and the
+                     southern Muslim sultanates. In the beginning of the sixteenth century, Faṭagār
+                     came back under the Muslim control, under which it remained even after the
+                     death of <persName ref="PRS1522Ahmadb"/>. During his attempt to reconquer the
+                     region <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS4428Galawdew"/> was killed in <date>1559</date>.</ab>
                </note>
-      </place>
+            </place>
          </listPlace>
       </body>
    </text>

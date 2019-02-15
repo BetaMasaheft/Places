@@ -70,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
               
                
-               <listBibl type="editions"> 
+               <listBibl type="secondary"> 
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
                      
@@ -78,18 +78,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
-                  
-                  
-                  
-                  
-                  
-                  
-               </listBibl>
-               
-               
-               
-               
-               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Muth2005Dawaro"/>
                      

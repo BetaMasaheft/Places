@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <geo>14.25000 38.9167	
                     </geo>
                     </location>
-                    <listBibl type="editions"> 
+                    <listBibl type="secondary"> 
                         <bibl>
                             <ptr target="bm:Solomon2016Galawdewos"/>
                             
@@ -70,8 +70,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <ptr target="bm:Conzelman1895Galawdewos"/>
                         </bibl>
                         
-                    </listBibl>
-                    <listBibl type="secondary">
                         <bibl>
                             <ptr target="bm:Zewde2003AmbaSanayti"/>
                            

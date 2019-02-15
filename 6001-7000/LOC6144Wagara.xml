@@ -67,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <country ref="LOC3010Ethiop"/>
                <location>  <!--                  polygon coordinates designed with https://www.keene.edu/campus/maps/tool/ after 
                   suggestions on http://commons.pelagios.org/groups/linked-pasts/forum/topic/historical-region/-->
-                  <geo rend="polygon">38.40271 12.9804713 
+                <!--  <geo rend="polygon">38.40271 12.9804713 
                      38.2626343 13.0580747
                      38.1170654 13.1463524
                      37.9138184 13.1543761 
@@ -85,9 +85,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      38.4521484 12.6162171 
                      38.4851074 12.7796608
                      38.4082031 12.9831477 
-                     38.40271 12.9804713</geo>
+                     38.40271 12.9804713</geo>-->
                </location>
-               <listBibl type="editions"> 
+               <listBibl type="secondary"> 
                   <bibl>
                      <ptr target="bm:Solomon2016Galawdewos"/>
                      
@@ -96,12 +96,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ptr target="bm:Conzelman1895Galawdewos"/>
                   </bibl>
                   
-               </listBibl>
-               
-               
-               
-               
-               <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:Berry2010Wagara"/>
                   </bibl>
