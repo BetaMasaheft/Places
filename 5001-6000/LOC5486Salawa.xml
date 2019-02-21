@@ -105,7 +105,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <persName ref="PRS5616IyasuI"/> interrogated in <date>1698</date> about taxes levied in <placeName ref="LOC5932Tegray"/>, 
                         while <persName ref="PRS5617IyasuII"/> is reported to have visited the district in <date>1749</date>. In 1930s,  it was a sub-district of 
                         <placeName ref="LOC5882Tamben"/> province. In Salawā there are several rock-hewn churches. 
-                        Not all have been documented, such as one <placeName ref="PRS4552Gawi"/>.
+                        Not all have been documented, such as one <persName ref="PRS4552Gawi"/>.
                            </ab>
                   </note>
                </place>
