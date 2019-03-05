@@ -46,16 +46,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2019-03-05">Added relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Mǝṭmaq</placeName>
-               <placeName type="alt">al-Maġtas</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ምጥማቅ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Mǝṭmaq</placeName>
+               <placeName type="alt">al-Maġṭas</placeName>
                <region>Eg.</region>
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5147MiracleYeshaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5146MiracleMetmaqCamel"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5145MiracleApparitionMetmaqF"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5144MiracleApparitionMetmaqE"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5143MiracleApparitionMetmaqD"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5142MiracleApparitionMetmaqC"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5116MiracleConsecrationMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3664Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3627Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3626Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3625Miracle"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Wādī n-Naṭrūn</title>
+            <title>Wādī an-Naṭrūn</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,16 +46,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2019-03-05">Added relations</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Wādī n-Naṭrūn</placeName>
+               <placeName>Wādī an-Naṭrūn</placeName>
                <placeName type="alt">Scetis</placeName>
-               <placeName type="alt">Asqeṭǝs</placeName>
+               <placeName type="alt">ʾAsqeṭǝs</placeName>
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5173MiracleScete"/>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5172MiracleIncense"/>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5167MiracleZeno"/>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5154MiracleDemons"/>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5149MiracleEulogius"/>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5147MiracleYeshaq"/>
+               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT3907Miracle"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
