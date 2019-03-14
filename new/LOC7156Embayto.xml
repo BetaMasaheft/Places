@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7022Wehdat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7156Embayto" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Wǝhdat</title>
+                <title>Masawo</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,11 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="district tabiya">
-                    <placeName>Wǝhdat</placeName>
+                <place type="district qushat">
+                    <placeName xml:id="n1" xml:lang="gez">እምበይቶ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿƎmbayto</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <settlement when="2011-11-24" ref="LOC3293GantaA" type="warada"/> 
+                    
+                    <settlement ref="LOC3640GuloMa" type="warada" when="2011-11-19"/> 
+                    
+                    <settlement when="2011-11-19" ref="LOC6547Haban" type="tabiya"/>
                     
                 </place>
             </listPlace><!---->
