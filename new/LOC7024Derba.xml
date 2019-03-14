@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7023Ahzara" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7024Derba" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAḥzarā</title>
+                <title>Dǝrbā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,11 +48,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="district qushat">
-                    <placeName xml:id="n1" xml:lang="gez">አሕዘራ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAḥzarā</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ድርባ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dǝrbā</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <settlement when="2011-11-24" ref="LOC3293GantaA" type="warada"/> 
+                    <settlement when="2011-11-24" ref="LOC2947Endart" type="warada"/> 
                     <settlement when="2011-11-24" ref="LOC7022Wehdat" type="tabiya"/>
                 </place>
             </listPlace><!---->
