@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Hagärä Maryam</title>
+            <title>Hagara Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,14 +46,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DR" when="2019-03-14">Added name and information</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Hagärä Maryam</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ሀገረ፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Hagara Māryām</placeName>
+               <settlement ref="LOC3737Hagara"/>
+               <listBibl type="secondary">
+                  <bibl xml:id="Getatchew"><ptr target="bm:Getachew2010Semon"/></bibl>
+               </listBibl>
             </place>
+            <listRelation>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5333MiracleHagara"/>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5334MiracleFurnishings"/>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5338MiracleStone"/>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5335MiracleLeopard"/>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5336MiracleThief"/>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5337MiracleTree"/>
+               <relation name="lawd:hasAttestation" active="LOC3736Hagara" passive="LIT5339MiraclePillar"/>
+               <relation name="agrelon:hasFounder" active="LOC3736Hagara" passive="PRS8746Semon"><desc>It is not certain according to <ref target="#Getatchew"/> whether Sǝmʿon only founded a new church or 
+               renovated an existing one as well.</desc></relation>
+            </listRelation>
          </listPlace>
       </body>
    </text>
