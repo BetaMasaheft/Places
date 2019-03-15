@@ -7,6 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC4986Nehbi">
+   
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -42,19 +43,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
-         <change who="PL" when="2016-03-21"> Created file from
-                                                  google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2019-03-15">Created entity</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>Nǝḥbi</placeName>
+            <place type="district qushat">
+               
+               <placeName xml:id="n1" xml:lang="gez"> ንሕቢ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Nǝḥbi</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC3293GantaA" type="warada" when="2011-11-16"/>  
+               <settlement ref="LOC7168Bukot" type="tabiya" when="2011-11-16"/>
+               
+               
             </place>
-         </listPlace>
+         </listPlace><!---->
       </body>
    </text>
 </TEI>
