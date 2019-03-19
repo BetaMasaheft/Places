@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7168Bukot" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7168Adda" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bukot</title>
+                <title>ʿĀddakǝsāndǝd</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -49,12 +49,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="district tabiya">
                     
-                    <placeName xml:id="n1" xml:lang="gez">ቡኮት፡ </placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Bukot</placeName>
-                    <country ref="LOC3010Ethiop"/>
-                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
-                    <settlement ref="LOC3293GantaA" type="warada" when="2011-11-16"/>  
+                    <placeName xml:lang="gez" type="normalized">ʿĀddakǝsāndǝd</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <settlement type="province" ref="LOC5932Tegray"/>
+                    <settlement ref="LOC4047Kelett" type="warada" from="2010-12-13" to="2010-12-13"/>
                     
                     
                     
