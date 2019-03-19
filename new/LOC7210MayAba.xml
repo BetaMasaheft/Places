@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Māy ʾAbʾa</title>
+                <title>Māy ʾĀbʾā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,12 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="district qushat">
-                    <placeName>Māy ʾAbʾa</placeName>
+                    <placeName>Māy ʾĀbʾā</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
                     <settlement ref="LOC3293GantaA" type="warada" when="2011-05-19"/>  
-                    <settlement ref="LOC7209Bekot" type="tabiya" when="2011-05-19"/>
+                    <settlement ref="LOC7204Bekot" type="tabiya" when="2011-05-19"/>
                 </place>
             </listPlace><!---->
         </body>

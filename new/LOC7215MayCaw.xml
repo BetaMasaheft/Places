@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7204Bekot" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7215MayCaw" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bǝkot</title>
+                <title>Māy Č̣aw</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,20 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2019-03-18">Created entity</change>
+            <change who="ES" when="2019-03-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="district tabiya">
-                    <placeName xml:id="n1" xml:lang="gez">ብኮት፡ ንሕቢ፡ ማይ፡ ኣብኣ</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Bǝkot Nǝḥbi Māy ʾĀbʾā</placeName>
-                    <placeName type="alt">Bukot</placeName>
+                <place type="district qushat">
+                    <placeName>Māy Č̣aw</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
-                    <settlement ref="LOC3293GantaA" type="warada" when="2011-05-14"/>  
+                    <settlement ref="LOC3640GuloMa" type="warada" from="2011-05-24" to="2011-05-25"/>
+                    <settlement ref="LOC7214Haban" type="tabiya" from="2011-05-24" to="2011-05-25"/>
                 </place>
             </listPlace><!---->
         </body>

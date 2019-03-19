@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement ref="LOC3293GantaA" type="warada" when="2011-11-16"/>  
-               <settlement ref="LOC7168Bukot" type="tabiya" when="2011-11-16"/>
+               <settlement ref="LOC7204Bekot" type="tabiya" when="2011-11-16"/>
                
                
             </place>
