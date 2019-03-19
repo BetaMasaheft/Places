@@ -1,19 +1,19 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6966Aynaberkakan" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7223Makalo" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAynabǝrkākan</title>
+                <title>Makāʿǝlo</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
-                <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
                 <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                            Forschungsumgebung / beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
@@ -41,17 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2018-04-24">Created entity</change>
+            <change who="ES" when="2019-03-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="district tabiya">
-                    <placeName>ʾAynabǝrkākan</placeName>
+                <place type="district qushat">
+                    <placeName>Makāʿǝlo</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <settlement from="2012-05-28" to="2012-05-28" ref="LOC6965DagaTamben" type="warada"></settlement>
+                    
+                    <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-16" to="2011-11-16"/>
+                    <settlement ref="LOC7214Haban" type="tabiya" from="2011-11-16" to="2011-11-16"/>
                 </place>
             </listPlace><!---->
         </body>

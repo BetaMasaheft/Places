@@ -51,8 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Māy Baʿātti</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <settlement from="2012-05-28" to="2012-05-28" ref="LOC6965DagaTamben"></settlement>
-                    <settlement from="2012-05-28" to="2012-05-28" ref="LOC6966Aynaberkakan"></settlement>
+                    <settlement from="2012-05-28" to="2012-05-28" ref="LOC6965DagaTamben" type="warada"></settlement>
+                    <settlement from="2012-05-28" to="2012-05-28" ref="LOC6966Aynaberkakan" type="tabiya"></settlement>
                 </place>
             </listPlace><!---->
         </body>
