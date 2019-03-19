@@ -51,8 +51,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="district">
-               <placeName>May Anbäsa</placeName>
+            <place type="district tabiya">
+               <placeName>Māy ʾAnbasā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement ref="LOC2947Endart" type="warada" when="2011-05-27"/>  
+               
             </place>
          </listPlace>
       </body>
