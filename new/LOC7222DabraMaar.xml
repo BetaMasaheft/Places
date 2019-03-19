@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7201Hadennat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7222DabraMaar" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Hadǝnnat</title>
+                <title>Dabra Maʿār</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -41,19 +41,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2019-03-18">Created entity</change>
+            <change who="ES" when="2019-03-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="district tabiya">
-                    <placeName>Ḥadǝnnat</placeName>
-                    <placeName type="alt">Hadǝnnat</placeName>
+                <place type="district qushat">
+                    <placeName>Dabra Maʿār</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
                     <settlement ref="LOC3293GantaA" type="warada" when="2011-05-18"/>  
+                    <settlement ref="LOC7201Hadennat" type="tabiya" when="2011-05-18"/>
                 </place>
             </listPlace><!---->
         </body>
