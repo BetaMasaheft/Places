@@ -46,14 +46,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2019-03-20" who="ES">added location</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <listPlace>
-            <place type="settlement">
-               <placeName>Agulaʿ</placeName>
-               <placeName type="alt">Agwǝlaʿ</placeName>
+            <place type="settlement town">
+               <placeName>ʾAgulāʿ</placeName>
+               <placeName type="alt">Agwǝlāʿ</placeName>
+               <desc>katama</desc>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2014-01-29" to="2014-02-07"/>
+               <settlement ref="LOC7261Agula" type="tabiya" from="2012-05-26" to="2012-05-26"/>
+               <location>
+                  <geo>13.691042 39.592547</geo>
+                  <height unit="m">2008.0</height>
+               </location>
             </place>
          </listPlace>
       </body>
