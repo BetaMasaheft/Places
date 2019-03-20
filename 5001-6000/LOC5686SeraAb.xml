@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣǝraʿ Abrǝha wä-Aṣbǝḥa</title>
+            <title>Ṣǝrāʿ ʾAbrǝhā wa-ʾAṣbǝḥā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,7 +52,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ṣǝraʿ Abrǝha wä-Aṣbǝḥa</placeName>
+               <placeName>Ṣǝrāʿ ʾAbrǝhā wa-ʾAṣbǝḥā</placeName>
+               <placeName type="alt">ʾAbrǝhā wa-ʾAṣbǝḥā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               
+               <settlement type="province" ref="LOC5932Tegray"/>
+               <settlement ref="LOC4047Kelett" type="warada" from="2012-11-09" to="2012-11-10"/>
             </place>
          </listPlace>
       </body>

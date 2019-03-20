@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7246MayGaba" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7249Daraba" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Māy Gābā</title>
+                <title>Darabā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,13 +47,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="district tabiya town">
-                    <placeName>Māy Gābā</placeName>
+                <place type="district qushat">
+                    <placeName>Darabā</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
-                    <settlement ref="LOC6186Walqay" type="warada" from="2015-03-19" to="2015-03-19"/> 
-           </place>
+                    <settlement type="province" ref="LOC5932Tegray"/>
+                    <settlement ref="LOC4047Kelett" type="warada" from="2012-11-09" to="2012-11-10"/>
+                    <settlement ref="LOC7248Gamad" type="tabiya" from="2012-11-09" to="2012-11-10"/>
+                </place>
             </listPlace><!---->
         </body>
     </text>
