@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7213Qalat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7240Saglat" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qǝlʿāt</title>
+                <title>Saglāt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,13 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="district tabiya">
-                    <placeName>Qǝlʿāt</placeName>
-                    <placeName type="alt">Qalʿāt</placeName>
+                    <placeName>Saglāt</placeName>
+                    
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
                     <settlement ref="LOC3640GuloMa" type="warada" from="2011-11-09" to="2011-11-15"/>
-                    <note>Cp. also <placeName ref="LOC6969TahtayQelat">Tāḥtāy Qǝlʿāt</placeName></note>
+                    <settlement ref="LOC7213Qalat" type="tabiya" from="2011-11-09" to="2011-11-15"/>
                 </place>
             </listPlace><!---->
         </body>
