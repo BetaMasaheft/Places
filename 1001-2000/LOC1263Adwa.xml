@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʿAdwa</title>
+            <title>ʿĀdwā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,9 +51,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>ʿAdwa</placeName>
-               <!--<coord>awr.</coord>-->
+            <place type="region awragga warada">
+               <placeName>ʿĀdwā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notBefore="1991" type="zone" ref="LOC6654CentralTegray"/>
             </place>
          </listPlace>
       </body>
