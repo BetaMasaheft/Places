@@ -56,7 +56,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region ref="LOC6573NorthWallo"/>
                <country ref="LOC3010Ethiop"/>
                <location>
-                  <geo>112.001166 39.066264</geo>
+                  <geo>12.001166 39.066264</geo>
                </location>
                <note>Situated south east of Lālibalā, at the foot of the Ǝšatan mountain, this church is built in a cave and owns a small collection of manuscripts and some interesting examples of paraphernalia including crosses and icons. The building was 
                restored in the early 20th century, so little remains of the earlier structure.</note>
