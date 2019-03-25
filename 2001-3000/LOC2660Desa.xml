@@ -52,7 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Desʿa</placeName>
+               <placeName xml:id="n1" xml:lang="gez"> ዴሥአ</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Desʿa</placeName>
                <placeName type="alt">Dessa</placeName>
             </place>
          </listPlace>
