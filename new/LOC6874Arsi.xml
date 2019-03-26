@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q646859" type="administrativeUnit">
+                <place sameAs="wd:Q646859" type="administrativeUnit">
                     <placeName>Arsi</placeName>
                 </place>
             </listPlace>

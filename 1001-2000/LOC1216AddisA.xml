@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="Q3624">
+            <place type="town" sameAs="wd:Q3624">
                <placeName xml:lang="am" xml:id="n1">አዲስ፡ አበባ፡</placeName>
                <placeName xml:lang="am" corresp="#n1" type="normalized">ʾAddis ʾAbabā</placeName>
                <placeName type="alt" xml:lang="om">Finfinnee</placeName>

@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="area" sameAs="Q81483">
+            <place type="area" sameAs="wd:Q81483">
                <placeName>Levant</placeName>
             </place>
          </listPlace>

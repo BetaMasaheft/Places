@@ -48,7 +48,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
     <text>
         <body>
             <listPlace>
-                <place type="zone" sameAs="Q2916300">
+                <place type="zone" sameAs="wd:Q2916300">
                     <placeName xml:id="n1" xml:lang="am">ሰሜን፡ ወሎ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">Samen Wallo</placeName>
                     <placeName corresp="#n1" xml:lang="en">North Wallo</placeName>

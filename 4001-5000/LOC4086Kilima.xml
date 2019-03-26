@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="mountain" sameAs="Q7296">
+            <place type="mountain" sameAs="wd:Q7296">
                <placeName>Kilimanjaro</placeName>
             </place>
          </listPlace>

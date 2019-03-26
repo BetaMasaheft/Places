@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="Q656">
+            <place type="city" sameAs="wd:Q656">
                <placeName xml:lang="en" corresp="#n1">St Petersburg</placeName>
                <placeName xml:lang="ru" xml:id="n1">Санкт Петербург</placeName>
                
@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="en" corresp="#n3">Petrograd</placeName>
                <placeName xml:lang="ru" xml:id="n3" type="alt">Петроград</placeName>
                
-               <country ref="Q159"/>
-               <region ref="Q656"/>
+               <country ref="wd:Q159"/>
+               <region ref="wd:Q656"/>
             </place>
          </listPlace>
       </body>

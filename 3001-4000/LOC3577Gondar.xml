@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="Q218861">
+            <place type="town" sameAs="wd:Q218861">
                <placeName xml:id="n1" xml:lang="am">ጎንደር፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">Gondar</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">ጐንደር፡</placeName>
@@ -90,7 +90,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <placeName ref="LOC1426Amhara">ʾAmhārā</placeName> Regional State. Gondar
                      started to flourish after 
                      <persName ref="PRS4015Fasilada"><roleName type="title">ʾaṣe</roleName> Fāsiladas</persName> chose it as his camp in
-                        <date>1636-'37</date> to control the collection of customs on the <placeName ref="Q23406">Red Sea</placeName> - <placeName ref="LOC5888Tana">
+                        <date>1636-'37</date> to control the collection of customs on the <placeName ref="wd:Q23406">Red Sea</placeName> - <placeName ref="LOC5888Tana">
                         Ṭānā</placeName> - <placeName ref="LOC2966Ennary">ʾƎnnāryā</placeName> trade
                      routes. Following its foundation and for approx. 130 years (from
                         <date>1630s</date> to <date>1760s</date>), Gondar was the political,

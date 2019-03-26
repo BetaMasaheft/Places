@@ -52,10 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="Q3130">
+            <place type="city" sameAs="wd:Q3130">
                <placeName xml:id="n1" xml:lang="en">Sydney</placeName>
-               <country ref="Q408"/>
-               <region ref="Q3224"/>
+               <country ref="wd:Q408"/>
+               <region ref="wd:Q3224"/>
             </place>
          </listPlace>
       </body>

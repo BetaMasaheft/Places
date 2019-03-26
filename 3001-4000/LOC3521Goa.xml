@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="Q1707675">
+            <place type="town" sameAs="wd:Q1707675">
                <placeName>Old Goa</placeName>
             </place>
          </listPlace>

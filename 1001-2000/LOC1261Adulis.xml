@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <relation name="skos:exactMatch" active="LOC1261Adulis" passive="http://pleiades.stoa.org/places/39271"/>
          </listRelation>
          <listPlace>
-            <place type="city port" sameAs="Q378940">
+            <place type="city port" sameAs="wd:Q378940">
                <placeName xml:id="n1" xml:lang="gez" source="#FattovichMunro">አዱሊስ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAdulis</placeName>
                <placeName xml:id="n2" xml:lang="en" type="alt" source="#FattovichMunro">the arbour

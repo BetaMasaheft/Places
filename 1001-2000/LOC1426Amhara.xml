@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="RegionalState" sameAs="Q203009">
+            <place type="RegionalState" sameAs="wd:Q203009">
                <placeName xml:id="n1" xml:lang="am">አምሀራ፡ ክልል፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAmharā kǝllǝl</placeName>
                <placeName xml:id="n2" xml:lang="am" type="alt">አምሀራ፡</placeName>

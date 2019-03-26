@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q2869834" type="settlement">
+                <place sameAs="wd:Q2869834" type="settlement">
                     <placeName>Atsbi</placeName>
                 </place>
             </listPlace><!---->

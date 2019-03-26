@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="Q39">
+            <place type="country" sameAs="wd:Q39">
                <placeName xml:id="n1" xml:lang="de">Schweizerische Eidgenossenschaft</placeName>
                <placeName corresp="#n1" xml:lang="fr">Confédération suisse</placeName>
                <placeName corresp="#n1" xml:lang="it">Confederazione Svizzera</placeName>

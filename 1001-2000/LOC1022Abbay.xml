@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
            
-            <place type="river" sameAs="Q29391314">
+            <place type="river" sameAs="wd:Q29391314">
                   <placeName xml:lang="gez" xml:id="n1">አባይ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAbbāy</placeName>
                <placeName xml:lang="gez" xml:id="n2">ዓባይ</placeName>
@@ -103,8 +103,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <ab type="history">
                         The Blue Nile  is a river originating at <placeName ref="LOC5888Tana"/> in <placeName ref="LOC3010Ethiop"/>. 
                         With the <placeName ref="LOC6875WhiteNile"/>, ʾAbbāy becomes one of the two major tributaries of the <placeName ref="LOC6876Nile"/>. 
-                        It has been identified by some Ethiopians  as the river <placeName ref="Q911109"/> mentioned as flowing out of the <placeName ref="Q19014"/> as it is mentioned  
-                        in the <ref type="work" corresp="LIT1219Bible"/> encircling the entire land of <placeName ref="Q1138595"/>. The Blue Nile has been a bone of contention historically 
+                        It has been identified by some Ethiopians  as the river <placeName ref="wd:Q911109"/> mentioned as flowing out of the <placeName ref="wd:Q19014"/> as it is mentioned  
+                        in the <ref type="work" corresp="LIT1219Bible"/> encircling the entire land of <placeName ref="wd:Q1138595"/>. The Blue Nile has been a bone of contention historically 
                         in the long multifaced Ethiopian-Egyptian relationship. While <placeName ref="LOC2804Egypt"/> depended on <placeName ref="LOC3010Ethiop"/> for its waters, 
                         <placeName ref="LOC3010Ethiop"/> depended on the Egyptian Coptic Church as the sources of patriarchal Authority and her metropolitan. This mutuality has shaped events since 
                         the 11th century. It reached an early crisis during the time of King <persName ref="PRS6152Lalibala"/> whom the Egyptian suspected diverting the river, 

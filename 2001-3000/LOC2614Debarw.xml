@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="Q984080">
+            <place type="town" sameAs="wd:Q984080">
        
                   <placeName xml:lang="gez" xml:id="n1">ድባርዋ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dǝbārwā</placeName>
@@ -91,11 +91,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <ab type="history">Dǝbārwā, located on the right bank of the <placeName ref="LOC4560Marab"/> river, 30km south of 
                         <placeName ref="LOC1579Asmara"/>, was the capital of <title>bāḥǝra nagāš</title>. It was described in the accounts of the European travellers since the sixteenth century.
                         Dǝbārwā was occupied by <persName ref="PRS1500Ahmad"/> in <date>1535</date>, but after his defeat in <date>1543</date>,
-                                 resumed its position as <title>bāḥǝra nagāš</title>capital, but fell to the <placeName ref="Q36730"/> who had seized the port of 
-                                 <placeName ref="LOC4631Massaw"/> in <date>1557</date>. The commander of <placeName ref="Q36730"/>, 
-                                 <persName ref="PRS7692ozdemir"/> established a fort at Dǝbārwā with a long wall and a very high tower. The <placeName ref="Q36730"/>
+                                 resumed its position as <title>bāḥǝra nagāš</title>capital, but fell to the <placeName ref="wd:Q36730"/> who had seized the port of 
+                                 <placeName ref="LOC4631Massaw"/> in <date>1557</date>. The commander of <placeName ref="wd:Q36730"/>, 
+                                 <persName ref="PRS7692ozdemir"/> established a fort at Dǝbārwā with a long wall and a very high tower. The <placeName ref="wd:Q36730"/>
                                  attempted to use this fort to expand their power into the surrounding areas, but were attacked by the then well-armed local population, and obliged temporarirly to retreat.  
-                                 The area was subsequently the site of much fighting in which the <placeName ref="Q36730"/> at times supported by the rebel 
+                                 The area was subsequently the site of much fighting in which the <placeName ref="wd:Q36730"/> at times supported by the rebel 
                                  <title>bāḥǝra nagāš</title>
                      <persName ref="PRS10343Yeshaq"/>, fought against two successive emperors <persName ref="PRS7102Minas"/> and 
                                  <persName ref="PRS8550sardaDe"/>. The latter captured the fort and razzed it to the ground in <date>1576</date>. 

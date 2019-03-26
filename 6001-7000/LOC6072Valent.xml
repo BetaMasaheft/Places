@@ -52,10 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="island" sameAs="Q1146838">
+            <place type="island" sameAs="wd:Q1146838">
                <placeName>Valentia</placeName>
-               <country ref="Q27"/>
-               <region ref="Q131438"/>
+               <country ref="wd:Q27"/>
+               <region ref="wd:Q131438"/>
             </place>
          </listPlace>
       </body>

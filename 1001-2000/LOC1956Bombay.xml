@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="port" sameAs="Q1156">
+            <place type="port" sameAs="wd:Q1156">
                <placeName>Bombay</placeName>
             </place>
          </listPlace>

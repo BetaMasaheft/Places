@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="zoba zone" sameAs="Q3020955">
+                <place type="zoba zone" sameAs="wd:Q3020955">
                     <placeName xml:id="n1" xml:lang="ti">ደቡባዊ፡ ትግራይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Dabubāwi Tǝgrāy</placeName>
                     <placeName xml:id="n2" xml:lang="en" type="alt">Southern Tǝgrāy Zone</placeName>

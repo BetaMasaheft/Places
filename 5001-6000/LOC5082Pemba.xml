@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="island" sameAs="Q208664">
+            <place type="island" sameAs="wd:Q208664">
                <placeName>Pemba</placeName>
             </place>
          </listPlace>

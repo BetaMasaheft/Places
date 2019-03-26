@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="sea" sameAs="Q5484">
+            <place type="sea" sameAs="wd:Q5484">
                <placeName>Caspian Sea</placeName>
             </place>
          </listPlace>

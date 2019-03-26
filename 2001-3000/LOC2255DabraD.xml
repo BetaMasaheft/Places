@@ -58,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>  
-            <place type="mountain" sameAs="Q595895">
+            <place type="mountain" sameAs="wd:Q595895">
                <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ዳሞ፡</placeName>
                <placeName corresp="#n1" type="normalized">Dabra Dāmmo</placeName>
                

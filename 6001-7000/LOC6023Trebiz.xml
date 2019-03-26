@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="Q45301">
+            <place type="city" sameAs="wd:Q45301">
                <placeName>Trebizond</placeName>
                <placeName type="alt">Trabzon</placeName>
             </place>

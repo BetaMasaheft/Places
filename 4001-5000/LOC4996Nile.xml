@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="river" sameAs="Q29390353">
+            <place type="river" sameAs="wd:Q29390353">
 <!--             GeoNames record is not particularly well done  -->
                <placeName>Nile</placeName>
             </place>

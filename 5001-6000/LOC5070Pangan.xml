@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="river" sameAs="Q1851848">
+            <place type="river" sameAs="wd:Q1851848">
                <placeName>Pangani</placeName>
             </place>
          </listPlace>

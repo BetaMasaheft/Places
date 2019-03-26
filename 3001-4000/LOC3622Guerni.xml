@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="town" sameAs="Q24016799">
+            <place type="town" sameAs="wd:Q24016799">
                <placeName>Guernica</placeName>
             </place>
          </listPlace>

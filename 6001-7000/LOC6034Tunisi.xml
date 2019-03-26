@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="Q948">
+            <place type="country" sameAs="wd:Q948">
                <placeName xml:id="n1" xml:lang="ar" type="normalized">al-Jumhūrīyah at-Tūnisīyah</placeName>
                <placeName corresp="#n1" xml:lang="en">Tunisian Republic</placeName>
                <placeName xml:id="n2" xml:lang="ar" type="normalized" subtype="alt">Tūnis</placeName>

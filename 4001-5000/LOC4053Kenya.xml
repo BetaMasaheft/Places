@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="country" sameAs="Q114">
+            <place type="country" sameAs="wd:Q114">
                <placeName xml:id="n1" xml:lang="sw">Jamhuri ya Kenya</placeName>
                <placeName corresp="#n1" xml:lang="en">Republic of Kenya</placeName>
                <placeName xml:id="n2" xml:lang="sw" type="alt">Kenya</placeName>

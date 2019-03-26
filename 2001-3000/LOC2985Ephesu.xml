@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="port" sameAs="Q47611">
+            <place type="port" sameAs="wd:Q47611">
                <placeName>Ephesus</placeName>
             </place>
          </listPlace>

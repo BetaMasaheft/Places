@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="city" sameAs="Q406">
+            <place type="city" sameAs="wd:Q406">
                <placeName xml:id="n1" xml:lang="tu" notBefore="1923">stanbul</placeName>
 
                <placeName xml:id="n2"
@@ -86,8 +86,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                           notAfter="1923">Qwǝsṭǝnṭǝnya</placeName>
                <placeName corresp="#n3" xml:lang="en" notBefore="0330" notAfter="1923">Constantinople</placeName>
                
-               <country ref="Q43"/>
-               <region ref="Q406"/>
+               <country ref="wd:Q43"/>
+               <region ref="wd:Q406"/>
             </place>
          </listPlace>
       </body>
