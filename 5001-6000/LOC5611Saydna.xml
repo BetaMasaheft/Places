@@ -63,6 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="skos:exactMatch" active="LOC5611Saydna" passive="http://syriaca.org/place/617"/>
                <relation name="lawd:hasAttestation" active="LOC5611Saydna" passive="LIT3635Miracle"/>
                <relation name="lawd:hasAttestation" active="LOC5611Saydna" passive="LIT3634Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC5611Saydna" passive="LIT5618MMSedenya"/>
             </listRelation>
          </listPlace>
       </body>
