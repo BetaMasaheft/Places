@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ǝndärta</title>
+            <title>ʾƎndartā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -51,10 +51,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text>
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Ǝndärta</placeName>
-               <placeName type="alt">Ǝntärta</placeName>
-               <placeName type="alt">Ǝntǝrta; Andärta</placeName>
+            <place type="region warada">
+               <placeName>ʾƎndartā</placeName>
+               <placeName type="alt">ʾƎntartā</placeName>
+               <placeName type="alt">ʾƎntǝrtā; ʾAndartā</placeName>
+               
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
             </place>
          </listPlace>
       </body>
