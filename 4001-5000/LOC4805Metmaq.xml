@@ -73,6 +73,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5258MiracleMetmaqDestruction"/>
                <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5533MiracleMetmaq"/>
                <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5632MMMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5664MMMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5665MMMetmaqMuslims"/>
             </listRelation>
          </listPlace>
       </body>
