@@ -68,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                          active="LOC7011Meskwa"
                          passive="LIT2474tomara"/>
                     
-                    <relation name="bm:hasLexiconEntry"
+                    <relation name="betmas:hasLexiconEntry"
                          active="LOC7011Meskwa"
                          passive="http://betamasaheft.eu/Dillmann/lemma/L65ae0746b7f9428da90682226ae6cc75"/>
                     
