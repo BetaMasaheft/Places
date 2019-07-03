@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC1022Abbay">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>ʾAbbāy</title>
@@ -34,6 +34,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2017-08-29">Complete record</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
            
@@ -109,7 +117,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <placeName ref="LOC3010Ethiop"/> depended on the Egyptian Coptic Church as the sources of patriarchal Authority and her metropolitan. This mutuality has shaped events since 
                         the 11th century. It reached an early crisis during the time of King <persName ref="PRS6152Lalibala"/> whom the Egyptian suspected diverting the river, 
                         even though his kingdom never reached ʾAbbāy. It was 
-                        <persName ref="PRS1854Amdase"><roleName type="title">ʾaṣe</roleName> </persName> 
+                        <persName ref="PRS1854Amdase">
+                        <roleName type="title">ʾaṣe</roleName> 
+                     </persName> 
                         who first occupied the basin of the ʾAbbāy and began spreading Christianity there. The Medieval  emperors of the Solomonic dynasty, especially <persName ref="PRS3429DawitII"/>, 
                         <persName ref="PRS10342Yeshaq"/> and <persName ref="PRS10626ZaraY"/> went asserting <placeName ref="LOC3010Ethiop"/>'s 
                         control of the river as a tool in her international relations. Though the threat of blocking the ʾAbbāy proved very effective for centuries in safeguarding the 

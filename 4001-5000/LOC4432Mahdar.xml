@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC4432Mahdar">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Maḫdara Māryām</title>
@@ -35,6 +35,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -52,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="monastery">
@@ -64,9 +72,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>The church was a sixteenth-century royal foundation of Queen <persName ref="PRS6829Maryams"/>. Her daughters, including <persName ref="PRS9831Walatta"/>, were buried here. The church was damaged on two occasions. 
                   First, during the reign of Susǝnyos. And again by Tewodros II. Emperor <persName ref="PRS10378Yohanne"/> had the church decorated with mural painitngs, which also depict him with his troops and followers</note>
             </place>
-         <listRelation>
-            <relation name="lawd:hasAttestation" active="LOC6982Doqmawaha" passive="LIT3951ChronSusenyos"/>
-         </listRelation>
+            <listRelation>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6982Doqmawaha"
+                         passive="LIT3951ChronSusenyos"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>

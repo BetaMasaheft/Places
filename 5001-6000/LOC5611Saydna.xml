@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC5611Saydna">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Ṣaydnāyā</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-11-26">Added name, wikidata and relation</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="monastery" sameAs="wd:Q3320189">
@@ -60,10 +68,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                
             </place>
             <listRelation>
-               <relation name="skos:exactMatch" active="LOC5611Saydna" passive="http://syriaca.org/place/617"/>
-               <relation name="lawd:hasAttestation" active="LOC5611Saydna" passive="LIT3635Miracle"/>
-               <relation name="lawd:hasAttestation" active="LOC5611Saydna" passive="LIT3634Miracle"/>
-               <relation name="lawd:hasAttestation" active="LOC5611Saydna" passive="LIT5618MMSedenya"/>
+               <relation name="skos:exactMatch"
+                         active="LOC5611Saydna"
+                         passive="http://syriaca.org/place/617"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC5611Saydna"
+                         passive="LIT3635Miracle"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC5611Saydna"
+                         passive="LIT3634Miracle"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC5611Saydna"
+                         passive="LIT5618MMSedenya"/>
             </listRelation>
          </listPlace>
       </body>

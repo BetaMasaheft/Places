@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC4259Lasta">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Lasta</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-05-22">moved relation from LOC6573NorthWallo</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="region">
@@ -57,8 +65,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="gn:locatedIn"
-                  active="LOC4259Lasta"
-                  passive="LOC6573NorthWallo">
+                         active="LOC4259Lasta"
+                         passive="LOC6573NorthWallo">
                   <desc>The territory of the historical province (now ʾawrāǧǧā) of Lāstā is
                      located within the Samen Wallo zone.</desc>
                </relation>

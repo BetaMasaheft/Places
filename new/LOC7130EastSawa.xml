@@ -7,7 +7,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
      xml:lang="en"
      xml:id="LOC7130EastSawa"
      type="place">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>East Šawā Zone</title>
@@ -29,6 +29,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <p>A TEI file created from original data</p>
             </sourceDesc>
         </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
@@ -42,7 +50,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="zone">
@@ -50,8 +58,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn"
-                        active="LOC7130EastSawa"
-                        passive="LOC6530Oromiyaa">
+                         active="LOC7130EastSawa"
+                         passive="LOC6530Oromiyaa">
                         <desc>The East Šawā Zone is located in the Oromiyya kǝllǝl.</desc>
                     </relation>
                 </listRelation>

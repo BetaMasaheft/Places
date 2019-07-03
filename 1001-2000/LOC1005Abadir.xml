@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC1005Abadir">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Abādir ʿUmar ar-Riḍā Shrine</title>
@@ -31,6 +31,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -50,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-07-05">Added Arabic name and corrected transliteration</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="shrine">
@@ -80,7 +88,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Century</date>
                   <ab type="description">This shrine is located inside the walls of <placeName ref="LOC3786Harar">Hārar</placeName> and is the tomb of <persName ref="PRS1006Abadir">Abādir ʿUmar ar-Riḍā</persName>, the most celebrated
                      saint in this town. It is also the tomb of 
-                     <persName ref="PRS1216Abdulla"><roleName type="title">ʾamīr</roleName> ʿAbdullāhi b. Muḥammad</persName>.
+                     <persName ref="PRS1216Abdulla">
+                        <roleName type="title">ʾamīr</roleName> ʿAbdullāhi b. Muḥammad</persName>.
                   </ab>
                </note>
             </place>

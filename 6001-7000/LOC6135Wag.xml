@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC6135Wag">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Wag</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,19 +57,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2018-05-22">moved relation from LOC6573NorthWallo</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="region">
                <placeName>Wag</placeName>
             </place>
             <listRelation>
-            <relation name="gn:locatedIn"
-               active="LOC6135Wag"
-               passive="LOC6573NorthWallo">
-               <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
+               <relation name="gn:locatedIn" active="LOC6135Wag" passive="LOC6573NorthWallo">
+                  <desc>The territory of the historical province (now ʾawrāǧǧā) of Wāg is
                   located within the Samen Wallo zone.</desc>
-            </relation>
+               </relation>
             </listRelation>
          </listPlace>
       </body>

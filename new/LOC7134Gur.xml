@@ -7,7 +7,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
      xml:lang="en"
      xml:id="LOC7134Gur"
      type="place">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Gur</title>
@@ -29,6 +29,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <p>A TEI file created from original data</p>
             </sourceDesc>
         </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
@@ -42,16 +50,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="town">
                     <placeName xml:id="n1" type="normalized">Gur</placeName>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn"
-                        active="LOC7134Gur"
-                        passive="LOC1465Ankoba">
+                    <relation name="gn:locatedIn" active="LOC7134Gur" passive="LOC1465Ankoba">
                         <desc>a locality in Ankobar</desc>
                     </relation>
                 </listRelation>

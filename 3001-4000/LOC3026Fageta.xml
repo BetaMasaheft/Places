@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC3026Fageta">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Fāgetā</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-10-16">addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="area">
@@ -57,15 +65,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Fāgetā</placeName>
                   
                   
-            <placeName xml:lang="gez" xml:id="n2">ፋግታ፡</placeName>
-            <placeName xml:lang="gez" corresp="#n2" type="normalized">Fāgǝtā
+               <placeName xml:lang="gez" xml:id="n2">ፋግታ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Fāgǝtā
                
                
                
                
             </placeName>
             
-            <state type="existence" ref="Paks2"/>
+               <state type="existence" ref="Paks2"/>
             
             
             
@@ -80,7 +88,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-         

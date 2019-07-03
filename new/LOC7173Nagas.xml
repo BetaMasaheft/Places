@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC7173Nagas">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Nagāš</title>
@@ -32,6 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>new file</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -45,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-15" who="ES">created</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="district tabiya">
@@ -54,7 +62,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC4047Kelett" type="warada" from="2010-04-27" to="2010-04-30"/>
+               <settlement ref="LOC4047Kelett"
+                           type="warada"
+                           from="2010-04-27"
+                           to="2010-04-30"/>
             </place>
             
          </listPlace>

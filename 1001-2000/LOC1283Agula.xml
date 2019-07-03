@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC1283Agula">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Agulaʿ</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change when="2019-03-20" who="ES">added location</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="settlement town">
@@ -60,8 +68,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                
                <settlement type="province" ref="LOC5932Tegray"/>
-               <settlement ref="LOC4047Kelett" type="warada" from="2014-01-29" to="2014-02-07"/>
-               <settlement ref="LOC7261Agula" type="tabiya" from="2012-05-26" to="2012-05-26"/>
+               <settlement ref="LOC4047Kelett"
+                           type="warada"
+                           from="2014-01-29"
+                           to="2014-02-07"/>
+               <settlement ref="LOC7261Agula"
+                           type="tabiya"
+                           from="2012-05-26"
+                           to="2012-05-26"/>
                <location>
                   <geo>13.691042 39.592547</geo>
                   <height unit="m">2008.0</height>

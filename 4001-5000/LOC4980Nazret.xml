@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC4980Nazret">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Nāzret Māryām</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
@@ -64,11 +72,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n4" xml:lang="gez" type="normalized">Nāzra Māryām</placeName>
                
                <location type="relative">
-                  <desc>South of <placeName ref="LOC4545Maqala"/></desc>
+                  <desc>South of <placeName ref="LOC4545Maqala"/>
+                  </desc>
                </location>
             </place>
          </listPlace>
-         <listRelation><relation name="skos:exactMatch" active="LOC4980Nazret" passive="INS0516NazretMaryam"></relation></listRelation>
+         <listRelation>
+            <relation name="skos:exactMatch"
+                      active="LOC4980Nazret"
+                      passive="INS0516NazretMaryam"/>
+         </listRelation>
       </body>
    </text>
 </TEI>

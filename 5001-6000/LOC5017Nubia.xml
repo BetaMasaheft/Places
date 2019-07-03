@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC5017Nubia">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Nubia</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -48,19 +56,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="ES" when="2016-02-09">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="country" sameAs="wd:Q135028">
                <placeName xml:lang="en" xml:id="n1">Nubia</placeName>
                <placeName xml:lang="en" xml:id="n2">Kush</placeName>
                <placeName xml:lang="en" xml:id="n3">Aethiopia</placeName>
-               <location type="relative"><desc>South of <placeName ref="pleiades:981503">Egypt</placeName></desc></location>
+               <location type="relative">
+                  <desc>South of <placeName ref="pleiades:981503">Egypt</placeName>
+                  </desc>
+               </location>
             </place>
             <listRelation>
-               <relation name="skos:exactMatch" active="LOC5017Nubia" passive="http://syriaca.org/place/630">
+               <relation name="skos:exactMatch"
+                         active="LOC5017Nubia"
+                         passive="http://syriaca.org/place/630">
                </relation>
-               <relation name="skos:closeMatch" active="LOC5017Nubia" passive="pleiades:39274">
+               <relation name="skos:closeMatch"
+                         active="LOC5017Nubia"
+                         passive="pleiades:39274">
                </relation>
             </listRelation>
          </listPlace>

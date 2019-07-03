@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7080Edit" xml:lang="en" type="place">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="LOC7080Edit"
+     xml:lang="en"
+     type="place">
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>Edit</title>
@@ -26,7 +31,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        </encodingDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <creation/>
             <abstract>
@@ -44,12 +55,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="PL" when="2018-10-15">Created entity</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="archaeologicalSite">
                     <placeName>Edit</placeName>
-                    <location><geo cert="low">14.629908 39.380306</geo></location>
+                    <location>
+                  <geo cert="low">14.629908 39.380306</geo>
+               </location>
                     <listBibl type="secondary">
                         <bibl>
                             <ptr target="bm:RIE1"/>
@@ -57,7 +70,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </bibl>
                     </listBibl>
                 </place>
-            </listPlace><!---->
+            </listPlace>
+         <!---->
         </body>
     </text>
 </TEI>

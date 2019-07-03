@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC6563Sada">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title xml:id="t1">Ṣadā</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 </p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -43,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="SG" when="2018-05-02">addition</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="area">
@@ -61,7 +69,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!--BNFet112-->
             <listRelation>
                <relation name="gn:locatedIn" active="LOC6563Sada" passive="LOC2481Dambey"/>
-               <relation name="lawd:hasAttestation" active="LOC6563Sada" passive="LIT3951ChronSusenyos"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6563Sada"
+                         passive="LIT3951ChronSusenyos"/>
             </listRelation>
             
          </listPlace>
@@ -69,12 +79,3 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </body>
    </text>
 </TEI>
-
-
-
-
-
-
-
-
-            

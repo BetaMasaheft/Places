@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      xml:lang="en"
      xml:id="LOC6583WestTegray"
      type="place">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title xml:lang="ti" xml:id="t1">Mǝʿrābāwi Tǝgrāy</title>
@@ -30,6 +30,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <p>A TEI file created from original data</p>
             </sourceDesc>
         </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
@@ -44,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="FP" when="2017-04-08">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="zone">

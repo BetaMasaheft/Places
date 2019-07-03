@@ -7,7 +7,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
      xml:lang="en"
      xml:id="LOC6575SouthGondar"
      type="place">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>South Gondar Zone</title>
@@ -29,6 +29,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <p>A TEI file created from original data</p>
             </sourceDesc>
         </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
@@ -42,7 +50,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <change who="DR" when="2018-05-22">moved relation from LOC1426Amhara</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="zone">
@@ -51,8 +59,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                 <listRelation>
                     
                     <relation name="gn:locatedIn"
-                        active="LOC6575SouthGondar"
-                        passive="LOC1426Amhara">
+                         active="LOC6575SouthGondar"
+                         passive="LOC1426Amhara">
                         <desc>The South Gondar Zone is located in the ʾAmharā kǝllǝl.</desc>
                     </relation>
                 </listRelation>

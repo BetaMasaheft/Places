@@ -7,7 +7,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      type="place"
      xml:lang="en"
      xml:id="LOC6126WadinN">
-   <teiHeader>
+   <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
             <title>Wādī an-Naṭrūn</title>
@@ -33,6 +33,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -49,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DR" when="2019-03-05">Added relations</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="region">
@@ -58,13 +66,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName type="alt">ʾAsqeṭǝs</placeName>
             </place>
             <listRelation>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5173MiracleScete"/>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5172MiracleIncense"/>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5167MiracleZeno"/>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5154MiracleDemons"/>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5149MiracleEulogius"/>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT5147MiracleYeshaq"/>
-               <relation name="lawd:hasAttestation" active="LOC6126WadinN" passive="LIT3907Miracle"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT5173MiracleScete"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT5172MiracleIncense"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT5167MiracleZeno"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT5154MiracleDemons"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT5149MiracleEulogius"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT5147MiracleYeshaq"/>
+               <relation name="lawd:hasAttestation"
+                         active="LOC6126WadinN"
+                         passive="LIT3907Miracle"/>
             </listRelation>
          </listPlace>
       </body>

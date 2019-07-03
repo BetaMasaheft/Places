@@ -5,7 +5,7 @@
      type="place"
      xml:lang="en"
      xml:id="LOC6535EccBet">
-    <teiHeader>
+    <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
                 <title>ʾƎč̣č̣age Bet</title>
@@ -29,6 +29,14 @@
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
             </sourceDesc>
         </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
@@ -45,7 +53,7 @@
             <change when="2016-08-11" who="FP">new record created</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+    <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="quarter">
