@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
@@ -53,9 +53,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="">
+            <place type="country">
                <placeName xml:id="n1">Qalonyā</placeName>
-               <region>the country where Derawewos and Tewobesta, the protagonists of the homily fo the 12 Tahsas of Dersana Mikael, lived</region>
+               <region>The country where <persName ref="PRS11306Deratewos">Dǝrāwetos</persName>
+                and his wife <persName ref="PRS11307Tewobesteya">Tewobǝstā</persName> lived,
+                  the protagonists of the homily fo the 12 Tahsas from the Dǝrsāna Mikāʾel.</region>
             </place>
          </listPlace>
       </body>
