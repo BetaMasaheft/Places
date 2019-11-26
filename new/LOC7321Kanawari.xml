@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kanawāri</title>
+                <title>Karnawāri</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="SG"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName xml:lang="geez" xml:id="n1">ከርነዋሪ፡</placeName>
-                    <placeName xml:lang="geez"  corresp="#n1">Kanawāri</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ከርነዋሪ፡</placeName>
+                    <placeName xml:lang="gez"  corresp="#n1">Karnawāri</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>

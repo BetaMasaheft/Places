@@ -48,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName xml:lang="geez" xml:id="n1">ዋዶ፡ ሜዳ፡</placeName>
-                    <placeName xml:lang="geez" corresp="#n1">Wādo Medā</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ዋዶ፡ ሜዳ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">Wādo Medā</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>

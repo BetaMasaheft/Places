@@ -48,12 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName xml:lang="geez" xml:id="n1">ቄጠማ፡</placeName>
-                    <placeName xml:lang="geez" corresp="#n1">Qeṭamā</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ቄጠማ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">Qeṭamā</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>
-                <relation name="gn:locatedIn" active="LOC7329AmadBar" passive="LOC1713Bagemd"/>
+                <relation name="gn:locatedIn" active="LOC7330Qetama" passive="LOC1713Bagemd"/>
                 
             </listRelation>
             
