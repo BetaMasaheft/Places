@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez"  xml:id="n1"> መሸለሚያ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Mašallamyā</placeName>
+                    <placeName xml:lang="gez" corresp="#n1">Mašallamiyā</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>
