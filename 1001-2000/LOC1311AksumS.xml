@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
@@ -51,6 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+        <change when="2019-12-04" who="AWi">record completed</change>
          <change when="2016-10-06" who="FP">record completed</change>
          <change when="2016-10-04" who="FP">added info to record</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue
@@ -63,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               
+
                <placeName xml:id="n1" xml:lang="am">አክሱም፡ ጽዮን፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAksum Ṣǝyon</placeName>
                <placeName xml:id="n2" xml:lang="gez" type="alt">ማርያም፡ ጽዮን፡</placeName>
@@ -71,6 +72,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName corresp="#n2" xml:lang="en">Mary of Zion</placeName>
                <placeName xml:id="n3" xml:lang="gez" type="alt">ገበዘ፡ ጽዮን፡</placeName>
                <placeName corresp="#n3" xml:lang="gez" type="normalized">Gabaza Ṣǝyon</placeName>
+               <placeName xml:id="n4" xml:lang="gez" type="alt">ገበዘ፡ አክሱም፡</placeName>
+               <placeName corresp="#n4" xml:lang="gez" type="normalized">Gabaza ʾAksum</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
@@ -101,7 +104,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      structures were identified under or embedded in today's church, the early
                      history of this church is hard to reconstruct and involved legendary figures
                      such as <persName ref="PRS1284Abrehaa">ʾAbrǝhā and ʾAṣbǝḥā</persName> and
-                        <roleName type="title">queen</roleName> 
+                        <roleName type="title">queen</roleName>
                      <persName ref="PRS3858esato">ʾƎsāto</persName>. <ref type="work" corresp="LIT1473GadlaL">Gadla Libānos</ref> refers that <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS3429DawitII">Dāwit II</persName> ordered the church restored
                      in <date when="1406">1406</date>. The possessions of the church grew significantly over
@@ -122,7 +125,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      experienced radical changes including the new round church of <placeName ref="LOC6564MaryamS">Māryām Ṣǝyon</placeName> built by
                         <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName> next to the old one. </ab>
-                  <ab type="description">The <ref type="work" corresp="LIT1913Mashaf">Maṣḥāfa
+                  <ab type="description">The <ref type="work" corresp="LIT4682Kamaze">first document of the Maṣḥāfa
                         ʾAksum</ref> describes ʾAksum Ṣǝyon in technical terms while <persName ref="PRS1778Alvares">Francisco Alvares</persName> describes the old church
                      as "<quote>very large; it has five aisles of good width and great length,
                         vaulted above, and all the vaults closed, the ceiling and sides all painted.
