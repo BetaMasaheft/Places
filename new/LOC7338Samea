@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <titleStmt>
                 <title>Samea</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="SG"/>
+                <editor key="AWi"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -69,10 +69,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC6949Samea" passive="LOC1713Bagemd"/>
+                    <relation name="gn:locatedIn" active="LOC7338Samea" passive="LOC5932Tegray"/>
                     <relation name="lawd:hasAttestation"
-                         active="LOC6949Samea"
-                         passive="LIT3951ChronSusenyos"/>
+                         active="LOC7338Samea"
+                         passive="LIT1913Mashaf"/>
                 </listRelation>
 
             </listPlace>
