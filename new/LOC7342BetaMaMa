@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC7340BetaYo">
+     xml:id="LOC7342BetaMaMa">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Bēta Yohannəs of Aksum</title>
+            <title>Bēta Maryām Magdalāwit of Aksum</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="AWi"/>
@@ -60,8 +60,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="church">
                <placeName></placeName>
-               <placeName xml:lang="gez" xml:id="n1">ቤተ፡ ዮሐንስ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Bēta Yohannəs</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ቤተ፡ ማርያም፡ መግደላዊት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Bēta Maryām Magdalāwit</placeName>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
                <settlement type="zone" ref="LOC6555CentralTegray"/>
@@ -70,9 +70,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note></note>
             </place>
             <listRelation>
-                <relation name="gn:locatedIn" active="LOC7340BetaYo" passive="LOC5932Tegray"/>
+                <relation name="gn:locatedIn" active="LOC7342BetaMaMa" passive="LOC5932Tegray"/>
                 <relation name="lawd:hasAttestation"
-                     active="LOC7340BetaYo"
+                     active="LOC7342BetaMaMa"
                      passive="LIT4682Kamaze"/>
             </listRelation>
 

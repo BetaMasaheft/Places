@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Bēta Giyorgis</title>
+            <title>Bēta Giyorgis of Aksum</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="AWi"/>
@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="church">
                <placeName xml:lang="gez" xml:id="n1">ቤተ፡ ጊዮርጊስ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Bēta Giyorgis</placeName>
-            
+
 
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
