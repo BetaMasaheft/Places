@@ -6,11 +6,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      type="place"
      xml:lang="en"
-     xml:id="LOC7339BetaGiyo">
+     xml:id="LOC7340BetaYo">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Bēta Giyorgis</title>
+            <title>Bēta Yohannəs</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="AWi"/>
@@ -27,7 +27,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </licence>
             </availability>
 
-            <date>2019-12-04</date>
+            <date>2019-12-06</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
@@ -52,14 +52,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
 
-         <change who="AWi" when="2019-12-04">CREATED: place</change>
+         <change who="AWi" when="2019-12-06">CREATED: place</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Beta Giyorgis</placeName>
+               <placeName>Bēta Yohannəs</placeName>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
                <settlement type="zone" ref="LOC6555CentralTegray"/>
@@ -68,9 +68,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note></note>
             </place>
             <listRelation>
-                <relation name="gn:locatedIn" active="LOC7339BetaGiyo" passive="LOC5932Tegray"/>
+                <relation name="gn:locatedIn" active="LOC7340BetaYo" passive="LOC5932Tegray"/>
                 <relation name="lawd:hasAttestation"
-                     active="LOC7339BetaGiyo"
+                     active="LOC7340BetaYo"
                      passive="LIT4682Kamaze"/>
             </listRelation>
 
