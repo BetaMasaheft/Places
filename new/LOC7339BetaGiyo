@@ -59,7 +59,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Beta Giyorgis</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ቤተ፡ ጊዮርጊስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Bēta Giyorgis</placeName>
+            
+
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
                <settlement type="zone" ref="LOC6555CentralTegray"/>
