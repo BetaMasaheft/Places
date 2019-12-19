@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace> 
             <place type="region" sameAs="pleiades:336410435">
-               <placeName corresp="#n1">Sǝmen</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sǝmen</placeName>
                <placeName xml:lang="gez" xml:id="n1">ስሜን</placeName>
                <placeName type="alt">Sämen</placeName>
                <listBibl type="secondary">
