@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Awasa</title>
+            <title>ʾAwāsā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -59,8 +59,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Awasa</placeName>
+            <place type="town" sameAs="Q755765">
+               <placeName xml:lang="gez" xml:id="n1">አዋሳ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ʾAwāsā</placeName>
             </place>
          </listPlace>
       </body>
