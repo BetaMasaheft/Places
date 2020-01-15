@@ -54,14 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-15">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>ʿĀdwā</placeName>
-               <placeName type="alt">ʿĀduwā</placeName>
+            <place type="town" sameAs="Q380096">
+               <placeName xml:lang="gez" xml:id="n1">ዓድዋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʿĀdwā</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ዓዱዋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʿĀduwā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notBefore="1991" type="zone" ref="LOC6654CentralTegray"/>
