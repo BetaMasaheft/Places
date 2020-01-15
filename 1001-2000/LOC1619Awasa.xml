@@ -54,6 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-15">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -61,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town" sameAs="Q755765">
                <placeName xml:lang="gez" xml:id="n1">አዋሳ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ʾAwāsā</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAwāsā</placeName>
             </place>
          </listPlace>
       </body>

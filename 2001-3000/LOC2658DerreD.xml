@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town" sameAs="Q193486">
                <placeName xml:lang="gez" xml:id="n1">ድሬ፡ ዳዋ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">Dǝrre Dāwā</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dǝrre Dāwā</placeName>
             </place>
          </listPlace>
       </body>

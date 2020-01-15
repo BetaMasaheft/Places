@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾAgaw  ʾAwi</title>
+            <title>ʾAgaw ʾAwi</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="zone" sameAs="Q1070718">
                <placeName xml:lang="gez" xml:id="n1">አገው፡ አዊ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ʾAgaw  ʾAwi</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAgaw ʾAwi</placeName>
             </place>
          </listPlace>
       </body>

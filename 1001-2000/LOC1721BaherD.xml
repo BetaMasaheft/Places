@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town" sameAs="Q464699">
                <placeName xml:lang="gez" xml:id="n1">ባሕር፡ ዳር፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">Bāḥǝr Dār</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Bāḥǝr Dār</placeName>
                <note>Is a town on the southern shores of Lake Ṭānā.</note>
             </place>
          </listPlace>

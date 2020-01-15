@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="region" sameAs="Q2826797">
                <placeName xml:lang="gez" xml:id="n1">አገው፡ ምድር፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ʾAgaw Mǝdǝr</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAgaw Mǝdǝr</placeName>
             </place>
          </listPlace>
       </body>

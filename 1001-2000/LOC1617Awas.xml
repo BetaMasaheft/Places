@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="river" sameAs="Q782845">
                <placeName xml:lang="gez" xml:id="n1">አዋሽ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">ʾAwāš</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAwāš</placeName>
                <placeName type="alt">Wēʿáytu</placeName>
             </place>
          </listPlace>
