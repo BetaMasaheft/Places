@@ -67,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region" sameAs="wd:Q157727">
+            <place type="region" sameAs="Q157727">
                <placeName xml:lang="gez" xml:id="n1">ኢፋት፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾIfāt</placeName>
                <placeName xml:lang="ar" xml:id="n2" type="alt">አውፋት፡</placeName>
