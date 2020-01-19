@@ -56,15 +56,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-19">added Wiki id</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName xml:id="n1" xml:lang="am">አዘዞ፡</placeName>
-               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAzazo</placeName>
-               <!--               xml:lang assigned as Amharic to be checked-->
+            <place type="town" sameAs="Q55604590">
+               <placeName xml:lang="gez" xml:id="n1">አዘዞ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAzazo</placeName>
+               
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
