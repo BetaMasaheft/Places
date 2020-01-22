@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q3125694">
+            <place type="town" sameAs="wd:Q3125694">
                <placeName xml:id="n1" xml:lang="gez">ሀገረ፡ ማርያም፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Hagara Māryām</placeName>
                <region ref="LOC2008Bulga"/>

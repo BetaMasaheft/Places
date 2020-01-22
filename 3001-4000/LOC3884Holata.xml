@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q3139315">
+            <place type="town" sameAs="wd:Q3139315">
                <placeName xml:lang="gez" xml:id="n1">ሆለታ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Holatā</placeName>
                <placeName xml:lang="gez" xml:id="n2">ሆለታ፡ ገነት፡</placeName>

@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="province" sameAs="Q839982">
+            <place type="province" sameAs="wd:Q839982">
                <placeName xml:lang="gez" xml:id="n1">ኢሉባቦር፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾIllubābor</placeName>
                <placeName xml:lang="oro" xml:id="n2">ኢሉ፡ ባቦር፡</placeName>

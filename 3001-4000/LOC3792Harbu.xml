@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q3192267">
+            <place type="town" sameAs="wd:Q3192267">
                <placeName xml:lang="gez" xml:id="n1">ሀርቡ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Harbu</placeName>
             </place>

@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region" sameAs="Q3162805">
+            <place type="region" sameAs="wd:Q3162805">
                <placeName xml:lang="gez" xml:id="n1">ጃርሶ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Ǧāārso</placeName> 
             </place>
