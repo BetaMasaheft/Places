@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Holäta</title>
+            <title>Holatā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,14 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-19">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Holäta</placeName>
-               <placeName type="alt">Holäta Gännät</placeName>
+            <place type="town" sameAs="wd:Q3139315">
+               <placeName xml:lang="gez" xml:id="n1">ሆለታ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Holatā</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ሆለታ፡ ገነት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Holatā Gannat</placeName>
             </place>
          </listPlace>
       </body>
