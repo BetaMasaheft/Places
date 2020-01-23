@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="oro">Afan Oromoo</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -62,7 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="region" sameAs="wd:Q3162805">
                <placeName xml:lang="gez" xml:id="n1">ጃርሶ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ǧāārso</placeName> 
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ǧārso</placeName> 
+               <placeName xml:lang="oro" xml:id="n2" type="alt">Ǧāārso</placeName>
             </place>
          </listPlace>
       </body>

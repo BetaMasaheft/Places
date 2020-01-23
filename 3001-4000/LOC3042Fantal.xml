@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Fäntale</title>
+            <title>Fantāle</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,14 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-19">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place>
-               <placeName>Fäntale</placeName>
-               <placeName type="alt">Fanta Ale</placeName>
+            <place type="warada">
+               <placeName xml:lang="gez" xml:id="n1">ፈንታሌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Fantāle</placeName>
+               <placeName  xml:lang="gez" xml:id="n2" type="alt">ፋንታ፡ አሌ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Fāntā ʾAle</placeName>
             </place>
          </listPlace>
       </body>
