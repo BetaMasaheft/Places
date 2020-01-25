@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-08-16">Created entity</change>
+            <change who="SG" when="2020-01-25">correction to relation</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,11 +50,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">አግድ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">ʾAgǝd</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAgǝd</placeName>
                     
                 </place>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="LOC7309Aged" passive="LOC1713Bagemd"/>
+                    <relation name="gn:locatedIn" active="LOC7309Aged" passive="LOC1713Bagemd"/>
                 </listRelation>
                 
                 
