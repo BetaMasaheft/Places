@@ -55,12 +55,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-09-07">addition</change>
+         <change who="SG" when="2020-01-28">Wiki data id added</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="mountain">
+            <place type="mountain" sameAs="wd:Q1716480">
                
                   
                   <placeName xml:lang="gez" xml:id="n1">ወህኒ፡ አምባ፡</placeName>
