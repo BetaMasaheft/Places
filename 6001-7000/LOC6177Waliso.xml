@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wäliso</title>
+            <title>Waliso</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,15 +54,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-28">added wiki id, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Wäliso</placeName>
-               <placeName type="alt">Wälliso</placeName>
-               <placeName type="alt">Gǝyon</placeName>
+            <place type="town" sameAs="wd:Q3565377">
+               <placeName xml:lang="gez" xml:id="n1">ወሊሶ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Waliso</placeName>  
+           
+               <placeName  xml:lang="gez" xml:id="n2" type="alt">ግዮን፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2">Gǝyon</placeName> 
+             
             </place>
          </listPlace>
       </body>
