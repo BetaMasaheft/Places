@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Yǝrga ʿAläm</title>
+            <title>Yǝrgā ʿAlam</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2020-01-28">added wiki id, transcription</change>
+         <change who="SG" when="2020-01-30">addition</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -62,8 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="town" sameAs="wd:Q2189137">
                <placeName xml:lang="gez" xml:id="n1">ይርጋ፡ ዓለም፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Yǝrga ʿAläm</placeName>
-               <placeName type="alt">Yǝrgaläm</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Yǝrgā ʿAlam</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ይርጋለም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Yǝrgālam</placeName>
             </place>
          </listPlace>
       </body>
