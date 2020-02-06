@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Sina</title>
+            <title>Dabra Sinā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,17 +54,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-02-06">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Däbrä Sina</placeName>
-               <placeName type="alt">Däbrä Siḥat</placeName>
-               <region>Sänḥit</region>
+            <place type="monastery" sameAs="wd:Q5248548">
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሲና፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Sinā</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ሲሓት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Siḥāt</placeName>
+               
             </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC2379DabraS" passive="LOC5544Sanhit"></relation></listRelation>
+           
          </listPlace>
+         
+         
       </body>
    </text>
 </TEI>
