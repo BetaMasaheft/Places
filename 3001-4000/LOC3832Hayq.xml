@@ -54,12 +54,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-02-07">added wiki id, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="lake">
+            <place type="lake" sameAs="wd:Q1550316">
                <placeName xml:lang="gez" xml:id="n1">ሐይቅ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Ḥayq
                   
