@@ -55,15 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-05-03">addition</change>
+         <change who="SG" when="2020-02-11">Wiki data ID added</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region">
+            <place type="region" sameAs="wd:Q2832403">
                <placeName xml:lang="gez" xml:id="n1">አለፋ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAlafā</placeName>
-               <placeName xml:lang="gez" xml:id="n2">ኀለፋ፡</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ኀለፋ፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Ḫalafā</placeName>
                
                
