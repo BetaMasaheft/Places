@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Č̣ ǝlgā</title>
+            <title>Č̣ǝlgā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <listPlace>
             <place type="region" sameAs="wd:Q2899109">
                <placeName xml:lang="gez" xml:id="n1">ጭልጋ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Č̣ ǝlgā
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Č̣ǝlgā
                   
                   
                </placeName>
