@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Sähala</title>
+            <title>Sahālā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,14 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-02-12">added Wiki id, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Sähala</placeName>
-               <placeName type="alt">Sahalla</placeName>
+            <place type="region" sameAs="wd:Q7446487">
+               <placeName xml:lang="gez" xml:id="n1">ሰሃላ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Sahālā</placeName>
+               <placeName  xml:lang="gez" xml:id="n2" type="alt">ሳሃላ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Sāhāllā</placeName>
             </place>
          </listPlace>
       </body>
