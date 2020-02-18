@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
+            <place type="town" sameAs="wd:Q3100278">
                <placeName>Gälämso</placeName>
                <placeName type="alt">Galamssoo</placeName>
             </place>
