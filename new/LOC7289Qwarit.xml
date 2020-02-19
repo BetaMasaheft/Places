@@ -53,14 +53,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-06-03">Created entity</change>
+            <change who="SG" when="2020-02-19">Wiki id added</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
           
-                    <place type="district">
-                        <placeName xml:lang="gez" xml:id="n1">ቋሪት፡ </placeName>
+                <place type="district" sameAs="wd:Q3200182">
+                        <placeName xml:lang="gez" xml:id="n1">ቋሪት፡</placeName>
                         <placeName xml:lang="gez" corresp="#n1" type="normalized">Qwārit
                             
                         </placeName>
