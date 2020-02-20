@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <place type="awragga" sameAs="wd:Q3022069">
                <placeName xml:lang="gez" xml:id="n1">ደምበጫ፡</placeName>
                
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">c</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dambač̣ā</placeName>
                
                            </place>
          </listPlace>
