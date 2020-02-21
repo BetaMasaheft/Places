@@ -55,6 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2018-03-13">additions</change>
+         <change who="SG" when="2020-02-21">updates</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -64,13 +65,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:lang="gez" xml:id="n1">ወጀራት፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Waǧǧarāt</placeName>
                   
-               <placeName xml:lang="gez" xml:id="n2">ዋዠራት፡፡</placeName>
-               <placeName xml:lang="gez" corresp="#n2" type="normalized">Wažžarāt</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ዋዠራት፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Wāžžarāt</placeName>
                
                   <placeName xml:lang="gez" xml:id="n3">ወጄራት፡</placeName>
                   <placeName xml:lang="gez" corresp="#n3" type="normalized">Waǧerāt</placeName>
                      <placeName xml:lang="gez" xml:id="n4">ዋይዳራት፡</placeName>
-                     <placeName xml:lang="gez" corresp="#n4" type="normalized">Waydarāt
+               <placeName xml:lang="gez" corresp="#n4" type="normalized">Wāydārāt
                         
                </placeName>
                <state type="existence" ref="Paks2"/>
@@ -80,10 +81,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </place>
             <listRelation>
                <relation name="gn:locatedIn" active="LOC6916Qoga" passive="LOC1713Bagemd"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC6916Qoga"
-                         passive="LIT3951ChronSusenyos"/>
-            </listRelation>
+              </listRelation>
             
          </listPlace>
          
