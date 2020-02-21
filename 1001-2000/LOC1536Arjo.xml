@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Arǧo</title>
+            <title>ʾArǧo</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <language ident="ar">Arabic</language>
             <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="oro">Afan Oromo</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -54,15 +55,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-02-21">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Arǧo</placeName>
-               <placeName type="alt">Arǧoo</placeName>
+            <place type="town" sameAs="wd:Q15054762">
+               <placeName xml:lang="gez" type="n1">አርጆ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1">ʾArǧo</placeName>
+               <placeName xml:lang="oro" xml:base="n2">ʾArǧoo</placeName>
             </place>
+            
          </listPlace>
       </body>
    </text>
