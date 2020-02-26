@@ -48,13 +48,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-12-16">Created XML record from Ethio authority google spreadsheet</change>
+         <change who="SG" when="2020-02-26">added Wiki id, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="warada">
-               <placeName xml:id="n1">ʾIrob</placeName>
+            <place type="warada" sameAs="wd:Q3154504">
+               <placeName xml:lang="gez" xml:id="n1">ኢሮብ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="nomalized">ʾIrob</placeName>
             </place>
          </listPlace>
       </body>

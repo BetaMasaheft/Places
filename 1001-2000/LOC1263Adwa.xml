@@ -54,13 +54,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-02-26">added Wiki id, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region awragga warada">
-               <placeName>ʿĀdwā</placeName>
+            <place type="region awragga warada" sameAs="wd:Q380096">
+               <placeName xml:lang="gez" xml:id="n1">አድዋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʿĀdwā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notBefore="1991" type="zone" ref="LOC6654CentralTegray"/>
