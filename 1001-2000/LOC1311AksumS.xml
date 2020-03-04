@@ -57,12 +57,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-03-04">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="church">
+            <place type="church" sameAs="wd:Q1150986">
                
                <placeName xml:id="n1" xml:lang="am">አክሱም፡ ጽዮን፡</placeName>
                <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAksum Ṣǝyon</placeName>

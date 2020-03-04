@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Abunä Zarʾa Buruk</title>
+            <title>ʾAbuna Zarʾā Buruk</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -54,16 +54,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-03-04">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Abunä Zarʾa Buruk</placeName>
-               <placeName type="alt">Abunä Zarʾabruk</placeName>
-               <region>Gärʿalta</region>
+               <placeName xml:lang="gez" xml:base="n1">አቡነ፡ ዘርአ፡ ቡሩክ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAbuna Zarʾā Buruk</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">አቡነ፡ ዘርአብሩክ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾAbuna Zarʾābruk</placeName>
+               
             </place>
+           <listRelation>
+              <relation name="gn:locatedIn" active="#LOC1065AbunaZ" passive="LOC3307Garalt"></relation>
+           </listRelation>
          </listPlace>
       </body>
    </text>
