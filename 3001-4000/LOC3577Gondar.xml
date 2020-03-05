@@ -153,55 +153,55 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC5888Tana">
                   <desc>Gondar is in a strategic location 35 km north of the Lake Ṭānā.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:locatedIn"
                          active="LOC3577Gondar"
                          passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmānt territory.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC3577Gondar"
                          passive="LOC5148Qaha">
                   <desc>The river Qāhā marked the border of the initial nucleus of the town of
                      Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC3577Gondar"
                          passive="LOC1452Angara">
                   <desc>The Small ʾAngarab river marked the border of the initial nucleus of the
                      town of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC3577Gondar"
                          passive="LOC4775Menzer">
                   <desc>Area 30 km south of Gondar that marked the souther border of Gondar at its
                      greatest extent in the 17th-18th century.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dcterms:hasPart"
                          active="LOC3577Gondar"
                          passive="LOC1058AbunBe">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dcterms:hasPart"
                          active="LOC3577Gondar"
                          passive="LOC6535EccBet">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dcterms:hasPart"
                          active="LOC3577Gondar"
                          passive="LOC6534Addaba">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dcterms:hasPart"
                          active="LOC3577Gondar"
                          passive="LOC2999EslamB">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:locatedIn"
                          active="LOC4506Manbar"
                          passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:locatedIn"
                          active="LOC3407GemjaB"
                          passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
@@ -260,13 +260,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="LOC2806Egziab" passive="LOC3577Gondar">
                   <desc>This is a church built by Yoḥānnǝs IV in Gondar</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC3577Gondar"
                          passive="LOC2385DabraT">
                   <desc>In the second half of the 18th century, Dabra Tābor replaced Gondar as the
                      capital of the Ethiopian empire.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC3577Gondar"
                          passive="LOC6552Amhara">
                   <desc>During the Italian occupation, Gondar became the capital of the Governo dell'Amhara.</desc>

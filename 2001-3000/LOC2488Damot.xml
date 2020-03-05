@@ -106,7 +106,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <placeName ref="LOC3010Ethiop"/>. During the mid sixteenth century, the partly Christianized population joined with their <persName ref="ETH1126Amhara"/> and 
                      <persName ref="ETH2125Tegre"/> in fighting against the Muslim invasion of <persName ref="PRS1522Ahmadb"/>. 
                      In the late sixteenth century, Dāmot  was occupied by the 
-                     <persName ref="ETH1973Oromo"/> who made their new homeland. Throughout the 17th and 18th century Dāmot allied itself with 
+                     <persName ref="ETH1973Oromo"/> who made their new homeland. 
+                     Throughout the 17th and 18th century Dāmot allied itself with 
                      <placeName ref="LOC3549Gojjam"/> and <placeName ref="LOC5284Qwara"/> in pursuit of influence and power in <placeName ref="LOC3577Gondar"/>.
                      In the mid 20th century, Dāmot was incorporated into the province of  <placeName ref="LOC3549Gojjam"/> as an ʾawrāǧǧā.
                         
@@ -114,10 +115,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC2488Damot"
                          passive="LOC3549Gojjam"/>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:locatedIn"
                          active="LOC2488Damot"
                          passive="LOC5597Sawa"/>
             </listRelation>
