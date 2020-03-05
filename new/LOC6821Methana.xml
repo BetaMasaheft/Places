@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Mǝṭḥanā</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:formsPartOf"
+                    <relation name="dcterms:isPartOf"
                          active="LOC6821Methana"
                          passive="LOC6817Zalan"/>
                 </listRelation>

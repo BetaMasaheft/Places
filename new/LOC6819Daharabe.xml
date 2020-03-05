@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Daḫārabe</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:formsPartOf"
+                    <relation name="dcterms:isPartOf"
                          active="LOC6819Daharabe"
                          passive="LOC6817Zalan"/>
                 </listRelation>

@@ -58,9 +58,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listRelation>
-            <relation name="saws:hasPart"
+            <relation name="dcterms:hasPart"
                       active="LOC6621Labakala"
-                      passive="LOC6716LalayLabakala LOC6717TahtayLabakala"/>
+                      passive="LOC6716LalayLabakala"/>
+                <relation name="dcterms:hasPart"
+                    active="LOC6621Labakala"
+                    passive="LOC6717TahtayLabakala"/>
          </listRelation>
             <listPlace>
                 <place type="town">

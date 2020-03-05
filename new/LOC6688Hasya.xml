@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listRelation>
-            <relation name="saws:hasPart"
+            <relation name="dcterms:hasPart"
                       active="LOC6688Hasya"
                       passive="LOC6687LalayHasya LOC6686TahtayHasya"/>
          </listRelation>
