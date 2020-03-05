@@ -106,9 +106,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note>
                   
                   <ab type="history">The medieval state of Bāle was bordered by the medieval Muslim states of <placeName ref="LOC2587Dawro"/> 
-                     and <placeName ref="LOC5582Sarka"/> in the north, <placeName ref="LOC3720Hadiyy"/> in the west , <placeName ref="LOC1094Adal"/> and
-                     <placeName ref="LOC2587Dawro"/> in the east and huge grazing ground of the <persName ref="ETH1973Oromo"/> pastoralist in the south.
-                     It came to existence as a Muslim state in the 11th and 13th centuries. The history of the Muslim state of Bāle linked to the history of  
+                     and <placeName ref="LOC5582Sarka"/> in the north, <placeName ref="LOC3720Hadiyy"/> in the west , 
+                     <placeName ref="LOC1094Adal"/> and
+                     <placeName ref="LOC2587Dawro"/> in the east and huge grazing ground of the 
+                     <persName ref="ETH1973Oromo"/> pastoralist in the south.
+                     It came to existence as a Muslim state in the 11th and 13th centuries. 
+                     The history of the Muslim state of Bāle linked to the history of  
                      <persName ref="PRS5438husayn"/>, the great early 13th century standard bearer of Islam in Bāle. 
                      The Muslim states of Bāle was famous for its cotton cloth weaving industry, 
                      and its foreign traders, including Arabs and Persians. Like other Muslim states of the southern Ethiopia, 
@@ -123,10 +126,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
                <listRelation>
-                  <relation name="syriaca:has-relation-to-place"
+                  <relation name="gn:nearBy"
                          active="LOC1743Bale"
                          passive="LOC2587Dawro"/>
-                  <relation name="syriaca:has-relation-to-place"
+                  <relation name="dc:relation"
                          active="LOC1743Bale"
                          passive="LOC5582Sarka"/>
                </listRelation>
