@@ -120,45 +120,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC1797Baselo"
                          passive="LOC6185Wallo">
                   <desc>The river Bašǝlo marked the northern border of historical Wallo.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC1022Abbay"
                          passive="LOC6185Wallo">
                   <desc>The river Abbay marked the western border of historical Wallo.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC6201Wancet"
                          passive="LOC6185Wallo">
                   <desc>The river Wančit marked the southern border of historical Wallo.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC1975Borkan"
                          passive="LOC6185Wallo">
                   <desc>The upper Borkannā marked the eastern border of historical Wallo.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC6185Wallo"
                          passive="LOC6569Tegray">
                   <desc>Certain parts of Wallo were merged with Tǝgrāy. In the 20th century, the
                      administrative territory of Wallo expanded to the fringes of Tǝgrāy.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC3999Karako"
                          passive="LOC6185Wallo">
                   <desc>In the 20th century, the administrative territory of Wallo extended to
                      Kārākore to the south.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC2709Djibou"
                          passive="LOC6185Wallo">
                   <desc>In the 20th century, the administrative territory of Wallo extended to the
                      border with Djibouti.</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC6185Wallo"
                          passive="LOC5597Sawa">
                   <desc>Certain parts of Wallo were merged with the territory of Šawā.</desc>
