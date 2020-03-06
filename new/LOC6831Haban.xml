@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Habanzanǝl</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:formsPartOf"
+                    <relation name="dcterms:isPartOf"
                          active="LOC6831Haban"
                          passive="LOC6829Gabal"/>
                 </listRelation>

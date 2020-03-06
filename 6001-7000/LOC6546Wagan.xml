@@ -87,11 +87,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="LOC6546Wagan"
-                         passive="LOC3291Gannat">
+                    <relation name="gn:locatedIn"
+                        active="LOC3291Gannat"
+                        passive="LOC6546Wagan">
                         <desc>The church of Gannata ʾIyasus was built on the ʾAṣe Wagan hill in the
                             17th century.</desc>
+                    </relation>
+                    <relation name="gn:locatedIn"
+                        active="LOC6546Wagan"
+                        passive="LOC1669Azazo">
+                        
                     </relation>
                 </listRelation>
             </listPlace>

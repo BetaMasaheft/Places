@@ -121,27 +121,27 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <relation name="gn:locatedIn" active="LOC4020Kasam" passive="LOC6568Amhara">
                         <desc>The Kasam river probably marked one of the borders of the historical ʾAmḥarā territory.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="gn:nearBy"
                          active="LOC5597Sawa"
                          passive="LOC6568Amhara">
                         <desc>Šawā served as the bulwark for protecting ʾAmḥarā.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="gn:nearBy"
                          active="LOC5888Tana"
                          passive="LOC6568Amhara">
                         <desc>The centre of the power moved from ʾAmḥarā to the lake Ṭānā region.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="dcterms:hasPart"
                          active="LOC6185Wallo"
                          passive="LOC6568Amhara">
                         <desc>The territories of ʾAmḥarā became part of the Wallo province.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="dcterms:isPartOf"
                          active="LOC6573NorthWallo"
                          passive="LOC6568Amhara">
                         <desc>Part of the territories of historical ʾAmḥarā are part of the North Wallo Zone.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="dcterms:hasPart"
                          active="LOC6572SouthWallo"
                          passive="LOC6568Amhara">
                         <desc>Part of the territories of historical ʾAmḥarā are part of the South Wallo Zone.</desc>

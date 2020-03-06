@@ -62,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                 </place>
                 <listRelation>
-                    <relation name="saws:formsPartOf" active="LOC6659May" passive="LOC6829Gabal"/>
+                    <relation name="dcterms:isPartOf" active="LOC6659May" passive="LOC6829Gabal"/>
                 </listRelation>
             </listPlace>
          <!--in the AS chronicle-->

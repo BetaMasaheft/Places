@@ -90,7 +90,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <date>18th and 19th century</date>. Under <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> it became an important
                      residence for both the <roleName type="function">Emperor</roleName> and the
-                     Jesuits. It remained the seat of the <roleName type="function">ʾǝč̣č̣age</roleName> until the <date>19th century</date>, even after the
+                     Jesuits. It remained the seat of the <roleName type="function">ʾǝč̣č̣age</roleName> until the 
+                     <date>19th century</date>, even after the
                      establishment of the quarter of <placeName ref="LOC6535EccBet">ʾƎč̣č̣age
                         Bet</placeName> in <placeName ref="LOC3577Gondar">Gondar</placeName>. ʾAzazo
                      was the place where the monastery of <placeName ref="LOC2297DabraL">Dabra
@@ -99,13 +100,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:nearBy"
                          active="LOC1669Azazo"
                          passive="LOC3577Gondar"/>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC1669Azazo"
                          passive="LOC6535EccBet"/>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC1669Azazo"
                          passive="LOC2297DabraL"/>
             </listRelation>

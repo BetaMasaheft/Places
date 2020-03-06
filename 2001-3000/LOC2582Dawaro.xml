@@ -139,10 +139,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC2582Dawaro"
                          passive="LOC3061Fataga"/>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC2582Dawaro"
                          passive="LOC5693Serka"/>
             </listRelation>

@@ -63,13 +63,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
                 </place>
                 <listRelation>
-               <relation name="saws:formsPartOf"
+                    <relation name="dcterms:isPartOf"
                          active="LOC6830Awesa"
                          passive="LOC6829Gabal"/>
-                    <relation name="saws:isRelatedTo"
+                    <relation name="syriaca:has-relation-to-place"
                          cert="medium"
-                         active="LOC6830Awesa"
-                         passive="ETH1171awsa"/>
+                         active="ETH1171awsa"
+                         passive="LOC6830Awesa"/>
                 </listRelation>
                 
             </listPlace>

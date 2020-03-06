@@ -78,7 +78,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="dc:relation"
                          active="LOC6572SouthWallo"
                          passive="LOC6185Wallo">
                         <desc>The territory of the South Wallo Zone corresponds approximately to that of historical Wallo.</desc>

@@ -114,10 +114,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC2614Debarw"
                          passive="LOC4560Marab"/>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="dc:relation"
                          active="LOC2614Debarw"
                          passive="LOC4631Massaw"/>
                <relation name="lawd:hasAttestation"

@@ -4,7 +4,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
+   type="place" sameAs="wd:Q1163682"
      xml:lang="en"
      xml:id="LOC6401Zabid">
    <teiHeader xml:base="https://betamasaheft.eu/">
@@ -114,7 +114,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </place>
                <listRelation>
                   
-                  <relation name="syriaca:has-relation-to-place"
+                  <relation name="gn:nearBy"
                          active="LOC6401Zabid"
                          passive="LOC6387Yemen"/>
                   <relation name="gn:nearBy" active="LOC6401Zabid" passive="LOC5339RedSea">
@@ -122,9 +122,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </relation>
                   
                  
-                  <relation name="syriaca:has-relation-to-place"
-                         active="LOC6401Zabid"
-                         passive="wd:Q1163682"/>
+
                 
             </listRelation>
          </listPlace>

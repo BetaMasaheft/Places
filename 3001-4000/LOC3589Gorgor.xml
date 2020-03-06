@@ -151,7 +151,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      1684.</desc>
                </relation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1721BaherD"/>
-               <relation name="syriaca:has-relation-to-place"
+               <relation name="gn:locatedIn"
                          active="LOC3078Feremo"
                          passive="LOC3589Gorgor"/>
                <relation name="syriaca:has-relation-to-place"

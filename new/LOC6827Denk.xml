@@ -61,7 +61,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>Dǝnkʷǝʾǝlo</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:formsPartOf" active="LOC6827Denk" passive="LOC6817Zalan"/>
+                    <relation name="dcterms:isPartOf" active="LOC6827Denk" passive="LOC6817Zalan"/>
                 </listRelation>
             </listPlace>
          <!--in the AS chronicle-->

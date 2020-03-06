@@ -84,7 +84,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             Gabrǝʾel Church during the reign of <roleName type="title">ʾaṣe</roleName>
                             <persName ref="PRS9153TaklaHa">Takla Hāymānot</persName>, while before
                             it used to be near the church of <placeName ref="LOC6540Entone">ʾAbbā
-                                ʾƎnṭonǝs</placeName> in the north-western part of <placeName ref="LOC3577Gondar">Gondar</placeName>. During the Italian
+                                ʾƎnṭonǝs</placeName> in the north-western part of 
+                            <placeName ref="LOC3577Gondar">Gondar</placeName>. During the Italian
                             occupation, <placeName ref="LOC1058AbunBe">ʾAbun Bet</placeName> was
                             moved near <placeName ref="LOC6541DabraSahaySell">Dabra Ḍahāy
                                 Śǝllāse</placeName> church in the central part of the city, while
@@ -94,7 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 <listRelation>
                     <relation name="gn:nearBy" active="LOC6539Gabreel" passive="LOC3288Gannat"/>
-                    <relation name="syriaca:has-relation-to-place"
+                    <relation name="dc:relation"
                          active="LOC6539Gabreel"
                          passive="LOC1058AbunBe"/>
                 </listRelation>

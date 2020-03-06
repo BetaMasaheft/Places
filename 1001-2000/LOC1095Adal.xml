@@ -113,14 +113,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </listBibl>
                   <note>
                      
-                     <ab type="history">The name ʾAdal first appeared in the historical record at the end of the 13th century. It was first under the authority
+                     <ab type="history">The name ʾAdal first appeared in the historical record at the end of the 13th century. 
+                        It was first under the authority
                         of the Muslim sultanate of <placeName ref="LOC3921Ifat"/>. However, in the decades after 1288 ʾAdal must have regained its sovereignty which continued to 1415. 
                         Soon after <date>1415</date>, however,  ʾAdal must again have become subordinate to <placeName ref="LOC3921Ifat"/>.
                      </ab>
                   </note>
                </place>
                <listRelation>
-                  <relation name="syriaca:has-relation-to-place"
+                  <relation name="gn:locatedIn"
                          active="LOC1095Adal"
                          passive="LOC3921Ifat"/>
                   </listRelation>
