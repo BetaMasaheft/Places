@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3577Gondar">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3577Gondar">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -33,21 +27,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-            <language ident="am">Amharic</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="am">Amharic</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2016-11-18" who="FP">added link to GeoNames entity</change>
@@ -153,57 +140,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC5888Tana">
                   <desc>Gondar is in a strategic location 35 km north of the Lake Ṭānā.</desc>
                </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC3577Gondar"
-                         passive="LOC4051Kemant">
+               <relation name="gn:locatedIn" active="LOC3577Gondar" passive="LOC4051Kemant">
                   <desc>Gondar is located in Kǝmānt territory.</desc>
                </relation>
-               <relation name="gn:nearBy"
-                         active="LOC3577Gondar"
-                         passive="LOC5148Qaha">
+               <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC5148Qaha">
                   <desc>The river Qāhā marked the border of the initial nucleus of the town of
                      Gondar.</desc>
                </relation>
-               <relation name="gn:nearBy"
-                         active="LOC3577Gondar"
-                         passive="LOC1452Angara">
+               <relation name="gn:nearBy" active="LOC3577Gondar" passive="LOC1452Angara">
                   <desc>The Small ʾAngarab river marked the border of the initial nucleus of the
                      town of Gondar.</desc>
                </relation>
-               <relation name="dc:relation"
-                         active="LOC3577Gondar"
-                         passive="LOC4775Menzer">
+               <relation name="dc:relation" active="LOC3577Gondar" passive="LOC4775Menzer">
                   <desc>Area 30 km south of Gondar that marked the souther border of Gondar at its
                      greatest extent in the 17th-18th century.</desc>
                </relation>
-               <relation name="dcterms:hasPart"
-                         active="LOC3577Gondar"
-                         passive="LOC1058AbunBe">
+               <relation name="dcterms:hasPart" active="LOC3577Gondar" passive="LOC1058AbunBe">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="dcterms:hasPart"
-                         active="LOC3577Gondar"
-                         passive="LOC6535EccBet">
+               <relation name="dcterms:hasPart" active="LOC3577Gondar" passive="LOC6535EccBet">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="dcterms:hasPart"
-                         active="LOC3577Gondar"
-                         passive="LOC6534Addaba">
+               <relation name="dcterms:hasPart" active="LOC3577Gondar" passive="LOC6534Addaba">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="dcterms:hasPart"
-                         active="LOC3577Gondar"
-                         passive="LOC2999EslamB">
+               <relation name="dcterms:hasPart" active="LOC3577Gondar" passive="LOC2999EslamB">
                   <desc>This is a quarter of Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC4506Manbar"
-                         passive="LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC4506Manbar" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC3407GemjaB"
-                         passive="LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC3407GemjaB" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
                <relation name="gn:locatedIn" active="LOC3091FitAbb" passive="LOC3577Gondar">
@@ -224,9 +191,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:nearBy" active="LOC3288Gannat" passive="LOC3577Gondar">
                   <desc>This is a hill in Gondar.</desc>
                </relation>
-               <relation name="gn:locatedIn"
-                         active="LOC6541DabraSahaySell"
-                         passive="LOC3577Gondar">
+               <relation name="gn:locatedIn" active="LOC6541DabraSahaySell" passive="LOC3577Gondar">
                   <desc>This is a church in Gondar.</desc>
                </relation>
                <relation name="gn:locatedIn" active="INS0330DDQ" passive="LOC3577Gondar">
@@ -260,15 +225,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <relation name="gn:locatedIn" active="LOC2806Egziab" passive="LOC3577Gondar">
                   <desc>This is a church built by Yoḥānnǝs IV in Gondar</desc>
                </relation>
-               <relation name="dc:relation"
-                         active="LOC3577Gondar"
-                         passive="LOC2385DabraT">
+               <relation name="dc:relation" active="LOC3577Gondar" passive="LOC2385DabraT">
                   <desc>In the second half of the 18th century, Dabra Tābor replaced Gondar as the
                      capital of the Ethiopian empire.</desc>
                </relation>
-               <relation name="dc:relation"
-                         active="LOC3577Gondar"
-                         passive="LOC6552Amhara">
+               <relation name="dc:relation" active="LOC3577Gondar" passive="LOC6552Amhara">
                   <desc>During the Italian occupation, Gondar became the capital of the Governo dell'Amhara.</desc>
                </relation>
             </listRelation>

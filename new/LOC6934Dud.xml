@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="LOC6934Dud"
-     xml:lang="en"
-     type="place">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6934Dud" xml:lang="en" type="place">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -30,8 +24,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </fileDesc>
         <encodingDesc>
             <p>A digital born TEI file</p>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -42,13 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="am">Amharic</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2018-03-13">Created entity</change>
@@ -70,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="LOC6934Dud" passive="LOC1878BetaAm"/>
-                    <relation name="lawd:hasAttestation"
-                         active="LOC6934Dud"
-                         passive="LIT3951ChronSusenyos"/>
+                    <relation name="lawd:hasAttestation" active="LOC6934Dud" passive="LIT3951ChronSusenyos"/>
                 </listRelation>
                 
             </listPlace>

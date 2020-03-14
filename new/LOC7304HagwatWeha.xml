@@ -1,7 +1,6 @@
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7304HagwatWeha" xml:lang="en" type="place">
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7304HagwatWeha" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,13 +31,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="am">Amharic</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-07-31">Created entity</change>
@@ -49,11 +42,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ሐጓት፡ ወኻ።</placeName>
-                    <placeName  xml:lang="gez" corresp="#n1">Ḥagʷāt Waḳā
+                    <placeName xml:lang="gez" corresp="#n1">Ḥagʷāt Waḳā
                         
                     </placeName>
                 </place>
-                <listRelation><relation name="gn:locatedIn" active="LOC7304HagwatWeha" passive="LOC1713Bagemd"></relation></listRelation>
+                <listRelation><relation name="gn:locatedIn" active="LOC7304HagwatWeha" passive="LOC1713Bagemd"/></listRelation>
                 
             </listPlace><!---->
         </body>
