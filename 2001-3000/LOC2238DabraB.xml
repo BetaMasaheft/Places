@@ -44,19 +44,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-03-23">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Dabra Baggǝʿ</placeName>
-               <region ref="LOC5597Sawa"/>
-               <country ref="LOC3010Ethiop"/>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ በግዕ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Baggǝʿ</placeName> 
+            
+              
                <note>
                   A monastery founded in the 14th century, according to tradition, by Ḥǝṣān Moʾa.
                </note>
             </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC2238DabraB" passive="LOC5597Sawa"></relation></listRelation>
+            
          </listPlace>
       </body>
    </text>
