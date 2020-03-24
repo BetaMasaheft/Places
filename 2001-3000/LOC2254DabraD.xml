@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Dammo</title>
+            <title>Dabra Dāmmo</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -43,15 +43,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-03-24">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Däbrä Dammo</placeName>
-               <placeName type="alt">Däbrä Halleluya</placeName>
-               <placeName type="alt">Ǝnda [Abunä] Arägawi</placeName>
+            <place type="monastery" sameAs="wd:Q595895">
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ዳሞ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Dāmmo</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ሃሌ፡ ሉያ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Hālleluyā</placeName>
+               <placeName xml:lang="gez" xml:id="n3" type="alt">እንዳ፡ አቡነ፡ አረጋዊ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾƎndā ʾAbuna ʾAragāwi</placeName> 
             </place>
          </listPlace>
       </body>
