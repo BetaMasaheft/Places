@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Ḍäḥay</title>
+            <title>Dabra Ḍaḥāy</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,15 +42,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-03-31">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Däbrä Ḍäḥay</placeName>
-               <region>Säqota</region>
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ፀሓይ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Ḍaḥāy</placeName>
+               
+               
+          
             </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC2342DabraD" passive="LOC5559Saqota"></relation></listRelation>
          </listPlace>
       </body>
    </text>
