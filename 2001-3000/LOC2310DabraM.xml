@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Marqos</title>
+            <title>Dabra Mārqos</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,13 +42,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-04-01">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName>Däbrä Marqos</placeName>
+            <place type="town" sameAs="wd:Q1024659">
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ማርቆስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Mārqos</placeName>
+               
+         
             </place>
          </listPlace>
       </body>
