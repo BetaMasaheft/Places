@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Maryam</title>
+            <title>Dabra Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,16 +42,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-04-01">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Däbrä Maryam</placeName>
-               <placeName type="alt">Ǝnda Abunä Absadi</placeName>
-               <region>Qwäḥayn</region>
+            <place type="monastery" sameAs="wd:Q5248543">
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Māryām</placeName>
+               
+               <placeName xml:lang="gez" xml:id="n2" type="alt">እንዳ፡ አቡነ፡ አብሳዲ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾƎndā ʾAbuna ʾAbsādi</placeName>
+               
+               
+          
             </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC2317DabraM" passive="LOC5271Qwahay"></relation></listRelation>
          </listPlace>
       </body>
    </text>

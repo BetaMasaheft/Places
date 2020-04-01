@@ -44,15 +44,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-04-01">Wiki id added, transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Dabra Māryām</placeName>
-               <region>Ṭānā</region>
+            <place type="monastery" sameAs="wd:Q28223076">
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Māryām</placeName>
+               
+              
+          
             </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC2318DabraM" passive="LOC5888Tana"></relation></listRelation>
          </listPlace>
       </body>
    </text>
