@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gänǧ</title>
+            <title>Ganǧ</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,13 +42,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-04-10">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Gänǧ</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ገንጅ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Ganǧ</placeName>
+               
+               
+           
             </place>
          </listPlace>
       </body>
