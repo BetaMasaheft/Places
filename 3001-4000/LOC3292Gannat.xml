@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Gännätä Ṣǝge Giyorgis</title>
+            <title>Gannata Ṣǝge Giyorgis</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,17 +42,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-04-10">transcription</change> 
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Gännätä Ṣǝge Giyorgis</placeName>
-               <placeName type="alt">Männagäša Qǝddus Giyorgis</placeName>
-               <placeName type="alt">Arada Giyorgis</placeName>
-               <region>Addis Abäba</region>
+               <placeName xml:lang="gez" xml:id="n1">ገነተ፡ ጽጌ፡ ጊዮርጊስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Gannata Ṣǝge Giyorgis</placeName>
+               <placeName xml:lang="gez" xml:id="n2" type="alt">መናገሻ፡ ቅዱስ፡ ጊዮርጊስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Mannāgašā Qǝddus Giyorgis</placeName>
+               <placeName xml:lang="gez" xml:id="n3" type="alt">አራዳ፡ ጊዮርጊስ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾArādā Giyorgis</placeName>
+               
+               
+               
+            
             </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC3292Gannat" passive="LOC1216AddisA"></relation></listRelation> 
          </listPlace>
       </body>
    </text>
