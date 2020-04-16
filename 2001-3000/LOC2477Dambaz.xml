@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dämbäzä Śǝllase</title>
+            <title>Dambaza Śǝllāse</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -12,7 +12,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <publicationStmt>
             <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob-Ludolf-Zentrum für Äthiopistik</authority>
             <pubPlace>Hamburg</pubPlace>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣcḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p> This file is licensed
@@ -42,13 +42,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-04-16">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Dämbäzä Śǝllase</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ደምበዘ፡ ሥላሴ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dambaza Śǝllāse</placeName>
+               
+               
             </place>
          </listPlace>
       </body>
