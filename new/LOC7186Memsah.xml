@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Məmsāh</title>
+                <title>Mǝmsāh</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DE"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName>Məmsāh</placeName>
+                    <placeName>Mǝmsāh</placeName>
                 </place>
             </listPlace>
          <!---->
