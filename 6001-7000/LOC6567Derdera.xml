@@ -5,7 +5,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         <fileDesc>
             <titleStmt>
                 <title>Dǝrdǝrā</title>
-                <editor/>
+         
                 <editor role="generalEditor" key="AB"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
@@ -36,13 +36,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2016-10-17">CREATED: place</change>
+            <change who="SG" when="2020-04-21">transcription</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName>Dǝrdǝrā</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ድርድራ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Dǝrdǝrā</placeName>
+                    
+                    
+                    <placeName></placeName>
                        </place>
             </listPlace>
         </body>
