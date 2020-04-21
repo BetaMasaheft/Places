@@ -41,12 +41,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 required as per Eugenia's email dated 24/08/2016 and changed xml:lang to Amharic</change>
             <change when="2016-08-19" who="FP">corrections</change>
             <change when="2016-08-11" who="FP">created new record</change>
+            <change who="SG" when="2020-04-21">Wiki id added</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="river">
+                <place type="river" sameAs="wd:Q2480948">
                     <placeName xml:id="n1" xml:lang="am">አንገረብ፡</placeName>
                     <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAngarab</placeName>
                     <placeName xml:id="n2" xml:lang="en" type="alt">Great ʾAngarab</placeName>
