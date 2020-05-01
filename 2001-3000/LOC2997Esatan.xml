@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ǝšatan Māryām</title>
+            <title>ʾƎšatan Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -43,22 +43,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-05-01">transcription</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Ǝšatan Māryām</placeName>
-               <placeName type="alt">Ašatan Māryām</placeName>
-               <region ref="LOC6573NorthWallo"/>
+               <placeName xml:lang="gez" corresp="n1" >እሸተን፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾƎšatan Māryām</placeName>
+               
+               <placeName xml:lang="gez" xml:id="n2" type="alt">አሸተን፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾAšatan Māryām</placeName>
+         
                <country ref="LOC3010Ethiop"/>
                <location>
                   <geo>12.016957 39.071967</geo>
                </location>
                <note>The hewn church is situated on a flat-topped mountain south-east of Lālibalā.</note>
-            </place>
+               
+                  
+                  
+              
+                </place>
+            <listRelation><relation name="gn:locatedIn" active="LOC2997Esatan" passive="LOC6573NorthWallo"></relation></listRelation>
+            
          </listPlace>
+        
+         
       </body>
    </text>
 </TEI>
