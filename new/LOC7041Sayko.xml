@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
-                <title>Sayko</title>
+                <title>Sāyko</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,13 +40,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2018-06-28">Created entity</change>
+            <change who="SG" when="2020-05-19">transcription</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="monastery">
-                    <placeName>Sayko</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ሳይኮ፡</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Sāyko</placeName> 
+                    
+                    
+                
                 </place>
             </listPlace>
          <!---->
