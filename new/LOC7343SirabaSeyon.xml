@@ -45,8 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="site">
-                    <placeName xml:id="n1">Sirābā Ṣǝyon</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ሲራባ፡ ጽዮን፡</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ሲራባ፡ ጽዮን፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Sirābā Ṣǝyon</placeName>
 <location>
 <geo>11.908327 37.919617</geo>
 
