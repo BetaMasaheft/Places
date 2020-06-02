@@ -1,0 +1,62 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7343SirabaSeyon" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sirābā Ṣǝyon</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="MKr"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="MKr" when="2020-05-20">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="site">
+                    <placeName xml:id="n1" xml:lang="gez">ሲራባ፡ ጽዮን፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Sirābā Ṣǝyon</placeName>
+<location>
+<geo>11.908327 37.919617</geo>
+
+</location>
+                </place>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="LOC7343SirabaSeyon" passive="BAVet120"/>
+                    <relation name="gn:locatedIn" active="LOC7343SirabaSeyon" passive="LOC1713Bagemd"/>
+                </listRelation>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>
