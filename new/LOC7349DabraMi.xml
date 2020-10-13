@@ -45,10 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="monastery">
-                    <placeName>Dabra Mikāʾel</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሚካኤል፡</placeName>
+                    <placeName corresp="#n1" type="normalized">Dabra Mikāʾel</placeName>
                 </place>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="LOC7349DabraMi" passive=""/>
+                    <relation name="lawd:hasAttestation" active="LOC7349DabraMi" passive="BDLaethc14#a2">
+                        <desc>The name of Dabra Mikāʾel is mentioned in an additional note of <ref type="mss" corresp=" BDLaethc14"/>, written in Amharic in a recent hand.
+                        Moreover, the manuscript is said to belong to St Michael in the colophon of the manuscript.</desc>
+                    </relation>
                 </listRelation>
             </listPlace><!---->
         </body>
