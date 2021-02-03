@@ -5,7 +5,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Edom</title>
+                <title xml:lang="en" xml:id="n1">Edom</title>
+                <title xml:lang="gez" xml:id="n2">ʾEdom</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MV"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,9 +46,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="kingdom region">
-                    <placeName>Edom</placeName>
+                    <placeName xml:lang="en" corresp="#n1">Edom</placeName>
+                    <placeName xml:lang="gez" corresp="#n2">ኤዶም፡</placeName>
+                    <placeName corresp="#n2" type="normalized">ʾEdom</placeName>
                 </place>
-            </listPlace><!---->
+                <listRelation>
+                    <relation name="ecrm:P129_is_about" active="LIT3022RepCh302" passive="LOC7352Edom">
+                        <desc>The place is celebrated in <ref type="work" corresp=" LIT3022RepCh302"/>.
+                        </desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
         </body>
     </text>
 </TEI>
