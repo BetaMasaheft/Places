@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dayr Ilyās</title>
+            <title>Dayr ʾIlyās</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Dayr Ilyās</placeName>
+               <placeName>Dayr ʾIlyās</placeName>
                <placeName type="alt">St Elija</placeName>
             </place>
          </listPlace>
