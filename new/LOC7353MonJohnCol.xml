@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="archaeologicalSite monastery">
-                    <placeName>Monastery of John ‘the Short’ (Colobus)</placeName>
+                    <placeName>Monastery of St John ‘the Short’ (Colobus)</placeName>
                     <country ref="wd:Q79"/>
                     <region ref="wd:Q1074945"/>
                 </place>
