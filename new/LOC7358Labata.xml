@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Läbäṭā</title>
+                <title>Labaṭā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="MKr"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -49,9 +49,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="am" corresp="#n1">Labaṭā</placeName>
                     <placeName xml:lang="am" xml:id="n2">ማይ፡ ለበጣ፡</placeName>
                     <placeName xml:lang="am" corresp="#n2">Māy Labaṭā</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+
+                    <listBibl type="secondary">
+                       <bibl>
+                          <ptr target="bm:Jarry1972Voyage"/>
+                          <citedRange unit="page">227-228</citedRange>
+                       </bibl>
+                    </listBibl>
                 </place>
+
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7358Labata" passive="BNFabb80"/>
+                    <relation name="gn:locatedIn" active="LOC7358Labata" passive="LOC5932Tegray"/>
                 </listRelation>
             </listPlace><!---->
         </body>
