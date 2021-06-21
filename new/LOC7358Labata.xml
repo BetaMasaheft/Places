@@ -32,14 +32,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
-                <t:language ident="en">English</t:language>
-                <t:language ident="am">Amharic</t:language>
-            </t:langUsage>
+            <langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+                <language ident="en">English</language>
+                <language ident="am">Amharic</language>
+                <language ident="ti">Tigrigna</language>
+            </langUsage>
         </profileDesc>
-        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
-            <t:change who="MKr" when="2021-06-01">Created entity</t:change>
-        </t:revisionDesc>
+        <revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <change who="MKr" when="2021-06-01">Created entity</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -47,8 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     <placeName xml:lang="am" xml:id="n1">ለበጣ፡</placeName>
                     <placeName xml:lang="am" corresp="#n1">Labaṭā</placeName>
-                    <placeName xml:lang="am" xml:id="n2">ማይ፡ ለበጣ፡</placeName>
-                    <placeName xml:lang="am" corresp="#n2">Māy Labaṭā</placeName>
+                    <placeName xml:lang="ti" xml:id="n2">ማይ፡ ለበጣ፡</placeName>
+                    <placeName xml:lang="ti" corresp="#n2">Māy Labaṭā</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
 
