@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="dabr monastery">
                 <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ስብራ፡</placeName>
                 <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Sǝbrā</placeName>
+                <country ref="LOC2804Egypt"/>
           </place>
 
                 <listRelation>
