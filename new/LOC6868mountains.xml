@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                             <ptr target="bm:Conzelman1895Galawdewos"/>
                         </bibl>
                         <bibl>
-                            <ptr target="bm:Solomon2015Geography"/>
+                            <ptr target="bm:Solomon2015Galawdewos"/>
                             <citedRange unit="page">109-118</citedRange>
                         </bibl>
                     </listBibl>
