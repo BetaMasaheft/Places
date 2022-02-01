@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2282DabraH">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2020-03-26">transcription</change>
+         <change who="DN" when="2022-02-01">new data</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -51,8 +52,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="monastery">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ሓምሎ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Ḥāmlo</placeName>
-               
-              
+               <placeName xml:lang="gez" xml:id="n2">እንዳ፡ ማርያም፡ ሓምሎ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾƎndā Māryām Ḥāmlo</placeName>
+               <placeName xml:lang="gez" xml:id="n3">እንዳማርያም፡ ሓምሎ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾƎndāmāryām Ḥāmlo</placeName>
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
+               <settlement type="zone" ref="LOC6653EastTegray"/>
+               <settlement when="2020-10-16" ref="LOC3293GantaA" type="warada"/>
+               <settlement when="2029-10-16" ref="LOC7361DaedaHamlo" type="tabiya"/>
+
+               <location>
+                  <geo cert="medium">14.175109 39.310713</geo>
+                  <note>The location is that of the flat-topped mountain.</note>
+                     </location>
+
             </place>
          </listPlace>
       </body>
