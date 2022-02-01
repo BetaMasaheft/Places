@@ -45,14 +45,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                  <placeName xml:lang="gez" xml:id="n1">ዶንኮንያ፡ ሚካኤል፡</placeName>
-                  <placeName xml:lang="gez" corresp="#n1" type="normalized">Donkonyā Mikāʾel</placeName>
-                  <placeName xml:lang="gez" xml:id="n2">ዱንኮንያ፡ ሚካኤል፡</placeName>
-                  <placeName xml:lang="gez" corresp="#n2" type="normalized">Dunkonyā Mikāʾel</placeName>
-                  <placeName xml:lang="gez" xml:id="n3">ዲኮንያ፡ ሚካኤል፡</placeName>
-                  <placeName xml:lang="gez" corresp="#n3" type="normalized">Dikonyā Mikāʾel</placeName>
-                  <placeName xml:lang="gez" xml:id="n4">ዲንኮንያ፡ ሚካኤል፡</placeName>
-                  <placeName xml:lang="gez" corresp="#n4" type="normalized">Dinkonyā Mikāʾel</placeName>
+                  <placeName xml:id="n1" xml:lang="ti">ዶንኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n1" xml:lang="ti" type="normalized">Donkonyā Mikāʾel</placeName>
+                  <placeName xml:id="n2" xml:lang="ti">ዱንኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n2" xml:lang="ti" type="normalized">Dunkonyā Mikāʾel</placeName>
+                  <placeName xml:id="n3" xml:lang="ti">ዲኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n3" xml:lang="ti" type="normalized">Dikonyā Mikāʾel</placeName>
+                  <placeName xml:id="n4" xml:lang="ti">ዲንኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n4" xml:lang="ti" type="normalized">Dinkonyā Mikāʾel</placeName>
 
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>

@@ -45,8 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="tabiya">
-                        <placeName xml:id="n1" xml:lang="gez" >ፃዕዳት፡ ሓምሎ፡</placeName>
-                        <placeName corresp="#n1" xml:lang="gez" type="normalized">Ḍāʿǝdāt Ḥāmlo</placeName>
+
+                        <placeName xml:id="n1" xml:lang="ti">ፃዕዳት፡ ሓምሎ፡</placeName>
+                        <placeName corresp="#n1" xml:lang="ti" type="normalized">Ḍāʿǝdāt Ḥāmlo</placeName>
+
                         <country ref="LOC3010Ethiop"/>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                         <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
