@@ -40,7 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <revisionDesc>
             <change who="FP" when="2017-04-13">added info</change>
             <change who="FP" when="2017-04-07">Created entity</change>
-              <change who="DN" when="2022-02-01">Spelling correction</change>
+              <change who="DN" when="2022-02-01">Spelling of the title corrected</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
