@@ -48,12 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPlace>
                 <place type="zoba zone" sameAs="wd:Q3316357">
-
-
                     <placeName xml:id="n1" xml:lang="ti">ምስራቃዊ፡ ትግራይ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Mǝsrāqāwi
-
-                        Tǝgrāy</placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Mǝsrāqāwi Tǝgrāy</placeName>
                     <placeName xml:id="n2" xml:lang="en" type="alt">Eastern Tǝgrāy Zone</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
