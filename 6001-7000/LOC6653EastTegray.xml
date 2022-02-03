@@ -49,7 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <place type="zoba zone" sameAs="wd:Q3316357">
                     <placeName xml:id="n1" xml:lang="ti">ምስራቃዊ፡ ትግራይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Mǝsrāqāwi Tǝgrāy</placeName>
-                    <placeName xml:id="n2" xml:lang="en" type="alt">Eastern Tǝgrāy Zone</placeName>
+                    <placeName corresp="#n1" xml:lang="en" type="main">Eastern Tǝgrāy Zone</placeName>
+                    <placeName xml:id="n2" xml:lang="en" type="alt">East Tǝgrāy Zone</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
 
@@ -63,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     </listBibl>
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
-                        <ab type="description">The Eastern Tǝgrāy Zone is a subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
+                        <ab type="description">The East Tǝgrāy Zone is a subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
                             capital <placeName ref="LOC1212Addigr">ʿAddigrāt</placeName>.</ab>
                     </note>
                 </place>
