@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="oro">Afan Oromo</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language><language ident="om">Afaan Oromo</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="town" sameAs="wd:Q3319332">
                <placeName xml:lang="gez" xml:id="n1">ሞጆ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Moǧo </placeName>
-               <placeName xml:lang="oro" xml:id="n2" type="alt">Moǧǧo</placeName>
+               <placeName xml:lang="om" xml:id="n2" type="alt">Moǧǧo</placeName>
             </place>
          </listPlace>
       </body>
