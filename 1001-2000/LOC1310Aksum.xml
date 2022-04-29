@@ -59,6 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <location>
                   <geo>14.1305 38.7195</geo>
                </location>
+               <desc>The city in northern Ethiopia. Was once the centre of the <placeName ref="LOC7363Aksum"/>.</desc>
                <listBibl type="secondary">
                   <bibl>
                      <ptr target="bm:MunroHayFattovich2003EnAeAksum"/>
