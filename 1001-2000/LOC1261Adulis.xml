@@ -100,7 +100,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="history">ʾAdulis was the main port of <placeName ref="LOC1310Aksum">ʾAksum</placeName> during the zenith of the Aksumite Empire. This port is
+                  <ab type="history">ʾAdulis was the main port of <placeName ref="LOC7363Aksum">ʾAksum</placeName> during the zenith of the Aksumite Empire. This port is
                      mentioned in numerous foreign reports and played a key role in maintaining
                      trade contacts with other powers of the time. The city probably lay some
                      distance (20 stades) from the actual port. <note source="#Pliny">According to
