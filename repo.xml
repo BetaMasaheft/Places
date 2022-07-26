@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Any place mentioned in the catalogue</description>
+    <author>BetaMasaheft</author>
+    <website>https://github.com/BetaMasaheft/Places</website>
+    <license>CC BY-SA 4.0</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>BetMasData/places</target>
+    <prepare>pre-install.xq</prepare>
+</meta>
