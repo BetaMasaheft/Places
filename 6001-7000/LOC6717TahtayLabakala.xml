@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="">
+                <place type="settlement">
                     <placeName>Tāḥtāy Labakalā / Lower Labakalā</placeName>
                 </place>
             </listPlace>
