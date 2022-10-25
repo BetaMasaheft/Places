@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q190184">
+            <place type="town" sameAs="wd:Q190184">
                <placeName xml:lang="gez" xml:id="n1">ሐረር፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Ḥarar</placeName>
             </place>
