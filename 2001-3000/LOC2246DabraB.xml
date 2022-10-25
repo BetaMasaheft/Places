@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q1181637">
+            <place type="town" sameAs="wd:Q1181637">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ብርሃን፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Bǝrhān
                   
