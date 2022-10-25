@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q55604590">
+            <place type="town" sameAs="wd:Q55604590">
                <placeName xml:lang="gez" xml:id="n1">አዘዞ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAzazo</placeName>
                
