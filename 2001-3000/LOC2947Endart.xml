@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region warada" sameAs="Q17108067">
+            <place type="region warada" sameAs="wd:Q17108067">
                <placeName xml:lang="gez" xml:id="n1">ʾƎndartā</placeName>
                <placeName xml:lang="gez" corresp="#n1">እንደርታ፡</placeName>  
                <placeName xml:lang="gez" xml:id="n2" type="alt">እንተርታ፡</placeName>

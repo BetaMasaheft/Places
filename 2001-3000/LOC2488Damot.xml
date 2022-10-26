@@ -51,7 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region">  <!--sameAs="Q2902588"-->
+            <place type="region">  <!--sameAs="wd:Q2902588"-->
                <placeName xml:lang="gez" xml:id="n1">ዳሞት፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dāmot</placeName>
                <state type="existence" ref="Paks2"/>
