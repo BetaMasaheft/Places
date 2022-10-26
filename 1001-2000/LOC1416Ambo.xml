@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town" sameAs="Q1266796">
+            <place type="town" sameAs="wd:Q1266796">
                <placeName xml:lang="gez" xml:id="n1">አምቦ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1 " type="normalized">ʾAmbo</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ሀገረ፡ ሕይወት፡</placeName>
