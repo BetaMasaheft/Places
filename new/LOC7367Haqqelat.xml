@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="gez" xml:id="n1">ኀቅለት፡</placeName>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Ḫaqqǝlat</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <region notAfter="1974" type="Province" ref="LOC6568Amhara"></region>
+                    <region notAfter="1974" type="province" ref="LOC6568Amhara"/>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7367Haqqelat" passive="SinaiEt004"/>
