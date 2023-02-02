@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ጥብርያዶስ</title>
+                <title>Sea of Galilee</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,10 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="lake" sameAs="wd:Q126982">
-                    <placeName xml:id="n1" xml:lang="en">Tiberias</placeName>
-                    <placeName corresp="'#n1" xml:lang="gez">ጥብርያዶስ</placeName>
-                    <country ref="wd:Q801"></country>
-                    <region ref="wd:Q83241"></region>
+                    <placeName xml:id="n1" xml:lang="gez">ጥብርያዶስ</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṭəbəryādos</placeName>
+                    <placeName corresp="#n1" xml:lang="en" type="main">Tiberias</placeName>
+                    <placeName xml:id="n2" xml:lang="en">Sea of Galilee</placeName>
+                    <placeName xml:id="n3" xml:lang="en">Kinneret</placeName>
+                    <country ref="LOC3937Israel"/>
+                    <region ref="LOC3221Galile"/>
                 </place>
             </listPlace><!---->
         </body>
