@@ -44,8 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="lake">
-                    <placeName>ጥብርያዶስ</placeName>
+                <place type="lake" sameAs="wd:Q126982">
+                    <placeName xml:id="n1" xml:lang="en">Tiberias</placeName>
+                    <placeName corresp="'#n1" xml:lang="gez">ጥብርያዶስ</placeName>
+                    <country ref="wd:Q801"></country>
+                    <region ref="wd:Q83241"></region>
                 </place>
             </listPlace><!---->
         </body>
