@@ -39,14 +39,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-02-01">Created entity</change>
+            <change when="2023-02-01" who="CH"></change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="city">
-                    <placeName>ማልቃ</placeName>
-                    <note>Possibly the city of Malaqa near Dumyāṭ in the Nile delta.</note>
+                    <placeName xml:lang="gez" xml:id="n1">ማልቃ</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Mālqā</placeName>
+                    <country ref="LOC2804Egypt"/>
+                    <note>Possibly the city of Malaqa near <placeName ref="wd:Q189383">Damietta</placeName> in the Nile delta.</note>
                 </place>
             </listPlace><!---->
         </body>
