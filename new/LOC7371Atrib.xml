@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7371Atrib" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Athribis</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Greek</language>
+                <language ident="ar">Arabic</language>
+            </t:langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2023-05-30">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place sameAs="wd:Q755738" type="city">
+                    <placeName xml:id="n1" xml:lang="en">Athribis</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">አትሪብ፡ </placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾAtrib</placeName>
+                    <placeName xml:lang="grc" xml:id="n3">Ἄθλιβις</placeName>
+                    <placeName corresp="#n3" xml:lang="grc" type="normalized">Áthlibis</placeName>
+                    <placeName xml:lang="ar" xml:id="n4">أتريبس</placeName>
+                    <placeName corresp="#n4" xml:lang="ar" type="normalized">ʾAtrībis</placeName>
+                </place>
+                <listRelation>
+                    <relation name="saws:isAttributedToAuthor" active="LOC7371Atrib" passive="PRS7054Michael"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
