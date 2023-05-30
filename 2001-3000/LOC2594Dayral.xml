@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
+            <place type="monastery" sameAs="paths.places.112">
                <placeName>Dayr al-ʾAbyaḍ</placeName>
                <placeName type="alt">White Monastery</placeName>
             </place>
