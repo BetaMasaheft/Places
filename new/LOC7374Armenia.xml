@@ -36,6 +36,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
                 <language ident="hy">Armenian</language>
+                <language ident="am">Amharic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -55,12 +56,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <placeName corresp="#n4" xml:lang="gez" type="normalized">Arminya</placeName>
                             <placeName xml:id="n5" xml:lang="gez">አርሜንያ</placeName>
                             <placeName corresp="#n5" xml:lang="gez" type="normalized">Armenya</placeName>
+                            <placeName xml:id="n6" xml:lang="am">አርሜኒያ</placeName>
+                            <placeName corresp="#n6" xml:lang="am" type="normalized">ʾArmenyā</placeName>                            
+                            <placeName xml:id="n7" xml:lang="am">ኢርመን</placeName>
+                            <placeName corresp="#n7" xml:lang="am" type="normalized">ʾIrman</placeName>
                         </place>
                     </listPlace>
                 </body>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7374Armenia" passive="BMLacq680"/>
-                    <relation name="lawd:hasAttestation" active="#LOC7374Armenia" passive="LIT2375Synaxa"/>
                 </listRelation>
     </text>
 </TEI>
