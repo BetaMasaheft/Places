@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Country in the Armenian highlands and Caucasus region.</p>
+                <p>Modern state in the Armenian highlands and Caucasus region.</p>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
                 <body>
                     <listPlace>
-                        <place sameAs="wd:Q208404" type="country">
+                        <place sameAs="wd:Q399" type="country">
                             <placeName xml:id="n1" xml:lang="en">Armenia</placeName>
                             <placeName xml:id="n2" xml:lang="hy">Հայաստան</placeName>
                             <placeName corresp="#n2" xml:lang="hy" type="normalized">Hayastan</placeName>
