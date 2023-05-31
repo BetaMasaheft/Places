@@ -1,0 +1,66 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7374Armenia" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Armenia</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>Country in the Armenian highlands and Caucasus region.</p>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="hy">Armenian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2023-05-31">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+                <body>
+                    <listPlace>
+                        <place sameAs="wd:Q208404" type="country">
+                            <placeName xml:id="n1" xml:lang="en">Armenia</placeName>
+                            <placeName xml:id="n2" xml:lang="hy">Հայաստան</placeName>
+                            <placeName corresp="#n2" xml:lang="hy" type="normalized">Hayastan</placeName>
+                            <placeName xml:id="n3" xml:lang="gez">አርማንያ</placeName>
+                            <placeName corresp="#n3" xml:lang="gez" type="normalized">Armanya</placeName>
+                            <placeName xml:id="n4" xml:lang="gez">አርሚንያ</placeName>
+                            <placeName corresp="#n4" xml:lang="gez" type="normalized">Arminya</placeName>
+                            <placeName xml:id="n5" xml:lang="gez">አርሜንያ</placeName>
+                            <placeName corresp="#n5" xml:lang="gez" type="normalized">Armenya</placeName>
+                        </place>
+                    </listPlace>
+                </body>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="LOC7374Armenia" passive="BMLacq680"/>
+                    <relation name="lawd:hasAttestation" active="#LOC7374Armenia" passive="LIT2375Synaxa"/>
+                </listRelation>
+    </text>
+</TEI>
