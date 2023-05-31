@@ -63,7 +63,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n9" type="normalized" xml:lang="cop">Athrēbi</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:isAttributedToAuthor" active="LOC7373Atrib" passive="PRS7054Michael"/>
                     <relation name="skos:exactMatch" active="#LOC7373Atrib" passive="https://atlas.paths-erc.eu/places/8"></relation>
                 </listRelation>
             </listPlace>
