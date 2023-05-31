@@ -52,6 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </listPlace>
             <listRelation>
                 <relation name="lawd:hasAttestation" active="LOC7372Paralos" passive="LIT2375Synaxa"/>
+                <relation name="skos:exactMatch" active="LOC7372Paralos" passive="https://atlas.paths-erc.eu/places/132"/>
             </listRelation>
         </body>
     </text>
