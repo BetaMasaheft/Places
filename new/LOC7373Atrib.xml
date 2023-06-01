@@ -35,6 +35,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
+                <language ident="grc">Greek</language>
+                <language ident="cop">Coptic</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -47,23 +49,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="wd:Q755734" type="town">
                     <placeName xml:id="n1" xml:lang="en">Athribis</placeName>
                     <placeName xml:id="n2" xml:lang="en">Athribis in Lower Egypt</placeName>
-                    <placeName xml:id="n3" xml:lang="gez">አትሪብ፡ </placeName>
-                    <placeName corresp="#n3" xml:lang="gez" type="normalized">ʾAtrib</placeName>
-                    <placeName xml:lang="grc" xml:id="n4">Ἄθλιβις</placeName>
-                    <placeName corresp="#n4" xml:lang="grc" type="normalized">Áthlibis</placeName>
-                    <placeName xml:lang="grc" xml:id="n5">Ἄθλιβις Κάτω Αιγύπτου</placeName>
-                    <placeName xml:lang="grc" corresp="#n5" type="normalized">Athlibis Kátō Aigyptū</placeName>
-                    <placeName xml:lang="grc" xml:id="n6">Ἄθριβις</placeName>
-                    <placeName xml:lang="grc" corresp="#n6" type="normalized">Athribis</placeName>
-                    <placeName xml:lang="ar" xml:id="n7">أتريبس</placeName>
-                    <placeName corresp="#n7" xml:lang="ar" type="normalized">ʾAtrībis</placeName>
-                    <placeName xml:id="n8" xml:lang="ar">أثريب</placeName>
-                    <placeName corresp="#n8" xml:lang="ar" type="normalized">ʾAṯrīb</placeName>
-                    <placeName xml:id="n9" xml:lang="cop">ⲁⲑⲣⲏⲃⲓ</placeName>
-                    <placeName corresp="#n9" type="normalized" xml:lang="cop">Athrēbi</placeName>
+                    <placeName xml:id="n3" xml:lang="en">Atripe</placeName>
+                    <placeName xml:id="n4" xml:lang="gez">አትሪብ፡ </placeName>
+                    <placeName corresp="#n4" xml:lang="gez" type="normalized">ʾAtrib</placeName>
+                    <placeName xml:lang="grc" xml:id="n5">Ἄθλιβις</placeName>
+                    <placeName corresp="#n5" xml:lang="grc" type="normalized">Áthlibis</placeName>
+                    <placeName xml:lang="grc" xml:id="n6">Ἄθλιβις Κάτω Αιγύπτου</placeName>
+                    <placeName xml:lang="grc" corresp="#n6" type="normalized">Athlibis Kátō Aigyptū</placeName>
+                    <placeName xml:lang="grc" xml:id="n7">Ἄθριβις</placeName>
+                    <placeName xml:lang="grc" corresp="#n7" type="normalized">Athribis</placeName>
+                    <placeName xml:lang="ar" xml:id="n8">أتريبس</placeName>
+                    <placeName corresp="#n8" xml:lang="ar" type="normalized">ʾAtrībis</placeName>
+                    <placeName xml:id="n9" xml:lang="ar">أثريب</placeName>
+                    <placeName corresp="#n9" xml:lang="ar" type="normalized">ʾAṯrīb</placeName>
+                    <placeName xml:id="n10" xml:lang="cop">ⲁⲑⲣⲏⲃⲓ</placeName>
+                    <placeName corresp="#n10" type="normalized" xml:lang="cop">Athrēbi</placeName>
                 </place>
                 <listRelation>
-                    <relation name="skos:exactMatch" active="#LOC7373Atrib" passive="https://atlas.paths-erc.eu/places/8"></relation>
+                    <relation name="skos:exactMatch" active="#LOC7373Atrib" passive="https://atlas.paths-erc.eu/places/8"/>
                 </listRelation>
             </listPlace>
         </body>

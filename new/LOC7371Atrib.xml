@@ -50,20 +50,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place sameAs="wd:Q755738" type="town">
                     <placeName xml:id="n1" xml:lang="en">Athribis</placeName>
                     <placeName xml:lang="en" xml:id="n2">Athribis in Upper Egypt</placeName>
-                    <placeName xml:id="n3" xml:lang="gez">አትሪብ፡ </placeName>
-                    <placeName corresp="#n3" xml:lang="gez" type="normalized">ʾAtrib</placeName>
-                    <placeName xml:lang="grc" xml:id="n4">Ἄθλιβις</placeName>
-                    <placeName corresp="#n4" xml:lang="grc" type="normalized">Áthlibis</placeName>
-                    <placeName xml:lang="grc" xml:id="n5">Ἄθλιβις Ἄνω Αιγύπτου</placeName>
-                    <placeName xml:lang="grc" corresp="#n5" type="normalized">Athlibis Anō Aigyptū</placeName>
-                    <placeName xml:lang="ar" xml:id="n6">أتريبس</placeName>
-                    <placeName corresp="#n6" xml:lang="ar" type="normalized">ʾAtrībis</placeName>
-                    <placeName xml:id="n7" xml:lang="ar">أثريب</placeName>
-                    <placeName corresp="#n7" xml:lang="ar" type="normalized">ʾAṯrīb</placeName>
-                    <placeName xml:id="n8" xml:lang="cop">ⲁⲧⲣⲉⲡⲉ</placeName>
-                    <placeName corresp="#n8" type="normalized" xml:lang="cop">Atrepe</placeName>
-                    <placeName xml:id="n9" xml:lang="cop">ⲁⲑⲣⲏⲃⲓ</placeName>
-                    <placeName corresp="#n9" type="normalized" xml:lang="cop">Athrēbi</placeName>
+                    <placeName xml:id="n3" xml:lang="en">Atripe</placeName>
+                    <placeName xml:id="n4" xml:lang="gez">አትሪብ፡ </placeName>
+                    <placeName corresp="#n4" xml:lang="gez" type="normalized">ʾAtrib</placeName>
+                    <placeName xml:lang="grc" xml:id="n5">Ἄθλιβις</placeName>
+                    <placeName corresp="#n5" xml:lang="grc" type="normalized">Áthlibis</placeName>
+                    <placeName xml:lang="grc" xml:id="n6">Ἄθλιβις Ἄνω Αιγύπτου</placeName>
+                    <placeName xml:lang="grc" corresp="#n6" type="normalized">Athlibis Anō Aigyptū</placeName>
+                    <placeName xml:lang="ar" xml:id="n7">أتريبس</placeName>
+                    <placeName corresp="#n7" xml:lang="ar" type="normalized">ʾAtrībis</placeName>
+                    <placeName xml:id="n8" xml:lang="ar">أثريب</placeName>
+                    <placeName corresp="#n8" xml:lang="ar" type="normalized">ʾAṯrīb</placeName>
+                    <placeName xml:id="n9" xml:lang="cop">ⲁⲧⲣⲉⲡⲉ</placeName>
+                    <placeName corresp="#n9" type="normalized" xml:lang="cop">Atrepe</placeName>
+                    <placeName xml:id="n10" xml:lang="cop">ⲁⲑⲣⲏⲃⲓ</placeName>
+                    <placeName corresp="#n10" type="normalized" xml:lang="cop">Athrēbi</placeName>
                 </place>
                 <listRelation>
                     <relation name="dcterms:relation" active="LOC7371Atrib" passive="LOC2594Dayral">
