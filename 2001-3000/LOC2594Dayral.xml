@@ -47,11 +47,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
+            <place type="monastery" sameAs="wd:Q202661">
                <placeName>Dayr al-ʾAbyaḍ</placeName>
                <placeName type="alt">White Monastery</placeName>
             </place>
          </listPlace>
+         <listRelation>
+            <relation name="skos:exactMatch" active="LOC2594Dayral" passive="https://atlas.paths-erc.eu/places/112"></relation>
+         </listRelation>
       </body>
    </text>
 </TEI>
