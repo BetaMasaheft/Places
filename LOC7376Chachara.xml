@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Chachara Giyorgis</title>
+                <title>Č̣āč̣ara Giyorgis</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="GS"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,11 +46,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="dabr">
                      <placeName xml:id="n1" xml:lang="gez">ጫጨረ፡ ጊዮርጊስ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Č̣āč̣ra Giyorgis</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Č̣āč̣ara Giyorgis</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:contains" active="#LOC7376ChacharaGiyorgis" passive="CCRG001"></relation>
                     <relation name="gn:locatedIn" active="LOC7376ChacharaGiyorgis" passive="LOC5498Sallam"/>
+                    <relation name="gn:locatedIn" active="LOC7376ChacharaGiyorgis" passive="13.585763 38.494830"/>
                   </listRelation>
             </listPlace><!---->
         </body>
