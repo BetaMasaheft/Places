@@ -1,7 +1,7 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7376ChacharaGiyorgis" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7376Chachara" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12,12 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -45,14 +45,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="dabr">
-                     <placeName xml:id="n1" xml:lang="gez">ጫጨረ፡ ጊዮርጊስ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Č̣āč̣ara Giyorgis</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ጫጨረ፡ ጊዮርጊስ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Č̣āč̣ara
+                        Giyorgis</placeName>
+                    <placeName xml:id="n2" xml:lang="gez" type="alt">ደብረ፡ ኃይል፡</placeName>
+                    <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra  Ḫāyl</placeName>
+                    <location>
+                        <geo>13.585763 38.494830</geo>
+                    </location>
                 </place>
                 <listRelation>
-                    <relation name="gn:locatedIn" active="LOC7376ChacharaGiyorgis" passive="LOC5498Sallam"/>
-                    <relation name="gn:locatedIn" active="LOC7376ChacharaGiyorgis" passive="13.585763 38.494830"/>
-                  </listRelation>
-            </listPlace><!---->
+                    <relation name="gn:locatedIn" active="LOC7376Chachara"
+                        passive="LOC5498Sallam"/>
+                </listRelation>
+            </listPlace>
+            <!---->
         </body>
     </text>
 </TEI>
