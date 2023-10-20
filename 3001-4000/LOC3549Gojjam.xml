@@ -51,6 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="region" sameAs="wd:Q1533914">
                <placeName xml:lang="gez" xml:id="n1">ጎጃም፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Goǧǧām</placeName>
+               <placeName xml:lang="gez" xml:id="n2">ጐዛም</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Gʷazzām</placeName>
             </place>
          </listPlace>
       </body>
