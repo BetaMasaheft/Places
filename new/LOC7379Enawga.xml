@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>እናውጋ</title>
+                <title>ʾƎnāwgā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,13 +44,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place sameAs="Q3053701" type="area settlement">
+                <place sameAs="wd:Q3053701" type="area settlement">
                     <placeName xml:id="n1" xml:lang="gez">እናውጋ</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎnāwgā</placeName>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7379Enawga" passive="Tanasee1#a13"/>
-                    <relation name="betmas:locusTarget" active="LOC7379Enawga" passive="LOC3549Gojjam"/>
+                    <relation name="gn:locatedIn" active="LOC7379Enawga" passive="LOC3549Gojjam"/>
                 </listRelation>
             </listPlace><!---->
         </body>

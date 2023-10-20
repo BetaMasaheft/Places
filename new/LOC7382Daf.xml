@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ዳፍ</title>
+                <title>Dāf</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>An unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ዳፍ</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Dāf</placeName>
+                    <note>An unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7382Daf" passive="Tanasee1#a26"/>

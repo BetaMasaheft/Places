@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ማቋል</title>
+                <title>Māqʷāl</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Located in <placeName ref="LOC3549Gojjam"/>, about 30km south of <placeName ref="LOC1721BaherD"/>.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ማቋል</placeName>
                     <placeName corresp="#n1" xml:lang="gez">Māqʷāl</placeName>
+                    <note>Located in <placeName ref="LOC3549Gojjam"/>, about 30km south of <placeName ref="LOC1721BaherD"/>.</note>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7388Maqwal" passive="Tanasee1#a30"/>

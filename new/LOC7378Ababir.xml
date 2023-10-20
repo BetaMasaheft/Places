@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ዐባቢር</title>
+                <title>ʿAbābir</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7378Ababir" passive="Tanasee1#a13"/>
-                    <relation name="betmas:locusTarget" active="LOC7378Ababir" passive="LOC3549Gojjam"/>
+                    <relation name="gn:locatedIn" active="LOC7378Ababir" passive="LOC3549Gojjam"/>
                 </listRelation>
             </listPlace><!---->
         </body>

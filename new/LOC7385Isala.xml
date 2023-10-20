@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ኢሳላ</title>
+                <title>ʾIsālā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</p>
+                <p/>
             </abstract>
             <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ኢሳላ</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾIsālā</placeName>
+                    <note>Unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7385Isala" passive="Tanasee1#a27"/>
