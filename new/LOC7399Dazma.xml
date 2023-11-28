@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dazmā</title>
+                <title>Yəzəmā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,11 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName xml:id="n1" xml:lang="gez">ደዝማ</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dazmā</placeName>
-                    <note>Unknown place in <placeName ref="LOC3549Gojjam"/> near the southern shore of 
-                        <placeName ref="LOC5888Tana"/> as mentioned in <bibl><ptr target="bm:2008BoscTiesseIles"/>
-                            <citedRange unit="page">78</citedRange></bibl>.</note>
+                    <placeName xml:id="n1" xml:lang="gez">ይዝማ</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Yəzəmā</placeName>
+                    <note>Place in <placeName ref="LOC7114EGz"/>. Probably mentioned in <bibl><ptr target="bm:2008BoscTiesseIles"/>
+                        <citedRange unit="page">78</citedRange></bibl> with the spelling <foreign xml:lang="gez">ደዝማ</foreign>.</note>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7399Dazma" passive="Tanasee1"/>
