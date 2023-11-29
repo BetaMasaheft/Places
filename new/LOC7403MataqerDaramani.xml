@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Maṭāqər Daramanihā</title>
+                <title>Maṭāqǝr Daramanihā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">መጣቅር፡ ደረመኒሃ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Maṭāqər Daramanihā</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Maṭāqǝr Daramanihā</placeName>
                     <note>Most likely a place near the southern shore of <placeName ref="LOC5888Tana"/> and perhaps an 
                         abbreviation or misspelling for <foreign xml:lang="gez">መጣቅር፡ ደብረ፡ መድኃኒት፡</foreign>.</note>
                 </place>

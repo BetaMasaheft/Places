@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="lake" sameAs="wd:Q126982">
                     <placeName xml:id="n1" xml:lang="gez">ጥብርያዶስ</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṭəbəryādos</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṭǝbǝryādos</placeName>
                     <placeName corresp="#n1" xml:lang="en" type="main">Tiberias</placeName>
                     <placeName xml:id="n2" xml:lang="en">Sea of Galilee</placeName>
                     <placeName xml:id="n3" xml:lang="en">Kinneret</placeName>
