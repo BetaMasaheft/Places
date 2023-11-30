@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Dəšt</title>
+                <title>Dǝšt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     <placeName></placeName>
                     <placeName xml:id="n1" xml:lang="gez">ድሽት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dəšt</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Dǝšt</placeName>
                     <note>Most likely a place near the southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>

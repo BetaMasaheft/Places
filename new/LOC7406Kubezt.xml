@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Kubəzt</title>
+                <title>Kubǝzt</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ኩብዝት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Kubəzt</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Kubǝzt</placeName>
                     <note>Most likely a place near the southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>
