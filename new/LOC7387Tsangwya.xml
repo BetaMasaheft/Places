@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ṣangʷəyā</title>
+                <title>Ṣangʷǝyā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ጸንጕያ</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Ṣangʷəyā</placeName>
+                    <placeName corresp="#n1" xml:lang="gez">Ṣangʷǝyā</placeName>
                     <note>An unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>
