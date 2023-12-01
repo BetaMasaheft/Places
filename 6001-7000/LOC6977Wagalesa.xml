@@ -48,6 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ወገልሳ፡</placeName>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Wagalǝsā
+                    <note>On the southern shore of <placeName ref="LOC5888Tana"/> in the area of modern 
+                         <placeName ref="LOC1721BaherD"/>.</note>
                     </placeName>
                     
                     
