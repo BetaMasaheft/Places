@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Mäʿaquddi Yoḥannǝs Wäldä Nägwädgwad</title>
+            <title>Maʿāquddi Yoḥannǝs Walda Nagʷadgʷād</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,14 +42,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DN" when="2023-12-01">Expanded the record, included coordinates, added information on the library</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Mäʿaquddi Yoḥannǝs Wäldä Nägwädgwad</placeName>
-               <placeName type="alt">Yoḥannǝs Mäʿaquddi</placeName>
+               <placeName xml:id="n1" xml:lang="gez">መዓቁዲ፡ ዮሐንስ፡ ወልደ፡ ነጐድጓድ፡</placeName>
+               <placeName corresp="#n1" xml:lang="en">Maʿāquddi Yoḥannǝs Walda Nagʷadgʷād</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ዮሐንስ፡ መዓቁዲ፡</placeName>
+               <placeName corresp="#n2" xml:lang="en">Yoḥannǝs Maʿāquddi</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ዮሐንስ፡ ዓዲ፡ አይኑ፡</placeName>               
+               <placeName corresp="#n3" xml:lang="en">Yoḥannǝs ʿĀddi ʿĀynu</placeName>
+               
+               <country ref="LOC3010Ethiop"></country>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy, Mǝbrāq Tǝgrāy zone, 
+                  waradā Ṣǝgeraddā, tabiyā Māy Kʷiḥā, qušat Maʿāquddi</region>               
+               <location>
+                  <geo>13.849072 39.447303</geo>
+                  <height unit="m">2405.0</height>
+               </location>
+               <note>
+                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
+                  <ab type="history">Dabr. Rock-hewn church well-known for its frescos depicting <persName ref="PRS4015Fasilada">King Fasiladas</persName>.
+                  </ab>
+                  <ab type="tabot">
+                     <measure quantity="2"></measure>
+                    </ab>
+                  <ab type="description">Six manuscripts digitized and 26 others recorded by D. Nosnitsin on <date>15 November 2023</date>. 
+                     An unknown number of manuscripts, most probably of recent date, remains unrecorded. Two wooden crosses, old wooder <foreign xml:lang="gez">manbara tabot</foreign>
+                     were photographed in <date>2002</date> by E. Balicka-Witakowska and M. Gervers</ab>
+                  </note>
             </place>
          </listPlace>
       </body>
