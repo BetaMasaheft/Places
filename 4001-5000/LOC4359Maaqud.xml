@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Maʿāquddi Yoḥannǝs Walda Nagʷadgʷād</title>
+            <title>Maʿāquddi</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,40 +42,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
-         <change who="DN" when="2023-12-01">Expanded the record, included coordinates, added information on the library</change>
+         <change who="DN" when="2023-12-01">Expanded the record, included coordinates</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName xml:id="n1" xml:lang="gez">መዓቁዲ፡ ዮሐንስ፡ ወልደ፡ ነጐድጓድ፡</placeName>
-               <placeName corresp="#n1" xml:lang="en">Maʿāquddi Yoḥannǝs Walda Nagʷadgʷād</placeName>
-               <placeName xml:id="n2" xml:lang="gez">ዮሐንስ፡ መዓቁዲ፡</placeName>
-               <placeName corresp="#n2" xml:lang="en">Yoḥannǝs Maʿāquddi</placeName>
-               <placeName xml:id="n3" xml:lang="gez">ዮሐንስ፡ ዓዲ፡ አይኑ፡</placeName>               
-               <placeName corresp="#n3" xml:lang="en">Yoḥannǝs ʿĀddi ʿĀynu</placeName>
-               
+               <placeName xml:id="n1" xml:lang="gez">መዓቁዲ፡</placeName>
+               <placeName corresp="#n1" xml:lang="en">Maʿāquddi </placeName>
+               <placeName xml:id="n2" xml:lang="gez">ዮሐንስ፡</placeName>
+                              
                <country ref="LOC3010Ethiop"></country>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy, Mǝbrāq Tǝgrāy zone, 
                   waradā Ṣǝgeraddā, tabiyā Māy Kʷiḥā, qušat Maʿāquddi</region>               
                <location>
                   <geo>13.849072 39.447303</geo>
+                  <height unit="m">2405.0</height>                  
+               </location>     
+               <country ref="LOC3010Ethiop"></country>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+               <settlement ref="LOC6653EastTegray" type="zone" when="2023-11-15">East Tǝgrāy zone</settlement>
+               <settlement ref="LOC3826Hawzen" type="warada" when="2023-11-15"> waradā  Ḥawzen</settlement>
+               <settlement when="2023-11-15" ref="LOC7408Maykwiha" type="tabiya">ṭabiyā Māy Kʷiḥā</settlement>
+               <settlement when="2023-11-15" ref="LOC4358Maaqud" type="qushat">qušat Maʿāquddi</settlement>
+               <location>
+                  <geo>13.849072 39.447303</geo>
                   <height unit="m">2405.0</height>
                </location>
-               <note>
-                  <date type="foundation" notBefore="1500" notAfter="1600">1500-1600</date>
-                  <ab type="history">Dabr. Rock-hewn church well-known for its frescos depicting <persName ref="PRS4015Fasilada">King Fasiladas</persName>.
-                  </ab>
-                  <ab type="tabot">
-                     <measure quantity="2"></measure>
-                    </ab>
-                  <ab type="description">Six manuscripts were digitized and 26 others were recorded by D. Nosnitsin on <date>15 November 2023</date>. 
-                     Some more manuscripts remained unrecorded (among them , fragments of liturgical manuscripts, possibly of the 17th century, preserved in the
-                     rock-hewn church). Two wooden crosses, an old wooden <foreign xml:lang="gez">manbara tabot</foreign>
-                     were photographed in <date>2002</date> by E. Balicka-Witakowska and M. Gervers</ab>
-                  </note>
             </place>
+            <listRelation>
+               <relation name="skos:exactMatch" active="LOC4359Maaqud" passive="INS1005Maaqud"/>
+            </listRelation>
          </listPlace>
       </body>
    </text>
