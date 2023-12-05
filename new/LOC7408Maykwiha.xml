@@ -45,9 +45,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="tabiya">
-                    <placeName xml:id="n1" xml:lang="ti">ማይ፡ ኲሓ</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">ማይ፡ ኲሓ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Māy Kʷiḥā</placeName>
-                    <placeName xml:id="n2" xml:lang="ti">ማይ፡ ኪሓ</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">ማይ፡ ኪሓ፡</placeName>
                     <placeName corresp="#n2" xml:lang="en">Māy Kiḥā</placeName>                    
                 </place>
                 <listRelation>
