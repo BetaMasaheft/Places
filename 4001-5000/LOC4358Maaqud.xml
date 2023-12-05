@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Mäʿaquddi</title>
+            <title>Maʿāquddi</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,14 +42,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2023-12-05">defined as qushet</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
-         <listPlace>
-            <place>
-               <placeName>Mäʿaquddi</placeName>
-            </place>
+         <listPlace>         
+               <place type="qushat">
+                  <placeName xml:id="n1" xml:lang="gez">መዓቁዲ፡</placeName>
+                  <placeName corresp="#n1" xml:lang="en">Maʿāquddi</placeName>   
+               </place>
          </listPlace>
       </body>
    </text>
