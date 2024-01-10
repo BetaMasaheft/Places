@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <profileDesc>
             <creation/>
             <abstract>
-                <p>Unknown place in the region of <placeName ref="LOC3832Hayq"/>.</p>
+                <p/>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
@@ -47,6 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ገዜ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Gaze</placeName>
+                    <location><desc>Unknown place in the region of <placeName ref="LOC3832Hayq"/>.</desc></location> 
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7410Gaze" passive="EMML1832"/>
