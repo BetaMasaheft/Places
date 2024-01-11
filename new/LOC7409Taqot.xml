@@ -46,7 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="qushat">
                     <placeName xml:id="n1" xml:lang="gez">ጣቖት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Ṭāq̲ot</placeName>   
+                    <placeName corresp="#n1" xml:lang="en">Ṭāq̲ot</placeName> 
+                    <country ref="LOC3010Ethiop"></country>
                 </place>              
             </listPlace><!---->
         </body>
