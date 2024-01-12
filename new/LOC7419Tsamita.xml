@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ṣāmitā</title>
+                <title>Ṣāmǝtā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ጻምታ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṣāmitā</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Ṣāmǝtā</placeName>
                     <location><desc>Unknown place in the region of <placeName ref="LOC3832Hayq"/>.</desc></location>
                 </place>
                 <listRelation>
