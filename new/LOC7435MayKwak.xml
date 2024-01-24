@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7411HaddesHeywat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7435MayKwak" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḥāddəš Həywat</title>
+                <title>Māy Kʷāḵ</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -34,24 +34,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="ti">Tigrinya</language>
+                <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2024-01-09">Created entity</change>
+            <change who="DN" when="2024-01-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="tabiya">                  
-                    <placeName xml:id="n1" xml:lang="ti">ሓድሽ፡ ህይወት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Ḥāddəš Həywat</placeName> 
-                    <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
-                    <settlement type="zone" ref="LOC6653EastTegray"/>
+                <place type="qushat">
+                    <placeName xml:id="n1" xml:lang="ti">ማይ፡ ኳክ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Māy Kʷāḵ</placeName> 
+                    <region notAfter="1991" ref="LOC6569Tegray" type="province"/>                    
+                    <settlement when="2024-01-09" ref="LOC7434HaddushAddi" type="tabiya">ṭābiyā Ḥādduš ʿAddi</settlement>
                     <country ref="LOC3010Ethiop"></country>
-                </place>                
-            </listPlace><!---->
+                </place>
+            </listPlace>
+            <listRelation>                        
+                <relation name="skos:exactMatch" active="LOC7435MayKwak" passive="INS1008EndaYohannes"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
