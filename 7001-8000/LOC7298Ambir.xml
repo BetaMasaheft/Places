@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7352Semrat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7298Ambir" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝmrat</title>
+                <title>Ambǝrsǝwā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="ES"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,15 +44,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="tabiya">
-                    <placeName xml:id="n1" xml:lang="gez">ስምረት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Sǝmrat</placeName> 
+                <place type="qushat">
+                    <placeName xml:id="n1" xml:lang="gez">አምብርስዋ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Ambǝrsǝwā</placeName>
+                    <placeName xml:id="n2" xml:lang="gez">አምቢርስዋ፡ </placeName>
+                    <placeName corresp="#n2" xml:lang="en">Ambirsǝwā </placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     
                     <settlement ref="LOC6555CentralTegray" type="zone" when="2023-12-09">Central Tǝgrāy zone</settlement>
                     <settlement ref="LOC5882Tamben" type="region">Tamben region</settlement>
                     <settlement ref="LOC5278Qwalla" type="warada" when="2023">waradā  Qolla Tamben</settlement>
+                    <settlement ref="LOC7352Semrat" type="tabiya">ṭābiyā Sǝmrat</settlement>
                 </place>              
             </listPlace><!---->
         </body>
