@@ -57,8 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <placeName xml:lang="gez" corresp="#n3">ʾƎntǝrtā</placeName> 
                <placeName xml:lang="gez" xml:id="n4" type="alt">አንደርታ፡</placeName>
                <placeName xml:lang="gez" corresp="#n4">ʾAndartā</placeName> 
-               
-               
+               <placeName xml:lang="gez" xml:id="n5">እንድርታ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n5">ʾƎndǝrtā</placeName>
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
             </place>

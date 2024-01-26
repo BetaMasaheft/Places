@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -47,8 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Hadiyya</placeName>
+            <place type="region" sameAs="wd:Q3125547">
+               <placeName xml:id="n1" xml:lang="en">Hadiyya</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ሐድያ፡</placeName>
+               <placeName corresp="#n2" type="normalized" xml:lang="gez">Ḥadǝyyā</placeName>
             </place>
          </listPlace>
       </body>
