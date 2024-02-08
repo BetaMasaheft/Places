@@ -45,16 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="qushat">
-                    <placeName xml:id="n1" xml:lang="ti">ማይ፡ ኳክ፡</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">ማይ፡ ኳኽ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Māy Kʷāḵ</placeName> 
                     <region notAfter="1991" ref="LOC6569Tegray" type="province"/>                    
                     <settlement when="2024-01-09" ref="LOC7434HaddushAddi" type="tabiya">ṭābiyā Ḥādduš ʿAddi</settlement>
                     <country ref="LOC3010Ethiop"></country>
                 </place>
-            </listPlace>
-            <listRelation>                        
-                <relation name="skos:exactMatch" active="LOC7435MayKwak" passive="INS1008EndaYohannes"/>
-            </listRelation>
+            </listPlace>            
         </body>
     </text>
 </TEI>
