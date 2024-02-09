@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7411HaddesHeywat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7434HaddushAddi" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḥāddəš Həywat</title>
+                <title>Ḥādduš ʿĀddi</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,19 +38,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2024-01-09">Created entity</change>
+            <change who="DN" when="2024-01-24">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="tabiya">                  
-                    <placeName xml:id="n1" xml:lang="ti">ሓድሽ፡ ህይወት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Ḥāddəš Həywat</placeName> 
+                <place type="tabiya">
+                    <placeName xml:id="n1" xml:lang="ti">ሓዱሽ፡ ዓዲ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Ḥādduš ʿĀddi</placeName> 
                     <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
-                    <settlement type="zone" ref="LOC6653EastTegray"/>
+                    <settlement type="zone" ref="LOC6555CentralTegray"/>
                     <country ref="LOC3010Ethiop"></country>
-                </place>                
+                </place>
             </listPlace><!---->
         </body>
     </text>
