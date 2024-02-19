@@ -45,10 +45,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="area province">
                     <placeName xml:id="n1" xml:lang="ti">ትግራይ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy <note source="#Cosma">A variant of the term Tǝgrāy first appears in a <date notBefore="0900" notAfter="0999">10th-century</date> gloss to
-                                <persName ref="PRS3204CosmasI">Cosmas
-                            Indicopleustes</persName>.</note>
-               </placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy</placeName>
                     <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡</placeName>
                     <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre</placeName>
                     <placeName xml:id="n3" xml:lang="ti" type="alt">ተከዜ፡ ምላሽ፡</placeName>
@@ -56,6 +53,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         Mǝllaš</placeName>
                     <placeName corresp="#n3" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz">Takkaze</placeName>
                </placeName>
+                    
                     <state type="existence" notAfter="1991"/>
 
                     <country ref="LOC3010Ethiop"/>
@@ -75,6 +73,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
 
                     <note>
+                        
                         <ab type="history">The origins of Tǝgrāy and its population are ancient and
                             complex, with Cushitic, Semitic, South Arabian and Sabaic elements and
                             interactions. Pre-Aksumite inscriptions show that the area of historical
