@@ -51,7 +51,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     <placeName xml:id="n3" xml:lang="ti" type="alt">ተከዜ፡ ምላሽ፡</placeName>
                     <placeName corresp="#n3" xml:lang="ti" type="normalized">Takkaze
                         Mǝllaš</placeName>
-                    <placeName corresp="#n3" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz">Takkaze</placeName>
+                    <placeName corresp="#n3" xml:lang="en">beyond the Takkaze
                </placeName>
                     
                     <state type="existence" notAfter="1991"/>
@@ -73,7 +73,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
 
                     <note>
-                        
+                        <ab type="description">A historical province in the Ethiopian-Eritrean highlands, to the south of the river <placeName ref="LOC5864Takkaz">Takkaze</placeName> (hence sometimes referred to as Takkaze
+                            Mǝllaš).</ab>
                         <ab type="history">The origins of Tǝgrāy and its population are ancient and
                             complex, with Cushitic, Semitic, South Arabian and Sabaic elements and
                             interactions. Pre-Aksumite inscriptions show that the area of historical
