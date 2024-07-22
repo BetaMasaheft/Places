@@ -51,6 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="town">
                <placeName xml:lang="gez" xml:id="n1">በለዛ</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Balazā</placeName>
+               <country ref="LOC2991Eritre"/>
+               <region type="region" ref="LOC4444Makal"/>
+               <region type="subregion">Saraǧaq̄ā</region>
             </place>
             <listRelation>
                <relation name="lawd:hasAttestation" active="LOC1741Balaza" passive="UppEt7"/>
