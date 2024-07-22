@@ -50,7 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n1" xml:lang="en">Saraǧaq̄ā</placeName>
                     <placeName xml:id="n2" xml:lang="ti">ሰረጀቃ፡</placeName>
                     <placeName corresp="#n2" xml:lang="en">Saraǧaqā</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Serejeka</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Serejaka</placeName>
                     <country ref="LOC2991Eritre">Eritrea</country>
+                    <region notBefore="1995" type="RegionalState" ref="LOC4444Makal">Māʾkal</region>  
                 </place>
                 <listRelation>
                     <relation name="saws:formsPartOf" active="LOC7450Sarajaqa" passive="LOC4444Makal"/>
