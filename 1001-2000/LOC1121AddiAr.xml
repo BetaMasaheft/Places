@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʿAddi Arbaʿǝtä</title>
+            <title>ʿAddi ʾArbaʿǝta</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,15 +42,25 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="DN" when="2024-09-10">Revised</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>ʿAddi Arbaʿǝtä</placeName>
+            <place type="warada">
+               <placeName/>
+               <placeName xml:id="n1" xml:lang="ti">ዓዲ፡ አርባዕተ፡</placeName>
+               <placeName corresp="#n1" xml:lang="en">ʿAddi ʾArbaʿǝta</placeName>
+               <placeName xml:id="n2" xml:lang="ti">ራማ፡ ዓዲ፡ አርባዕተ፡</placeName>
+               <placeName corresp="#n2" xml:lang="en">Rāmā ʿAddi ʾArbaʿǝta</placeName>
+               <note>The name change from ʿAddi ʾArbaʿǝta to Rāmā ʿAddi ʾArbaʿǝta in 2000s.</note>
             </place>
+            
          </listPlace>
+         <listRelation>
+            <relation name="saws:formsPartOf" active="LOC1121AddiAr" passive="LOC6654CentralTegray"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
