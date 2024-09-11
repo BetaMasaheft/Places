@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Māy Waddi ʾAmbarāy</title>
+                <title>Māy Waddi ʾĀmbarāy</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,13 +48,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <place type="tabiya">
                     <placeName/>
                     <placeName xml:id="n1" xml:lang="ti">ማይ፡ ወዲ፡ ኣምበራይ</placeName>
-         <placeName corresp="#n1" xml:lang="en">Māy Waddi ʾAmbarāy</placeName>                    
+         <placeName corresp="#n1" xml:lang="en">Māy Waddi ʾĀmbarāy</placeName>                    
                 </place>
                 
             </listPlace>
             <listRelation>
-                <relation name="saws:formsPartOf" active=" LOC1121AddiAr" passive="LOC6654CentralTegray"/>
-                <relation name="saws:formsPartOf" active=" LOC1121AddiAr" passive="LOC7454WaddiAmbaray"/>
+                <relation name="saws:formsPartOf" active="LOC7454WaddiAmbaray" passive="LOC6654CentralTegray"/>
+                <relation name="saws:formsPartOf" active="LOC7454WaddiAmbaray" passive="LOC1121AddiAr"/>
             </listRelation>
         </body>
     </text>
