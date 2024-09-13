@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="ti">ሓዱሽ፡ ዓዲ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Ḥādduš ʿĀddi</placeName> 
                     <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
-                    <settlement type="zone" ref="LOC6554CentralTegray"/>
+                    <settlement type="zone" ref="LOC6654CentralTegray"/>
                     <country ref="LOC3010Ethiop"></country>
                 </place>
             </listPlace><!---->
