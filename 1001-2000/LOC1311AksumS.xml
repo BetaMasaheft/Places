@@ -63,7 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                <region notAfter="1974" type="province" ref="LOC6556Tegre"/>
                <!--               need to verify ʾAksum belonging to Tǝgre rather than Bagemdǝr province before 1974 reforms-->
-               <settlement type="zone" ref="LOC6555CentralTegray"/>
+               <settlement type="zone" ref="LOC6654CentralTegray"/>
                <settlement type="town" ref="LOC1310Aksum"/>
                <location>
                   <geo>14.1305 38.7195</geo>
