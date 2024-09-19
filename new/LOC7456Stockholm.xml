@@ -45,6 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q1754" type="city">
                     <placeName>Stockholm</placeName>
+                    <country ref="LOC5829Sweden">Sweden</country>
                     <location>
                         <geo>59.329444 18.068611</geo>
                     </location>
