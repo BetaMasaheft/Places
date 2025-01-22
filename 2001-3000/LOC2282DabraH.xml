@@ -1,16 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC2282DabraH">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2282DabraH">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Ḥamlo</title>
+            <title>Dabra Ḥāmlo</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -25,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -34,33 +28,47 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-03-26">transcription</change>
+         <change who="DN" when="2022-02-01">new data</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Däbrä Ḥamlo</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሓምሎ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Ḥāmlo</placeName>
+               <placeName xml:id="n2" xml:lang="ti">እንዳ፡ ማርያም፡ ሓምሎ፡</placeName>
+               <placeName corresp="#n2" xml:lang="ti" type="normalized">ʾƎndā Māryām Ḥāmlo</placeName>
+               <placeName xml:id="n3" xml:lang="ti">እንዳማርያም፡ ሓምሎ፡</placeName>
+               <placeName corresp="#n3" xml:lang="ti" type="normalized">ʾƎndāmāryām Ḥāmlo</placeName>
+
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
+               <settlement type="zone" ref="LOC6653EastTegray"/>
+               <settlement when="2020-10-16" ref="LOC3293GantaA" type="warada"/>
+               <settlement when="2029-10-16" ref="LOC7361DaedaHamlo" type="tabiya"/>
+
+               <location>
+                  <geo cert="medium">14.175109 39.310713</geo>
+                  <note>The location is that of the flat-topped mountain.</note>
+                     </location>
+
             </place>
          </listPlace>
       </body>

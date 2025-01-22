@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7450Sarajaqa" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Saraǧaq̄ā</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="JK"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <t:encodingDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <p>A digital born TEI file</p>
+        </t:encodingDesc>
+        <t:profileDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <creation/>
+            <t:abstract>
+                <p/>
+            </t:abstract>
+            <t:langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
+            </t:langUsage>
+        </t:profileDesc>
+        <t:revisionDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <t:change who="JK" when="2024-07-22">Created entity</t:change>
+        </t:revisionDesc>
+    </teiHeader>
+    <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
+        <body>
+            <listPlace>
+                <place type="administrativeUnit">
+                    <placeName xml:id="n1" xml:lang="ti">ሰረጀቓ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Saraǧaq̄ā</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">ሰረጀቃ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Saraǧaqā</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Serejeka</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Serejaka</placeName>
+                    <country ref="LOC2991Eritre">Eritrea</country>
+                    <region notBefore="1995" type="RegionalState" ref="LOC4444Makal">Māʾkal</region>  
+                </place>
+                <listRelation>
+                    <relation name="saws:formsPartOf" active="LOC7450Sarajaqa" passive="LOC4444Makal"/>
+                </listRelation>
+            </listPlace><!---->
+        </body>
+    </t:text>
+</TEI>

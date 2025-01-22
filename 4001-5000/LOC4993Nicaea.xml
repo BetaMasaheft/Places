@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC4993Nicaea">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4993Nicaea">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -34,8 +28,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
@@ -44,12 +37,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
             <language ident="gez">Gǝʿǝz</language>
+            <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2023-06-15" who="CH">updated names</change>
          <change when="2016-11-11" who="FP">completed record</change>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
@@ -61,7 +54,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <listPlace>
             <place type="town" sameAs="wd:Q217125">
-               <placeName>Nicaea</placeName>
+               <placeName xml:id="n1" xml:lang="en">Nicaea</placeName>
+               <placeName xml:id="n2" xml:lang="en">Nicea</placeName>
+               <placeName xml:id="n3" xml:lang="en">Nikaia</placeName>
+               <placeName xml:id="n4" xml:lang="en">Nicæa</placeName> 
+               <placeName xml:id="n5" xml:lang="gez">ንቅያ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n5" type="normalized">Nǝqyā</placeName>
+               <placeName xml:id="n6" xml:lang="gez">ኒቅያ</placeName>
+               <placeName xml:lang="gez" corresp="#n5" type="normalized">Niqyā</placeName>
+               <placeName xml:id="n7" xml:lang="grc">Νίκαια</placeName>
+               <placeName xml:lang="grc" corresp="#n7" type="normalized">Nikaia</placeName>
+               <placeName xml:lang="grc" corresp="#n7" type="normalized">Nikea</placeName>
             </place>
          </listPlace>
       </body>

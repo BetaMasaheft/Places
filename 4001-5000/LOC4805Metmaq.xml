@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC4805Metmaq">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC4805Metmaq">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -34,20 +28,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -67,54 +55,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <region>Eg.</region>
             </place>
             <listRelation>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5147MiracleYeshaq"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5146MiracleMetmaqCamel"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5145MiracleApparitionMetmaqF"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5144MiracleApparitionMetmaqE"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5143MiracleApparitionMetmaqD"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5142MiracleApparitionMetmaqC"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5116MiracleConsecrationMetmaq"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT3664Miracle"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT3627Miracle"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT3626Miracle"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT3625Miracle"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5258MiracleMetmaqDestruction"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5533MiracleMetmaq"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5632MMMetmaq"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5664MMMetmaq"/>
-               <relation name="lawd:hasAttestation"
-                         active="LOC4805Metmaq"
-                         passive="LIT5665MMMetmaqMuslims"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5147MiracleYeshaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5146MiracleMetmaqCamel"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5145MiracleApparitionMetmaqF"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5144MiracleApparitionMetmaqE"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5143MiracleApparitionMetmaqD"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5142MiracleApparitionMetmaqC"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5116MiracleConsecrationMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3664Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3627Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3626Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT3625Miracle"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5258MiracleMetmaqDestruction"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5533MiracleMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5632MMMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5664MMMetmaq"/>
+               <relation name="lawd:hasAttestation" active="LOC4805Metmaq" passive="LIT5665MMMetmaqMuslims"/>
             </listRelation>
          </listPlace>
       </body>

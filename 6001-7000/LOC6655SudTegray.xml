@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6655SudTegray" xml:lang="en" type="place">
+    <teiHeader xml:base="https://betamasaheft.eu/">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ti" xml:id="t1">Dabubāwi Tǝgrāy</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="FP"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage><language ident="en">English</language><language ident="ti">Tigrinya</language></langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="FP" when="2017-04-13">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:base="https://betamasaheft.eu/">
+        <body>
+            <listPlace>
+                <place type="zoba zone" sameAs="wd:Q3020955">
+                    <placeName xml:id="n1" xml:lang="ti">ደቡባዊ፡ ትግራይ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Dabubāwi Tǝgrāy</placeName>
+                    <placeName xml:id="n2" xml:lang="en" type="alt">Southern Tǝgrāy Zone</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+                    
+                    <location>
+                        <geo>12.96033 39.52831</geo>
+                    </location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:Smidt2010EnAeTegray"/>
+                        </bibl>
+                    </listBibl>
+                    <note>
+                        <date type="foundation" notBefore="1991">1991</date>
+                        <ab type="description">The Southern Tǝgrāy Zone is a subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
+                            capital <placeName ref="LOC4667MayCaw">Māy Ḉaw</placeName>.</ab>
+                    </note>
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC4667MayCaw" passive="LOC6655SudTegray">
+                        <desc>Māy Ḉaw is the capital of the Southern Tǝgrāy Zone.</desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
