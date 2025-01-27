@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>CelaMaryam</title>
+                <title>Č̣ǝlā Māryām</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -45,10 +45,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName>CelaMaryam</placeName>
+                    <placeName xml:id="n1" xml:lang="gez">ጭላ፡ ማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Č̣ǝlā Māryām</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara" cert="medium">The regional State of ʾAmḥarā</region>  
+                    <settlement ref="LOC6144Wagara" type="warada" cert="low">waradā Wagarā</settlement>                 
+                    <settlement ref="LOC2221Dabat" type="tabiya" cert="low">Dābāt</settlement>  
+                    <settlement when="2025-01-27" ref="LOC7450CelaMaryam" type="area">Č̣ǝlā</settlement>
+                    <settlement when="2024-01-09" ref="LOC7451CelaMaryam" type="area">Č̣ǝlā Māryām</settlement>
                 </place>
-                <listRelation>
-                    <relation name="lawd:hasAttestation" active="LOC7451CelaMaryam" passive=""/>
+                <listRelation>                 
+                    <relation name="skos:exactMatch" active="LOC7451CelaMaryam" passive="INS1016CelaMaryam"/>
                 </listRelation>
             </listPlace><!---->
         </body>

@@ -44,10 +44,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="church">
-                    <placeName xml:id="n1" xml:lang="gez">ጭላ፡ ማርያም፡</placeName>                    
-                    <placeName corresp="#n1" xml:lang="en">Č̣ǝlā</placeName>   
+                <place type="area">
+                    <placeName xml:id="n1" xml:lang="gez">ጭላ፡</placeName>                    
+                    <placeName corresp="#n1" xml:lang="en">Č̣ǝlā</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara" cert="medium">The regional State of ʾAmḥarā</region>  
+                    <settlement ref="LOC6144Wagara" type="warada" cert="low">waradā Wagarā</settlement>                 
+                    <settlement ref="LOC2221Dabat" type="tabiya" cert="low">Dābāt</settlement>  
+                    
                         </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="LOC7450CelaMaryam" passive="INS1016CelaMaryam"/>
+                </listRelation>
                     </listPlace>
         </body>
     </text>
