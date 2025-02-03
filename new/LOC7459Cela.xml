@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                      
                 </place>
                 <listRelation>
-                    <relation name="skos:exactMatch" active="LOC7459Cela" passive="INS1023CelaMaryam"/>
+                    <relation name="skos:exactMatch" active="LOC7459Cela" passive="INS1016CelaMaryam"/>
                 </listRelation>
             </listPlace><!---->
         </body>
