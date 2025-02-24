@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Boru Meda</title>
+            <title>Boru Medā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,8 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place>
-               <placeName>Boru Meda</placeName>
+            <place >
+               <placeName xml:id="n1" xml:lang="am">ቦሩ፡ ሜዳ፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">Boru Medā</placeName>
             </place>
          </listPlace>
       </body>
