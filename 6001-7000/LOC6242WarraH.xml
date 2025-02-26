@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Wärrä Himäno</title>
+            <title>Warra Himano</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,13 +42,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="MK" when="2025-02-25">changed transliteration, added Amharic</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="region">
-               <placeName>Wärrä Himäno</placeName>
+               <placeName xml:id="n1" xml:lang="om">Warra Himano</placeName>
+               <placeName xml:id="n2" xml:lang="am">ወረ፡ ሂመኖ፡</placeName>
+               <placeName corresp="#n2" xml:lang="am" type="normalized">Warra Himano</placeName>
+               <placeName/>
             </place>
          </listPlace>
       </body>
