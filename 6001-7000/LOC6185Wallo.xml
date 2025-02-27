@@ -51,9 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="province" sameAs="wd:Q2033705">
-               <placeName xml:id="n1" xml:lang="om">Walloo</placeName>
-               <placeName xml:id="n2" xml:lang="am">ወሎ፡</placeName>
-               <placeName corresp="#n2" xml:lang="am" type="normalized">Wallo</placeName>
+               <placeName xml:id="n1" xml:lang="am" type="main">Wallo</placeName>
+               <placeName xml:id="n2" xml:lang="om">Walloo</placeName>
+               <placeName xml:id="n3" xml:lang="am">ወሎ፡</placeName>
+               <placeName corresp="#n3" xml:lang="am" type="normalized">Wallo</placeName>
                <country ref="LOC3010Ethiop"/>
                <location>
                   <geo>11.0000 39.2500</geo>
@@ -99,7 +100,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                      resettlement, the anti-regime movement operating in Wallo received great
                      support and played an important role in the collapse of the regime in <date when="1991">1991</date>.</ab>
                   <ab type="description">Wallo is one of the major areas of central Ethiopia and
-                     held the status of province until the <date notBefore="1985" notAfter="1989">late 1980s</date>. Its territory was approximately delimited the <placeName ref="LOC1797Baselo">Bašǝlo</placeName> to the north, the <placeName ref="LOC1022Abbay">Abbay</placeName> to the west, the <placeName ref="LOC6201Wancet">Wančit</placeName> to the south and the upper <placeName ref="LOC1975Borkan">Borkannā</placeName> to the east. In the <date notBefore="1900" notAfter="1999">20th century</date>, its territory as an
+                     held the status of province until the <date notBefore="1985" notAfter="1989">late 1980s</date>. Its territory was approximately delimited the <placeName ref="LOC1797Baselo">Bašǝlo</placeName> to the north, the <placeName ref="LOC1022Abbay">Abbay</placeName> to the west, the <placeName ref="LOC6201Wancet">Wančit</placeName> to the south and the upper <placeName ref="LOC1975Borkan">Borkannā</placeName> to the east. 
+                     In the <date notBefore="1900" notAfter="1999">20th century</date>, its territory as an
                      administrative division of the Ethiopian state expanded to the fringes of
                         <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> to the north, <placeName ref="LOC3999Karako">Kārākore</placeName> to the south and the border with
                         <placeName ref="LOC2709Djibou">Djibouti</placeName> to the east.</ab>
