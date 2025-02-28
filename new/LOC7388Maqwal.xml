@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">ማቋል</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">Māqʷāl</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Māqʷāl</placeName>
                     <note>Located in <placeName ref="LOC3549Gojjam"/>, about 30km south of <placeName ref="LOC1721BaherD"/>.</note>
                 </place>
                 <listRelation>
