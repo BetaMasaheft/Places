@@ -51,10 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="province" sameAs="wd:Q2033705">
-               <placeName xml:id="n1" xml:lang="am" type="main">Wallo</placeName>
-               <placeName xml:id="n2" xml:lang="om">Walloo</placeName>
-               <placeName xml:id="n3" xml:lang="am">ወሎ፡</placeName>
-               <placeName corresp="#n3" xml:lang="am" type="normalized">Wallo</placeName>
+               <placeName xml:id="n1" xml:lang="am">ወሎ፡</placeName>
+               <placeName corresp="#n1" xml:lang="am" type="normalized">Wallo</placeName>
+               <placeName xml:id="n3" xml:lang="om">Walloo</placeName>
+              
                <country ref="LOC3010Ethiop"/>
                <location>
                   <geo>11.0000 39.2500</geo>
