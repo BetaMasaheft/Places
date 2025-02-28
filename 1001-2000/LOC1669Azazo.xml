@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC1669Azazo">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC1669Azazo">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -32,21 +26,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-            <language ident="am">Amharic</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2016-09-22" who="FP">made corrections to place name structure and info
@@ -56,15 +43,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="SG" when="2020-01-19">added Wiki id</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="town">
-               <placeName xml:id="n1" xml:lang="am">አዘዞ፡</placeName>
-               <placeName corresp="#n1" xml:lang="am" type="normalized">ʾAzazo</placeName>
-               <!--               xml:lang assigned as Amharic to be checked-->
+            <place type="town" sameAs="wd:Q55604590">
+               <placeName xml:lang="gez" xml:id="n1">አዘዞ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAzazo</placeName>
+               
                <country ref="LOC3010Ethiop"/>
                <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
@@ -89,7 +77,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <date>18th and 19th century</date>. Under <roleName type="title">ʾaṣe</roleName>
                      <persName ref="PRS9038Susenyos">Susǝnyos</persName> it became an important
                      residence for both the <roleName type="function">Emperor</roleName> and the
-                     Jesuits. It remained the seat of the <roleName type="function">ʾǝč̣č̣age</roleName> until the <date>19th century</date>, even after the
+                     Jesuits. It remained the seat of the <roleName type="function">ʾǝč̣č̣age</roleName> until the 
+                     <date>19th century</date>, even after the
                      establishment of the quarter of <placeName ref="LOC6535EccBet">ʾƎč̣č̣age
                         Bet</placeName> in <placeName ref="LOC3577Gondar">Gondar</placeName>. ʾAzazo
                      was the place where the monastery of <placeName ref="LOC2297DabraL">Dabra
@@ -98,15 +87,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </note>
             </place>
             <listRelation>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC1669Azazo"
-                         passive="LOC3577Gondar"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC1669Azazo"
-                         passive="LOC6535EccBet"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC1669Azazo"
-                         passive="LOC2297DabraL"/>
+               <relation name="gn:nearBy" active="LOC1669Azazo" passive="LOC3577Gondar"/>
+               <relation name="dc:relation" active="LOC1669Azazo" passive="LOC6535EccBet"/>
+               <relation name="dc:relation" active="LOC1669Azazo" passive="LOC2297DabraL"/>
             </listRelation>
          </listPlace>
       </body>

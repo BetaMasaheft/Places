@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC7145Ganamore">
+   <teiHeader xml:base="https://betamasaheft.eu/">
+      <fileDesc>
+         <titleStmt>
+            <title>Ǧānāmore</title>
+            <author/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            
+            <date>2016-03-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A digitally born file</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage><language ident="en">English</language></langUsage>
+      </profileDesc>
+      <revisionDesc>
+
+         <change who="ES" when="2019-01-15">CREATED: place</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="https://betamasaheft.eu/">
+      <body>
+         <listPlace>
+            <place type="district">
+               <placeName xml:id="n1">ጃናሞሬ፡</placeName>
+               <placeName corresp="#n1" type="normalized">Ǧānāmore</placeName>
+               <district ref="LOC1464Ankoba "/>
+               <region ref="LOC5597Sawa"/>   
+
+            </place>
+            
+         </listPlace>
+      </body>
+   </text>
+</TEI>

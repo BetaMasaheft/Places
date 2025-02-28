@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC6844Arafta" xml:lang="en" type="place">
+    <teiHeader xml:base="https://betamasaheft.eu/">
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAraftā</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="SG"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="PL" when="2017-06-26">Created entity</change>
+            <change who="SG" when="2017-09-15">Complete record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:base="https://betamasaheft.eu/">
+        <body>
+            <listPlace>
+                <place type="district site">
+                    <placeName xml:id="n1" xml:lang="gez">አረፍታ</placeName>
+                    <placeName corresp="#n1" type="normalized">ʾAraftā</placeName>
+                    <state type="existence" ref="Paks2"/>
+                    <country ref="LOC3010Ethiop"/>
+                    <location>
+                  <geo>14.25000 38.9167	
+                    </geo>
+                    </location>
+                    <listBibl type="secondary"> 
+                        <bibl>
+                            <ptr target="bm:Solomon2016Galawdewos"/>
+                            
+                        </bibl>
+                        <bibl>
+                            <ptr target="bm:Conzelman1895Galawdewos"/>
+                        </bibl>
+                        
+                        <bibl>
+                            <ptr target="bm:Zewde2003AmbaSanayti"/>
+                           
+                        </bibl>
+                        
+                  
+                        <bibl>
+                            <ptr target="bm:Solomon2015Galawdewos"/>
+                            <citedRange unit="page">109-118</citedRange>
+                        </bibl>
+                               </listBibl>
+                    <note>
+                        
+                        <ab type="history">The chronicle of King <persName ref="PRS4428Galawdew"/> locates ʾAraftā somewhere in <placeName ref="LOC6569Tegray"/>. 
+                            According to this chronicle, it was a place where the Christians army became victorious over the Muslims forces with the support of the <placeName ref="LOC5111Portug"/>
+                            soldiers in<date>1542</date>. On the other hand, <persName ref="PRS3047Castanho"/>'s account reports the Portuguese army defeated the forces of 
+                            <persName ref="PRS1500Ahmad"/> in the same year, as indicated in the chronicle, at a place called <placeName ref="LOC1400AmbaSa"/> which is today in the region of 
+                            <placeName ref="LOC1263Adwa"/>. <placeName ref="LOC1400AmbaSa"/> has 70 districts. Therefore, ʾAraftā would probably be a locality in one of the districts of <placeName ref="LOC1400AmbaSa"/>. </ab> 
+               
+                        
+                        
+                    </note>
+                    
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC6844Arafta" passive="LOC6569Tegray"/>
+                    </listRelation>
+            </listPlace>
+            
+        </body>
+    </text>
+</TEI>

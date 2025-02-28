@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:lang="en"
-     xml:id="LOC6569Tegray"
-     type="place">
+?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="LOC6569Tegray" type="place">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -31,22 +25,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="gez">Gǝʿǝz</language>
-                <language ident="am">Amharic</language>
-                <language ident="ti">Tigrinya</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language><language ident="am">Amharic</language><language ident="ti">Tigrinya</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="FP" when="2017-07-14">added info </change>
@@ -59,17 +45,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             <listPlace>
                 <place type="area province">
                     <placeName xml:id="n1" xml:lang="ti">ትግራይ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy <note source="#Cosma">A variant of the term Tǝgrāy first appears in a <date notBefore="0900" notAfter="0999">10th-century</date> gloss to
-                                <persName ref="PRS3204CosmasI">Cosmas
-                            Indicopleustes</persName>.</note>
-               </placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Tǝgrāy</placeName>
                     <placeName xml:id="n2" xml:lang="am" type="alt">ትግሬ፡</placeName>
                     <placeName corresp="#n2" xml:lang="am" type="normalized">Tǝgre</placeName>
                     <placeName xml:id="n3" xml:lang="ti" type="alt">ተከዜ፡ ምላሽ፡</placeName>
                     <placeName corresp="#n3" xml:lang="ti" type="normalized">Takkaze
                         Mǝllaš</placeName>
-                    <placeName corresp="#n3" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz">Takkaze</placeName>
+                    <placeName corresp="#n3" xml:lang="en">beyond the Takkaze
                </placeName>
+                    
                     <state type="existence" notAfter="1991"/>
 
                     <country ref="LOC3010Ethiop"/>
@@ -89,6 +73,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </listBibl>
 
                     <note>
+                        <ab type="description">A historical province in the Ethiopian-Eritrean highlands, to the south of the river <placeName ref="LOC5864Takkaz">Takkaze</placeName> (hence sometimes referred to as Takkaze
+                            Mǝllaš).</ab>
                         <ab type="history">The origins of Tǝgrāy and its population are ancient and
                             complex, with Cushitic, Semitic, South Arabian and Sabaic elements and
                             interactions. Pre-Aksumite inscriptions show that the area of historical

@@ -1,0 +1,64 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7375Malig" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Malij</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p>Town in the Nile Delta, location uncertain, but probably identical with modern Milij in the province of al-Minufiyya about 20km
+                    northwest of <placeName ref="LOC7373Atrib"/>, being a bishopric from at least the eighth to the 14th centuries.</p>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ar">Arabic</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2023-06-01">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="town">
+                    <placeName xml:id="n1" xml:lang="en">Malij</placeName>
+                    <placeName xml:id="n2" xml:lang="ar">مليج</placeName>
+                    <placeName corresp="#n2" xml:lang="ar" type="normalized">Malīǧ</placeName>
+                    <placeName corresp="#n2" xml:lang="ar" type="normalized">Milīǧ</placeName>
+                    <placeName xml:id="n3" xml:lang="gez">መሊግ</placeName>
+                    <placeName corresp="#n3" xml:lang="gez" type="normalized">Malig</placeName>
+                </place>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="LOC7375Malig" passive="LIT2375Synaxa"/>
+                    <relation name="lawd:hasAttestation" active="LOC7375Malig" passive="BMLacq680"/>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

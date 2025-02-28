@@ -1,0 +1,72 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng"
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7362DonkonyaMikael" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Donkonyā Mikāʾel</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <t:encodingDesc xmlns:t="http://www.tei-c.org/ns/1.0">
+            <p>A digital born TEI file</p>
+        </t:encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </t:langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2022-02-01">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church">
+                  <placeName xml:id="n1" xml:lang="ti">ዶንኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n1" xml:lang="ti" type="normalized">Donkonyā Mikāʾel</placeName>
+                  <placeName xml:id="n2" xml:lang="ti">ዱንኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n2" xml:lang="ti" type="normalized">Dunkonyā Mikāʾel</placeName>
+                  <placeName xml:id="n3" xml:lang="ti">ዲኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n3" xml:lang="ti" type="normalized">Dikonyā Mikāʾel</placeName>
+                  <placeName xml:id="n4" xml:lang="ti">ዲንኮንያ፡ ሚካኤል፡</placeName>
+                  <placeName corresp="#n4" xml:lang="ti" type="normalized">Dinkonyā Mikāʾel</placeName>
+
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+                    <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
+                    <settlement type="zone" ref="LOC6653EastTegray"/>
+                    <settlement when="2020-10-16" ref="LOC3293GantaA" type="warada"/>
+                    <location>
+                       <geo cert="high">14.221508 39.34188</geo>
+                    </location>
+                </place>
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="LOC7362DonkonyaMikael" passive="LOC3293GantaA"/>
+                </listRelation>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>

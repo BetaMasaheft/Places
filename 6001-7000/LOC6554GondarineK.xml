@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xml:lang="en"
-     type="place"
-     xml:id="LOC6554GondarineK">
+?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" type="place" xml:id="LOC6554GondarineK">
     <teiHeader xml:base="https://betamasaheft.eu/">
         <fileDesc>
             <titleStmt>
@@ -30,20 +24,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"
             </sourceDesc>
         </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
         <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-                <language ident="ar">Arabic</language>
-                <language ident="it">Italian</language>
-                <language ident="gez">Gǝʿǝz</language>
-            </langUsage>
+            <langUsage><language ident="en">English</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change when="2016-10-03" who="FP">completed record</change>
@@ -120,35 +108,25 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                     </note>
                 </place>
                 <listRelation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="LOC6554GondarineK"
-                         passive="LOC3577Gondar">
+                    <relation name="gn:locatedIn" active="LOC3577Gondar" passive="LOC6554GondarineK">
                         <desc>Gondar was the capital of the Gondarine Kingdom.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="LOC6554GondarineK"
-                         passive="LOC1022Abbay">
+                    <relation name="gn:nearBy" active="LOC6554GondarineK" passive="LOC1022Abbay">
                         <desc>The great bend of the Blue Nile defined the territories of the
                             kingdom.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="LOC6554GondarineK"
-                         passive="LOC5888Tana">
+                    <relation name="gn:nearBy" active="LOC6554GondarineK" passive="LOC5888Tana">
                         <desc>The highlands north and east of the lake Ṭānā were part of the kingdom
                             in the first half of its history.</desc>
                     </relation>
-                    <relation name="syriaca:has-relation-to-place"
-                         active="LOC6554GondarineK"
-                         passive="LOC6569Tegray">
+                    <relation name="dcterms:hasPart" active="LOC6554GondarineK" passive="LOC6569Tegray">
                         <desc>Central Tǝgrāy was part of the kingdom in the first half of its
                             history.</desc>
                     </relation>
-                    <relation name="gn:locatedIn" active="LOC1264Adwa">
+                    <relation name="dcterms:hasPart" active="LOC1264Adwa">
                         <desc>ʿAdwā was part of the kingdom.</desc>
                     </relation>
-                    <relation name="gn:locatedIn"
-                         active="LOC1310Aksum"
-                         passive="LOC6554GondarineK">
+                    <relation name="gn:locatedIn" active="LOC1310Aksum" passive="LOC6554GondarineK">
                         <desc>ʾAksum was part of the kingdom.</desc>
                     </relation>
                 </listRelation>

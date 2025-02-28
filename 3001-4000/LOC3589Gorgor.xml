@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     type="place"
-     xml:lang="en"
-     xml:id="LOC3589Gorgor">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC3589Gorgor">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
@@ -32,21 +26,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
             <xi:fallback>
                <p>Definitions of prefixes used.</p>
             </xi:fallback>
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage>
-            <language ident="en">English</language>
-            <language ident="ar">Arabic</language>
-            <language ident="it">Italian</language>
-            <language ident="gez">Gǝʿǝz</language>
-            <language ident="am">Amharic</language>
-         </langUsage>
+         <langUsage><language ident="en">English</language><language ident="am">Amharic</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2016-11-18" who="FP">added link to GeoNames entity</change>
@@ -151,40 +138,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      1684.</desc>
                </relation>
                <relation name="gn:nearBy" active="LOC3589Gorgor" passive="LOC1721BaherD"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="LOC3078Feremo"
-                         passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS4015Fasilada"
-                         passive="LOC3589Gorgor">
+               <relation name="gn:locatedIn" active="LOC3078Feremo" passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS4015Fasilada" passive="LOC3589Gorgor">
                   <desc>Fāsiladas ordered the burning of the library of the Jesuits' mission in
                      Gorgorā</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS9038Susenyos"
-                         passive="LOC3589Gorgor">
+               <relation name="syriaca:has-relation-to-place" active="PRS9038Susenyos" passive="LOC3589Gorgor">
                   <desc>Susǝnyos offered land grants to Jesuit missionaries to build a residence in
                      Gorgorā. He also established there a katamā and asked the Jesuits to move their
                      residence from "Old Gorgorā" to "New Gorgorā".</desc>
                </relation>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS7601Nogueira"
-                         passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS1767Almeida"
-                         passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS4079Fernande"
-                         passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS4386Gabriel"
-                         passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS8681SeelaK"
-                         passive="LOC3589Gorgor"/>
-               <relation name="syriaca:has-relation-to-place"
-                         active="PRS10194Yaeqob"
-                         passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS7601Nogueira" passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS1767Almeida" passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS4079Fernande" passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS4386Gabriel" passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS8681SeelaK" passive="LOC3589Gorgor"/>
+               <relation name="syriaca:has-relation-to-place" active="PRS10194Yaeqob" passive="LOC3589Gorgor"/>
             </listRelation>
          </listPlace>
       </body>
