@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ዓመድ፡  በር፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">ʿĀmad Bar</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʿĀmad Bar</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>

@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="gez">አፙጽማ</placeName>
-                    <placeName corresp="#n1" xml:lang="gez">ʾAmʸaṣmā</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAmʸaṣmā</placeName>
                     <note>Unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>

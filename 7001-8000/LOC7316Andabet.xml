@@ -43,9 +43,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">አንዳቤት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">ʾAndābet</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAndābet</placeName>
                     <placeName xml:lang="gez" xml:id="n2">ሀንዳቤት</placeName>
-                    <placeName xml:lang="gez" corresp="#n2">Handābet</placeName>
+                    <placeName xml:lang="gez" corresp="#n2" type="normalized">Handābet</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>

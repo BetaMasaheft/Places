@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:id="n1" xml:lang="am">ሻንጋ</placeName>
-                    <placeName corresp="#n1" xml:lang="am">Šāngā</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">Šāngā</placeName>
                     <note>Place close to the Southern shore of <placeName ref="LOC5888Tana"/>, perhaps related to the church 
                         <foreign xml:lang="gez">ሻንጋ፡ ገብርኤል፡</foreign> about 50km southwest of <placeName ref="LOC1721BaherD"/>.</note>
                 </place>

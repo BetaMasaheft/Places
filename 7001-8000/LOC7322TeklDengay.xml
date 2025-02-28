@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="geez" xml:id="n1">ትክል፡ ድንጋይ፡ </placeName>
-                    <placeName xml:lang="geez" corresp="#n1">Tǝkl Dǝngāy</placeName>
+                    <placeName xml:lang="geez" corresp="#n1" type="normalized">Tǝkl Dǝngāy</placeName>
                 </place>
             </listPlace><!---->
         </body>

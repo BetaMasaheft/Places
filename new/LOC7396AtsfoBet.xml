@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="privateHouse">
                     <placeName xml:id="n1" xml:lang="am">አጽፎ፡ ቤት፡</placeName>
-                    <placeName xml:lang="am" corresp="#n1">ʾAṣfo Bet</placeName>
+                    <placeName xml:lang="am" corresp="#n1" type="normalized">ʾAṣfo Bet</placeName>
                     <note>Unknown place close to the Southern shore of <placeName ref="LOC5888Tana"/>.</note>
                 </place>
                 <listRelation>
