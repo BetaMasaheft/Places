@@ -65,8 +65,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   </bibl>
                </listBibl>
                <note>
-                  <ab type="history">Wallo is an area in central <placeName ref="LOC3010Ethiop">Ethiopia</placeName> and takes its name from a large <persName ref="ETH1973Oromo">Oromo</persName>'s subgroup that settled in this area
-                     from the <date notBefore="1550" notAfter="1600">late 16th cent.</date>. The
+                  <ab type="history">Wallo is an area in central <placeName ref="LOC3010Ethiop">Ethiopia</placeName> and takes its name from a large <persName ref="ETH1973Oromo">Oromo</persName>’s subgroup that settled in this area
+                     from the <date notBefore="1550" notAfter="1599">late 16th cent.</date>. The
                         <persName ref="ETH1973Oromo">Oromo</persName> of Wallo were further divided
                      into seven main sub-units that lived in different parts of Wallo and have been
                      used until today to designate the major administrative divisions of this area.
@@ -85,7 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                      <persName ref="PRS7079Mikael">Mikāʾel</persName> , father of <persName ref="PRS5620IyasuV">ʾIyāsu</persName>, Wallo lost its importance and was
                      reduced to a buffer zone to be ruled and taxed for the benefit of Šawān
                      officials. Following these events, the imperial power monitored Wallo carefully
-                     an <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName> regarded it as a
+                     and <persName ref="PRS5226haylase">Ḫāyla Śǝllāse I</persName> regarded it as a
                      potentially insurrectionary area and kept it subjugated with a strong military
                      presence. Following the Italian defeat in <date when="1941">1941</date>, Wallo
                      continued to be looked at with suspicion, was neglected by the central power in
@@ -96,11 +96,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                         I</persName>: in <date when="1973">1973</date>, it was hit by a dramatic
                      famine which caused scandal and triggered protests that culminated in the
                      Ethiopian Revolution of <date when="1974">1974</date>. Following another severe
-                     famine in <date when="1984">1984</date> and the Darg's policy of forced
+                     famine in <date when="1984">1984</date> and the Darg’s policy of forced
                      resettlement, the anti-regime movement operating in Wallo received great
                      support and played an important role in the collapse of the regime in <date when="1991">1991</date>.</ab>
                   <ab type="description">Wallo is one of the major areas of central Ethiopia and
-                     held the status of province until the <date notBefore="1985" notAfter="1989">late 1980s</date>. Its territory was approximately delimited the <placeName ref="LOC1797Baselo">Bašǝlo</placeName> to the north, the <placeName ref="LOC1022Abbay">Abbay</placeName> to the west, the <placeName ref="LOC6201Wancet">Wančit</placeName> to the south and the upper <placeName ref="LOC1975Borkan">Borkannā</placeName> to the east. 
+                     held the status of province until the <date notBefore="1985" notAfter="1989">late 1980s</date>. Its territory was approximately delimited the <placeName ref="LOC1797Baselo">Bašǝlo</placeName> to the north, the <placeName ref="LOC1022Abbay">ʾAbbay</placeName> to the west, the <placeName ref="LOC6201Wancet">Wančit</placeName> to the south and the upper <placeName ref="LOC1975Borkan">Borkannā</placeName> to the east. 
                      In the <date notBefore="1900" notAfter="1999">20th century</date>, its territory as an
                      administrative division of the Ethiopian state expanded to the fringes of
                         <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> to the north, <placeName ref="LOC3999Karako">Kārākore</placeName> to the south and the border with
