@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPlace>
             <place type="town" sameAs="wd:Q1246740">
                <placeName xml:lang="gez" xml:id="n1">መተማ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1">Matammā</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Matammā</placeName>
             </place>
          </listPlace>
       </body>

@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="settlement">
                     <placeName xml:lang="gez" xml:id="n1">ልጋት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Lǝgāt</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Lǝgāt</placeName>
                     <placeName xml:lang="gez" corresp="#n1">Lǝggāt</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>

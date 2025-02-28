@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="qushat">
                     <placeName xml:id="n1" xml:lang="gez">ጉያ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Guyā</placeName> 
+                    <placeName corresp="#n1" type="normalized">Guyā</placeName> 
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     

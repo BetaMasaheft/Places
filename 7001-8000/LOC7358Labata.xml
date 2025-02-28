@@ -47,9 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="am" xml:id="n1">ለበጣ፡</placeName>
-                    <placeName xml:lang="am" corresp="#n1">Labaṭā</placeName>
+                    <placeName xml:lang="am" corresp="#n1" type="normalized">Labaṭā</placeName>
                     <placeName xml:lang="ti" xml:id="n2">ማይ፡ ለበጣ፡</placeName>
-                    <placeName xml:lang="ti" corresp="#n2">Māy Labaṭā</placeName>
+                    <placeName xml:lang="ti" corresp="#n2" type="normalized">Māy Labaṭā</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
 

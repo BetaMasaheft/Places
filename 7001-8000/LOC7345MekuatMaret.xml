@@ -47,9 +47,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="district">
                     
                     <placeName xml:lang="gez" xml:id="n1">ምኩዓት፡ መሬት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Mǝkʷǝʿāt Maret</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Mǝkʷǝʿāt Maret</placeName>
                     <placeName xml:lang="gez" xml:id="n2">ምኩአት፡ መሬት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n2">Mǝkuʾāt Maret</placeName>
+                    <placeName xml:lang="gez" corresp="#n2" type="normalized">Mǝkuʾāt Maret</placeName>
                     
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
