@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7405Gunagulama" passive="Tanasee1"/>
                 </listRelation>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>

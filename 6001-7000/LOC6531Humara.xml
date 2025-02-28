@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC6531Humara">
+    <teiHeader xml:base="https://betamasaheft.eu/">
+        <fileDesc>
+            <titleStmt>
+                <title>Humarā</title>
+                <editor key="AB"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gazetteer of Places related to Ethiopian Written tradition, Hiob Ludolf
+                    Zentrum für Äthiopistik</authority>
+                <pubPlace>Hamburg</pubPlace>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                         This file is licensed under the Creative Commons Attribution-ShareAlike
+                            4.0. 
+                    </licence>
+                </availability>
+
+                
+            </publicationStmt>
+            <sourceDesc>
+                <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+            </sourceDesc>
+        </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="https://raw.githubusercontent.com/BetaMasaheft/Documentation/master/prefixDef.xml">
+            <xi:fallback>
+               <p>Definitions of prefixes used.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+        <profileDesc>
+            <langUsage><language ident="en">English</language><language ident="am">Amharic</language></langUsage>
+        </profileDesc>
+        <revisionDesc>
+
+            <change when="2025-02-28" who="ES">restored record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:base="https://betamasaheft.eu/">
+        <body>
+            <listPlace>
+                <place type="town">
+                    <placeName xml:id="n1" xml:lang="am">ሁመራ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="am" type="normalized">Humarā</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC6583WestTegray"/>                    
+                    
+                </place>
+                <listRelation>
+                    <relation name="gn:locatedIn" active="LOC6531Humara" passive="LOC6583WestTegray">
+                        <desc>Humarā is the capital of the Western Tǝgrāy Zone.</desc>
+                    </relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

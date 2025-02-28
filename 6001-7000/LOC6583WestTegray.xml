@@ -61,14 +61,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <note>
                         <date type="foundation" notBefore="1991">1991</date>
                         <ab type="description">The Western Tǝgrāy Zone is a subdivision of the <placeName ref="LOC5932Tegray">Tǝgrāy National Regional State</placeName> with
-                            capital <placeName ref="LOC6538Humara">Humarā</placeName>.</ab>
+                            capital <placeName ref="LOC6531Humara">Humarā</placeName>.</ab>
                     </note>
                 </place>
-                <listRelation>
-                    <relation name="gn:locatedIn" active="LOC6538Humara" passive="LOC6583WestTegray">
-                        <desc>Humarā is the capital of the Western Tǝgrāy Zone.</desc>
-                    </relation>
-                </listRelation>
+                
             </listPlace>
         </body>
     </text>
