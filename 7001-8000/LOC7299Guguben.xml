@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="mountain">
                     <placeName xml:lang="gez" xml:id="n1">ጉጉቤን፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Guguben</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Guguben</placeName>
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="LOC7299Guguben" passive="LOC3549Gojjam"><desc>

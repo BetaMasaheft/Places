@@ -31,7 +31,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <abstract>
                 <p/>
             </abstract>
-            <langUsage><language ident="en">English</language></langUsage>
+            <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="SG" when="2019-10-25">Created entity</change>
@@ -41,8 +41,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName xml:lang="geez" xml:id="n1">ትክል፡ ድንጋይ፡ </placeName>
-                    <placeName xml:lang="geez" corresp="#n1" type="normalized">Tǝkl Dǝngāy</placeName>
+                    <placeName xml:lang="gez" xml:id="n1">ትክል፡ ድንጋይ፡ </placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Tǝkl Dǝngāy</placeName>
                 </place>
             </listPlace><!---->
         </body>

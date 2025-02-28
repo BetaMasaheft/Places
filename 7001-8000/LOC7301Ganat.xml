@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="river">
                     <placeName xml:lang="gez" xml:id="n1">ገነት፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Ganat</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Ganat</placeName>
                 </place>
             </listPlace><!---->
         </body>

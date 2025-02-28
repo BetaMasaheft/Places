@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="island">
                     <placeName xml:lang="gez" xml:id="n1" type="normalized">ቀለሙጅ፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Qalamuǧ</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Qalamuǧ</placeName>
                 </place>
             </listPlace><!---->
             <listRelation>

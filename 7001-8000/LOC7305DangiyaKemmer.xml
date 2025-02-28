@@ -42,7 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ደንገያ፡ ክምር፡ </placeName>
-                    <placeName xml:lang="gez" corresp="#n1">Dangiyā Kǝmmǝr</placeName>
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Dangiyā Kǝmmǝr</placeName>
                 </place>
                 <listRelation><relation name="gn:locatedIn" active="LOC7305DangiyaKemmer" passive="LOC1713Bagemd"/></listRelation>
             </listPlace><!---->
