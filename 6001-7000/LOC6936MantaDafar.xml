@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="SG" when="2025-02-28">Created entity</change>
+            <change who="ES" when="2025-02-28">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
@@ -46,12 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <listPlace>
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">መንታ፡ ደፈር፡</placeName>
-                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Mantā Dafar
-                        
+                    <placeName xml:lang="gez" corresp="#n1" type="normalized">Mantā Dafar                        
                     </placeName>
                     <state type="existence" ref="Paks2"/>
-                    
-                    
                     
                 </place>
                 <listRelation>
