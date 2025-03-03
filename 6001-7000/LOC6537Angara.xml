@@ -66,7 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                     <note>
                         <ab type="description">ʾAngarab is the name of a small town situated on the
                                 <placeName ref="LOC6536Angara">Great ʾAngarab</placeName>) river, on
-                            the road connecting <placeName ref="LOC6538Humara">Humarā</placeName>
+                            the road connecting <placeName ref="LOC6531Humara">Humarā</placeName>
                             with <placeName ref="LOC3577Gondar">Gondar</placeName>.</ab>
                     </note>
                 </place>
