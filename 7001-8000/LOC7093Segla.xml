@@ -48,16 +48,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <place type="area">
                     <placeName xml:lang="gez" xml:id="n1">ስግላ፡</placeName>
                     <placeName xml:lang="gez" corresp="#n1" type="normalized">Sǝglā
-                    </placeName>
-                    
-                    
-                    
-                    
-                    
+                    </placeName>                    
                     <state type="existence" ref="Paks2"/>
-                    
-                    
-                    
                 </place>
                 <listRelation>
                     <relation name="gn:locatedIn" active="LOC7093Segla" passive="LOC1241AgawMe"/>
