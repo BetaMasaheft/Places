@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Amba Śännayti</title>
+            <title>ʾAmbā Śannayti</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,14 +42,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2025-03-05" who="CH">Updated names and title</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="mountain">
-               <placeName>Amba Śännayti</placeName>
-               <placeName type="alt">Amba Sänayti</placeName>
+               <placeName xml:id="n1" xml:lang="gez">አምባ፡ ሠናይቲ፡</placeName>
+               <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAmbā Śannayti</placeName>
+               <placeName xml:id="n2" xml:lang="gez">አምባ፡ ሰናይቲ፡</placeName>
+               <placeName xml:lang="gez" type="normalized" corresp="#n2">ʾAmbā Sanayti</placeName>
+               <placeName xml:id="n3" xml:lang="gez">አምባ፡ ሠናይት፡</placeName>
+               <placeName xml:lang="gez" type="normalized" corresp="#n3">ʾAmbā Śǝnayt</placeName>
             </place>
          </listPlace>
       </body>
