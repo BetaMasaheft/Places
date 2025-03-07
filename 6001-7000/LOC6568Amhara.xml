@@ -65,7 +65,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <ab type="history">ʾAmḥarā is the name of a historical area in central
                                 <placeName ref="LOC3010Ethiop">Ethiopia</placeName>. This place-name
                             does not appear in the sources of the Aksumite period and its earlierst
-                            preserved mention can be found in a manuscript of the <ref type="work" corresp="LIT4277GoldenG">Golden Gospel</ref> of <placeName ref="INS0341DL">Dabra Libānos</placeName> dating to <date when="1322">1322</date>. These mentions became numerous in Ethiopic
+                            preserved mention can be found in a manuscript of the <ref type="mss" corresp="DabraLibanosHamGG1">Golden Gospel of Dabra Libānos</ref> dating to <date when="1322">1322</date>. These mentions became numerous in Ethiopic
                             medieval sources and increased over time. The importance of this area
                             seems to have increased after the fall of the <persName ref="PRS10523Zagwe">Zāgʷe</persName> and the re-establishment of the
                             Solomonic dynasty in the <date notBefore="1250" notAfter="1300">late
