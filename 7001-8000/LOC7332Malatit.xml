@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 </place>
             </listPlace><!---->
             <listRelation>
-                <relation name="gn:locatedIn" active="LOC7332Malatit" passive="LOC7333Gallaglyen"/>
+                <relation name="gn:locatedIn" active="LOC7332Malatit" passive="LOC7333Gallagyen"/>
                 
             </listRelation>
             
