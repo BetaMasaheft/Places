@@ -34,7 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </t:abstract>
             <langUsage>
                 <language ident="en">English</language>
-            </langUsage>
+            </langUsage> 
         </profileDesc>
         <revisionDesc>
             <change who="NV" when="2024-11-20">Created entity</change>
