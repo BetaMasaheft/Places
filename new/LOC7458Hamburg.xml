@@ -38,6 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="NV" when="2024-11-20">Created entity</change>
+            <change who="NV" when="2024-11-21">Added geo coordinates</change>
         </revisionDesc>
     </teiHeader>
     <text>
