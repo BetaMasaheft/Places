@@ -12,12 +12,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </titleStmt>
             <publicationStmt>
                 <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
-                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
-                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine
+                    multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
                 <pubPlace>Hamburg</pubPlace>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                        licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -38,6 +38,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="NV" when="2024-11-12">Created entity</change>
+            <change who="NV" when="2025-04-30">Added second change element for visualization of status</change>
+            <change who="NV" when="2025-04-30">Modified the second change element as suggested in the review by Dorothea Reule</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -45,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q1953" type="town">
                     <placeName>Yerevan</placeName>
-                        <country ref="LOC7374Armenia">Armenia</country>
+                    <country ref="LOC7374Armenia">Armenia</country>
                     <location>
                         <geo>40.1821 44.5145</geo>
                     </location>
