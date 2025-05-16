@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-03-05">Created entity based on the information provided by Anaïs Wion.</change>
+            <change when="2025-03-06" who="CH">Reviewed and approved by Eugenia Sokolinski</change>
         </revisionDesc>
     </teiHeader>
     <text>
