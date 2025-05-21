@@ -32,13 +32,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage>
                 <language ident="en">English</language>
                 <language ident="gez">Gǝʿǝz</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2023-10-18">Created entity</change>
+            <change when="2023-11-28" who="CH">Corrections after reviews by Eugenia Sokolinski and Dorothea Reule</change>
         </revisionDesc>
     </teiHeader>
     <text>
