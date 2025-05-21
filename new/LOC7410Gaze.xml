@@ -39,6 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2024-01-05">Created entity</change>
+            <change who="CH" when="2024-01-10">Corrections after reviews by Eugenia Sokolinski and Dorothea Reule</change>
         </revisionDesc>
     </teiHeader>
     <text>
