@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <fileDesc>
          <titleStmt>
             <title>ʿAdwā</title>
-            <author/>
+            
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
@@ -15,12 +15,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                   This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
             
-            <date>2016-03-21</date>
+            
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
@@ -48,7 +48,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="mountain">
-               <placeName>ʿAdwā</placeName>
+               <placeName xml:lang="gez" xml:id="n1">ዐድዋ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">ʿAdwā</placeName>
+               <placeName xml:lang="ti" xml:id="n2">ዓድዋ፡</placeName>
+               <placeName xml:lang="ti" corresp="#n2" type="normalized">ʿĀdwā</placeName>
+               <placeName xml:lang="am" xml:id="n3">አድዋ፡</placeName>
+               <placeName xml:lang="am" corresp="#n3" type="normalized">ʾAdwā</placeName>
+               <placeName xml:lang="am" xml:id="n4" type="alt">ዓዱዋ፡</placeName>
+               <placeName xml:lang="am" corresp="#n4" type="normalized">ʿĀduwā</placeName>
             </place>
          </listPlace>
       </body>
