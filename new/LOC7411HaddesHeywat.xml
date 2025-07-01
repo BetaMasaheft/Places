@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḥāddəš Həywat</title>
+                <title>Ḥāddǝš Hǝywat</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="tabiya">                  
                     <placeName xml:id="n1" xml:lang="ti">ሓድሽ፡ ህይወት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Ḥāddəš Həywat</placeName> 
+                    <placeName corresp="#n1" xml:lang="en">Ḥāddǝš Hǝywat</placeName> 
                     <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
                     <settlement type="zone" ref="LOC6653EastTegray"/>
                     <country ref="LOC3010Ethiop"></country>
