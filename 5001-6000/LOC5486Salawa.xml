@@ -9,9 +9,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             
             <editor key="SG"/>
             
-            
-            <author/>
-            <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
          </titleStmt>
          <publicationStmt>
