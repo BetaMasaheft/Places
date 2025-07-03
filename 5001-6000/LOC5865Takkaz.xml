@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Täkkaze Mǝllaš</title>
+            <title>Takkaze Mǝllāš</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -15,12 +15,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                   This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-            
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
@@ -35,7 +33,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="ti">Tigrinya</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2017-07-14" who="FP">same as</change>
@@ -50,19 +48,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPlace>
             <place type="area">
                <placeName xml:id="n1" xml:lang="ti">ተከዜ፡ ምላሽ፡</placeName>
-               <placeName corresp="#n1" xml:lang="ti" type="normalized">Takkaze Mǝllaš</placeName>
+               <placeName corresp="#n1" xml:lang="ti" type="normalized">Takkaze Mǝllāš</placeName>
                <placeName corresp="#n1" xml:lang="en">beyond the <placeName ref="LOC5864Takkaz">Takkaze</placeName>
                </placeName>
-               <listBibl type="secondary">
-                  <bibl>
-                     <ptr target="bm:Smidt2010EnAeTegray"/>
-                  </bibl>
-               </listBibl>
-               <note>
+                 <note>
                   <ab type="description">The name Takkaze Mǝllaš was occasionally used to refer to historical <placeName ref="LOC6569Tegray">Tǝgrāy</placeName> and its dependent territories. </ab>
                </note>
             </place>
          </listPlace>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Smidt2010EnAeTegray"/>
+            </bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
