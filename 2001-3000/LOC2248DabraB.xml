@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="church">
+            <place type="church" sameAs="wd:Q3580176">
                <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ብርሃን፡ ሥላሴ፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Bǝrhān
                   Śǝllāse</placeName>
@@ -95,6 +95,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                </note>
             </place>
          </listPlace>
+         <listRelation><relation name="skos:exactMatch" active="LOC2248DabraB" passive="INS0994GondarDBS"></relation></listRelation>
       </body>
    </text>
 </TEI>

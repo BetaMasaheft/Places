@@ -14,12 +14,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
                 
-                <date>2016-08-15</date>
+                
             </publicationStmt>
             <sourceDesc>
                 <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
@@ -49,6 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <place type="church">
                     <placeName xml:id="n1" xml:lang="gez">ገብርኤል፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Gabrǝʾel</placeName>
+                    <placeName xml:id="n2">ʾAbun Bet Gabrǝʾel</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
@@ -84,6 +85,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                 <listRelation>
                     <relation name="gn:nearBy" active="LOC6539Gabreel" passive="LOC3288Gannat"/>
                     <relation name="dc:relation" active="LOC6539Gabreel" passive="LOC1058AbunBe"/>
+                    <relation name="skos:exactMatch" active="LOC6539Gabreel" passive="INS0996GGabriel"></relation>
                 </listRelation>
             </listPlace>
         </body>
