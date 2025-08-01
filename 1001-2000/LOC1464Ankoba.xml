@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾAnkobar</title>
+            <title>ʾAnkobar (town)</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <editor key="JG"/>
@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2020-01-19">added Wiki id</change>
+         <change when="2025-07-30" who="CH">Added English placeName and type in title</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -53,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
              
                <placeName xml:lang="gez" xml:id="n1">አንኮበር፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">ʾAnkobar</placeName>
-               
+               <placeName xml:lang="en" corresp="#n1">Ankober</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC5597Sawa"/>
                
@@ -65,6 +66,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                   There are five churches associated to the site.</note>
             </place>
          </listPlace>
+         <listRelation>
+            <relation name="betmas:formerlyAlsoListedAs" active="LOC1464Ankoba" passive="LOC1464Ankoba"/>
+         </listRelation>
       </body>
    </text>
 </TEI>
