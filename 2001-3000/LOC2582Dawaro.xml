@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region" sameAs="wd:Q6424991">
+            <place type="region" sameAs="wd:Q3015833">
                <placeName xml:lang="gez" xml:id="n1">ደዋሮ፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dawāro</placeName>
                <placeName xml:lang="ar" xml:id="n2" type="alt">Dauarro</placeName>

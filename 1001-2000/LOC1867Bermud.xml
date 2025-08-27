@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="island" sameAs="wd:Q21790413">
+            <place type="island" sameAs="wd:Q23635">
                <placeName>Bermuda</placeName>
             </place>
          </listPlace>

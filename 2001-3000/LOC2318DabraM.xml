@@ -50,14 +50,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery" sameAs="wd:Q28223076">
+            <place type="monastery" sameAs="wd:Q135981417">
                <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ማርያም፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Māryām</placeName>
                
               
           
             </place>
-            <listRelation><relation name="gn:locatedIn" active="LOC2318DabraM" passive="LOC5888Tana"></relation></listRelation>
+            <listRelation><relation name="gn:locatedIn" active="LOC2318DabraM" passive="LOC5888Tana"></relation><relation name="skos:exactMatch" active="LOC2318DabraM" passive="INS0358TanaDM"></relation></listRelation>
          </listPlace>
       </body>
    </text>

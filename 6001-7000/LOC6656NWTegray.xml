@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
-                <place type="zoba zone" sameAs="wd:Q24032913">
+                <place type="zoba zone" sameAs="wd:Q7449411">
                     
                     <placeName xml:id="n1" xml:lang="ti">ስሜናዊ፡ ምዐራብ፡ ትግራይ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Sǝmenāwi Mǝʿrāb Tǝgrāy</placeName>
