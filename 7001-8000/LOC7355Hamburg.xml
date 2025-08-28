@@ -46,6 +46,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place sameAs="wd:Q1055" type="city">
                     <placeName>Hamburg</placeName>
+                    <country ref="LOC3432German">Germany</country>
+                    <location>
+                        <geo>53.555 9.989</geo>
+                    </location>
                 </place>
             </listPlace><!---->
         </body>
