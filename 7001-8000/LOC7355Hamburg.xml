@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <geo>53.555 9.989</geo>
                     </location>
                 </place>
-            </listPlace><!---->
+            </listPlace>
+            <listRelation>
+                <relation name="betmas:formerlyAlsoListedAs" active="LOC7355Hamburg" passive="LOC7458Hamburg"/>
+            </listRelation>
         </body>
     </text>
 </TEI>
