@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Daga</title>
+            <title>Dāgā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,15 +42,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2025-09-19" who="CH">Updated name, title; added country, region and bibliography</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="island">
-               <placeName>Daga</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ዳጋ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dāgā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region notAfter="1974" type="province" ref="LOC1713Bagemd"/>
             </place>
          </listPlace>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:BoscTiesseBalicka2005EnAeDagaEstifanos"/><citedRange unit="page">57a</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
