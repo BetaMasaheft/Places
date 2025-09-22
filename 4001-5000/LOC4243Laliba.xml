@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language><language ident="am">Amharic</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʾǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -49,13 +49,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="archaeologicalSite">
-               <placeName xml:id="n1" xml:lang="am">ላሊቤላ፡</placeName>
-               <placeName corresp="#n1" xml:lang="am" type="normalized">Lālibalā (archeological site)</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ላሊበላ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Lālibalā (archaeological site)</placeName>
                <country ref="LOC3010Ethiop"/>
                <region ref="LOC1426Amhara"/>
                <region ref="LOC4259Lasta"/>
                <region ref="LOC6185Wallo">Former Wallo province</region>
-               <note>Archeological site east of lake <placeName ref="LOC5888Tana"/>, discovered in an escarpment
+               <note>Archaeological site east of lake <placeName ref="LOC5888Tana"/>, discovered in an escarpment
                   overlooking <placeName ref="LOC3098Fogara"/>.</note>
             </place>
          </listPlace>
