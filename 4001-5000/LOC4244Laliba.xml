@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2020-01-23">Wiki data added, transcription</change>
+         <change when="2025-09-22" who="CH">Add fidal, country, region and listBibl</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -50,11 +51,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <listPlace>
             <place type="town" sameAs="wd:Q207590">
                <placeName xml:lang="gez" xml:id="n1">ላሊበላ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Lālibalā</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Lālibalā (town)</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ሮሐ፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Roḥā</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC1426Amhara"/>
+               <region ref="LOC4259Lasta">Situated on the slopes of Mount ʾAbuna Yosef in the Warwar district of the north-central Lastā 
+                  highlands</region>
+               <region ref="LOC6185Wallo">Former Wallo province</region>
             </place>
          </listPlace>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Finneran2007Lalibala"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
