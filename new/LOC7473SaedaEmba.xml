@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>SaedaEmba</title>
+                <title>Saeda Emba</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -48,7 +48,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName>SaedaEmba</placeName>
                 </place>
                 <listRelation>
-                    <relation name="saws:isDifferentTo" active="LOC7473SaedaEmba" passive=""/>
+                    <relation name="saws:isDifferentTo" active="LOC7473SaedaEmba" passive="LOC5426Saeda"/>
                 </listRelation>
             </listPlace><!---->
         </body>
