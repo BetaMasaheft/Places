@@ -34,7 +34,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="tig">Tigrigna</language>
+                <language ident="ti">Tigrigna</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="administrativeUnit qushat">                       
-                            <placeName xml:id="n1" xml:lang="gez">መዓሪጎ፡</placeName>
+                            <placeName xml:id="n1" xml:lang="ti">መዓሪጎ፡</placeName>
                             <placeName corresp="#n1" xml:lang="en">Maʿārigo</placeName>
                             <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>

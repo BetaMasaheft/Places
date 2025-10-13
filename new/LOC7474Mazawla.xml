@@ -45,7 +45,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="area">
-                    <placeName xml:id="n1" xml:lang="gez">መዘውለ፡</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">መዘውለ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Mazawla</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
