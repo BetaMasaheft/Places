@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Mazawla</title>
+                <title>ʾƎmbā Mazawla</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -44,9 +44,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="area">
-                    <placeName xml:id="n1" xml:lang="ti">መዘውለ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Mazawla</placeName>
+                <place type="region tabiya">
+                    <placeName xml:id="n1" xml:lang="ti">እምባ፡ መዘውለ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">ʾƎmbā Mazawla</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
