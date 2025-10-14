@@ -1,0 +1,68 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7475Maarigo" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maʿārigo</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ti">Tigrigna</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2025-10-13">Created record</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="administrativeUnit qushat">                       
+                            <placeName xml:id="n1" xml:lang="ti">መዓሪጎ፡</placeName>
+                            <placeName corresp="#n1" xml:lang="en">Maʿārigo</placeName>
+                            <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+                    <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
+                            <settlement ref="LOC5805SubhaS" type="warada"/>                
+                            <settlement ref="LOC7474Mazawla" type="tabiya"/> 
+                    <location>
+                        <geo cert="medium">14.243167 39.672694</geo>
+                        <height unit="m">2803</height>
+                    </location>
+                            </place>
+                            </listPlace>
+            
+            <listRelation>
+                <relation name="skos:exactMatch" active="LOC7475Maarigo" passive="LOC7477MaarigoSellase"></relation>
+            </listRelation>
+            
+        </body>
+    </text>
+</TEI>

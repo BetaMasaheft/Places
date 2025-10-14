@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Sāʿsiʿ Ṣaʿdā ʾƎmbā</title>
+            <title>Sāʿsiʿ Ṣāʿdā ʾƎmbā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -34,26 +34,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language>
+            <language ident="ti">Tigrinya</language>
+         </langUsage>
       </profileDesc>
       <revisionDesc>
 
          <change who="ES" when="2019-03-15">CREATED: place</change>
+         <change who="DN" when="2025-10-13">corrected orthography</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="region warada">
-
                
                <placeName xml:id="n1" xml:lang="gez">ሳዕሲዕ፡ ጸዕዳ፡ እምባ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sāʿsiʿ Ṣaʿdā ʾƎmbā</placeName>
-
-               <country ref="LOC3010Ethiop"/>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Sāʿsiʿ Ṣāʿdā ʾƎmbā</placeName>
+               <placeName xml:id="n2" xml:lang="tig">ሳዕሲዕ፡ ፃዕዳ፡ እምባ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Sāʿsiʿ Ḍāʿdā ʾƎmbā</placeName>
+               <country ref="LOC3010Ethiop"/>               
+               <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
-            </place>
+               <settlement notAfter="2020" ref="LOC7175Sasi" type="warada"/>
+               </place>
          </listPlace>
       </body>
    </text>

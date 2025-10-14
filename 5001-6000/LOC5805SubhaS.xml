@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Subḥa Ṣaʿaṣe</title>
+            <title>Sǝbuḥā Sāʿasiʿ</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -35,21 +35,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language>
+            <language ident="ti">Tigrinya</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
-         <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="ES" when="2016-02-09">CREATED: place</change>         
+         <change who="MKr" when="2025-10-14">Revised</change>
+         <change who="DN" when="2025-10-14">Revised according to suggestions by Magdalena Krzyzanowska</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="region">
-               <placeName>Subḥa Ṣaʿaṣe</placeName>
+            <place type="region warada">    
+               <placeName xml:id="n1" xml:lang="ti">ስቡሓ፡ ሳዐሲዕ፡</placeName>
+               <placeName corresp="#n1" xml:lang="en">Sǝbuḥā Sāʿasiʿ</placeName>
+               <placeName xml:id="n2" xml:lang="ti">ሱብሓ፡ ሳዐሲዕ፡</placeName>
+               <placeName corresp="#n2" xml:lang="en">Subḥā Sāʿasiʿ</placeName>
+               <placeName xml:id="n3" xml:lang="ti">ስቡሓ፡ ሳዕሲ፡</placeName>
+               <placeName corresp="#n3" xml:lang="en">Sǝbuḥā Sāʿsi</placeName>
+               
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>          
+                   <note>The region became a waradā administrative unit
+                  after <placeName corresp="LOC7175Sasi"> the waradā Sāʿsiʿ Ḍāʿdā ʾƎmbā</placeName> was split into 
+                  two parts in 2020.</note>
             </place>
+            
          </listPlace>
       </body>
    </text>
