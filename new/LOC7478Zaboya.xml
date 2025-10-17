@@ -45,12 +45,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="academicInstitution settlement site">
-                    <placeName>Zaboya</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">ዘቦየ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Zaboya</placeName>
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                    <region notBefore="1994" type="RegionalState" ref="LOC1426Amhara"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd #LOC5671Semen"/>
+                    <settlement ref="LOC7316Andabet" type="warada"/>                
+                    <!--<settlement ref="LOC7474Mazawla" type="tabiya"/>  -->                   
                 </place>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive=""/>
+                    <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
+                    <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="INS1022ESZA"/>
                 </listRelation>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>
