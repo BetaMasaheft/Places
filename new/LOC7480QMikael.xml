@@ -34,20 +34,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-22">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1" xml:lang="gez">ቅዱስ፡ ሚካኤል፡</placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n1">Qǝddus Mikāʾel</placeName>
+                    <placeName xml:id="n1" xml:lang="ti" type="tabot">አድ፡ ካሱ፡ ሚካኤል፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n1">ʾAd Kāsu Mikāʾel</placeName>
                     <country ref="LOC2991Eritre"/>
                     <settlement ref="LOC7479AdKasu"/>
                 </place>

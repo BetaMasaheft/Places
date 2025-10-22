@@ -34,24 +34,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez">Gǝʿǝz</language>
+                <language ident="ti">Tigrinya</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-22">Created record</change>
-            <!-- Add change note after review -->
+            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="settlement">
-                    <placeName xml:id="n1" xml:lang="gez">አድ፡ ካሱ፡</placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n1">ʾAd Kāsu</placeName>
-                    <placeName xml:id="n2" xml:lang="gez">አድ፡ ከሕሡ፡</placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n2">ʾAd Kaḥśu</placeName>
-                    <placeName xml:id="n3" xml:lang="gez">አድ፡ ከሀሱ፡</placeName>
-                    <placeName xml:lang="gez" type="normalized" corresp="#n3">ʾAd Kahasu</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">አድ፡ ካሱ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n1">ʾAd Kāsu</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">አድ፡ ከሕሡ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n2">ʾAd Kaḥśu</placeName>
+                    <placeName xml:id="n3" xml:lang="ti">አድ፡ ከሀሱ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n3">ʾAd Kahasu</placeName>
                     <country ref="LOC2991Eritre"/>
                     <location type="relative">
                         <desc>A village located west of <placeName ref="LOC1579Asmara"/>, around 70 km from the Sudanese border.</desc>
