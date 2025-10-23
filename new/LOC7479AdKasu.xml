@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ʾAd Kāsu</title>
+                <title>ʿĀddi Kāḥsu</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,19 +39,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-22">Created record</change>
-            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski</change>
+            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski and Denis Nosnitsin</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
                 <place type="settlement">
-                    <placeName xml:id="n1" xml:lang="ti">አድ፡ ካሱ፡</placeName>
-                    <placeName xml:lang="ti" type="normalized" corresp="#n1">ʾAd Kāsu</placeName>
-                    <placeName xml:id="n2" xml:lang="ti">አድ፡ ከሕሡ፡</placeName>
-                    <placeName xml:lang="ti" type="normalized" corresp="#n2">ʾAd Kaḥśu</placeName>
-                    <placeName xml:id="n3" xml:lang="ti">አድ፡ ከሀሱ፡</placeName>
-                    <placeName xml:lang="ti" type="normalized" corresp="#n3">ʾAd Kahasu</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">ዓዲ፡ ካሕሱ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n1">ʿĀddi Kāḥsu</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">አድ፡ ካሱ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n2">ʾAd Kāsu</placeName>
+                    <placeName xml:id="n3" xml:lang="ti">አድ፡ ከሕሡ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n3">ʾAd Kaḥśu</placeName>
+                    <placeName xml:id="n4" xml:lang="ti">አድ፡ ከሀሱ፡</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n4">ʾAd Kahasu</placeName>
                     <country ref="LOC2991Eritre"/>
                     <location type="relative">
                         <desc>A village located west of <placeName ref="LOC1579Asmara"/>, around 70 km from the Sudanese border.</desc>
