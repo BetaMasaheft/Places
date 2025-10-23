@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Qǝddus Mikāʾel</title>
+                <title>ʿĀddi Kāḥsu Mikāʾel</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="CH"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-10-22">Created record</change>
-            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski</change>
+            <change when="2025-10-22" who="CH">Updates after review by Eugenia Sokolinski and Denis Nosnitsin</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="church">
                     <placeName xml:id="n1" xml:lang="ti" type="tabot">አድ፡ ካሱ፡ ሚካኤል፡</placeName>
-                    <placeName xml:lang="ti" type="normalized" corresp="#n1">ʾAd Kāsu Mikāʾel</placeName>
+                    <placeName xml:lang="ti" type="normalized" corresp="#n1">ʿĀddi Kāḥsu Mikāʾel</placeName>
                     <country ref="LOC2991Eritre"/>
                     <settlement ref="LOC7479AdKasu"/>
                 </place>
