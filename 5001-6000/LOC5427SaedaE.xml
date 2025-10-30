@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ṣäʿǝda Ǝmba Śǝllase</title>
+            <title>Ṣaʿǝdā ʾƎmbā Śǝllāse</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -35,22 +35,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2025-10-30" who="CH">Added region, city and country according to EAe, updated transcription and added fidal</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Ṣäʿǝda Ǝmba Śǝllase</placeName>
-               <placeName type="alt">Däbrä Śǝllase</placeName>
-               <placeName type="alt">Ṣäʿda Ǝmba Śǝllase</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ጸዕዳ፡ እምባ፡ ሥላሴ፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṣaʿǝdā ʾƎmbā Śǝllāse</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Ṣaʿdā ʾƎmbā Śǝllāse</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሥላሴ፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Śǝllāse</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ጸዓዳ፡ አምባ፡ ሥላሴ፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Ṣaʿadā ʾAmbā Śǝllāse</placeName>
+               <country ref="LOC2991Eritre"/>
+               <region ref="LOC3764Hamase"/>
+               <settlement ref="LOC4002Karan">Monastery in the vicinity of Karan</settlement>
             </place>
          </listPlace>
       </body>
