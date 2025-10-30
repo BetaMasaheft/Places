@@ -50,8 +50,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1994" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd #LOC5671Semen"/>
-                    <settlement ref="LOC7316Andabet" type="warada"/>                
-                    <!--<settlement ref="LOC7474Mazawla" type="tabiya"/>  -->                   
+                    <settlement ref="LOC7316Andabet" type="warada"/>             
+             
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
