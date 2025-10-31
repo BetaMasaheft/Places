@@ -46,12 +46,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="academicInstitution settlement site">
                     <placeName xml:id="n1" xml:lang="ti">ዘቦየ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Zaboya</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Zaboya</placeName>                   
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1994" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
-                    <settlement ref="LOC7316Andabet" type="warada"/>             
-             
+                    <settlement ref="LOC7316Andabet" type="warada"/>    
+                    <settlement ref="LOC7316Andabet" type="warada"/>
+                    <note>Zaboya is the most populous area for scribes and serving as the ʾAndābet scribes’ association’s meeting point.</note>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
