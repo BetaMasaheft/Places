@@ -51,8 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notBefore="1994" type="RegionalState" ref="LOC1426Amhara"/>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
                     <settlement ref="LOC7316Andabet" type="warada"/>    
-                    <settlement ref="LOC7316Andabet" type="warada"/>
-                    <note>Zaboya is the most populous area for scribes and serving as the ʾAndābet scribes’ association’s meeting point.</note>
+                    <settlement ref="LOC7481MugarZaboya" type="kabale"/>
+                    <note>Zaboya is the most populous settlement for scribes and serves as the meeting place 
+                        for the 54 scribes of the scribes' association; scribal students also learn there (at the scribes' workplace). 
+                        manuscripts also digitised  at this location.</note>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
