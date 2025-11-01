@@ -54,11 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <settlement ref="LOC7481MugarZaboya" type="kabale"/>
                     <note>Zaboya is the most populous settlement for scribes and scribal students also learn there (at each scribes' workplace). 
                         manuscripts also digitised  at this location.</note>
-                </place>
-                <listRelation>
-                    <relation name="iha:Place_of_activity" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
-                    <relation name="gn:locatedIn" active="LOC7478Zaboya" passive="INS1022ESZA"/>
-                </listRelation>
+                </place>                
             </listPlace>
         </body>
     </text>
