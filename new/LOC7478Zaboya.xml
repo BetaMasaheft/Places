@@ -44,7 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <text>
         <body>
             <listPlace>
-                <place type="academicInstitution settlement site">
+                <place type="settlement site">
                     <placeName xml:id="n1" xml:lang="ti">ዘቦየ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Zaboya</placeName>                   
                     <country ref="LOC3010Ethiop">Ethiopia</country>
@@ -52,8 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
                     <settlement ref="LOC7316Andabet" type="warada"/>    
                     <settlement ref="LOC7481MugarZaboya" type="kabale"/>
-                    <note>Zaboya is the most populous settlement for scribes and serves as the meeting place 
-                        for the 54 scribes of the scribes' association; scribal students also learn there (at the scribes' workplace). 
+                    <note>Zaboya is the most populous settlement for scribes and scribal students also learn there (at each scribes' workplace). 
                         manuscripts also digitised  at this location.</note>
                 </place>
                 <listRelation>
