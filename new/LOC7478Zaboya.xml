@@ -56,8 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         manuscripts also digitised  at this location.</note>
                 </place>
                 <listRelation>
-                    <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
-                    <relation name="lawd:hasAttestation" active="LOC7478Zaboya" passive="INS1022ESZA"/>
+                    <relation name="iha:Place_of_activity" active="LOC7478Zaboya" passive="PRS14743CaleAbabaw"/>
+                    <relation name="gn:locatedIn" active="LOC7478Zaboya" passive="INS1022ESZA"/>
                 </listRelation>
             </listPlace>
         </body>
