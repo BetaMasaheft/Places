@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2020-02-06">Wiki id added, transcription</change>
+         <change when="2025-11-02" who="CH">Added bibliography (EAe), region from wikidata, n3 from googlemaps</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -53,12 +54,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Sinā</placeName>
                <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ሲሓት፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Siḥāt</placeName>
-               
+               <placeName xml:lang="gez" xml:id="n3" type="alt">ቅድስተ፡ ቅዱሳን፡ ድንግል፡ ማርያም፡ ደብረሲና፡ ኦርቶዶክስ፡ ተዋህዶ፡ ገዳም፡ ኤርትራ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Qǝddǝst Qǝddusān Dǝngǝl Māryām Dabrasinā ʾOrtodoks 
+                  Tawāhǝdo Gadām ʾErtrā</placeName>
+               <country ref="LOC2991Eritre"/>
+               <region ref="LOC1471Ansaba"/>
+               <region ref="LOC5544Sanhit"/>
             </place>
             <listRelation><relation name="gn:locatedIn" active="LOC2379DabraS" passive="LOC5544Sanhit"/></listRelation>
            
          </listPlace>
-         
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Lusini2005DabraSina"/></bibl>
+         </listBibl>
          
       </body>
    </text>

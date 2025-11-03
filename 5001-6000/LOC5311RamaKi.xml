@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-28">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -43,16 +43,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="DR" when="2019-01-10">Corrected transliteration</change>
+         <change when="2025-11-02" who="CH">Update record with information from EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="monastery">
-               <placeName>Rāmā Kidāna Mǝḥrat</placeName>
-               <region>Rāmā</region>
+               <placeName xml:id="n1" xml:lang="gez">ራማ፡ ኪዳነ፡ ምሕረት፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Rāmā Kidāna Mǝḥrat</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሲና፡ ራማ፡ ኪዳነ፡ ምሕረት፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Sinā Rāmā Kidāna Mǝḥrat</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region ref="LOC6573NorthWallo"/>
+               <region>Rāmā</region><!-- CH: Where is the information about a region called Rāmā from? -->
             </place>
          </listPlace>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Persoon2010RamaKid"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
