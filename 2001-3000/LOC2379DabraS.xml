@@ -55,13 +55,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <placeName xml:lang="gez" xml:id="n2" type="alt">ደብረ፡ ሲሓት፡</placeName>
                <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Siḥāt</placeName>
                <placeName xml:lang="gez" xml:id="n3" type="alt">ቅድስተ፡ ቅዱሳን፡ ድንግል፡ ማርያም፡ ደብረሲና፡ ኦርቶዶክስ፡ ተዋህዶ፡ ገዳም፡ ኤርትራ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n3" type="normalized">Qǝddǝst Qǝddusān Dǝngǝl Māryām Dabrasinā ʾOrtodoks 
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">Qǝddǝsta Qǝddusān Dǝngǝl Māryām Dabrasinā ʾOrtodoks 
                   Tawāhǝdo Gadām ʾErtrā</placeName>
                <country ref="LOC2991Eritre"/>
                <region ref="LOC1471Ansaba"/>
                <region ref="LOC5544Sanhit"/>
             </place>
-            <listRelation><relation name="gn:locatedIn" active="LOC2379DabraS" passive="LOC5544Sanhit"/></listRelation>
+            <listRelation>
+               <relation name="gn:locatedIn" active="LOC2379DabraS" passive="LOC5544Sanhit"/>
+               <relation name="betmas:formerlyAlsoListedAs" active="LOC2379DabraS" passive="LOC2372DabraS"/>
+            </listRelation>
            
          </listPlace>
          <listBibl type="secondary">
