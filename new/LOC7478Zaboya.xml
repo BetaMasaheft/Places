@@ -49,13 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n1" xml:lang="en">Zaboya</placeName>                   
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1994" type="RegionalState" ref="LOC1426Amhara"/>
-                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>
+                    <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>                 
                     <settlement ref="LOC7316Andabet" type="warada"/>    
                     <settlement ref="LOC7481MugarZaboya" type="kabale"/>
                     <note>Zaboya is the most populous settlement for scribes and scribal students also learn there (at each scribes' workplace). 
-                        manuscripts also digitised  at this location.</note>
+                        manuscripts also digitised at this location</note>
                 </place>                
             </listPlace>
+            <listRelation>
+                <relation name="skos:exactMatch" active="LOC7478Zaboya" passive="INS1022ESZA"></relation>
+            </listRelation>
         </body>
     </text>
 </TEI>
