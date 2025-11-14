@@ -36,29 +36,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="JG" when="2018-08-23">Added region country, edited typos, location, note</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2025-11-02" who="CH">Added bibliography (EAe) and added n2</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Dabra Sinā Māryām</placeName>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሲና፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Sinā Māryām</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ደብረ፡ ሲና፡</placeName>
+               <placeName corresp="#n2" xml:lang="gez" type="normalized">Dabra Sinā</placeName>
                <settlement type="zone" ref="LOC6544NorthGondar"/>
                <region ref="LOC1426Amhara"/>
                <country ref="LOC3010Ethiop"/>
                <location>
                   <geo>12.242543 37.301855</geo> 
                </location>
-               <note>A church decorated with seventeenth-century wall paintings situated on the northern shores of Lake Ṭānā near <placeName ref="LOC3589Gorgor">Gorgorā</placeName>.</note>
+               <note>A church decorated with seventeenth-century wall paintings situated on the northern shores of lake
+                  <placeName ref="LOC5888Tana"/> near <placeName ref="LOC3589Gorgor"/>.</note>
             </place>
          </listPlace>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Balicka2005DabraSina"/></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>

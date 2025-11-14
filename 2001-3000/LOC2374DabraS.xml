@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Däbrä Sina</title>
+            <title>Dabra Sinā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -35,24 +35,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2025-11-02" who="CH">Update record with information from EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Däbrä Sina</placeName>
-               <placeName type="alt">Betä Qǝddus Mikaʾel</placeName>
-               <region>Lalibäla</region>
+               <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሲና፡</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">Dabra Sinā</placeName>
+               <placeName xml:id="n2" xml:lang="gez">ቤተ፡ ደብረ፡ ሲና፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Beta Dabra Sinā</placeName>
+               <placeName xml:id="n3" xml:lang="gez">ቤተ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n3" xml:lang="gez" type="normalized">Beta Mikāʾel</placeName>
+               <placeName xml:id="n4" xml:lang="gez">ቤተ፡ ቅዱስ፡ ሚካኤል፡</placeName>
+               <placeName corresp="#n4" xml:lang="gez" type="normalized">Beta Qǝddus Mikāʾel</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara"/>
+               <region ref="LOC4259Lasta"/>
+               <settlement ref="LOC4244Laliba"/>
+               <location><desc>Part of a complex of two conjoined oriented churches together with <placeName ref="LOC1884BetaGo"/>
+                  in the northern group of the rock-hewn churches in <placeName ref="LOC4244Laliba"/>.</desc></location>
             </place>
          </listPlace>
+         <listRelation>
+            <relation name="betmas:formerlyAlsoListedAs" active="LOC2374DabraS" passive="LOC1879BetaDa"/>
+         </listRelation>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Heldman2007ChurchesLalibala"/><citedRange unit="page">486b</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
