@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Aṣbi Ǝnda Śǝllase</title>
+            <title>ʾAṣbi ʾƎndā Śǝllase</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -35,21 +35,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="gez">Gǝʿǝz</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2025-12-09" who="CH">Added fidal, updated transliteration</change>
+         <change when="2025-12-10" who="CH">Updates after review by Magdalena Krzyżanowska</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>A򡹣ṣbi Ǝnda Śǝllase</placeName>
-               <placeName type="alt">Ǝnda Śǝllase</placeName>
+               <placeName xml:id="n1" xml:lang="gez">አጽቢ፡ እንዳ፡ ሥላሴ፡</placeName>
+               <placeName corresp="n1" xml:lang="gez" type="normalized">ʾAṣbi ʾƎndā Śǝllāse</placeName>
+               <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ሥላሴ፡</placeName>
+               <placeName corresp="n2" xml:lang="gez" type="normalized">ʾƎndā Śǝllāse</placeName>
+               <placeName xml:id="n3" xml:lang="gez">አጽቢ፡ ሥላሴ፡</placeName>
+               <placeName corresp="n3" xml:lang="gez" type="normalized">ʾAṣbi Śǝllāse</placeName>
             </place>
          </listPlace>
       </body>
