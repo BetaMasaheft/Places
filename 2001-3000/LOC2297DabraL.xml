@@ -46,6 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change when="2025-12-05" who="CH">Added fidal, relation and information from EAe</change>
+         <change when="2025-12-11" who="CH">Added relation syriaca:different-from after request by Magdalena Krzyżanowska.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -66,6 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </listBibl>
          <listRelation>
             <relation name="skos:exactMatch" active="LOC2297DabraL" passive="INS0341DL"/>
+            <relation name="syriaca:different-from" active="LOC2297DabraL" passive="LOC2296DabraL"/>
          </listRelation>
       </body>
    </text>

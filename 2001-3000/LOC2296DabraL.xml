@@ -43,6 +43,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change when="2025-12-05" who="CH">Added fidal, updated transcription, added bibliography (EAe), and relation to INS0346DL</change>
+         <change when="2025-12-11" who="CH">Added relation syriaca:different-from after request by Magdalena Krzyżanowska.</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -51,8 +52,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="monastery">
                <placeName xml:id="n1" xml:lang="gez">ደብረ፡ ሊባኖስ፡</placeName>
                <placeName corresp="n1" xml:lang="gez" type="normalized">Dabra Libānos</placeName>
-               <placeName xml:id="n2" xml:lang="gez">ዕንዳ፡ አባ፡ መጣዕ፡</placeName>
-               <placeName corresp="n2" xml:lang="gez" type="normalized">ʿƎndā ʾAbbā Maṭāʿ</placeName>
+               <placeName xml:id="n2" xml:lang="gez">እንዳ፡ አባ፡ መጣዕ፡</placeName>
+               <placeName corresp="n2" xml:lang="gez" type="normalized">ʾƎndā ʾAbbā Maṭāʿ</placeName>
                <placeName xml:id="n3" xml:lang="gez">ደብረ፡ ወርቅ፡</placeName>
                <placeName corresp="#n3" xml:lang="gez" type="normalized">Dabra Warq</placeName>
                <country ref="LOC2991Eritre">Eritrea</country>
@@ -67,6 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </listBibl>
          <listRelation>
             <relation name="skos:exactMatch" active="LOC2296DabraL" passive="INS0346DL"/>
+            <relation name="syriaca:different-from" active="LOC2296DabraL" passive="LOC2297DabraL"/>
          </listRelation>
       </body>
    </text>
