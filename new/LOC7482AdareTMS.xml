@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2025-12-10">Created record</change>
-            <!-- Add change note after review -->
+            <change who="CH" when="2025-12-11">delete n2 (ʾƎndā Śǝllāse)</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -48,8 +48,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="church">
                     <placeName xml:id="n1" xml:lang="gez">አዳሬ፡ ጢቆ፡ መካነ፡ ሥላሴ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAdāre Ṭiqo Makāna Śǝllāse</placeName>
-                    <placeName xml:id="n2" xml:lang="gez">እንዳ፡ ሥላሴ፡</placeName>
-                    <placeName corresp="#n2" xml:lang="gez" type="normalized">ʾƎndā Śǝllāse</placeName>
                     <settlement type="town" ref="LOC3786Harar"/>
                 </place>
             </listPlace>
