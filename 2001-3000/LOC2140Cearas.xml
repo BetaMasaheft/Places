@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Ḉǝʿaräši</title>
+            <title>Č̣ǝʿāraši</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -35,22 +35,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="ti">Tigrinya</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="CH" when="2025-12-12">Updated transcription and added fidal, region and bibliography from EAe</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place>
-               <placeName>Ḉǝʿaräši</placeName>
+            <place type="settlement">
+               <placeName xml:lang="ti" xml:id="n1">ጭዓረሺ፡</placeName>
+               <placeName xml:lang="ti" corresp="#n1">Č̣ǝʿāraši</placeName>
+               <region ref="LOC2478Dambaz"/>
+               <country ref="LOC2991Eritre"/>
             </place>
          </listPlace>
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Fiaccadori2005Ewostatewos"/><citedRange unit="page">469a</citedRange></bibl>
+         </listBibl>
       </body>
    </text>
 </TEI>
