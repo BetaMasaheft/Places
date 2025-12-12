@@ -54,7 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <placeName xml:lang="ti" corresp="#n1" type="normalized">Daqqi Yǝṭāʿǝs</placeName>
                <country ref="LOC2991Eritre"/>
                <region ref="LOC5575Saraye"/>
-               <district>ʿAddi Ḵwala with the main centre <placeName ref="LOC1166AddiKw"/></district>
+               <district ref="LOC1549Arraza"/>
             </place>
          </listPlace>
          <listBibl type="secondary">
