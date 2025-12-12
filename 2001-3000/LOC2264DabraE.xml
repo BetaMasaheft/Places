@@ -63,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </listPlace>
          <listBibl type="secondary">
             <bibl><ptr target="bm:Lusini2005Endreyas"/></bibl>
+            <bibl><ptr target="bm:Strelcyn1976Catalogue"/><citedRange unit="item">125 XVII</citedRange>
+               <citedRange unit="page">311</citedRange></bibl>
          </listBibl>
          <listRelation>
             <relation name="skos:exactMatch" active="LOC2264DabraE" passive="INS0350DE"/>
