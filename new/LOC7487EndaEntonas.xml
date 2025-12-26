@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2025-12-19">Created stub</change>
+            <change who="DN" when="2025-12-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
