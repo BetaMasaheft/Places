@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lagaso</title>
+                <title>Lagāso</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="qushat">
               
                         <placeName xml:id="n1" xml:lang="ti">ለጋሶ፡</placeName>
-                        <placeName corresp="#n1" xml:lang="en">Lagaso</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Lagāso</placeName>
                         <country ref="LOC3010Ethiop">Ethiopia</country>
                         <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>                    
                         <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
