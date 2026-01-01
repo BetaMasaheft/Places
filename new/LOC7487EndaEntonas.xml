@@ -47,6 +47,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <place type="site">
                     <placeName xml:id="n1" xml:lang="ti">እንዳ፡ እንጦንዮስ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">ʾƎndā ʾƎnṭonyos</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">እንዳ፡ እንጦንስ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">ʾƎndā ʾƎnṭonǝs</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>                    
