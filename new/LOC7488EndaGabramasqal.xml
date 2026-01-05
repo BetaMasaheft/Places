@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Enda Gabramasqal</title>
+                <title>ʾƎndā Gabra Masqal</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notAfter="1974" type="zone" ref="LOC6654CentralTegray">Central Tǝgrāy Zone</region>
                     <settlement ref="LOC1121AddiAr" type="warada" when="2024-12-15"> waradā  Rāmā ʿĀddi ʾArbaʿǝta</settlement>
                                         <settlement ref="LOC7485Semrat" type="tabiya" when="2024-12-15">ṭābiyā Sǝmrat</settlement>
-                    
+                    <settlement when="2024-12-15" ref="LOC7486Legaso" type="qushat">qušat Lagāso</settlement>
                 </place>
                 <listRelation>
                     <relation name="saws:formsPartOf" active="LOC7488EndaGabramasqal" passive="LOC7486Legaso"/>
