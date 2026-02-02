@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Amba Gǝšän Maryam</title>
+            <title>ʾAmbā  Gǝšan Māryām</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -15,12 +15,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale Forschungsumgebung / Beta maṣāḥǝft</publisher>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> This file is licensed
-                        under the Creative Commons Attribution-ShareAlike 4.0. </p>
+                   This file is licensed
+                        under the Creative Commons Attribution-ShareAlike 4.0. 
                </licence>
             </availability>
-            
-            <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
             <p>A TEI file converted from the ETHIO-authority
@@ -47,9 +45,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
-            <place type="monastery">
-               <placeName>Amba Gǝšän Maryam</placeName>
-               <placeName type="alt">Däbrä Kärbe</placeName>
+            <place type="monastery" subtype="institution">
+               <placeName xml:id="n1">አምባ፡ ግሸን፡ ማርያም፡</placeName>
+               <placeName corresp="#n1" type="normalized">ʾAmbā  Gǝšan Māryām</placeName>
+               <placeName xml:id="n2">Dabra Karbe</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region ref="LOC6572SouthWallo"/>
+               <location><geo>11.516667 39.352</geo></location>
             </place>
          </listPlace>
       </body>
