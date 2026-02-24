@@ -52,13 +52,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>                   
                     <settlement ref="LOC7316Andabet" type="warada"/>    
                     <settlement ref="LOC7481MugarZaboya" type="kabale"/>
-                    <note>Zaboya is the most populous settlement for scribes and scribal students also learn there (at each scribes' workplace). 
-                        manuscripts also digitised at this location</note>
+                    <note>Zaboya is the largest settlement for scribes, and scribal students train there at each scribe's workplace.
+                        Manuscripts are also digitised there.</note>
                 </place>                
-            </listPlace>
-            <listRelation>
-                <relation name="" active="LOC7478Zaboya" passive="INS1022ESZA"></relation>
-            </listRelation>
+            </listPlace>            
         </body>
     </text>
 </TEI>
