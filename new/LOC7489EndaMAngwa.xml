@@ -1,0 +1,73 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7489EndaMAngwa" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾƎnda Māryām ʾAngʷā</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-02-26">Created record</change>
+            <!--  -->
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="monastery">
+                    <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ማርያም፡ አንጓ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎnda Māryām ʾAngʷā</placeName>
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+                    <region notBefore="1991" ref="LOC6655SudTegray"/>
+                    <state type="existence" ref="MoPe"/>
+                    <location>
+                        <geo>13.1073 39.42997</geo>
+                        <note>In the village of Muǧā, near ʾAddi Qorqorā and Tegorā, ca. 50 km to the south of 
+                            <placeName ref="LOC4545Maqala"/>.</note></location>
+                    <listBibl type="secondary">
+                        <bibl>
+                            <ptr target="bm:Ellero1941Enderta"/><citedRange unit="page">161, 172</citedRange>
+                        </bibl>
+                    </listBibl>
+                </place>
+                <listRelation>
+                    <relation name="lawd:hasAttestation" active="LOC7489EndaMAngwa" passive="ANLcr44"><desc>Confirmation of a
+                        donation by <persName ref="PRS10378Yohanne"/> to <placeName ref="LOC7489EndaMAngwa"/>, accomplished on the 
+                        <date when-custom="1908-03-24" calendar="ethiopian" when="1916-03-03">24 Yakkātit 1908 EC (= 3 March 1916)</date>.</desc></relation>
+                </listRelation>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
