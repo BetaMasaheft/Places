@@ -58,11 +58,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </bibl>
                     </listBibl>
                     <note>
-                        <ab type="history">According to <bibl><ptr target="bm:Ellero1941Enderta"/>
-                            <citedRange unit="page">172</citedRange></bibl>, a tradition places the foundation in the time of 
-                            <persName ref="PRS10303Yekunno"/>, i.e. <date type="foundation" notBefore="1270" notAfter="1285" precision="low"/>.
-                            Later <persName ref="PRS10378Yohanne"/> is reported to have supported it with gʷǝlt and rǝst grants and promoted it to
-                            a gadām. According to Ellero’s information, the monastery followed the order of <persName ref="PRS9162TaklaHa"/>.</ab>
+                        <ab type="history">According to the oral tradition recorded by <bibl><ptr target="bm:Ellero1941Enderta"/>
+                            <citedRange unit="page">172</citedRange></bibl>, it was a dabr founded during the time of
+                            <persName ref="PRS10303Yekunno"/>, i.e. <date type="foundation" notBefore="1270" notAfter="1285" precision="low"/>,
+                            which became gadam during the rule of <persName ref="PRS10378Yohanne"/>. At the time of Ellero's visit it had 3 monks,
+                            6 priests and 9 deacons and followed the rule of <persName ref="PRS9162TaklaHa"/>.</ab>
                     </note>
                 </place>
             </listPlace>
