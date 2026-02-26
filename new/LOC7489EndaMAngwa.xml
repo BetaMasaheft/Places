@@ -52,7 +52,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <region notBefore="1991" ref="LOC6655SudTegray"/>
                     <district>Muǧā</district>
-                    <location><note>Near <placeName ref="LOC4545Maqala"/>.</note></location>
                     <listBibl type="secondary">
                         <bibl>
                             <ptr target="bm:Ellero1941Enderta"/><citedRange unit="page">161, 172</citedRange>
@@ -63,8 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                             <citedRange unit="page">172</citedRange></bibl>, a tradition places the foundation in the time of 
                             <persName ref="PRS10303Yekunno"/>, i.e. <date type="foundation" notBefore="1270" notAfter="1285" precision="low"/>.
                             Later <persName ref="PRS10378Yohanne"/> is reported to have supported it with gʷǝlt and rǝst grants and promoted it to
-                            a gadām. According to Ellero’s information, the monastery followed the order of Dabra Libānos.
-                            <!-- Is it LOC2297DabraL or LOC2296DabraL  --></ab>
+                            a gadām. According to Ellero’s information, the monastery followed the order of <persName ref="PRS9162TaklaHa"/>.</ab>
                     </note>
                 </place>
             </listPlace>
