@@ -52,20 +52,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <region notBefore="1991" ref="LOC6655SudTegray"/>
                     <district>Muǧā</district>
-                    <listBibl type="secondary">
-                        <bibl>
-                            <ptr target="bm:Ellero1941Enderta"/><citedRange unit="page">161, 172</citedRange>
-                        </bibl>
-                    </listBibl>
                     <note>
                         <ab type="history">According to the oral tradition recorded by <bibl><ptr target="bm:Ellero1941Enderta"/>
                             <citedRange unit="page">172</citedRange></bibl>, it was a dabr founded during the time of
                             <persName ref="PRS10303Yekunno"/>, i.e. <date type="foundation" notBefore="1270" notAfter="1285" precision="low"/>,
-                            which became gadam during the rule of <persName ref="PRS10378Yohanne"/>. At the time of Ellero's visit it had 3 monks,
-                            6 priests and 9 deacons and followed the rule of <persName ref="PRS9162TaklaHa"/>.</ab>
+                            which became gadam during the rule of <persName ref="PRS10378Yohanne"/>. At the time of 
+                            <persName ref="PRS3740Ellero"/>’s visit it had 3 monks, 6 priests and 9 deacons and followed the rule of 
+                            <persName ref="PRS9162TaklaHa"/>.</ab>
                     </note>
                 </place>
             </listPlace>
+            <listBibl type="secondary">
+                <bibl>
+                    <ptr target="bm:Ellero1941Enderta"/><citedRange unit="page">161, 172</citedRange>
+                </bibl>
+            </listBibl>
         </body>
     </text>
 </TEI>
