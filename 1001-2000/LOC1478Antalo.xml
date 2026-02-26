@@ -42,6 +42,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change who="CH" when="2026-02-26">Added country and region</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -51,6 +52,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <placeName>Anṭalo</placeName>
                <placeName type="alt">Ḥinṭālū</placeName>
                <placeName type="alt">Hǝnṭalo</placeName>
+               <country ref="LOC3010Ethiop"/>
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
+               <region notBefore="1991" ref="LOC6655SudTegray"/>
+               <region ref="LOC2947Endart"/>
+               <region ref="LOC7490AntaloWa"/>
             </place>
          </listPlace>
       </body>
