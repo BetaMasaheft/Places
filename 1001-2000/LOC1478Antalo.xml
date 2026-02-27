@@ -35,7 +35,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          </xi:include>
       </encodingDesc>
       <profileDesc>
-         <langUsage><language ident="en">English</language></langUsage>
+         <langUsage><language ident="en">English</language><language ident="ti">Tigrinya</language></langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
@@ -49,14 +49,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="town">
-               <placeName>Anṭalo</placeName>
-               <placeName type="alt">Ḥinṭālū</placeName>
-               <placeName type="alt">Hǝnṭalo</placeName>
+               <placeName xml:id="n1" xml:lang="ti">ሕንጣሎ፡</placeName>
+               <placeName corresp="#n1" xml:lang="ti" type="normalized">Hǝnṭālo</placeName>
+               <placeName xml:id="n2" xml:lang="ti">ሕንጠሎ፡</placeName>
+               <placeName corresp="#n2" xml:lang="ti" type="normalized">Hǝnṭalo</placeName>
+               <placeName xml:id="n3" xml:lang="ti">ሒንጣሉ፡</placeName>
+               <placeName corresp="#n3" xml:lang="ti" type="normalized">Ḥinṭālu</placeName>
+               <placeName xml:id="n4" xml:lang="ti">ሒንጠሉ፡</placeName>
+               <placeName corresp="#n1" xml:lang="ti" type="normalized">Ḥinṭalu</placeName>
+               <placeName xml:id="n5" xml:lang="ti">አንጣሎ፡</placeName>
+               <placeName corresp="#n2" xml:lang="ti" type="normalized">ʾAnṭālo</placeName>
+               <placeName xml:id="n6" xml:lang="ti">አንጠሎ፡</placeName>
+               <placeName corresp="#n3" xml:lang="ti" type="normalized">ʾAnṭalo</placeName>
                <country ref="LOC3010Ethiop"/>
-               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               <region notBefore="1991" ref="LOC6655SudTegray"/>
-               <region ref="LOC2947Endart"/>
-               <region ref="LOC7490AntaloWa"/>
+               <settlement type="RegionalState" ref="LOC5932Tegray"/>
+               <settlement type="warada" ref="LOC7490AntaloWa"/>
+               <settlement type="zoba" ref="LOC6655SudTegray"/>
+               <settlement type="region" ref="LOC2947Endart"/>
             </place>
          </listPlace>
       </body>

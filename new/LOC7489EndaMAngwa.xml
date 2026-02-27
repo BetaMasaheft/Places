@@ -49,16 +49,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ማርያም፡ አንጓ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā Māryām ʾAngʷā</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <region notBefore="1991" ref="LOC6655SudTegray"/>
-                    <region ref="LOC2947Endart"/>
-                    <region ref="LOC7490AntaloWa"/>
-                    <district>Muǧā</district>
+                    <settlement type="RegionalState" ref="LOC5932Tegray"/>
+                    <settlement type="zoba" ref="LOC6655SudTegray"/>
+                    <settlement type="region" ref="LOC2947Endart"/>
+                    <settlement type="warada" ref="LOC7490AntaloWa"/>
+                    <settlement type="district">Muǧā</settlement>
                     <note>
                         <ab type="history">According to the oral tradition recorded by <bibl><ptr target="bm:Ellero1941Enderta"/>
                             <citedRange unit="page">172</citedRange></bibl>, it was a dabr founded during the time of
                             <persName ref="PRS10303Yekunno"/>, i.e. <date type="foundation" notBefore="1270" notAfter="1285" precision="low"/>,
-                            which became gadam during the rule of <persName ref="PRS10378Yohanne"/>. At the time of 
+                            which became gadām during the rule of <persName ref="PRS10378Yohanne"/>. At the time of 
                             <persName ref="PRS3740Ellero"/>’s visit it had 3 monks, 6 priests and 9 deacons and followed the rule of 
                             <persName ref="PRS9162TaklaHa"/>.</ab>
                     </note>
