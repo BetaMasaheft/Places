@@ -49,10 +49,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ማርያም፡ አንጓ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā Māryām ʾAngʷā</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <settlement type="RegionalState" ref="LOC5932Tegray"/>
-                    <settlement type="zoba" ref="LOC6655SudTegray"/>
-                    <settlement type="region" ref="LOC2947Endart"/>
-                    <settlement type="warada" ref="LOC7490AntaloWa"/>
+                    <settlement type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
+                    <settlement type="zoba" notBefore="1991" ref="LOC6655SudTegray"/>
+                    <settlement type="region" notAfter="1991" ref="LOC2947Endart"/>
+                    <settlement type="warada" notBefore="1991" ref="LOC7490AntaloWa"/>
                     <settlement type="district">Muǧā</settlement>
                     <note>
                         <ab type="history">According to the oral tradition recorded by <bibl><ptr target="bm:Ellero1941Enderta"/>
