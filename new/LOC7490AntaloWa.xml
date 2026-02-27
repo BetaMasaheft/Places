@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="warada">
-                    <placeName xml:id="n1" xml:lang="ti">ሕንጣሎ፡</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">ህንጣሎ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Hǝnṭālo</placeName>
                     <placeName xml:id="n2" xml:lang="ti">ሒንጣሉ፡</placeName>
                     <placeName corresp="#n2" xml:lang="ti" type="normalized">Ḥinṭālu</placeName>
