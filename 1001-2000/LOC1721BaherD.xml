@@ -44,6 +44,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
          <change who="SG" when="2020-01-15">transcription</change>
+         <change who="DN" when="2026-03-05">added information</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -52,7 +53,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="town" sameAs="wd:Q464699">
                <placeName xml:lang="gez" xml:id="n1">ባሕር፡ ዳር፡</placeName>
                <placeName xml:lang="gez" corresp="#n1" type="normalized">Bāḥǝr Dār</placeName>
-               <note>Is a town on the southern shores of Lake Ṭānā.</note>
+               
+               <country ref="LOC3010Ethiop">Ethiopia</country>
+               <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
+               <settlement ref="LOC7491BahrDarSpecialZone" type="zone">Bāḥǝr Dār Special Zone</settlement>
+               
+               <location>
+                  <geo>11.59364 37.39077</geo>
+                  <height unit="m">1799</height>
+               </location>
+               
+               <note>Bāḥǝr Dār is a town on the southern shores of Lake Ṭānā.</note>
             </place>
          </listPlace>
       </body>
