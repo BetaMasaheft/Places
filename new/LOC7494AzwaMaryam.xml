@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
                   <settlement ref="LOC7491BahrDarSpecialZone" type="zone">Bāḥǝr Dār Special Zone</settlement>
-                    <settlement ref="LOC7492BahrDarWarada" type="warada"> waradā  Bāḥǝr Dār</settlement>                        
+                    <settlement ref="LOC7492BahrDarWarada" type="warada">waradā  Bāḥǝr Dār</settlement>                        
                     <settlement ref="LOC7493UraKeb" type="kebele">kebele ʾUrā</settlement>
                     <location>
                         <geo cert="high">11.689653 37.352292</geo>
