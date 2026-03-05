@@ -51,9 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
-                    <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
-                    <settlement type="zone" ref="LOC6653EastTegray"/>
-                    <settlement when="2020-10-16" ref="LOC3293GantaA" type="warada"/>
+                  <settlement ref="LOC7491BahrDarSpecialZone" type="zone">Bāḥǝr Dār Special Zone</settlement>
+                    <settlement ref="LOC7492BahrDarWarada" type="warada"> waradā  Bāḥǝr Dār</settlement>                        
+                    <settlement ref="LOC7493UraKeb" type="kebele">kebele ʾUrā</settlement>
                     <location>
                         <geo cert="high">11.689653 37.352292</geo>
                     </location>
