@@ -1,0 +1,65 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7494AzwaMaryam" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʾAzwā Māryām</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="DN"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DN" when="2026-03-05">Created entity</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="church">
+                    <placeName xml:id="n1" xml:lang="gez">አዝዋ፡ ማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAzwā Maryām</placeName>          
+                    <country ref="LOC3010Ethiop"/>
+                    <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
+                  <settlement ref="LOC7491BahrDarSpecialZone" type="zone">Bāḥǝr Dār Special Zone</settlement>
+                    <settlement ref="LOC7492BahrDarWarada" type="warada">waradā  Bāḥǝr Dār</settlement>                        
+                    <settlement ref="LOC7493UraKeb" type="qabale">qabale ʾUrā</settlement>
+                    <location>
+                        <geo cert="high">11.689653 37.352292</geo>
+                    </location>
+                </place>
+                <listRelation>
+                    <relation name="skos:exactMatch" active="LOC7494AzwaMaryam" passive="INS1031AzwaManBer"/>
+                </listRelation>
+            </listPlace><!---->
+        </body>
+    </text>
+</TEI>
