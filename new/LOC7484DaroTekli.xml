@@ -1,13 +1,13 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7352Semrat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7484DaroTekli" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Sǝmrat</title>
+                <title>Dāʿro Taḵli</title>
                 <editor role="generalEditor" key="AB"/>
-                <editor key="ES"/>
+                <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
             </titleStmt>
             <publicationStmt>
@@ -34,26 +34,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="gez"></language>
+                <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="ES" when="2024-01-13">Created entity</change>
+            <change who="DN" when="2025-12-19">created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="tabiya">
-                    <placeName xml:id="n1" xml:lang="gez">ስምረት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Sǝmrat</placeName> 
+                <place type="administrativeUnit qushat">                       
+                    <placeName xml:id="n1" xml:lang="ti">ዳዕሮ፡ ተኸሊ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Dāʿro Taḵli</placeName>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
-                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     
-                    <settlement ref="LOC6654CentralTegray" type="zone" when="2023-12-09">Central Tǝgrāy zone</settlement>
-                    <settlement ref="LOC5882Tamben" type="region">Tamben region</settlement>
-                    <settlement ref="LOC5278Qwalla" type="warada" when="2023">waradā  Qollā Tamben</settlement>
-                </place>              
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>                    
+                    <region notAfter="1974" type="Province" ref="LOC6556Tegre"/>
+                    
+                    <region notAfter="1974" type="zone" ref="LOC6654CentralTegray">Central Tǝgrāy Zone</region>
+                    <settlement ref="LOC1121AddiAr" type="warada" when="2024-12-15"> waradā  Rāmā ʿĀddi ʾArbaʿǝta</settlement>
+                    <settlement ref="LOC7483WaddiHazo" type="tabiya" when="2024-12-15">ṭābiyā Waddi Ḥāzo</settlement> 
+                    
+                </place>
+
+                <listRelation>
+                    <relation name="saws:formsPartOf" active="LOC7484DaroTekli" passive="LOC7483WaddiHazo"/>
+                </listRelation>
             </listPlace><!---->
         </body>
     </text>
