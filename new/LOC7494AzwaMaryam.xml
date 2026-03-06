@@ -45,8 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="church">
-                    <placeName xml:id="n1" xml:lang="am">ʾAzwā Māryām</placeName>
-                                                           
+                    <placeName xml:id="n1" xml:lang="gez">አዝዋ፡ ማርያም፡</placeName>
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAzwā Maryām</placeName>          
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
                   <settlement ref="LOC7491BahrDarSpecialZone" type="zone">Bāḥǝr Dār Special Zone</settlement>
