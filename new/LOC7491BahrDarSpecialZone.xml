@@ -45,6 +45,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <body>
             <listPlace>
                 <place type="administrativeUnit">
+                    <placeName xml:id="n1" xml:lang="en">Bāḥǝr Dār Special Zone</placeName>
+                    
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC1426Amhara">The regional State of ʾAmharā</region>  
                    
