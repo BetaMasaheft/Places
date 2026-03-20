@@ -42,12 +42,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
-            <listPlace>
-                <place type="settlement">
-                    <placeName>Mugar Zaboya</placeName>
+        <body>            
+                        <listPlace>
+                            <place type="qabale">
+                                <placeName xml:id="n1" xml:lang="ti">ሙገር፡ ዘቦየ፡</placeName>
+                                <placeName corresp="#n1" xml:lang="ti" type="normalized">Mugar Zaboya</placeName>                   
+                                <country ref="LOC3010Ethiop">Ethiopia</country>
+                                <region notBefore="1994" type="RegionalState" ref="LOC1426Amhara"/>
+                                <region notAfter="1974" type="Province" ref="LOC1713Bagemd"/>                   
+                                <settlement ref="LOC7316Andabet" type="warada"/>                                              
                 </place>
-            </listPlace><!---->
+            </listPlace>
         </body>
     </text>
 </TEI>
