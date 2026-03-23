@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-02-26">Created record</change>
-            <!--  -->
+            <change when="2026-03-22" who="CH">Updates after reviews by Eugenia Sokolinski and Magdalena Krzyżanowska</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -53,9 +53,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n3" xml:lang="ti">አንጣሎ፡</placeName>
                     <placeName corresp="#n3" xml:lang="ti" type="normalized">ʾAnṭālo</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <settlement type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
-                    <settlement type="zoba" notBefore="1991" ref="LOC6655SudTegray"/>
-                    <settlement type="region" notAfter="1991" ref="LOC2947Endart"/>
+                    <region type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
+                    <region type="zoba" notBefore="1991" ref="LOC6655SudTegray"/>
+                    <region type="Province" notAfter="1991" ref="LOC2947Endart"/>
                 </place>
             </listPlace>
         </body>
