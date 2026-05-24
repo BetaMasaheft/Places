@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="gez">እንዳ፡ ማርያም፡ አንጓ፡</placeName>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾƎndā Māryām ʾAngʷā</placeName>
                     <country ref="LOC3010Ethiop"/>
-                    <region type="RegionalState" notBefore="1994" ref="LOC5932Tegray"/>
+                    <region type="region" notBefore="1994" ref="LOC5932Tegray"/>
                     <region type="zoba" notBefore="1994" ref="LOC6655SudTegray"/>
                     <region type="Province" notAfter="1974" ref="LOC2947Endart"/>
                     <settlement type="warada" notBefore="1994" ref="LOC7490AntaloWa"/>
