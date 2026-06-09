@@ -51,8 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 </place>
                 <listRelation>
                     <relation name="lawd:hasAttestation" active="LOC7495Kota" passive="ANLcr59#a4">
-                        <desc>It is attested in a transaction note from the 19th century in <ref type="mss" corresp="ANLcr59"/> as a village or a 
-                            hamlet, which was not inhabited at that time.</desc></relation>
+                        <desc>It is attested in a transaction note from the 19th century in <ref type="mss" corresp="ANLcr59"/>.</desc></relation>
                 </listRelation>
             </listPlace>
         </body>
