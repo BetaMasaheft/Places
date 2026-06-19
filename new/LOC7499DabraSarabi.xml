@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-06-19">Created stub</change>
+            <change who="DN" when="2026-06-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -50,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                 </place>
                 <listRelation>
-                    <relation name="saws:isRelatedTo" active="LOC7499DabraSarabi" passive="LOC2282DabraH"/>
+                    <relation name="saws:isRelatedTo" active="LOC7499DabraSarabi" passive="LOC2358DabraS"/>
                 </listRelation>
             </listPlace>
         </body>
