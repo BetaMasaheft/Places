@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-06-19">Created stub</change>
+            <change who="DN" when="2026-06-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -52,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop">Ethiopia</country>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                     <settlement ref="LOC6653EastTegray" type="zone" when="2024-03-15">East Tǝgrāy zone</settlement>
-                    <note>Until 2020 it was a part of the waradā ʾAḍbi Wambartā.</note>
+                    <note>Until 2020, it was a part of the waradā ʾAḍbi Wambartā.</note>
                 </place>
                 <listRelation>
                     <relation name="saws:formsPartOf" active="LOC7497DeraWambarta" passive="LOC6653EastTegray"/>

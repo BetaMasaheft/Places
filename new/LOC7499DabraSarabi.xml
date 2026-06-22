@@ -48,6 +48,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:id="n1" xml:lang="ti">ደብረ፡ ጸራቢ፡</placeName>
                     <placeName corresp="#n1" xml:lang="en">Dabra Ṣarābi</placeName>
                     
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                   <region notAfter="1991" type="province" ref="LOC5932Tegray">The province of Tǝgrāy</region>                  
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
+                    <settlement ref="LOC6653EastTegray" type="zone" notBefore="1991">East Tǝgrāy zone</settlement>   
+                    <settlement ref="LOC7497DeraWambarta" type="zone" notBefore="1991">waradā Ṣǝrāʿ Wambartā</settlement> 
+                    <settlement ref="LOC7497DeraWambarta" type="zone" notBefore="1991">ṭabiyā Ṣǝrāʿ Wambartā</settlement> 
                 </place>
                 <listRelation>
                     <relation name="saws:isRelatedTo" active="LOC7499DabraSarabi" passive="LOC2358DabraS"/>
