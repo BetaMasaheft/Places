@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7411HaddesHeywat" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7499DabraSarabi" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Ḥāddǝš Hǝywat</title>
+                <title>Dabra Ṣarābi</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -34,24 +34,31 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </abstract>
             <langUsage>
                 <language ident="en">English</language>
-                <language ident="ti">Tigrinya</language>
+                <language ident="gez">Gǝʿǝz</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2024-01-09">Created entity</change>
+            <change who="DN" when="2026-06-19">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="tabiya">                  
-                    <placeName xml:id="n1" xml:lang="ti">ሓድሽ፡ ህይወት፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Ḥāddǝš Hǝywat</placeName> 
-                    <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
-                    <settlement type="zone" ref="LOC6653EastTegray"/>
-                    <country ref="LOC3010Ethiop"/>
-                </place>                
-            </listPlace><!---->
+                <place type="qushat">
+                    <placeName xml:id="n1" xml:lang="ti">ደብረ፡ ጸራቢ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Dabra Ṣarābi</placeName>
+                    
+                    <country ref="LOC3010Ethiop">Ethiopia</country>
+                   <region notAfter="1991" type="province" ref="LOC5932Tegray">The province of Tǝgrāy</region>                  
+                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
+                    <settlement ref="LOC6653EastTegray" type="zone" notBefore="1991">East Tǝgrāy zone</settlement>   
+                    <settlement ref="LOC7497DeraWambarta" type="zone" notBefore="1991">waradā Ṣǝrāʿ Wambartā</settlement> 
+                    <settlement ref="LOC7497DeraWambarta" type="zone" notBefore="1991">ṭabiyā Ṣǝrāʿ Wambartā</settlement> 
+                </place>
+                <listRelation>
+                    <relation name="saws:isRelatedTo" active="LOC7499DabraSarabi" passive="LOC2358DabraS"/>
+                </listRelation>
+            </listPlace>
         </body>
     </text>
 </TEI>
