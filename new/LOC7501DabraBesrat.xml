@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-07-08">Created record</change>
-            <!--  -->
+            <change who="ESh" when="2026-07-08">Reviewed and approved</change>
         </revisionDesc>
     </teiHeader>
     <text>
