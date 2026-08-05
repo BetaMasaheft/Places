@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="ES" when="2022-04-28">created entry.</change>
          <change when="2026-07-27" who="CH">Update type and country</change>
+         <change when="2026-08-04" who="CH">Add reference to LOC1310Aksum</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -51,7 +52,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <placeName xml:id="n1" xml:lang="gez">አክሱም፡</placeName>
                <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾAksum</placeName>
                <country ref="LOC3010Ethiop">The Kingdom of ʾAksum extended across the regions along the Red Sea coast and the 
-                  Ethiopian Highlands and had the city of ʾAksum as its capital.</country>
+                  Ethiopian Highlands and had the city of <placeName ref="LOC1310Aksum">ʾAksum</placeName> as its capital.</country>
                <country ref="LOC2991Eritre"/>
 
                <listBibl type="secondary">
