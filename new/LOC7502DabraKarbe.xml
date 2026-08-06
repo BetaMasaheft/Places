@@ -53,7 +53,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <settlement ref="LOC6654CentralTegray" type="zone">Central Tǝgrāy zone</settlement>
                     <location><desc>The location of Dabra Karbe is not clear. From various sources, it can be deduced that it was located 
-                        approximately 20km to the southwest of <placeName ref="LOC1310Aksum"/>.</desc></location>
+                        approximately 20km to the southwest of <placeName ref="LOC1310Aksum"/>, which has been destroyed during the wars
+                        of wars of <persName ref="PRS1522Ahmadb"/> the 16th century.</desc></location>
                 </place>
             </listPlace>
             <listBibl type="secondary">
