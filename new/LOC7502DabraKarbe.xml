@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
         </profileDesc>
         <revisionDesc>
             <change who="CH" when="2026-08-05">Created record</change>
-            <!--  -->
+            <change when="2026-08-07" who="CH">Updated after reviews by Eugenia Sokolinski and Elizaveta Shvarts</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -51,14 +51,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName xml:lang="en" xml:id="n2">Dabra Karbe of Zānā</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-                    <settlement ref="LOC6654CentralTegray" type="zone">Central Tǝgrāy zone</settlement>
-                    <location><desc>The location of Dabra Karbe is not clear. From various sources, it can be deduced that it was located 
-                        approximately 20km to the southwest of <placeName ref="LOC1310Aksum"/>, which has been destroyed during the wars
-                        of wars of <persName ref="PRS1522Ahmadb"/> the 16th century.</desc></location>
+                    <region ref="LOC6654CentralTegray" type="zone">Central Tǝgrāy zone</region>
+                    <settlement ref="LOC6434Zana">Zānā</settlement>
+                    <location><desc>Approximately 20km to the southwest of <placeName ref="LOC1310Aksum"/>.</desc></location>
+                    <note>Add a note: Possibly the same monastery, which was mentioned in the <ref type="work" corresp="LIT1913Mashaf"/>
+                        and in the <ref type="work" corresp="LIT4651ChronLeb"/> and according to the latter, sacked during the wars against
+                        <persName ref="PRS1522Ahmadb"/> the sixteenth century.</note>
                 </place>
             </listPlace>
             <listBibl type="secondary">
                 <bibl><ptr target="bm:Derat2006Royal"/></bibl>
+                <bibl><ptr target="bm:ConTuristica1935Guida"/></bibl>
             </listBibl>
         </body>
     </text>
