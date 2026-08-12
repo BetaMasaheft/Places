@@ -54,10 +54,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     <region ref="LOC6654CentralTegray" type="zone">Central Tǝgrāy zone</region>
                     <settlement ref="LOC6434Zana">Zānā</settlement>
-                    <location><desc>Approximately 20km to the southwest of <placeName ref="LOC1310Aksum"/>.</desc></location>
-                    <note>Possibly the same monastery, which was mentioned in the <ref type="work" corresp="LIT1913Mashaf"/>,
-                        and in the <ref type="work" corresp="LIT4651ChronLeb"/> and according to the latter, sacked during the wars against
-                        <persName ref="PRS1522Ahmadb"/> in the sixteenth century.</note>
+                    <location><desc>Approximately 20 km to the southwest of <placeName ref="LOC1310Aksum"/>.</desc></location>
+                    <note>Possibly the same monastery, which was mentioned in the <ref type="work" corresp="LIT1913Mashaf"/>
+                        and in the <ref type="work" corresp="LIT4651ChronLeb"/>, and, according to the latter, sacked during the wars against
+                        <persName ref="PRS1522Ahmadb"/> in the sixteenth century  (cf. <bibl><ptr target="bm:Derat2006Royal"/>
+                            <citedRange unit="page">64</citedRange><citedRange unit="note">3</citedRange></bibl>).</note>
                 </place>
             </listPlace>
             <listBibl type="secondary">
