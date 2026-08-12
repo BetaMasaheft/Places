@@ -1,0 +1,60 @@
+<?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7503AddMerwa" xml:lang="en" type="place">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ʿĀdd Mǝrwā</title>
+                <editor role="generalEditor" key="AB"/>
+                <editor key="CH"/>
+                <funder>Akademie der Wissenschaften in Hamburg</funder>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Hiob-Ludolf-Zentrum für Äthiopistik</authority>
+                <publisher>Die Schriftkultur des christlichen Äthiopiens und Eritreas: Eine multimediale
+                            Forschungsumgebung / Beta maṣāḥǝft</publisher>
+                <pubPlace>Hamburg</pubPlace>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
+                                licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>A digital born TEI file</p>
+        </encodingDesc>
+        <profileDesc>
+            <creation/>
+            <abstract>
+                <p/>
+            </abstract>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ti">Tigrinya</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="CH" when="2026-08-05">Created record</change>
+            <change when="2026-08-07" who="CH">Updated after reviews by Eugenia Sokolinski, Elizaveta Shvarts and Magdalena 
+                Krzyżanowska</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place type="region">
+                    <placeName xml:lang="ti" xml:id="n1">ዓድ፡ ምርዋ፡</placeName>
+                    <placeName xml:lang="ti" corresp="#n1" type="normalized">ʿĀdd Mǝrwā</placeName>
+                    <location><desc>The location of ʿĀdd Mǝrwā is not clear. It is attested in 
+                        <ref type="mss" corresp="ANLcr91#p1_i2.5">Conti Rossini 91, folio 109</ref> as the land from which the śǝyyum of 
+                        <placeName ref="LOC6434Zana">Zānā</placeName>, <persName ref="PRS15515MazmuraDen"/> came.</desc>
+                            </location>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>
