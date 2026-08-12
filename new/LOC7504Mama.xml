@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </t:langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-08-12">Created stub</change>
+            <change who="DN" when="2026-08-12">Created record</change>
         </revisionDesc>
     </teiHeader>
     <t:text xmlns:t="http://www.tei-c.org/ns/1.0">
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <t:listPlace>
                 <place type="qushat">                               
                         <placeName xml:id="n1" xml:lang="ti">ማማ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Māmā</placeName> 
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Māmā</placeName> 
                         <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
                         <settlement type="zone" ref="LOC6653EastTegray"/>

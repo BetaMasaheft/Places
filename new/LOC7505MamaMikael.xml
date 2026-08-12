@@ -39,7 +39,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-08-12">Created stub</change>
+            <change who="DN" when="2026-08-12">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -47,7 +47,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="site">
                     <placeName xml:id="n1" xml:lang="ti">ማማ፡ ሚካኤል፡</placeName>
-                    <placeName corresp="#n1" xml:lang="en">Māmā Mikāʾel</placeName> 
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Māmā Mikāʾel</placeName> 
                     <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
                     <settlement type="zone" ref="LOC6653EastTegray"/>
