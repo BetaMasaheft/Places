@@ -32,18 +32,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <abstract>
                 <p/>
             </abstract>
-            <t:langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
+            <langUsage xmlns:t="http://www.tei-c.org/ns/1.0">
                 <language ident="en">English</language>
                 <language ident="ti">Tigrinya</language>
-            </t:langUsage>
+            </langUsage>
         </profileDesc>
         <revisionDesc>
             <change who="DN" when="2026-08-12">Created record</change>
         </revisionDesc>
     </teiHeader>
-    <t:text xmlns:t="http://www.tei-c.org/ns/1.0"> 
+    <text xmlns:t="http://www.tei-c.org/ns/1.0"> 
         <body>
-            <t:listPlace>
+            <listPlace>
                 <place type="qushat">                               
                         <placeName xml:id="n1" xml:lang="ti">ማማ፡</placeName>
                     <placeName corresp="#n1" xml:lang="ti" type="normalized">Māmā</placeName> 
@@ -57,7 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <listRelation>
                     <relation name="saws:formsPartOf" active="LOC7504Mama" passive="LOC7411HaddesHeywat"/>
                 </listRelation>
-            </t:listPlace><!---->
+            </listPlace><!---->
         </body>
-    </t:text>
+    </text>
 </TEI>
