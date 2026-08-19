@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-08-19">Created stub</change>
+            <change who="DN" when="2026-08-19">Created record</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -49,12 +49,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n1" xml:lang="en">Bǝʿerā</placeName>
                     <placeName xml:id="n2" xml:lang="ti">ቢዔራ፡</placeName>
                     <placeName corresp="#n2" xml:lang="en">Biʿerā</placeName>
+                                
+                <country ref="LOC3010Ethiop">Ethiopia</country>
+                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                <region ref="LOC6653EastTegray" type="zone" when="2024-03-15">East Tǝgrāy zone</region>
+                <settlement ref="LOC5805SubhaS" type="warada" when="2024-03-15"> waradā  Sǝbuḥā Sāʿasiʿ</settlement>
+                <settlement when="2024-03-15" ref="LOC7198Sasi" type="tabiya">ṭābiyā Sāʿasi</settlement>
+                
+             
                 </place>
-                <listRelation>
-                    <relation name="saws:formsPartOf" active="LOC7506Biera" passive="LOC5805SubhaS"/>
-                    <relation name="saws:formsPartOf" active="LOC7506Biera" passive="LOC7198Sasi"/>
-                </listRelation>
-            </listPlace><!---->
+            </listPlace>
+           <!---->
         </body>
     </text>
 </TEI>

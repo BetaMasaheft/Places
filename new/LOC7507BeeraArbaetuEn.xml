@@ -49,8 +49,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Bǝʿerā ʾArbāʿǝttu ʾƎnsǝsā</placeName> 
                 </place>
                 <listRelation>
-                    <relation name="saws:formsPartOf" active="LOC7507BeeraArbaetuEn" passive="LOC7504Mama"/>
-                    <relation name="saws:formsPartOf" active="LOC7507BeeraArbaetuEn" passive="LOC7198Sasi"/>
+                    <relation name="skos:exactMatch" active="LOC7507BeeraArbaetuEn" passive="INS1033BeeraArbaettuEnsesa"/>
+                    
                 </listRelation>
             </listPlace><!---->
         </body>

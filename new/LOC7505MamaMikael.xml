@@ -50,14 +50,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <placeName corresp="#n1" xml:lang="gez" type="normalized">Māmā Mikāʾel</placeName> 
                     <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
-                    <settlement type="zone" ref="LOC6653EastTegray"/>
+                    <region type="zone" ref="LOC6653EastTegray"/>
                     <settlement ref="LOC5805SubhaS" type="warada" notBefore="2020-01-01">waradā Subḥā Sāʿasiʿ</settlement>
                     <settlement type="tabiya" ref="LOC7411HaddesHeywat">Ḥāddǝš Hǝywat</settlement>
                     <country ref="LOC3010Ethiop"/>
                 </place>
-                <listRelation>
-                    <relation name="saws:formsPartOf" active="LOC7505MamaMikael" passive="LOC7411HaddesHeywat"/>
-                </listRelation>
+                
             </listPlace><!---->
         </body>
     </text>
