@@ -53,7 +53,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                 <country ref="LOC3010Ethiop">Ethiopia</country>
                 <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
                 <region ref="LOC6653EastTegray" type="zone" when="2024-03-15">East Tǝgrāy zone</region>
-                <settlement ref="LOC5805SubhaS" type="warada" when="2024-03-15"> waradā  Sǝbuḥā Sāʿasiʿ</settlement>
+                <settlement ref="LOC5805SubhaS" type="warada" when="2024-03-15">waradā  Sǝbuḥā Sāʿasiʿ</settlement>
                 <settlement when="2024-03-15" ref="LOC7198Sasi" type="tabiya">ṭābiyā Sāʿasi</settlement>
                 
              
