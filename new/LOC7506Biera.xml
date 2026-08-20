@@ -1,11 +1,11 @@
 <?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7504Mama" xml:lang="en" type="place">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LOC7506Biera" xml:lang="en" type="place">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Māmā</title>
+                <title>Bǝʿerā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -38,24 +38,28 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-08-12">Created record</change>
+            <change who="DN" when="2026-08-19">Created record</change>
         </revisionDesc>
     </teiHeader>
-    <text> 
+    <text>
         <body>
             <listPlace>
-                <place type="qushat">                               
-                        <placeName xml:id="n1" xml:lang="ti">ማማ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Māmā</placeName> 
-                        <region notAfter="1991" ref="LOC6569Tegray" type="province"/>
-                    <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
-                        <region type="zone" ref="LOC6653EastTegray"/>
-                    <settlement ref="LOC5805SubhaS" type="warada" notBefore="2020-01-01">waradā Subḥā Sāʿasiʿ</settlement>
-                    <settlement type="tabiya" ref="LOC7411HaddesHeywat">Ḥāddǝš Hǝywat</settlement>
-                        <country ref="LOC3010Ethiop"/>
-                </place>
+                <place type="qushat">
+                    <placeName xml:id="n1" xml:lang="ti">ብዔራ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="en">Bǝʿerā</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">ቢዔራ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="en">Biʿerā</placeName>
+                                
+                <country ref="LOC3010Ethiop">Ethiopia</country>
+                <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>  
+                <region ref="LOC6653EastTegray" type="zone" when="2024-03-15">East Tǝgrāy zone</region>
+                <settlement ref="LOC5805SubhaS" type="warada" when="2024-03-15">waradā  Sǝbuḥā Sāʿasiʿ</settlement>
+                <settlement when="2024-03-15" ref="LOC7198Sasi" type="tabiya">ṭābiyā Sāʿasi</settlement>
                 
-            </listPlace><!---->
+             
+                </place>
+            </listPlace>
+           <!---->
         </body>
     </text>
 </TEI>
