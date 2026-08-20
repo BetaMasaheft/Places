@@ -5,7 +5,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bǝʿerā ʾArbāʿǝttu ʾƎnsǝsā</title>
+                <title>Bǝʿerā ʾArbāʿtu ʾƎnsǝsā</title>
                 <editor role="generalEditor" key="AB"/>
                 <editor key="DN"/>
                 <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <listPlace>
                 <place type="site">
                     <placeName xml:id="n1" xml:lang="gez">ብዔራ፡ አርባእቱ፡ እንስሳ፡</placeName>
-                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Bǝʿerā ʾArbāʿǝttu ʾƎnsǝsā</placeName> 
+                    <placeName corresp="#n1" xml:lang="gez" type="normalized">Bǝʿerā ʾArbāʿtu ʾƎnsǝsā</placeName> 
                 </place>
                 <listRelation>
                     <relation name="skos:exactMatch" active="LOC7507BeeraArbaetuEn" passive="INS1033BeeraArbaettuEnsesa"/>
