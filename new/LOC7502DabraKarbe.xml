@@ -41,6 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <change who="CH" when="2026-08-05">Created record</change>
             <change when="2026-08-07" who="CH">Updated after reviews by Eugenia Sokolinski, Elizaveta Shvarts and Magdalena 
                 Krzyżanowska</change>
+            <change when="2026-09-21" who="CH">Update zotero tag bm:1935Guida</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -63,7 +64,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </listPlace>
             <listBibl type="secondary">
                 <bibl><ptr target="bm:Derat2006Royal"/></bibl>
-                <bibl><ptr target="bm:ConTuristica1935Guida"/></bibl>
+                <bibl><ptr target="bm:1935Guida"/></bibl>
             </listBibl>
         </body>
     </text>
