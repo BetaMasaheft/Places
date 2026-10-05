@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Anṭalo</title>
+            <title>ʾAnṭālo</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -58,8 +58,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <country ref="LOC3010Ethiop"/>
                <region type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
                <settlement type="warada" notBefore="1991" ref="LOC7490AntaloWa"/>
-               <region type="zoba" notBefore="1991" ref="LOC6655SudTegray"/>
-               <region ref="LOC2947Endart"/>
+               <settlement type="zoba" notBefore="1991" ref="LOC6655SudTegray"/>
+               <settlement type="LOC2947Endart"/>
             </place>
          </listPlace>
       </body>
