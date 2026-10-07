@@ -40,13 +40,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
         </profileDesc>
         <revisionDesc>
             <change who="ES" when="2019-03-19">Created entity</change>
+            <change who="MK" when="2026-10-07">Completed place name, added place name</change>
         </revisionDesc>
     </teiHeader>
     <text xml:base="https://betamasaheft.eu/">
         <body>
             <listPlace>
                 <place type="district qushat">
-                    <placeName>Koholo</placeName>
+                    <placeName xml:id="n1" xml:lang="ti">ኮሆሎ፡</placeName>
+                    <placeName corresp="#n1" xml:lang="ti" type="normalized">Koholo</placeName>
+                    <placeName xml:id="n2" xml:lang="ti">ኰኰሎ፡</placeName>
+                    <placeName corresp="#n2" xml:lang="ti" type="normalized">Kʷakʷalo</placeName>
                     <country ref="LOC3010Ethiop"/>
                     <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
                     
