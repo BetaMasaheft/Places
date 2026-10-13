@@ -38,7 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="DN" when="2026-10-13">Created record</change>
+            <change who="DN" when="2026-10-13">Created entity</change>
         </revisionDesc>
     </teiHeader>
     <text>
