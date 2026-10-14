@@ -59,8 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     <country ref="LOC3010Ethiop"/>
                     
                 </place>
-                <listRelation>
-                    <relation name="saws:formsPartOf" active="LOC7508Azaba" passive="LOC3293GantaA"/>
+                <listRelation>                    
                     <relation name="saws:isDifferentTo" active="LOC7508Azaba" passive="LOC7218Azaba"/>
                 </listRelation>
             </listPlace><!---->
