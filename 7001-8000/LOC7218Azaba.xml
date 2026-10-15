@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>ʾĀzabā</title>
+            <title>ʿĀzabā</title>
             <editor role="generalEditor" key="AB"/>
             <editor key="ES"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -40,6 +40,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       </profileDesc>
       <revisionDesc>
          <change who="ES" when="2019-03-15">Created entity</change>
+         <change who="DN" when="2026-10-13">revised record</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
@@ -48,12 +49,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
             <place type="district tabiya">
                
                <placeName xml:id="n1" xml:lang="gez">ዓዘባ፡</placeName>
-               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʾĀzabā</placeName>
+               <placeName corresp="#n1" xml:lang="gez" type="normalized">ʿĀzabā</placeName>
+            
+               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray">The regional State of Tǝgrāy</region>
+               <settlement ref="LOC6653EastTegray" type="zone" when="2026-09-13">East Tǝgrāy zone</settlement>
+               <settlement ref="LOC3293GantaA" type="warada" when="2026-09-13">waradā  Gāntā ʾAfašum</settlement>  
                <country ref="LOC3010Ethiop"/>
-               <region notBefore="1991" type="RegionalState" ref="LOC5932Tegray"/>
-               
-               <settlement ref="LOC3293GantaA" type="warada" when="2010-12-02"/>  
-               
                
                
             </place>
