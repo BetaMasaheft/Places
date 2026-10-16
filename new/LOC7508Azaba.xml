@@ -53,14 +53,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                     
                     <settlement ref="LOC3293GantaA" type="warada" when="2026-09-13">waradā  Gāntā ʾAfašum</settlement>
                     
-                    <settlement when="2026-09-13" ref="LOC3293GantaA" type="tabiya">ṭābiyā ʿĀzabā</settlement>
+
+                    <settlement when="2026-09-13" ref="LOC7218Azaba" type="tabiya">ṭābiyā ʿĀzabā</settlement>
+
                     
                                     
                     <country ref="LOC3010Ethiop"/>
                     
                 </place>
                 
+
             </listPlace>
+
         </body>
     </text>
 </TEI>
