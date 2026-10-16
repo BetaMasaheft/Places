@@ -59,7 +59,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                <region type="RegionalState" notBefore="1991" ref="LOC5932Tegray"/>
                <settlement type="warada" notBefore="1991" ref="LOC7490AntaloWa"/>
                <settlement type="zoba" notBefore="1991" ref="LOC6655SudTegray"/>
-               <settlement ref="LOC2947Endart"/>
+               <settlement type="region" ref="LOC2947Endart"/>
             </place>
          </listPlace>
       </body>
