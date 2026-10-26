@@ -4,7 +4,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Funduroo Arbaʿǝtu Ǝnsǝsa</title>
+            <title>Funduroo ʾArbāʿtu ʾƎnsǝsā</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -42,13 +42,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
          <change who="ES" when="2016-02-09">CREATED: place</change>
+         <change when="2026-10-25" who="CH">Updated transliteration</change>
       </revisionDesc>
    </teiHeader>
    <text xml:base="https://betamasaheft.eu/">
       <body>
          <listPlace>
             <place type="church">
-               <placeName>Funduroo Arbaʿǝtu Ǝnsǝsa</placeName>
+               <placeName>Funduroo ʾArbāʿtu ʾƎnsǝsā</placeName>
             </place>
          </listPlace>
       </body>
